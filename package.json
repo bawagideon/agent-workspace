@@ -1,0 +1,25 @@
+{
+  "name": "gideon-ai-hq-monorepo",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Gideon AI HQ — Personal AI Workforce Operating System",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/hq",
+    "runner:dev": "npm run dev --workspace=packages/runner",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "keywords": [
+    "ai-workforce",
+    "autonomous-agents",
+    "agent-os",
+    "gideon-hq"
+  ],
+  "author": "Gideon",
+  "license": "MIT"
+}

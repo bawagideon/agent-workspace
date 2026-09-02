@@ -1,0 +1,25 @@
+{
+  "name": "@gideon/runner",
+  "version": "3.0.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/daemon.ts",
+    "start": "node dist/daemon.js"
+  },
+  "dependencies": {
+    "@gideon/shared": "*",
+    "@gideon/policy": "*",
+    "@gideon/tools": "*",
+    "@supabase/supabase-js": "^2.49.1",
+    "dotenv": "^16.4.7",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
