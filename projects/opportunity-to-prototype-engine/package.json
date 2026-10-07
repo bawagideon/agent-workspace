@@ -1,0 +1,17 @@
+{
+  "name": "opportunity-to-prototype-engine",
+  "version": "1.0.0",
+  "description": "Commercial deal closer that converts diagnosed client friction into working customized interactive HTML sandboxes in under 24 hours, replacing boring slides with live proof.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/opportunity-to-prototype-engine.test.js"
+  },
+  "keywords": [
+    "rapid-prototype",
+    "commercial-demo",
+    "deal-closer",
+    "sandbox-scaffolder"
+  ],
+  "author": "Gideon Bawa <bawagideon@gmail.com>",
+  "license": "MIT"
+}

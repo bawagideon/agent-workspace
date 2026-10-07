@@ -1,0 +1,17 @@
+{
+  "name": "internal-request-router",
+  "version": "1.0.0",
+  "description": "Deterministic ticket categorization router that ingests chaotic Slack/email messages, classifies urgency and department (IT, Legal, HR, Finance), and assigns SLAs.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/internal-request-router.test.js"
+  },
+  "keywords": [
+    "request-router",
+    "it-ops",
+    "ticketing-automation",
+    "internal-productivity"
+  ],
+  "author": "Gideon Bawa <bawagideon@gmail.com>",
+  "license": "MIT"
+}

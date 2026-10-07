@@ -1,0 +1,17 @@
+{
+  "name": "business-rescue-os",
+  "version": "1.0.0",
+  "description": "The Meta Flagship orchestrating all 50 Gideon commercial weapons: an end-to-end autonomous business audit, revenue defense diagnosis, and automated remediation engine.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/business-rescue-os.test.js"
+  },
+  "keywords": [
+    "meta-flagship",
+    "autonomous-remediation",
+    "revenue-rescue",
+    "master-command"
+  ],
+  "author": "Gideon Bawa <bawagideon@gmail.com>",
+  "license": "MIT"
+}

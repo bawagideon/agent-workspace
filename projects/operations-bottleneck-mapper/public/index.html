@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Operations Bottleneck Mapper</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root { --bg: #090d16; --card: #131b2e; --accent: #f43f5e; --accent-glow: rgba(244, 63, 94, 0.25); --success: #10b981; --text: #f1f5f9; --text-dim: #94a3b8; --border: #1e293b; }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; }
+    body { background: var(--bg); color: var(--text); padding: 24px; min-height: 100vh; }
+    .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 24px; }
+    .title { font-size: 20px; font-weight: 700; color: #fff; }
+    .badge { background: var(--accent-glow); color: var(--accent); padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; border: 1px solid var(--accent); }
+    .stage { background: var(--card); border: 1px solid var(--border); padding: 16px; border-radius: 8px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="title">🔍 Operations Bottleneck & Cycle Time Mapper</div>
+    <span class="badge">Process Mining Telemetry</span>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 20px;">
+    <div style="background: var(--card); border: 1px solid var(--border); padding: 18px; border-radius: 8px;">
+      <div style="font-size: 12px; color: var(--text-dim);">Average Cycle Time</div>
+      <div style="font-size: 24px; font-weight: 700;">6.2 Days</div>
+    </div>
+    <div style="background: var(--card); border: 1px solid var(--border); padding: 18px; border-radius: 8px;">
+      <div style="font-size: 12px; color: var(--text-dim);">Target SLA Standard</div>
+      <div style="font-size: 24px; font-weight: 700; color: #10b981;">1.5 Days</div>
+    </div>
+    <div style="background: var(--card); border: 1px solid var(--border); padding: 18px; border-radius: 8px;">
+      <div style="font-size: 12px; color: var(--text-dim);">Identified Bottleneck</div>
+      <div style="font-size: 24px; font-weight: 700; color: #f43f5e;">Legal Signoff</div>
+    </div>
+  </div>
+
+  <div class="stage">
+    <div><strong>Stage 1: Customer Order Placed & Ingested</strong></div>
+    <span>0.5 hours (Within SLA)</span>
+  </div>
+  <div class="stage" style="border-color: #f43f5e; background: rgba(244, 63, 94, 0.05);">
+    <div><strong style="color: #fb7185;">🚨 Stage 2: Legal & Compliance Signoff</strong></div>
+    <span style="color: #fb7185; font-weight: 700;">74.0 hours (62h Delay — 6.1x Over Benchmark)</span>
+  </div>
+  <div class="stage">
+    <div><strong>Stage 3: Physical Assembly & Shipping</strong></div>
+    <span>4.0 hours (Within SLA)</span>
+  </div>
+</body>
+</html>

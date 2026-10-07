@@ -1,0 +1,17 @@
+{
+  "name": "revenue-leak-observatory",
+  "version": "1.0.0",
+  "description": "Unified cross-funnel executive telemetry cockpit connecting lead response, quotes, checkout abandonment, overdue invoices, and customer churn into a single real-time dollar loss view.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/revenue-leak-observatory.test.js"
+  },
+  "keywords": [
+    "executive-cockpit",
+    "cross-funnel",
+    "revenue-observability",
+    "meta-weapon"
+  ],
+  "author": "Gideon Bawa <bawagideon@gmail.com>",
+  "license": "MIT"
+}

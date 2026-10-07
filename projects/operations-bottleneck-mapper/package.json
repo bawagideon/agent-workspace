@@ -1,0 +1,17 @@
+{
+  "name": "operations-bottleneck-mapper",
+  "version": "1.0.0",
+  "description": "Process mining engine that analyzes multi-stage operational event logs, calculating cycle times per department and isolating the choke points that delay fulfillment by days.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/operations-bottleneck-mapper.test.js"
+  },
+  "keywords": [
+    "process-mining",
+    "cycle-time",
+    "bottleneck-finder",
+    "back-office-ops"
+  ],
+  "author": "Gideon Bawa <bawagideon@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "invoice-collection-radar",
+  "version": "1.0.0",
+  "description": "Cash-flow recovery system that categorizes accounts receivable into 30/60/90 day aging buckets, automatically dispatching polite-to-firm escalation sequences to recover unpaid revenue.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/invoice-collection-radar.test.js"
+  },
+  "keywords": [
+    "cash-flow-recovery",
+    "invoice-radar",
+    "accounts-receivable",
+    "automated-reminders"
+  ],
+  "author": "Gideon Bawa <bawagideon@gmail.com>",
+  "license": "MIT"
+}

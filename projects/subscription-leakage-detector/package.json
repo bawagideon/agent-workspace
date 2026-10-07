@@ -1,0 +1,17 @@
+{
+  "name": "subscription-leakage-detector",
+  "version": "1.0.0",
+  "description": "Reconciliation engine that audits application user seats against Stripe subscription tiers, flagging free-rider users who retained access after plan cancellations.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/subscription-leakage-detector.test.js"
+  },
+  "keywords": [
+    "billing-reconciliation",
+    "seat-audit",
+    "revenue-leakage",
+    "saas-ops"
+  ],
+  "author": "Gideon Bawa <bawagideon@gmail.com>",
+  "license": "MIT"
+}

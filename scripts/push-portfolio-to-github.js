@@ -22,7 +22,7 @@ async function run() {
   execSync('git add src/data/projects.generated.js src/assets/simulators public/simulators', { cwd: portfolioDir, stdio: 'inherit' });
 
   try {
-    execSync('git commit -m "feat(portfolio): use real interactive simulator screenshots for Batch 1 projects"', { cwd: portfolioDir, stdio: 'inherit' });
+    execSync('git commit -m "feat(portfolio): integrate all 50 commercial systems, interactive simulators, and real screenshots"', { cwd: portfolioDir, stdio: 'inherit' });
     console.log('✅ Committed changes successfully.');
   } catch (e) {
     console.log('ℹ️ No new changes to commit or working tree clean.');

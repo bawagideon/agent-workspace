@@ -1,0 +1,17 @@
+{
+  "name": "customer-journey-black-box",
+  "version": "1.0.0",
+  "description": "Cross-channel event stitcher that maps the entire customer lifecycle from first ad impression to first purchase and renewals, ending marketing and sales finger-pointing.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/customer-journey-black-box.test.js"
+  },
+  "keywords": [
+    "customer-journey",
+    "attribution-radar",
+    "event-stitcher",
+    "cross-channel"
+  ],
+  "author": "Gideon Bawa <bawagideon@gmail.com>",
+  "license": "MIT"
+}

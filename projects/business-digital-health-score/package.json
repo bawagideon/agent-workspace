@@ -1,0 +1,17 @@
+{
+  "name": "business-digital-health-score",
+  "version": "1.0.0",
+  "description": "Automated multi-engine auditor that benchmarks small-to-medium businesses across mobile UX, response latency, conversion friction, and SEO, generating an executive 0-100 score.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/business-digital-health-score.test.js"
+  },
+  "keywords": [
+    "digital-health",
+    "commercial-audit",
+    "friction-score",
+    "executive-pdf"
+  ],
+  "author": "Gideon Bawa <bawagideon@gmail.com>",
+  "license": "MIT"
+}

@@ -33,3 +33,7 @@ Thumbs.db
 # TypeScript Cache
 *.tsbuildinfo
 next-env.d.ts
+
+# Temp Files
+.temp_*.json
+
