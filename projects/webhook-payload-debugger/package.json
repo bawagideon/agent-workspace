@@ -1,0 +1,21 @@
+{
+  "name": "webhook-payload-debugger",
+  "version": "1.0.0",
+  "description": "Zero-dependency diagnostic engine and interactive sandbox for debugging failing Stripe, GitHub, Shopify, and Svix webhook signatures",
+  "main": "src/debugger.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "webhooks",
+    "stripe",
+    "github",
+    "shopify",
+    "hmac",
+    "signature-verification",
+    "debugging"
+  ],
+  "author": "Gideon Autonomous Workforce (Forge & Sentinel)",
+  "license": "MIT"
+}

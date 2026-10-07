@@ -1,0 +1,2352 @@
+[
+  {
+    "id": "share_0ef1d82a6f6cf9385a381c9bdfc21470",
+    "projectId": "proj_portal_1790480392836_bc3011",
+    "credentialHash": "1f36f54f0669fbbf2683f9799fe0303925ac57ddc98d99d1ac152e48154eb04c",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:39:55.565Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T03:39:55.566Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:39:57.442Z"
+  },
+  {
+    "id": "share_ba0c838a8dbafa39a1463af4de5b1b0f",
+    "projectId": "proj_portal_1790480392836_bc3011",
+    "credentialHash": "9c79dfc01c585c6c1c1d36bec4c6c1a32f9e30511611289caa47fb71cf55aae9",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:39:58.940Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:39:58.940Z",
+    "version": 1
+  },
+  {
+    "id": "share_3432014ae731a965f9f3bf884b47b10f",
+    "projectId": "proj_portal_1790480392836_bc3011",
+    "credentialHash": "52b10c29e2fb0ce0a815ffba277b90777879b78575b24228bf7f10e46da6d39f",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-09-26T03:40:00.177Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:40:00.177Z",
+    "version": 1
+  },
+  {
+    "id": "share_ddd7d4b9e049848f0bb3295806d37013",
+    "projectId": "proj_portal_1790480392836_bc3011",
+    "credentialHash": "d1e7fee065aa8a7385a5711c00355ff346ecf54184fe1eec30a7abfe136db125",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:40:01.697Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:40:01.697Z",
+    "version": 1,
+    "revokedAt": "2026-09-27T03:40:02.603Z"
+  },
+  {
+    "id": "share_4677d84d3a62ef29da362528c1d2c2fb",
+    "projectId": "proj_portal_1790480392836_bc3011",
+    "credentialHash": "848964bc4cae08d4f4e2147bde03b584a64de1ced483ec367e770b82505b644e",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:40:04.675Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:40:04.675Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:40:06.754Z"
+  },
+  {
+    "id": "share_104e9bcb331a7f7b54e142e10039a88f",
+    "projectId": "proj_unapproved_1790480408079",
+    "credentialHash": "9991f3e09480285259d26c9d6424788ef0153836a7e930cc24546252b29827ac",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:40:08.835Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:40:08.835Z",
+    "version": 1
+  },
+  {
+    "id": "share_27f0ca9d6128584aa0305ef8292fe341",
+    "projectId": "proj_appr_STAGING_1790480411125",
+    "credentialHash": "df96065155b8c8f9ddc9f6cbb2c33b7f395274670469fec2407f62d4325787f6",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:40:11.744Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:40:11.744Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:40:12.962Z"
+  },
+  {
+    "id": "share_d9158451f7b40bb3226ec708b55292b2",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790480414812",
+    "credentialHash": "0fcec41c9e347c2ee4fcef1035ac0f7308c828bd70e0ec1299d45c44b5d15083",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:40:15.417Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:40:15.417Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:40:16.981Z"
+  },
+  {
+    "id": "share_80492ba5a1b96f0d161e9cce43c76e77",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790480418720",
+    "credentialHash": "696c71ec799b94f814eb5ac10676cd54d6e478db1a410c648a48558729d741a2",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:40:19.291Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:40:19.291Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:40:20.362Z"
+  },
+  {
+    "id": "share_5dc6459f0fef886ebb735ee2ae793a27",
+    "projectId": "proj_appr_DEPLOYED_1790480422220",
+    "credentialHash": "8fcfdfc631cf162d7fde444d0cdf26f7f2337906f94ed37fe4885220b7af1e69",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:40:22.829Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:40:22.829Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:40:24.129Z"
+  },
+  {
+    "id": "share_7749d5a10aed83153b74c1348f36701c",
+    "projectId": "proj_A_1790480425894",
+    "credentialHash": "0dded0ddc6e24e73c9775c755d6e31f656d3c24a3f48581205ecfdd7690c1542",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:40:26.819Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:40:26.819Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:40:28.050Z"
+  },
+  {
+    "id": "share_19dbc148b93f8bcc6bf5aa011f528eb8",
+    "projectId": "proj_portal_1790480482299_16cbeb",
+    "credentialHash": "7d5f7f459242cc1a499256e2564136d31dc641a07626e1994d9de89061209821",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:41:23.831Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T03:41:23.832Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:41:25.489Z"
+  },
+  {
+    "id": "share_790942262163dd657c7c41cd08efb86b",
+    "projectId": "proj_portal_1790480482299_16cbeb",
+    "credentialHash": "06add459224108fc4d72dcd6b98a383072016d116f59ebe67ba913038501a375",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:41:27.338Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:41:27.338Z",
+    "version": 1
+  },
+  {
+    "id": "share_f016904c11e0286f8bd973001bc85b58",
+    "projectId": "proj_portal_1790480482299_16cbeb",
+    "credentialHash": "2f1bc4ed08fae1684fa166a7490a5fb0fe6284d9550adf3dd5ffe64cfab6f50b",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-09-26T03:41:28.579Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:41:28.579Z",
+    "version": 1
+  },
+  {
+    "id": "share_39324a82dc88b62f4f0f2250119a6ac8",
+    "projectId": "proj_portal_1790480482299_16cbeb",
+    "credentialHash": "e67d261cefd0bffdf9b7d3e2c474903c070771a1b0bd33a462bf132bb2211761",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:41:30.857Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:41:30.857Z",
+    "version": 1,
+    "revokedAt": "2026-09-27T03:41:32.444Z"
+  },
+  {
+    "id": "share_d6c28e601909755f7c7eb1f8f8e1423f",
+    "projectId": "proj_portal_1790480482299_16cbeb",
+    "credentialHash": "bff2d2ff4d0ed83bf9b741bac8563a3271e93f6959488bb7dfeffac4e9d91cd4",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:41:34.136Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:41:34.136Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:41:35.305Z"
+  },
+  {
+    "id": "share_5594ba43fae9c41b256908565152a46d",
+    "projectId": "proj_unapproved_1790480496542",
+    "credentialHash": "1fcc23f137ad8052812e1c51fddb18c38c829abf6d9a4f8380a8dc1b500cabb1",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:41:37.120Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:41:37.120Z",
+    "version": 1
+  },
+  {
+    "id": "share_c7b4bd0e0374165b3aaec5b0bbd6cb69",
+    "projectId": "proj_appr_STAGING_1790480499315",
+    "credentialHash": "f8314bdae80db82bb6370e35a87a5a603f5cbaad197504731e324c55efff29cf",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:41:39.907Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:41:39.907Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:41:41.109Z"
+  },
+  {
+    "id": "share_c1098b145a07f55a97d811edbbb74377",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790480503790",
+    "credentialHash": "fbe3f1ff71b9abdde7833d2ae01036d9e47d4ff367af08729f81a89da6418289",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:41:44.397Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:41:44.397Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:41:45.552Z"
+  },
+  {
+    "id": "share_efaf7cef51341b3a7df26721bca78948",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790480507641",
+    "credentialHash": "9382fd40257782feddf5d2ab175d8638f89ba430f71a84196dfe943f18961c65",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:41:48.309Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:41:48.309Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:41:49.437Z"
+  },
+  {
+    "id": "share_949ff78485494e06cabe7480682d9f6e",
+    "projectId": "proj_appr_DEPLOYED_1790480511279",
+    "credentialHash": "3c6d492529a681a244454adc3dbb71f68556d273cf5261832471b102f4ddcd5d",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:41:51.897Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:41:51.897Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:41:53.397Z"
+  },
+  {
+    "id": "share_b190acc893fe9eed72be50ad68723e20",
+    "projectId": "proj_A_1790480516169",
+    "credentialHash": "3e50e3966c30380aa6e058f27439172cfbc5d172ba1e696caac37358b3351a97",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:41:57.063Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:41:57.063Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:41:58.451Z"
+  },
+  {
+    "id": "share_c74ab77d1019ede01a15c4d1b4a13254",
+    "projectId": "proj_portal_1790480586490_ebd70b",
+    "credentialHash": "fc892dfa93b1a72a2d280ec3ef2a7e7ea6e32f5f3ef9f16bc2817cbf9de35ddd",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:43:07.509Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T03:43:07.509Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:43:10.133Z"
+  },
+  {
+    "id": "share_f01d1a6bffaea401792bb7b91060c8c9",
+    "projectId": "proj_portal_1790480586490_ebd70b",
+    "credentialHash": "be3af898ad77ebef6a4e6e7f12a96f7b24a3604838c019d782e517bb54f605dc",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:43:11.366Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:43:11.366Z",
+    "version": 1
+  },
+  {
+    "id": "share_5aa23b7fd0a18ac3353a4693a611389a",
+    "projectId": "proj_portal_1790480586490_ebd70b",
+    "credentialHash": "ef5c3b380b3d106b0530f22e8e8ccb78530867e5e469d3299f978bea7fe7daca",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-09-26T03:43:12.597Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:43:12.597Z",
+    "version": 1
+  },
+  {
+    "id": "share_1d88d9e185700d4383ce9eded1ed3ad1",
+    "projectId": "proj_portal_1790480586490_ebd70b",
+    "credentialHash": "384a07aad7f116fa0ea440e7a2249736d9cbd4084380eed287109b227f35bdf6",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:43:14.374Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:43:14.374Z",
+    "version": 1,
+    "revokedAt": "2026-09-27T03:43:15.258Z"
+  },
+  {
+    "id": "share_72c1b8db8ead2da35ea1dfa272027228",
+    "projectId": "proj_portal_1790480586490_ebd70b",
+    "credentialHash": "bff1ff3ee20a115580314f332c4e9ab26c112852ff5d0d75a869708ce37b8a16",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:43:17.725Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:43:17.725Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:43:19.766Z"
+  },
+  {
+    "id": "share_d71f2096023fb3117fc66fbf556592d7",
+    "projectId": "proj_unapproved_1790480601000",
+    "credentialHash": "3813dcd1a06b2708711549c345c90e428600cea6703148670386ff28f5655d42",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:43:21.608Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:43:21.608Z",
+    "version": 1
+  },
+  {
+    "id": "share_5122bff36d76abd3fd695d69a9583030",
+    "projectId": "proj_appr_STAGING_1790480602909",
+    "credentialHash": "881f3dd3b77614b2e7dc9a402d754a1932d375223ebb694f3d7917dd40666106",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:43:23.519Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:43:23.519Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:43:24.883Z"
+  },
+  {
+    "id": "share_5cf2ef447ec51cf16201b18edfe6365d",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790480607011",
+    "credentialHash": "cd6ce6c94d3409625665c8fc192044645f96c0ec2108131226b0e1ba1e730833",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:43:27.618Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:43:27.618Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:43:28.792Z"
+  },
+  {
+    "id": "share_aa8153ea9ad3e019228b94258f1389f2",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790480610743",
+    "credentialHash": "8cd05d31445853d3b030f16d67bab80796bc63ca4f63caf7d0cc385fa77f72af",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:43:31.328Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:43:31.328Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:43:32.564Z"
+  },
+  {
+    "id": "share_32ca9b337456903eca0763899c196fdf",
+    "projectId": "proj_appr_DEPLOYED_1790480614435",
+    "credentialHash": "0162aeb6add13837623cbc0a931b4389da8a97ecfa6010d47583ab4d61840d94",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:43:35.053Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:43:35.053Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:43:36.379Z"
+  },
+  {
+    "id": "share_58efa6805852dba5bf2949220f9d3fd2",
+    "projectId": "proj_A_1790480618267",
+    "credentialHash": "bb0af8aa9b6f3ee513ffba38175dbfc767cfa5a14dca29247e1bc9d102d2133b",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:43:39.314Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:43:39.314Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:43:40.645Z"
+  },
+  {
+    "id": "share_2b5f4e7c4e34c32270c6b1ea1604b688",
+    "projectId": "proj_portal_1790480845891_af8a4f",
+    "credentialHash": "2be7fd45a88d47226cf8b7dfa3cf624b6b9e3b01c70f7913a9df027eda5385a1",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:47:27.913Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T03:47:27.913Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:47:30.739Z"
+  },
+  {
+    "id": "share_f78dc440e4308345dcde1e030089db1d",
+    "projectId": "proj_portal_1790480845891_af8a4f",
+    "credentialHash": "0760ae2a32b1c059113ab5fa584224cc41ef2c32f1659d843a2921298faf603c",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:47:32.101Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:47:32.101Z",
+    "version": 1
+  },
+  {
+    "id": "share_7d27a49c9d4752d51ae90ac605492dba",
+    "projectId": "proj_portal_1790480845891_af8a4f",
+    "credentialHash": "26e9c7afad274d8cbba80ee55afe61a5ecd0236ea66513b36d575d786811e15d",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-09-26T03:47:33.359Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:47:33.359Z",
+    "version": 1
+  },
+  {
+    "id": "share_1056c421867059f336b29e78c4f2a164",
+    "projectId": "proj_portal_1790480845891_af8a4f",
+    "credentialHash": "323591c270bba96eed6348db3154c9c415760581c7d762d60f7b82981179a8e2",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:47:34.577Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:47:34.577Z",
+    "version": 1,
+    "revokedAt": "2026-09-27T03:47:35.513Z"
+  },
+  {
+    "id": "share_fd1addc0ac8bb63f3e91724df26bb93f",
+    "projectId": "proj_portal_1790480845891_af8a4f",
+    "credentialHash": "8d43ab49ae401e2c920f9e9b0b6fe2d82e59111cd96fe3b59948eb478a561b50",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:47:37.533Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:47:37.533Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:47:39.325Z"
+  },
+  {
+    "id": "share_3c54d17d711b47efc7e2f5b8b45b279a",
+    "projectId": "proj_unapproved_1790480860677",
+    "credentialHash": "9a67e1b40d036383d39478715dd7f676802f59d864a552ac5ccd4e3c10464154",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:47:41.563Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:47:41.563Z",
+    "version": 1
+  },
+  {
+    "id": "share_2ca31516df37a307c47ec91bea8e8939",
+    "projectId": "proj_appr_STAGING_1790480862667",
+    "credentialHash": "4564ff33bb11d88fa1f0392e8b5f1a5941a01cddb7a37738cd373a7dee1694e1",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:47:43.227Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:47:43.227Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:47:44.403Z"
+  },
+  {
+    "id": "share_49d48e567a73ad8f829ccd4ad2d66ce7",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790480866215",
+    "credentialHash": "5531c6b75bd11847ad25d0fb670b56367f732606e0842f8eb8d9120230093df4",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:47:46.900Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:47:46.900Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:47:48.195Z"
+  },
+  {
+    "id": "share_37e84ae0be97419df52b20b001f291aa",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790480869890",
+    "credentialHash": "a189a879a2eab3e1a4c0ff32ce9ae7d70dd9004df3780f99e21a648298c402c5",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:47:50.538Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:47:50.538Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:47:52.689Z"
+  },
+  {
+    "id": "share_2334f1de1ff4dd752d818b2cfbc1e90e",
+    "projectId": "proj_appr_DEPLOYED_1790480874740",
+    "credentialHash": "aafe6f576cb0a4db57c65cee40d09e5f75c3fefa98e8193338a0b242618ef212",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:47:55.309Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:47:55.309Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:47:56.413Z"
+  },
+  {
+    "id": "share_47e4bb6a5f524db53a1b3764cfbe11be",
+    "projectId": "proj_A_1790480878215",
+    "credentialHash": "147456195e5ed008fe20b884f529514678239250dbe7b09a4037d42b309810f0",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:47:59.447Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:47:59.447Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:48:00.789Z"
+  },
+  {
+    "id": "share_a6bc19e56f83bdfd0e8760e018ff1e9d",
+    "projectId": "proj_portal_1790480845891_af8a4f",
+    "credentialHash": "be3583cde69638be476a689fd1f1cc88d11ef4cf11621c240a170835444ca42e",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:48:09.534Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:48:09.534Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:48:10.653Z",
+    "revokedAt": "2026-09-27T03:48:12.842Z"
+  },
+  {
+    "id": "share_5500188a65bb17d36306ccd22891e75c",
+    "projectId": "proj_portal_1790480930398_ca5e80",
+    "credentialHash": "1c279d2b1de19f9b3888157dfb0ee5d973c307fd74a98b38044c14d4b81c0128",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:48:52.197Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T03:48:52.197Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:48:53.743Z"
+  },
+  {
+    "id": "share_97d4ff6968993c8f79ea5ec76e918dac",
+    "projectId": "proj_portal_1790480930398_ca5e80",
+    "credentialHash": "8ba13fc47f6cbe40707ce2b81ba9339a5a27c52b9d16716c2da56e5b6b3946bb",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:48:55.076Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:48:55.076Z",
+    "version": 1
+  },
+  {
+    "id": "share_67731a4c7b7054bada526d76c259baf8",
+    "projectId": "proj_portal_1790480930398_ca5e80",
+    "credentialHash": "e201ec1d918b417917bd2e8e6e9db26376f614575d270e4dc2955ab63b8ff83b",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-09-26T03:48:56.295Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:48:56.295Z",
+    "version": 1
+  },
+  {
+    "id": "share_16f3d1413d13bf8153d48864d3353afb",
+    "projectId": "proj_portal_1790480930398_ca5e80",
+    "credentialHash": "ebb5c2c05f6b0cf2ef0181736a4a65e79d36895cbf82f9c1a2ebcfc5ccf1d81f",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:48:58.419Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:48:58.419Z",
+    "version": 1,
+    "revokedAt": "2026-09-27T03:48:59.388Z"
+  },
+  {
+    "id": "share_1b4ec13a530a452abe7633ad59b8ab72",
+    "projectId": "proj_portal_1790480930398_ca5e80",
+    "credentialHash": "45e7e00368ad6b2b26988c005f4f281ed6b37ab3a3e60f7c5b92327c9b992767",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:49:01.082Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:49:01.082Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:49:02.392Z"
+  },
+  {
+    "id": "share_8cfa9b56d43c440afacfd6ebe661cd43",
+    "projectId": "proj_unapproved_1790480943574",
+    "credentialHash": "76fb3d1c01a0feee0f18565c88b71460199f3d502d81d3d3363771a4a7bd4aaa",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:49:04.290Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:49:04.290Z",
+    "version": 1
+  },
+  {
+    "id": "share_8991de0142cad31c64f280e664c9eda6",
+    "projectId": "proj_appr_STAGING_1790480945615",
+    "credentialHash": "722b0f07e688b3175547ffeb743bfae39e09d8c3833bdbbbadc6211dae35f4d0",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:49:06.227Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:49:06.227Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:49:07.795Z"
+  },
+  {
+    "id": "share_7ff0b475a590fed6318098be443bc697",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790480949981",
+    "credentialHash": "b62d0675ba4e6426037b95cb3bcf657a412aef5e33c703b41481ac28fe8fbcc8",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:49:10.737Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:49:10.737Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:49:13.286Z"
+  },
+  {
+    "id": "share_a4a59f91f4dc106b7823cffb69f6cf7a",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790480954942",
+    "credentialHash": "94e88cb8a8911361bb5c59dd6b729737e62231f7be6e0decb3750f5df800a9a8",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:49:15.523Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:49:15.523Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:49:17.087Z"
+  },
+  {
+    "id": "share_910fada9219a374786e73c2e750b74a5",
+    "projectId": "proj_appr_DEPLOYED_1790480958939",
+    "credentialHash": "afc311c701a82ca08755580eac64d9211b49db05adb9e99fa3550f2f608e7cc0",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:49:19.588Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:49:19.589Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:49:20.817Z"
+  },
+  {
+    "id": "share_a4cc5247a5ecd7613e9b6a288a75620e",
+    "projectId": "proj_A_1790480962864",
+    "credentialHash": "6bf6f3424a6d09f9a61322db4819333584c5ee13db43c9938f531f19b8934570",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:49:24.464Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:49:24.464Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:49:25.636Z"
+  },
+  {
+    "id": "share_f576ed15d57872d334e7d639f558f647",
+    "projectId": "proj_portal_1790480930398_ca5e80",
+    "credentialHash": "7eacf5a8179f029cc196ee9125f4fb987f88840548e78a87a9b63009460f44d5",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:49:32.135Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:49:32.135Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:49:33.359Z",
+    "revokedAt": "2026-09-27T03:49:35.465Z"
+  },
+  {
+    "id": "share_14d8e60ef6f267de5c65af7483228943",
+    "projectId": "proj_portal_1790480930398_ca5e80",
+    "credentialHash": "7dc2708c1d3a8cb5f67a23a2220d7a3232a5cf8af19eff0e7ce5f62561f61620",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:49:38.005Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:49:38.005Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:49:39.173Z"
+  },
+  {
+    "id": "share_6eddc7df5d5f9fac958b810bc441a17c",
+    "projectId": "proj_portal_1790480930398_ca5e80",
+    "credentialHash": "dd003ab3e11970bee84be9555e409a6ca4b57863aff064a81b54c19abb685a53",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:49:45.682Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:49:45.682Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:49:47.526Z"
+  },
+  {
+    "id": "share_ee400a8cf72e631f5e3562c3eadc1e61",
+    "projectId": "proj_portal_1790481021148_1b586c",
+    "credentialHash": "496a6972b516fcdb721e2723ed0f8e1cd7dee25deb1978491125e706c0f3fad4",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:50:22.716Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T03:50:22.716Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:50:24.356Z"
+  },
+  {
+    "id": "share_4c5db3fe25341c8c011ae17df85edec3",
+    "projectId": "proj_portal_1790481021148_1b586c",
+    "credentialHash": "3f5a597863014cc11bcd14fc738e37cef6c457b511ff5abea1600c7dfa6b6427",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:50:26.845Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:50:26.845Z",
+    "version": 1
+  },
+  {
+    "id": "share_bcf1f428af76dfc2a6af7654597c47be",
+    "projectId": "proj_portal_1790481021148_1b586c",
+    "credentialHash": "3dbf6398b511abce19710e063d21a1034abea6838b5c6ca8d57689e880eaf8f3",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-09-26T03:50:30.045Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:50:30.045Z",
+    "version": 1
+  },
+  {
+    "id": "share_81ba184e24691152472be08d7282245a",
+    "projectId": "proj_portal_1790481021148_1b586c",
+    "credentialHash": "6de16752dcdcb99bed92dbc6f2ac36317b275095f748a7055c0ae52ec09149da",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:50:32.157Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:50:32.157Z",
+    "version": 1,
+    "revokedAt": "2026-09-27T03:50:33.030Z"
+  },
+  {
+    "id": "share_c075b13c20b7cbbecea08f659a626953",
+    "projectId": "proj_portal_1790481021148_1b586c",
+    "credentialHash": "7467961f4d1afe66a4e3a176b03041e74349b1e09632cc1fe7db7478a2300f32",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:50:34.910Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:50:34.910Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:50:36.095Z"
+  },
+  {
+    "id": "share_c2fe8967923024b73bb20d547e5bb179",
+    "projectId": "proj_unapproved_1790481037157",
+    "credentialHash": "93ad900b9a3f25dc7ff943df88daf159e1d7b0fa0ed4004939bafed296a30f2b",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:50:38.299Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:50:38.299Z",
+    "version": 1
+  },
+  {
+    "id": "share_0e925cc5b358dade26f74f00b51e7a1b",
+    "projectId": "proj_appr_STAGING_1790481039528",
+    "credentialHash": "f3fdbbef213bf405659cf5ae01071361ee207c5510fbe53522265aa63654b0b6",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:50:40.137Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:50:40.137Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:50:41.746Z"
+  },
+  {
+    "id": "share_70e4b6d631cda900035a6d1aa781a7e4",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790481044340",
+    "credentialHash": "fae5c80b11d58f30477cab76968e51d38cf920e753cff84d80220e582137e6ff",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:50:44.899Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:50:44.899Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:50:46.046Z"
+  },
+  {
+    "id": "share_28381bc8ad950aed8fbab3bc7109771b",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790481047844",
+    "credentialHash": "f5658be192b91577fabf81395c6b615641ba3e24049b5c6387e8dbd5ce750e1c",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:50:48.464Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:50:48.464Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:50:49.694Z"
+  },
+  {
+    "id": "share_99999d7037c835f369d8e5d9b9631457",
+    "projectId": "proj_appr_DEPLOYED_1790481052285",
+    "credentialHash": "0b329e9d3611ce4cd218214fa982eb2c748593e65d512c237ba6e8f6500868c9",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:50:52.932Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:50:52.933Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:50:55.192Z"
+  },
+  {
+    "id": "share_2162a97a487a5e3d8e6766248f1eb5f2",
+    "projectId": "proj_A_1790481056891",
+    "credentialHash": "451fce735e31ef2f7ba5261b8a15255222551c848ada657b165190782d630239",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:50:57.919Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:50:57.919Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:50:59.041Z"
+  },
+  {
+    "id": "share_d8003beffae46302f779783a867b6904",
+    "projectId": "proj_portal_1790481021148_1b586c",
+    "credentialHash": "f07f701260a157b3f9e3617455814349d61c0fbd4f3b843adaa2b94807698ccd",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:51:05.235Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:51:05.235Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:51:06.862Z",
+    "revokedAt": "2026-09-27T03:51:10.107Z"
+  },
+  {
+    "id": "share_6ded423bcca4c1812f8999d8ec95c4b4",
+    "projectId": "proj_portal_1790481021148_1b586c",
+    "credentialHash": "7bf1928778e68cbc21e63f69dcf27d0dbed7667956d4a984c211f048e69d3140",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:51:12.835Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:51:12.835Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:51:14.027Z"
+  },
+  {
+    "id": "share_d0b329651235e3e43fb6ed528039f2a3",
+    "projectId": "proj_portal_1790481021148_1b586c",
+    "credentialHash": "6f46ab4790fdd1f6058ff0c0c328513c42a71e9bda2eb94d6698b9b737a22fa8",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:51:22.527Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:51:22.527Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:51:24.342Z"
+  },
+  {
+    "id": "share_e583819b584044a0c0a2868faf512d3e",
+    "projectId": "proj_portal_1790481301070_519460",
+    "credentialHash": "edecfef62c0c695c4df7a9ad392a86da3465323756ea45d32d1e03402f2fd618",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:55:02.100Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T03:55:02.100Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:55:03.591Z"
+  },
+  {
+    "id": "share_15b314aa53f0af3d38c3bd051c055f53",
+    "projectId": "proj_portal_1790481301070_519460",
+    "credentialHash": "c35b9f566d535b4e51f392c35b797e3f404e7200028f37bab6edbce27260dec6",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:55:04.863Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:55:04.863Z",
+    "version": 1
+  },
+  {
+    "id": "share_0ff167c43a1ac6a3dee23ea7eb7b0d86",
+    "projectId": "proj_portal_1790481301070_519460",
+    "credentialHash": "5aa0f8cc1ae487941a3e551db8f2c6d6c053dfe3d38a54b1cb8b65935e537d95",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-09-26T03:55:06.336Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:55:06.336Z",
+    "version": 1
+  },
+  {
+    "id": "share_7a77a0a37e5053ae6f3ca16801840464",
+    "projectId": "proj_portal_1790481301070_519460",
+    "credentialHash": "1a53eabc9030e717254870fe62452fededd24b1479248671950d3445c9a6da3e",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:55:07.736Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:55:07.736Z",
+    "version": 1,
+    "revokedAt": "2026-09-27T03:55:08.659Z"
+  },
+  {
+    "id": "share_2c460c7dd7e9938b83a42896e083fbb1",
+    "projectId": "proj_portal_1790481301070_519460",
+    "credentialHash": "9129270053e5ca6c36798fb90b549df33ae3008b06496e3bec0c8433d46e2edb",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:55:10.582Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:55:10.582Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:55:11.823Z"
+  },
+  {
+    "id": "share_a46d4eab4a908cd1cd134bebdb31d40b",
+    "projectId": "proj_unapproved_1790481313978",
+    "credentialHash": "b68d67dfb424b2508575b2013592b390058fc0989cb313185d983bded6802aad",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:55:14.792Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:55:14.792Z",
+    "version": 1
+  },
+  {
+    "id": "share_ebf33e3731c52fdb7628ab3b8b10031b",
+    "projectId": "proj_appr_STAGING_1790481316032",
+    "credentialHash": "8da0157209b9dbeef1b4d277dec9328ff69a89287a3a9e6919b1b662a30156d5",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:55:16.644Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:55:16.644Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:55:17.858Z"
+  },
+  {
+    "id": "share_ce53cc14567b90dcfe52a0097e4cda2e",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790481319731",
+    "credentialHash": "3dc9ae96b6650fb89ff2f024ea347ad72d30831c7fc15f5cec457a793556b0ed",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:55:20.361Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:55:20.361Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:55:21.579Z"
+  },
+  {
+    "id": "share_1826cdab72a1a8ed900201cfd6e54932",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790481323325",
+    "credentialHash": "129cd34d8f4964b13d0d0363009b515abae686926d09a5f6bb2268e15ae04245",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:55:23.918Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:55:23.918Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:55:25.172Z"
+  },
+  {
+    "id": "share_6948bc50a6e4a189e31be2804a58d2b6",
+    "projectId": "proj_appr_DEPLOYED_1790481327090",
+    "credentialHash": "61f10e5c3684ca8436421bc28a25cdf30070fc4d8d5d6d6b2d795f333dacdafd",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:55:27.740Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:55:27.740Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:55:28.925Z"
+  },
+  {
+    "id": "share_86ffdeea3c40b0e0d0e4dd1c825571d0",
+    "projectId": "proj_A_1790481330771",
+    "credentialHash": "57483dbecc3d7124e905886205b1d108d221bececa5bf0e00e13c9781fa65f5f",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:55:31.810Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:55:31.810Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:55:33.097Z"
+  },
+  {
+    "id": "share_c48f79e6ffaf96e468bb5148569a5a7e",
+    "projectId": "proj_portal_1790481301070_519460",
+    "credentialHash": "6f5ae2da5320bd605edf87804c6ad93ab8b68bd2543eb45ad45aaa7d2275f5f8",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:55:39.375Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:55:39.375Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:55:40.603Z",
+    "revokedAt": "2026-09-27T03:55:42.728Z"
+  },
+  {
+    "id": "share_2ef2fa8692fc7e979e42f0c8484d0be1",
+    "projectId": "proj_portal_1790481301070_519460",
+    "credentialHash": "fcff0b671e4db35466d45163a20e4f8f50e6c123f4d5d3047cf3672901753697",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:55:44.296Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:55:44.296Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:55:45.530Z"
+  },
+  {
+    "id": "share_bec84b7a93b11eb5e9bb60ff2a2d0566",
+    "projectId": "proj_portal_1790481301070_519460",
+    "credentialHash": "f05d8a9bd12573f1541e30e3dbcff7ea52e8d0d22fa3332f8a31ec10f350bec4",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T03:55:52.199Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T03:55:52.199Z",
+    "version": 1,
+    "usedAt": "2026-09-27T03:55:53.437Z"
+  },
+  {
+    "id": "share_90a8a1a6badd1ba856b19e647eeab4ed",
+    "projectId": "proj_webhook_billing_bridge_1790493738746",
+    "credentialHash": "53b9946bbcb1bb5ae8b668551c1aa7af51adeac0a3cdc37934530d00016b1440",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T07:22:21.739Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T07:22:21.739Z",
+    "version": 1
+  },
+  {
+    "id": "share_f97b53383427fc2775a7cd85653ff3ee",
+    "projectId": "proj_webhook_billing_bridge_1790493800718",
+    "credentialHash": "afbad5b333904748ecf7be9e639b57a7c200a1aa3e807ec5609293cd6b362b63",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T07:23:21.850Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T07:23:21.850Z",
+    "version": 1
+  },
+  {
+    "id": "share_b1c2cd0297f00a3e5eaee40ef718d436",
+    "projectId": "proj_webhook_billing_bridge_1790493926824",
+    "credentialHash": "d6ea43595860f20e6c5cb3432f1134d484db96d990796bb3036da78b6c800074",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T07:25:30.051Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T07:25:30.052Z",
+    "version": 1
+  },
+  {
+    "id": "share_8e6f9505fd4db9a5f7cb143d715da077",
+    "projectId": "proj_webhook_billing_bridge_1790493992238",
+    "credentialHash": "a10e8c8968f875d51b5f6ab0e87c5449e6dace8a60a1547c3df286ed2bd5521e",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T07:26:33.292Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T07:26:33.292Z",
+    "version": 1
+  },
+  {
+    "id": "share_297adfcb45c202b832e849d636a4cf7b",
+    "projectId": "proj_webhook_billing_bridge_1790494038729",
+    "credentialHash": "9e4be762a6fdc021f831d266a92937c223f47700b26d22ffee2aa9d6854f935e",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T07:27:20.490Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T07:27:20.490Z",
+    "version": 1
+  },
+  {
+    "id": "share_1f9884ef2595f59b894b3e5ccb3cf13e",
+    "projectId": "proj_webhook_billing_bridge_1790494076544",
+    "credentialHash": "1baddd1cc6652b6a02c0b7da92f03ee11910cf25d23355354d8cb387c0d202c9",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T07:27:58.439Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T07:27:58.439Z",
+    "version": 1
+  },
+  {
+    "id": "share_ee19bfab6222a89be976a94f7026ee54",
+    "projectId": "proj_webhook_billing_bridge_1790494138269",
+    "credentialHash": "70835f82d648c6067327b752d7b25dba9ba4f8743e4b81f5a6b5b00bd5cfabbc",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T07:28:59.347Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T07:28:59.347Z",
+    "version": 1
+  },
+  {
+    "id": "share_8ed387af1300e8af45b95ca6db28eed9",
+    "projectId": "proj_webhook_billing_bridge_1790494202706",
+    "credentialHash": "9cc154337843b0290c83e0f084f140b39c92974c70812bc16b349d2f98b477c9",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T07:30:04.508Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T07:30:04.508Z",
+    "version": 1
+  },
+  {
+    "id": "share_90abb82b56a1a056a0d8865aefd61a49",
+    "projectId": "proj_webhook_billing_bridge_1790494539912",
+    "credentialHash": "5a74f99521f17f657e99fb5e27d9b19b24c0cc83205073be10fcc5684e21d77a",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T07:35:41.763Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T07:35:41.763Z",
+    "version": 1
+  },
+  {
+    "id": "share_1d46c1790e336efb6a12ff0d9c9038b2",
+    "projectId": "proj_webhook_billing_bridge_1790494748617",
+    "credentialHash": "8327d6afa2ba37ca2deff4d707926531c2e467286ae9ae5b454697984d15fabc",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T07:39:09.745Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T07:39:09.745Z",
+    "version": 1
+  },
+  {
+    "id": "share_d4839c09d135c85428cc71c4802f6e47",
+    "projectId": "proj_webhook_billing_bridge_1790494842058",
+    "credentialHash": "e85d792521efd7b30aec859f25af3558b58510191d026446ab1f88cf02a605ae",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T07:40:44.023Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T07:40:44.023Z",
+    "version": 1,
+    "usedAt": "2026-09-27T07:41:26.710Z"
+  },
+  {
+    "id": "share_b5815921f73c192db3c94820e03537f2",
+    "projectId": "proj_webhook_billing_bridge_1790494973311",
+    "credentialHash": "e1fc774c55cb0be7b330e03501af05b6d1b7ea114d0a4a001d7d82e9c3e38c9f",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T07:42:54.697Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T07:42:54.697Z",
+    "version": 1,
+    "usedAt": "2026-09-27T07:43:32.419Z"
+  },
+  {
+    "id": "share_20a2f9c673b66841c1b83d5b0d4f6aa7",
+    "projectId": "proj_webhook_billing_bridge_1790495099109",
+    "credentialHash": "d8d631984b105a7ef6328fa7d7376e9849201477cd084229ece7703a2169aa0f",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T07:45:00.124Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T07:45:00.125Z",
+    "version": 1,
+    "usedAt": "2026-09-27T07:53:14.017Z"
+  },
+  {
+    "id": "share_80c66e8c9c8c78ab8f41a8eab6273ef1",
+    "projectId": "proj_portal_1790495820579_99006f",
+    "credentialHash": "162d4914f6debd0986d49ecb77ec2399b2af4ff506a9bec43fb037021e502d92",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T07:57:01.974Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T07:57:01.974Z",
+    "version": 1,
+    "usedAt": "2026-09-27T07:57:03.707Z"
+  },
+  {
+    "id": "share_b4cedcc4cd6226c512276243302824b4",
+    "projectId": "proj_portal_1790495820579_99006f",
+    "credentialHash": "bf08b8108408891f822f52aa7c747c9072b4e07ea9f808660e431af9b6734271",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T07:57:04.918Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T07:57:04.918Z",
+    "version": 1
+  },
+  {
+    "id": "share_488bfb65cedba27cb2ea90890d3d65f3",
+    "projectId": "proj_portal_1790495820579_99006f",
+    "credentialHash": "77b10e09722cf99809a18809cc5fcc36b99f5e3c555c33ffe977fb8aabf1ae8b",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-09-26T07:57:06.045Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T07:57:06.045Z",
+    "version": 1
+  },
+  {
+    "id": "share_eaa188d80b8c7955e08d5ca693a9b23a",
+    "projectId": "proj_portal_1790495820579_99006f",
+    "credentialHash": "680b7964a435bc9e0b23ae8cf5d5b8abb3e89b9eebf30ec46c6af0e7c63cc577",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T07:57:07.406Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T07:57:07.406Z",
+    "version": 1,
+    "revokedAt": "2026-09-27T07:57:08.350Z"
+  },
+  {
+    "id": "share_1d0e639dec2ceca332223046c7c3c81c",
+    "projectId": "proj_portal_1790495820579_99006f",
+    "credentialHash": "437cad8faa748efef23a62951d7ecc3f157bc0e6cfef6e7c5c1f96b1e21a00af",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T07:57:10.641Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T07:57:10.641Z",
+    "version": 1,
+    "usedAt": "2026-09-27T07:57:11.821Z"
+  },
+  {
+    "id": "share_b23f0e291ddbce081b70a037101b9184",
+    "projectId": "proj_unapproved_1790495833010",
+    "credentialHash": "3a61364dbb35c614c4890ef99e3ef86e06f65bcef6ec76843da54fd1ec644eba",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T07:57:13.641Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T07:57:13.641Z",
+    "version": 1
+  },
+  {
+    "id": "share_3c74406eab226f50c08f90762eb8ea7f",
+    "projectId": "proj_appr_STAGING_1790495834823",
+    "credentialHash": "af018f9e198c61f7062b7eb36eecf7f1a6656615c5660172f9ba1c4828d39cbe",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T07:57:15.429Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T07:57:15.429Z",
+    "version": 1,
+    "usedAt": "2026-09-27T07:57:16.549Z"
+  },
+  {
+    "id": "share_31920b1a46dd7e06bec74270f6c4e1e9",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790495838302",
+    "credentialHash": "67ea46e3136f2b5525e670feecb51ed500e54f91ac174fc953a546ea8a2453aa",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T07:57:18.879Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T07:57:18.879Z",
+    "version": 1,
+    "usedAt": "2026-09-27T07:57:19.991Z"
+  },
+  {
+    "id": "share_10f3868be6eca40c546bab618e250689",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790495841949",
+    "credentialHash": "645bbeb197675217f33d605d4e099e095a0d41922ef4cd358227976146080632",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T07:57:22.530Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T07:57:22.530Z",
+    "version": 1,
+    "usedAt": "2026-09-27T07:57:23.686Z"
+  },
+  {
+    "id": "share_c99120dfbffe459226278a0c3dc381f4",
+    "projectId": "proj_appr_DEPLOYED_1790495845397",
+    "credentialHash": "4119c106800f51b86579f601cf5ad20a77c23bfbc42ed839cd2004e3e0abbc72",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T07:57:25.972Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T07:57:25.972Z",
+    "version": 1,
+    "usedAt": "2026-09-27T07:57:27.059Z"
+  },
+  {
+    "id": "share_5396ef770403dddc2ca0f1f968cd8ef6",
+    "projectId": "proj_A_1790495849014",
+    "credentialHash": "5ba12c95d145acf3e8f99c77a271297e71d971dfe4fd3aaf3fbc39d5828208d8",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T07:57:30.131Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T07:57:30.131Z",
+    "version": 1,
+    "usedAt": "2026-09-27T07:57:31.595Z"
+  },
+  {
+    "id": "share_9d94e60d0d10f53eb373fe7837ee6667",
+    "projectId": "proj_portal_1790496561535_5bb8df",
+    "credentialHash": "50e7241d3f7bccf9e8ea15ed5078d1f5eeddcdae5afc2c0f7c4c897aa89ce478",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T08:09:23.511Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T08:09:23.511Z",
+    "version": 1,
+    "usedAt": "2026-09-27T08:09:25.648Z"
+  },
+  {
+    "id": "share_c821f900302b1cd3c2e1bb4f1cba3b8e",
+    "projectId": "proj_portal_1790496561535_5bb8df",
+    "credentialHash": "9d924adc5a2d12139d07ff341816272ffa0fc5a895f4aab65befa7aeaafaf61a",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T08:09:26.954Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T08:09:26.954Z",
+    "version": 1
+  },
+  {
+    "id": "share_e4159cfcb88c5983dc9fb2a880d37f37",
+    "projectId": "proj_portal_1790496561535_5bb8df",
+    "credentialHash": "72146e1eca7aede397ac78abb3185cb985ef9197a410ebb178b440ef08ca638e",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-09-26T08:09:28.087Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T08:09:28.087Z",
+    "version": 1
+  },
+  {
+    "id": "share_25c3333c487266ff9f1f920ab2a6229e",
+    "projectId": "proj_portal_1790496561535_5bb8df",
+    "credentialHash": "341fbeea768fd3db9cfddde30f5820f8db1f593767b8dc24c9192bfb3d30489b",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T08:09:29.237Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T08:09:29.237Z",
+    "version": 1,
+    "revokedAt": "2026-09-27T08:09:30.250Z"
+  },
+  {
+    "id": "share_2aa7085cc095e1998d6782f5a8dfe5ea",
+    "projectId": "proj_portal_1790496561535_5bb8df",
+    "credentialHash": "2579fbc5ab9fe426c9e745c4868d44c59ae46f44f361d905c81433740d416efd",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T08:09:32.061Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T08:09:32.061Z",
+    "version": 1,
+    "usedAt": "2026-09-27T08:09:33.297Z"
+  },
+  {
+    "id": "share_0042aaaa403d44afd55dfa873c1eb007",
+    "projectId": "proj_unapproved_1790496574510",
+    "credentialHash": "976a09e944d795c784aba484aa6c40772c46c0fb073432051febdc4cfcd6f3a6",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T08:09:35.250Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T08:09:35.250Z",
+    "version": 1
+  },
+  {
+    "id": "share_ddffc0c14454d4785ac0cc4439e49acc",
+    "projectId": "proj_appr_STAGING_1790496576417",
+    "credentialHash": "e424512571b86790aeeee98f8504394c3c44b56c4c6659c722ab6a95773ebf5e",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T08:09:37.257Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T08:09:37.257Z",
+    "version": 1,
+    "usedAt": "2026-09-27T08:09:38.429Z"
+  },
+  {
+    "id": "share_6abf164b7cf687e055e7c58cfbda0127",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790496580265",
+    "credentialHash": "a631d1973a1229d638aeb53d2dca7e1ec539d4cb5a2591df30f010fee5dff397",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T08:09:40.844Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T08:09:40.844Z",
+    "version": 1,
+    "usedAt": "2026-09-27T08:09:42.073Z"
+  },
+  {
+    "id": "share_501a9c737d4f49e610f13cdf2628eebf",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790496583748",
+    "credentialHash": "e4eb3074a1169301db4fa9aa5af16f4e122fe9bbd7ef12f67808f7ca4ecf0134",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T08:09:44.587Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T08:09:44.587Z",
+    "version": 1,
+    "usedAt": "2026-09-27T08:09:45.725Z"
+  },
+  {
+    "id": "share_aa103bf66886ab14c5deb34c97f5075c",
+    "projectId": "proj_appr_DEPLOYED_1790496587654",
+    "credentialHash": "2452e1d4071439e93c67f4cedf9640cd3d7707f9557c1d002058cfeb8b91ec0c",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T08:09:48.239Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T08:09:48.239Z",
+    "version": 1,
+    "usedAt": "2026-09-27T08:09:49.318Z"
+  },
+  {
+    "id": "share_af8ef8f7ba0d6acdee8f8745156f67cd",
+    "projectId": "proj_A_1790496591085",
+    "credentialHash": "87effb984fcf97035f271d0297fc14c3d8e14c8046a1791c4a7f24c6c6626689",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T08:09:52.070Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T08:09:52.070Z",
+    "version": 1,
+    "usedAt": "2026-09-27T08:09:53.222Z"
+  },
+  {
+    "id": "share_fdc40652d69226ddef4d17806cecaff3",
+    "projectId": "proj_portal_1790496561535_5bb8df",
+    "credentialHash": "fac1043d9237477e6fdc2087c6b6e8f9d2c04ec6ea88cf9f4321b69a800c3afb",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T08:09:59.732Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T08:09:59.732Z",
+    "version": 1,
+    "usedAt": "2026-09-27T08:10:00.906Z",
+    "revokedAt": "2026-09-27T08:10:03.166Z"
+  },
+  {
+    "id": "share_d4d06bdb766e18b00ba3cfc273f10125",
+    "projectId": "proj_portal_1790496561535_5bb8df",
+    "credentialHash": "508d02bd412e48c072008eac58d34fed98c5795f0ed9e1f15cdd6f4cb5c15a27",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T08:10:05.033Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T08:10:05.033Z",
+    "version": 1,
+    "usedAt": "2026-09-27T08:10:07.079Z"
+  },
+  {
+    "id": "share_ba714d2ff62ebc1bd34b3fc4daa956fa",
+    "projectId": "proj_portal_1790496561535_5bb8df",
+    "credentialHash": "c000490f2577966814aefbc514c57e92280acfecd66974d80d756a5803228909",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T08:10:18.430Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T08:10:18.430Z",
+    "version": 1,
+    "usedAt": "2026-09-27T08:10:19.544Z"
+  },
+  {
+    "id": "share_de54b45ad185e3ee21cc19e29e811752",
+    "projectId": "proj_webhook_billing_bridge_1790496636577",
+    "credentialHash": "f2c466cfbf2290747181cb90dfc28f3d2ddb75455cc1071a5516c171cd6bbae8",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T08:10:37.488Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T08:10:37.488Z",
+    "version": 1,
+    "usedAt": "2026-09-27T08:10:54.437Z"
+  },
+  {
+    "id": "share_acdc53553078983df24c23bb8c12b198",
+    "projectId": "proj_portal_1790507890911_cc4a58",
+    "credentialHash": "d7663e781c39e52e836308510e13a081f02a568f3c8f1de95c395a4a781272a7",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T11:18:12.915Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T11:18:12.916Z",
+    "version": 1,
+    "usedAt": "2026-09-27T11:18:15.229Z"
+  },
+  {
+    "id": "share_4b5b233fd02bde116b54397492b5bf49",
+    "projectId": "proj_portal_1790507890911_cc4a58",
+    "credentialHash": "1c61c26d2deb979faff7fd41b63eb04444625f397b7777a0b55c0d76bd17d742",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T11:18:16.733Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T11:18:16.734Z",
+    "version": 1
+  },
+  {
+    "id": "share_caf125d224fdc98bff9ebd6836e2bfa9",
+    "projectId": "proj_portal_1790507890911_cc4a58",
+    "credentialHash": "eb9cb7334548a58502307ce3ad5bb5a050412573e4101e5229759b22338527b6",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-09-26T11:18:18.199Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T11:18:18.200Z",
+    "version": 1
+  },
+  {
+    "id": "share_496f7fb55f3de4f96531c8f0018eccf5",
+    "projectId": "proj_portal_1790507890911_cc4a58",
+    "credentialHash": "ca7e762b3ac98bcfd352f1123da3c81d600f9f8ae06c42b6b641826c14268afe",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T11:18:19.874Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T11:18:19.874Z",
+    "version": 1,
+    "revokedAt": "2026-09-27T11:18:20.934Z"
+  },
+  {
+    "id": "share_b4ab174d9b98613436b31525794ae44a",
+    "projectId": "proj_portal_1790507890911_cc4a58",
+    "credentialHash": "1f738ef5372550456b4e12a2589bdfc763f8c03ae9bf65272b48f21b9b60e478",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T11:18:23.019Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T11:18:23.019Z",
+    "version": 1,
+    "usedAt": "2026-09-27T11:18:24.487Z"
+  },
+  {
+    "id": "share_dc351cf4ef91bbd96a85e4ed83547af2",
+    "projectId": "proj_unapproved_1790507905955",
+    "credentialHash": "1e60fb4e8cc3569b848a7d5e397f628996969e8d70ebccf5b51c5d7415b3791d",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T11:18:26.740Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T11:18:26.740Z",
+    "version": 1
+  },
+  {
+    "id": "share_ad74ffe48ea68e541ef3200dbaed09ba",
+    "projectId": "proj_appr_STAGING_1790507908310",
+    "credentialHash": "1f118f7447ada3adac98af17dbb62e65c7269e28f4a96af4e4b1405a02c82d23",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T11:18:29.110Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T11:18:29.111Z",
+    "version": 1,
+    "usedAt": "2026-09-27T11:18:30.676Z"
+  },
+  {
+    "id": "share_4c0cd29a0cb01fcf774b581e30b3b91b",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790507913102",
+    "credentialHash": "4d19d1aef813c83b0aa382dec8b1b97d405083201fa66a42e53455dd039bd4fc",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T11:18:33.971Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T11:18:33.971Z",
+    "version": 1,
+    "usedAt": "2026-09-27T11:18:35.498Z"
+  },
+  {
+    "id": "share_3a8c6c4e9a8b0a2a21b9148c4d5bfba6",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790507918262",
+    "credentialHash": "dda53cef83e9b1fdb74c483691c51f8a905828c08ea481097ba8e8a9cf346f5d",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T11:18:39.538Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T11:18:39.538Z",
+    "version": 1,
+    "usedAt": "2026-09-27T11:18:40.947Z"
+  },
+  {
+    "id": "share_15a568af90484b34cc4343e215b56db8",
+    "projectId": "proj_appr_DEPLOYED_1790507923060",
+    "credentialHash": "9e1d10d205b478662566df8656c0e3ebe565bce2becf18ccd046714d276fa1ea",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T11:18:43.835Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T11:18:43.835Z",
+    "version": 1,
+    "usedAt": "2026-09-27T11:18:45.280Z"
+  },
+  {
+    "id": "share_6bc01d02703cc78cfc132eea9ab43387",
+    "projectId": "proj_A_1790507927302",
+    "credentialHash": "e582172e6281d8648e4480c5eb70535f64cdaf80b3c8ddb0b28b4cdabe1f52d5",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T11:18:48.573Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T11:18:48.573Z",
+    "version": 1,
+    "usedAt": "2026-09-27T11:18:49.912Z"
+  },
+  {
+    "id": "share_8d10d19b1d1087db032e3bca5208366e",
+    "projectId": "proj_portal_1790507890911_cc4a58",
+    "credentialHash": "a1ec206812548675d4b222fb1fecbef772df6ca9aa2da65cca8bca1e2827430a",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T11:18:58.207Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T11:18:58.207Z",
+    "version": 1,
+    "usedAt": "2026-09-27T11:18:59.517Z",
+    "revokedAt": "2026-09-27T11:19:01.839Z"
+  },
+  {
+    "id": "share_fe255b79a481329eb91ea0bbf54680f4",
+    "projectId": "proj_portal_1790507890911_cc4a58",
+    "credentialHash": "def4a5923f0bc7047daee59fa6777480a0b7aa0d644c41cbe22040f87e41ee42",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T11:19:03.548Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T11:19:03.548Z",
+    "version": 1,
+    "usedAt": "2026-09-27T11:19:05.012Z"
+  },
+  {
+    "id": "share_01c8e1c0324051b56650021661201ce7",
+    "projectId": "proj_portal_1790507890911_cc4a58",
+    "credentialHash": "1c8891b9827003d9e175481c18071a4e09b8e2608fd2ddc104f6dc7d3d25a988",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T11:19:12.972Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T11:19:12.972Z",
+    "version": 1,
+    "usedAt": "2026-09-27T11:19:14.344Z"
+  },
+  {
+    "id": "share_9d13f489ce721833b9fa5c9bf65090da",
+    "projectId": "proj_webhook_billing_bridge_1790508005119",
+    "credentialHash": "30c2cc78b7fc0932f44bf63b29d83417a24ecb5236559a31117b9e3849a46fea",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T11:20:07.181Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T11:20:07.182Z",
+    "version": 1
+  },
+  {
+    "id": "share_cdca8ec84c48270f282ee66a795c2423",
+    "projectId": "proj_webhook_billing_bridge_1790508146273",
+    "credentialHash": "050344408700b92b271987f7d5ae974fc576c46b5d375d0dbecae7fe2a8a367c",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T11:22:28.938Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T11:22:28.938Z",
+    "version": 1
+  },
+  {
+    "id": "share_4be7ad1763068ef5ede0c01bd3d80ec6",
+    "projectId": "proj_webhook_billing_bridge_1790508517330",
+    "credentialHash": "d25ddf86d973cf9b352497af62f5588d04931729d3a28f4ea062586970657094",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T11:28:40.698Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T11:28:40.698Z",
+    "version": 1,
+    "usedAt": "2026-09-27T11:29:10.853Z"
+  },
+  {
+    "id": "share_0b6165ea0c0655d6829fa8c64d7cc58a",
+    "projectId": "proj_portal_1790546939999_ad625f",
+    "credentialHash": "4353eb4f16ca0ca4343ec506e6edd7fc8e7ffa7fd1a2fb79d36e099931b1992f",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T22:09:02.740Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T22:09:02.741Z",
+    "version": 1,
+    "usedAt": "2026-09-27T22:09:05.207Z"
+  },
+  {
+    "id": "share_10b2e6751d7a62a962f4690c424f850a",
+    "projectId": "proj_portal_1790546939999_ad625f",
+    "credentialHash": "b52c550d7fed778acb1987de8c15a58cbfaba91dc85c0f55e2abf6387e3cf28f",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T22:09:07.106Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T22:09:07.106Z",
+    "version": 1
+  },
+  {
+    "id": "share_7fda28d19b090fb5c2b47437337635c7",
+    "projectId": "proj_portal_1790546939999_ad625f",
+    "credentialHash": "480621a5f7df985a12a9f008722798499a19b6a19a1cc571824d38450ad4fb4e",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-09-26T22:09:08.700Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T22:09:08.701Z",
+    "version": 1
+  },
+  {
+    "id": "share_14fa42783fd7be947e29fd9cf8e7778e",
+    "projectId": "proj_portal_1790546939999_ad625f",
+    "credentialHash": "050bd997b159971e346a2181544798b9544f7a75e65bd385af04daa1c6eedc8c",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T22:09:10.485Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T22:09:10.485Z",
+    "version": 1,
+    "revokedAt": "2026-09-27T22:09:11.657Z"
+  },
+  {
+    "id": "share_284d2838c391e2dd045664c7f2a9cc0f",
+    "projectId": "proj_portal_1790546939999_ad625f",
+    "credentialHash": "cbf0727045395bf49de4da0ef064a5c15bf9488a4e6dfe94a70c06473194e211",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T22:09:14.822Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T22:09:14.822Z",
+    "version": 1,
+    "usedAt": "2026-09-27T22:09:16.225Z"
+  },
+  {
+    "id": "share_db69e9e209c122bc47eca23083706a01",
+    "projectId": "proj_unapproved_1790546957600",
+    "credentialHash": "dfdf86ed87afeda146171694079f458e3c8d2ad8f5b23da24fcf7ff243dd7c66",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T22:09:18.498Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T22:09:18.498Z",
+    "version": 1
+  },
+  {
+    "id": "share_174339c52f7d55636d1fa7d354043049",
+    "projectId": "proj_appr_STAGING_1790546959954",
+    "credentialHash": "d571ef30e57466518c20e0b23e0e4d17047b330d1e94aec119a4a617e2f225d9",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T22:09:20.903Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T22:09:20.903Z",
+    "version": 1,
+    "usedAt": "2026-09-27T22:09:22.276Z"
+  },
+  {
+    "id": "share_3e11e9ed8e3a5f5bc03195e657c58398",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790546964227",
+    "credentialHash": "ab02be278971a430256cf523e6c13f873836e5f6fb975ad3442ca81cde6ec667",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T22:09:25.383Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T22:09:25.384Z",
+    "version": 1,
+    "usedAt": "2026-09-27T22:09:27.013Z"
+  },
+  {
+    "id": "share_553a8372b2fe6527a00a2848e4bba298",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790546968949",
+    "credentialHash": "aa013f49e980ec7c8017936e7fdf647347b28822f81678b1542da14e81e709a0",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T22:09:29.849Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T22:09:29.849Z",
+    "version": 1,
+    "usedAt": "2026-09-27T22:09:31.857Z"
+  },
+  {
+    "id": "share_c55a97223e629145e1df40c351d9dd2d",
+    "projectId": "proj_appr_DEPLOYED_1790546974493",
+    "credentialHash": "52c70f179f5404197bae201f0297c245681582a348863000709b3d534d1d9228",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T22:09:35.213Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T22:09:35.214Z",
+    "version": 1,
+    "usedAt": "2026-09-27T22:09:36.587Z"
+  },
+  {
+    "id": "share_af1619a1532bb9a0743f7e0550fb6947",
+    "projectId": "proj_A_1790546981130",
+    "credentialHash": "8f776706a168da4e5e6bd8a2d70174319a87b96c383b8441d07727c13dfbf747",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T22:09:42.338Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T22:09:42.338Z",
+    "version": 1,
+    "usedAt": "2026-09-27T22:09:44.213Z"
+  },
+  {
+    "id": "share_ad0435ce0cb1d21cf28aec6777a46090",
+    "projectId": "proj_portal_1790546939999_ad625f",
+    "credentialHash": "8a6c54f19bde1ce557027cdfe3fa59b124c25ef00709ef5919392d25bb575ecd",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T22:09:54.986Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T22:09:54.986Z",
+    "version": 1,
+    "usedAt": "2026-09-27T22:09:56.791Z",
+    "revokedAt": "2026-09-27T22:09:59.946Z"
+  },
+  {
+    "id": "share_0c25be4f8384be90fe43ec88a63ae428",
+    "projectId": "proj_portal_1790546939999_ad625f",
+    "credentialHash": "b9d86a85f3930d978bb75a237fd2eb0b66533478a3524396d1e70d6ff5649b9a",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T22:10:02.200Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T22:10:02.200Z",
+    "version": 1,
+    "usedAt": "2026-09-27T22:10:04.765Z"
+  },
+  {
+    "id": "share_7f5e512fc27aabfd9ac08f65177332ac",
+    "projectId": "proj_portal_1790546939999_ad625f",
+    "credentialHash": "7513024f941e96b862f6d1edf410ce24bd9e3b48c703957ae1e36b84b5997e38",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "expiresAt": "2026-10-04T22:10:14.442Z",
+    "createdBy": "human",
+    "createdAt": "2026-09-27T22:10:14.442Z",
+    "version": 1,
+    "usedAt": "2026-09-27T22:10:16.943Z"
+  },
+  {
+    "id": "share_dffce3812e096984914ca1ebcc924374",
+    "projectId": "proj_webhook_billing_bridge_1790547072851",
+    "credentialHash": "728cede788e43186b25864088bb07ac8ed29ae77aaf02623a53652c5376cdaf5",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "expiresAt": "2026-10-04T22:11:16.282Z",
+    "createdBy": "human_operator",
+    "createdAt": "2026-09-27T22:11:16.283Z",
+    "version": 1,
+    "usedAt": "2026-09-27T22:11:45.335Z"
+  }
+]

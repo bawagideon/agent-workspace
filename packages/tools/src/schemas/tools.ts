@@ -126,3 +126,32 @@ export const TerminalRunCommandTool: ToolDefinition<{ workspaceId: string; comma
     error: 'workspaceId and command must be strings'
   }))
 };
+
+// OpenClaw Integration Tools
+export const OpenClawToolInvokeTool: ToolDefinition<{ workspaceId: string; toolName: string; args?: Record<string, any>; sessionKey?: string }> = {
+  id: 'openclaw_tool_invoke',
+  name: 'OpenClaw Tool Invoke',
+  description: 'Executes native OpenClaw runtime tools (e.g. browser, web_search, exec) via WebSocket RPC.',
+  actionType: 'RUN_COMMAND',
+  defaultRiskLevel: 'MEDIUM',
+  requiresWorkspace: true,
+  requiresPathValidation: false,
+  inputSchema: createValidator((inp) => ({
+    valid: typeof inp?.workspaceId === 'string' && typeof inp?.toolName === 'string',
+    error: 'workspaceId and toolName must be strings'
+  }))
+};
+
+export const OpenClawAgentDispatchTool: ToolDefinition<{ workspaceId: string; prompt: string; agentId?: string; sessionKey?: string; model?: string; thinking?: string }> = {
+  id: 'openclaw_agent_dispatch',
+  name: 'OpenClaw Agent Dispatch',
+  description: 'Dispatches an autonomous agent mission step to OpenClaw with session routing and 429 backoff.',
+  actionType: 'RUN_COMMAND',
+  defaultRiskLevel: 'MEDIUM',
+  requiresWorkspace: true,
+  requiresPathValidation: false,
+  inputSchema: createValidator((inp) => ({
+    valid: typeof inp?.workspaceId === 'string' && typeof inp?.prompt === 'string',
+    error: 'workspaceId and prompt must be strings'
+  }))
+};

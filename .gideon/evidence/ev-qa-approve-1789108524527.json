@@ -1,0 +1,19 @@
+{
+  "id": "ev-qa-approve-1789108524527",
+  "taskId": "task-qa-1789108523059",
+  "agentId": "sentinel",
+  "sessionKey": "agent:sentinel:qa-approve",
+  "model": "gemini-qa-eval",
+  "toolNames": [
+    "terminal_run_command"
+  ],
+  "toolResult": "QA passed with clean verification.",
+  "exitCode": 0,
+  "testPassed": true,
+  "sentinelScore": 100,
+  "tokensUsed": 1250,
+  "costCents": 0.12,
+  "costUsd": 0.0012,
+  "timestamp": "2026-09-11T06:35:24.527Z",
+  "signature": "dffc0650a2ce702640245f1b7e51e10c976ba6cb8902b504e506160ba4a0b800"
+}

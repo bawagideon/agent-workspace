@@ -1,0 +1,22 @@
+{
+  "id": "ev-1790452430764-1mi6",
+  "taskId": "task_002",
+  "agentId": "forge",
+  "sessionKey": "agent:forge:task_002",
+  "runId": "mock_run_1790452430764",
+  "model": "unknown",
+  "toolNames": [],
+  "toolArgs": {
+    "workspaceId": "ws_main",
+    "prompt": "Check updated status",
+    "projectId": "proj_b2b_service"
+  },
+  "toolResult": "Mock OpenClaw Execution Successful",
+  "exitCode": 0,
+  "testPassed": true,
+  "tokensUsed": 150,
+  "costCents": 0.1,
+  "costUsd": 0,
+  "timestamp": "2026-09-26T19:53:50.764Z",
+  "signature": "a81105bbe81497b1513bba7b247dbe26c5b10349c53a34213cf5d63afebebc07"
+}

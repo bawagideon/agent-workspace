@@ -1,0 +1,11 @@
+{
+  "name": "redis-rate-limiter",
+  "version": "1.0.0",
+  "description": "Sub-millisecond API rate limiting middleware with Redis cluster support and Sentinel QA audit.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "author": "Gideon Autonomous Workforce",
+  "license": "MIT"
+}

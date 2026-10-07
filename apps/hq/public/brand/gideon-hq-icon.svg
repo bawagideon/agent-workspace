@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="icon-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="6" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+    <linearGradient id="icon-red-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#B91C1C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Pitch Black Circle / Rounded Base -->
+  <rect width="256" height="256" rx="64" fill="#050507"/>
+  <rect width="254" height="254" x="1" y="1" rx="63" stroke="#EF4444" stroke-opacity="0.3" stroke-width="2"/>
+
+  <!-- Interlocking Red Arrows Mark -->
+  <g transform="translate(128, 128) scale(0.95)">
+    <!-- Bottom-Right Secondary Chevron -->
+    <polygon points="15,10 85,10 30,85 15,85 15,35" fill="#991B1B"/>
+
+    <!-- Top-Left Primary Chevron with Depth Shadow -->
+    <polygon points="-60,-65 45,-65 -8,30 -60,-65" fill="url(#icon-red-grad)" filter="url(#icon-shadow)"/>
+    <polygon points="-60,-65 45,-65 -8,30 -60,-65" fill="url(#icon-red-grad)"/>
+  </g>
+</svg>

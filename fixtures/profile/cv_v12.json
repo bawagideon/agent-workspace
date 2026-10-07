@@ -1,0 +1,79 @@
+{
+  "basics": {
+    "name": "Gideon Bawa",
+    "label": "Senior Systems & Autonomous Software Architect",
+    "email": "bawagideon@gmail.com",
+    "url": "https://gideonbawa-website.netlify.app",
+    "summary": "Senior Systems Architect specializing in autonomous agent engineering, resilient distributed payment systems, and cryptographic evidence verification.",
+    "location": {
+      "city": "London / Remote",
+      "country": "United Kingdom"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "gideon-bawa",
+        "url": "https://linkedin.com/in/gideon-bawa"
+      },
+      {
+        "network": "GitHub",
+        "username": "bawagideon",
+        "url": "https://github.com/bawagideon"
+      }
+    ]
+  },
+  "verifiedProjects": [
+    {
+      "name": "Webhook Billing Bridge",
+      "role": "Lead Architect & Systems Engineer",
+      "summary": "Zero-failure webhook ingress bridge eliminating duplicate credit allocation and silent webhook dropouts.",
+      "technologies": ["TypeScript", "Timing-Safe Buffer HMAC", "Anti-Replay TTL", "Atomic Idempotency Mutex", "3D Isometric SVG Engine"],
+      "evidenceContracts": [
+        "ev-qa-contract-1790494152855-97bed37d",
+        "ev-qa-contract-1790494218709-da743d59",
+        "ev-qa-contract-1790494558627-9cf7345d",
+        "ev-qa-contract-1790494761731-8235240b",
+        "ev-qa-contract-1790547094069-41f1e2d3"
+      ],
+      "metrics": {
+        "testsPassing": "8/8",
+        "passRate": "100%",
+        "replayProtectionSeconds": 300,
+        "presentationFps": 60
+      }
+    },
+    {
+      "name": "Gideon AI HQ (v5.2)",
+      "role": "Author & Principal Architect",
+      "summary": "Autonomous AI Engineering Operating System with conversational multi-turn workbench, 6 specialized digital employees, strict Fact vs. Opinion engine, and independent 9-dimension Sentinel observer.",
+      "technologies": ["Next.js 14 App Router", "Tailwind CSS", "Supabase", "Multi-Agent State Machine", "Context Resolver"],
+      "evidenceContracts": [
+        "ev-v5-1-revenue-machine-1790547224421",
+        "ev-v5-remote-control-1790316473614"
+      ],
+      "metrics": {
+        "specializedAgents": 6,
+        "qualityDimensions": 9,
+        "immutableLedger": true
+      }
+    }
+  ],
+  "skills": [
+    {
+      "category": "Core Architecture",
+      "keywords": ["Distributed Systems", "Multi-Agent Orchestration", "Idempotent Mutex Design", "Cryptographic Authority Gates"]
+    },
+    {
+      "category": "Security & Cryptography",
+      "keywords": ["Timing-Safe Buffer HMAC", "SHA-256 Digest Sealing", "Anti-Replay Timestamp Decay", "Fail-Closed Ingress"]
+    },
+    {
+      "category": "Languages & Frameworks",
+      "keywords": ["TypeScript (Strict)", "Next.js (App Router)", "Node.js", "Tailwind CSS", "PostgreSQL / Supabase"]
+    },
+    {
+      "category": "Visual & Product Engineering",
+      "keywords": ["3D Isometric Vector Rendering", "Hardware-Accelerated 60fps Reels", "Linear/Apple Dark Aesthetic", "KaTeX/Mermaid Diagrams"]
+    }
+  ]
+}

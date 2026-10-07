@@ -1,0 +1,58 @@
+{
+  "evaluationId": "eval-proj_quote_ghost_detector-1791285928367",
+  "projectId": "proj_quote_ghost_detector",
+  "slug": "quote-ghost-detector",
+  "name": "Quote Ghost Detector & Aging Radar",
+  "overallStatus": "PASS",
+  "evidenceType": "AUTOMATED_UNIT_TEST_AND_DETERMINISTIC_SIMULATION",
+  "gitCommit": "a99ae4a55fcfb33a3d6e22190a734fc529378a72",
+  "pillarResults": {
+    "functional": {
+      "passed": true,
+      "details": [
+        "Unit & edge-case test suite executed with zero failures.",
+        "Verified 3 passing test assertions on Node.js test runner."
+      ],
+      "testCount": 3
+    },
+    "security": {
+      "passed": true,
+      "details": [
+        "Zero plaintext API keys, secret credentials, or leaked customer PII.",
+        "In-memory input sanitization and secure cryptographic hashing."
+      ],
+      "secretsFound": 0
+    },
+    "reliability": {
+      "passed": true,
+      "details": [
+        "Deterministic boundary handling for malformed, null, and empty payloads.",
+        "Sub-millisecond local execution overhead without external runtime dependencies."
+      ],
+      "reliabilityVerified": true
+    },
+    "delivery": {
+      "passed": true,
+      "details": [
+        "Interactive browser sandbox verified in public/index.html.",
+        "Standardized Commercial Dossier, Demo Script, Integration, and Post packages verified."
+      ],
+      "buildVerified": true
+    }
+  },
+  "invariants": [
+    "PandaDoc/DocuSign webhook status tracking",
+    "48-hour aging threshold auditor",
+    "Risk weighting based on proposal contract value",
+    "1-Click sales rep follow-up dispatch",
+    "Simulation benchmark: 200-quote scenario ($73,000 unattended pipeline)"
+  ],
+  "demarcation": {
+    "verifiedClaims": "Automated test assertions (3/3) passing locally under standard Node.js test runner.",
+    "simulatedBenchmark": "Simulation benchmark: 200-quote scenario ($73,000 unattended pipeline)",
+    "claimConstraint": "Simulated pipeline recovery metrics must never be represented as historical client case studies until backed by real client transaction logs."
+  },
+  "evidenceId": "ev-qa-contract-1791285928367-quote-ghost-detector",
+  "evaluatedAt": "2026-10-06T11:25:28.366Z",
+  "hmacSignature": "dd7a2feb709359ecd082bbbfe74e59618e9675f0701ff8872c9ac2a5c997d28f"
+}

@@ -19,7 +19,14 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@gideon/billing": ["../../packages/billing/src/index.ts"],
+      "@gideon/shared": ["../../packages/shared/src/index.ts"],
+      "@gideon/runner": ["../../packages/runner/src/index.ts"],
+      "@gideon/policy": ["../../packages/policy/src/index.ts"],
+      "@gideon/portal": ["../../packages/portal/src/index.ts"],
+      "@gideon/runtime": ["../../packages/runtime/src/index.ts"],
+      "@gideon/runtime/*": ["../../packages/runtime/src/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

@@ -2,14 +2,20 @@ import { Agent, AgentProfile } from '@gideon/shared';
 import { ForgeAgent, ForgeProfile } from './forge';
 import { SentinelAgent, SentinelProfile } from './sentinel';
 import { AtlasAgent, AtlasProfile } from './atlas';
+import { LedgerAgent, LedgerProfile } from './ledger';
+import { ReleaseAgent, ReleaseProfile } from './release';
+import { ScoutAgent, ScoutProfile } from './scout';
 
 export class AgentRegistry {
   private static agents: Map<string, { agent: Agent; profile: AgentProfile }> = new Map();
 
   static {
+    this.register(AtlasAgent, AtlasProfile);
+    this.register(LedgerAgent, LedgerProfile);
     this.register(ForgeAgent, ForgeProfile);
     this.register(SentinelAgent, SentinelProfile);
-    this.register(AtlasAgent, AtlasProfile);
+    this.register(ReleaseAgent, ReleaseProfile);
+    this.register(ScoutAgent, ScoutProfile);
   }
 
   public static register(agent: Agent, profile: AgentProfile): void {
@@ -28,3 +34,7 @@ export class AgentRegistry {
 export * from './forge';
 export * from './sentinel';
 export * from './atlas';
+export * from './ledger';
+export * from './release';
+export * from './scout';
+

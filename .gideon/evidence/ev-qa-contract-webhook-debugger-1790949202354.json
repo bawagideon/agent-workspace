@@ -1,0 +1,16 @@
+{
+  "id": "ev-qa-contract-webhook-debugger-1790949202354",
+  "project": "webhook-payload-debugger",
+  "scorecard": "100/100",
+  "testsPassed": 8,
+  "testsTotal": 8,
+  "invariants": [
+    "Constant-Time HMAC Buffer Verification (crypto.timingSafeEqual)",
+    "Anti-Replay Timestamp Decay Window (|now - t| <= 300s)",
+    "Raw Buffer Byte Preservation vs JSON Mutation Detection",
+    "Trailing Newline & Whitespace Drift Diagnostic",
+    "Multi-Language Remediation Generation (Node.js, FastAPI, Go, cURL)"
+  ],
+  "verifiedAt": "2026-10-02T13:53:22.354Z",
+  "status": "SEALED_AND_VERIFIED"
+}

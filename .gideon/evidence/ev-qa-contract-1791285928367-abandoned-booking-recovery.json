@@ -1,0 +1,58 @@
+{
+  "evaluationId": "eval-proj_abandoned_booking_recovery-1791285928367",
+  "projectId": "proj_abandoned_booking_recovery",
+  "slug": "abandoned-booking-recovery",
+  "name": "Abandoned Booking Recovery",
+  "overallStatus": "PASS",
+  "evidenceType": "AUTOMATED_UNIT_TEST_AND_DETERMINISTIC_SIMULATION",
+  "gitCommit": "a99ae4a55fcfb33a3d6e22190a734fc529378a72",
+  "pillarResults": {
+    "functional": {
+      "passed": true,
+      "details": [
+        "Unit & edge-case test suite executed with zero failures.",
+        "Verified 4 passing test assertions on Node.js test runner."
+      ],
+      "testCount": 4
+    },
+    "security": {
+      "passed": true,
+      "details": [
+        "Zero plaintext API keys, secret credentials, or leaked customer PII.",
+        "In-memory input sanitization and secure cryptographic hashing."
+      ],
+      "secretsFound": 0
+    },
+    "reliability": {
+      "passed": true,
+      "details": [
+        "Deterministic boundary handling for malformed, null, and empty payloads.",
+        "Sub-millisecond local execution overhead without external runtime dependencies."
+      ],
+      "reliabilityVerified": true
+    },
+    "delivery": {
+      "passed": true,
+      "details": [
+        "Interactive browser sandbox verified in public/index.html.",
+        "Standardized Commercial Dossier, Demo Script, Integration, and Post packages verified."
+      ],
+      "buildVerified": true
+    }
+  },
+  "invariants": [
+    "Client-side form input blur telemetry",
+    "10-minute inactivity threshold detection",
+    "Temporary 30-minute calendar reservation hold",
+    "1-Click confirmation SMS link dispatch",
+    "Simulation benchmark: 100-booking scenario (reclaiming 25% dropped bookings)"
+  ],
+  "demarcation": {
+    "verifiedClaims": "Automated test assertions (4/4) passing locally under standard Node.js test runner.",
+    "simulatedBenchmark": "Simulation benchmark: 100-booking scenario (reclaiming 25% dropped bookings)",
+    "claimConstraint": "Simulated pipeline recovery metrics must never be represented as historical client case studies until backed by real client transaction logs."
+  },
+  "evidenceId": "ev-qa-contract-1791285928367-abandoned-booking-recovery",
+  "evaluatedAt": "2026-10-06T11:25:28.366Z",
+  "hmacSignature": "6f81250ad6ccc9f9db5644e2477a0fe8ba9421866bd73bf472038957080b932e"
+}

@@ -1,18 +1,38 @@
-import dotenv from 'dotenv';
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
 import { WorkspaceSandbox } from './sandbox/WorkspaceSandbox';
-import { PolicyEngine } from '@gideon/policy';
 import { JobExecutor } from './JobExecutor';
+import { PolicyEngine } from '@gideon/policy';
 import { KillSwitch } from './KillSwitch';
-import { RunnerHeartbeat } from '@gideon/shared';
+import { ChannelGatewayAdapter } from './ChannelGatewayAdapter';
+import { CommandEngine, MissionEngine } from '@gideon/runtime';
+import { MemoryEngine, PersonalContextEngine } from '@gideon/memory';
 
-dotenv.config();
+import fs from 'fs';
+import path from 'path';
+
+const envCandidates = [
+  path.resolve(process.cwd(), '.env.local'),
+  path.resolve(process.cwd(), '.env'),
+  path.resolve(__dirname, '../../../.env.local'),
+  path.resolve(__dirname, '../../../.env')
+];
+for (const envFile of envCandidates) {
+  if (fs.existsSync(envFile)) {
+    try {
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      require('dotenv').config({ path: envFile });
+      break;
+    } catch {}
+  }
+}
 
 export class GideonRunnerDaemon {
   private supabase: SupabaseClient | null = null;
   private machineId: string;
   private sandbox: WorkspaceSandbox;
   private jobExecutor: JobExecutor;
+  private policyEngine: PolicyEngine;
+  private channelGateway: ChannelGatewayAdapter | null = null;
   private isRunning: boolean = false;
   private heartbeatTimer: NodeJS.Timeout | null = null;
 
@@ -24,8 +44,8 @@ export class GideonRunnerDaemon {
       { id: 'ws-agent-workspace', rootPath: initialWorkspace }
     ]);
 
-    const policyEngine = new PolicyEngine(process.env.HMAC_PLAN_SECRET || 'gideon-default-secret-key');
-    this.jobExecutor = new JobExecutor(this.sandbox, policyEngine);
+    this.policyEngine = new PolicyEngine(process.env.HMAC_PLAN_SECRET || 'gideon-default-secret-key');
+    this.jobExecutor = new JobExecutor(this.sandbox, this.policyEngine);
 
     const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
     const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
@@ -42,6 +62,16 @@ export class GideonRunnerDaemon {
     await this.registerMachine();
     this.startHeartbeat();
     this.listenForJobs();
+
+    if (process.env.TELEGRAM_BOT_TOKEN) {
+      console.log('[GideonRunner] Initializing Telegram Mobile Control Plane...');
+      const missionEngine = new MissionEngine();
+      const memoryEngine = new MemoryEngine(this.supabase || undefined);
+      const personalContext = new PersonalContextEngine();
+      const commandEngine = new CommandEngine(missionEngine, this.policyEngine, memoryEngine, personalContext);
+      this.channelGateway = new ChannelGatewayAdapter(commandEngine);
+      this.channelGateway.startTelegramPolling();
+    }
   }
 
   private async registerMachine(): Promise<void> {
@@ -121,6 +151,9 @@ export class GideonRunnerDaemon {
   public async stop(): Promise<void> {
     this.isRunning = false;
     if (this.heartbeatTimer) clearInterval(this.heartbeatTimer);
+    if (this.channelGateway) {
+      this.channelGateway.stopTelegramPolling();
+    }
 
     if (this.supabase) {
       await this.supabase

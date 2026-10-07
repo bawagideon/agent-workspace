@@ -1,0 +1,9 @@
+{
+  "experimentId": "exp-1790376710132-b990b3",
+  "opportunityId": "opp-human-1790376710128-bbc203",
+  "hypothesis": "Dental practice managers will convert on automated insurance pre-check demonstration",
+  "assetType": "INTERACTIVE_DEMO",
+  "simulatedInteractions": 10,
+  "positiveSignals": 9,
+  "testedAt": "2026-09-25T22:51:50.133Z"
+}

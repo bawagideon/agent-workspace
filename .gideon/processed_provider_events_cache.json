@@ -1,0 +1,780 @@
+{
+  "isAuthoritative": false,
+  "source": "supabase",
+  "cachedAt": "2026-09-27T22:12:02.425Z",
+  "events": [
+    {
+      "providerEventId": "evt_test_1790451607014_b42a3d2c",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_mock_1790451607014_1ea56512",
+        "client_reference_id": "proj_client_1790451604948_71559b",
+        "amount_total": 25000,
+        "currency": "usd",
+        "customer_email": "client@enterprise.com",
+        "metadata": {
+          "projectId": "proj_client_1790451604948_71559b",
+          "commercialAction": "DEPOSIT"
+        }
+      },
+      "processedAt": "2026-09-26T19:40:07.016Z"
+    },
+    {
+      "providerEventId": "evt_test_1790451707226_851fec2b",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_mock_1790451707225_910dbec6",
+        "client_reference_id": "proj_client_1790451705828_4e7a16",
+        "amount_total": 25000,
+        "currency": "usd",
+        "customer_email": "client@enterprise.com",
+        "metadata": {
+          "projectId": "proj_client_1790451705828_4e7a16",
+          "commercialAction": "DEPOSIT"
+        }
+      },
+      "processedAt": "2026-09-26T19:41:47.230Z"
+    },
+    {
+      "providerEventId": "evt_test_1790451791198_e531c8f4",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_mock_1790451791197_77323c3f",
+        "client_reference_id": "proj_client_1790451786649_ee8dff",
+        "amount_total": 25000,
+        "currency": "usd",
+        "customer_email": "client@enterprise.com",
+        "metadata": {
+          "projectId": "proj_client_1790451786649_ee8dff",
+          "commercialAction": "DEPOSIT"
+        }
+      },
+      "processedAt": "2026-09-26T19:43:11.200Z"
+    },
+    {
+      "providerEventId": "evt_parallel_1790451875922_765aaf17",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_par_1790451875922",
+        "client_reference_id": "proj_client_1790451786649_ee8dff",
+        "amount_total": 5000,
+        "currency": "usd",
+        "metadata": {
+          "projectId": "proj_client_1790451786649_ee8dff",
+          "commercialAction": "MILESTONE"
+        }
+      },
+      "processedAt": "2026-09-26T19:44:35.925Z"
+    },
+    {
+      "providerEventId": "evt_test_1790451925584_c413f4ae",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_mock_1790451925583_87f2b493",
+        "client_reference_id": "proj_client_1790451924384_0f22fa",
+        "amount_total": 25000,
+        "currency": "usd",
+        "customer_email": "client@enterprise.com",
+        "metadata": {
+          "projectId": "proj_client_1790451924384_0f22fa",
+          "commercialAction": "DEPOSIT"
+        }
+      },
+      "processedAt": "2026-09-26T19:45:25.592Z"
+    },
+    {
+      "providerEventId": "evt_parallel_1790452011219_b6719ffb",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_par_1790452011219",
+        "client_reference_id": "proj_client_1790451924384_0f22fa",
+        "amount_total": 5000,
+        "currency": "usd",
+        "metadata": {
+          "projectId": "proj_client_1790451924384_0f22fa",
+          "commercialAction": "MILESTONE"
+        }
+      },
+      "processedAt": "2026-09-26T19:46:51.219Z"
+    },
+    {
+      "providerEventId": "evt_rev_1790452015325",
+      "provider": "mock",
+      "eventType": "payment_reversed",
+      "projectId": "proj_client_1790451924384_0f22fa",
+      "processedAt": "2026-09-26T19:46:55.682Z"
+    },
+    {
+      "providerEventId": "evt_test_1790452053636_a8d7fb8b",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_mock_1790452053635_fac5882f",
+        "client_reference_id": "proj_client_1790452052550_4d34c7",
+        "amount_total": 25000,
+        "currency": "usd",
+        "customer_email": "client@enterprise.com",
+        "metadata": {
+          "projectId": "proj_client_1790452052550_4d34c7",
+          "commercialAction": "DEPOSIT"
+        }
+      },
+      "processedAt": "2026-09-26T19:47:33.644Z"
+    },
+    {
+      "providerEventId": "evt_parallel_1790452132934_61f6ef6b",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_par_1790452132934",
+        "client_reference_id": "proj_client_1790452052550_4d34c7",
+        "amount_total": 5000,
+        "currency": "usd",
+        "metadata": {
+          "projectId": "proj_client_1790452052550_4d34c7",
+          "commercialAction": "MILESTONE"
+        }
+      },
+      "processedAt": "2026-09-26T19:48:52.935Z"
+    },
+    {
+      "providerEventId": "evt_rev_1790452137554",
+      "provider": "mock",
+      "eventType": "payment_reversed",
+      "projectId": "proj_client_1790452052550_4d34c7",
+      "processedAt": "2026-09-26T19:48:57.948Z"
+    },
+    {
+      "providerEventId": "evt_pay_A_1790452149299",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_A_1790452149300",
+        "client_reference_id": "proj_iso_A_1790452148450",
+        "amount_total": 25000,
+        "currency": "usd",
+        "metadata": {
+          "projectId": "proj_iso_A_1790452148450"
+        }
+      },
+      "processedAt": "2026-09-26T19:49:09.300Z"
+    },
+    {
+      "providerEventId": "evt_test_1790452225597_152d91ea",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_mock_1790452225597_6a81219d",
+        "client_reference_id": "proj_client_1790452224398_a0ffc3",
+        "amount_total": 25000,
+        "currency": "usd",
+        "customer_email": "client@enterprise.com",
+        "metadata": {
+          "projectId": "proj_client_1790452224398_a0ffc3",
+          "commercialAction": "DEPOSIT"
+        }
+      },
+      "processedAt": "2026-09-26T19:50:25.601Z"
+    },
+    {
+      "providerEventId": "evt_parallel_1790452300095_fbab7c38",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_par_1790452300095",
+        "client_reference_id": "proj_client_1790452224398_a0ffc3",
+        "amount_total": 5000,
+        "currency": "usd",
+        "metadata": {
+          "projectId": "proj_client_1790452224398_a0ffc3",
+          "commercialAction": "MILESTONE"
+        }
+      },
+      "processedAt": "2026-09-26T19:51:40.097Z"
+    },
+    {
+      "providerEventId": "evt_rev_1790452304892",
+      "provider": "mock",
+      "eventType": "payment_reversed",
+      "projectId": "proj_client_1790452224398_a0ffc3",
+      "processedAt": "2026-09-26T19:51:45.326Z"
+    },
+    {
+      "providerEventId": "evt_pay_A_1790452314912",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_A_1790452314912",
+        "client_reference_id": "proj_iso_A_1790452313976",
+        "amount_total": 25000,
+        "currency": "usd",
+        "metadata": {
+          "projectId": "proj_iso_A_1790452313976"
+        }
+      },
+      "processedAt": "2026-09-26T19:51:54.913Z"
+    },
+    {
+      "providerEventId": "evt_test_1790481220139_625b3bb4",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_mock_1790481220139_5fa6b40b",
+        "client_reference_id": "proj_client_1790481219374_ed47fa",
+        "amount_total": 25000,
+        "currency": "usd",
+        "customer_email": "client@enterprise.com",
+        "metadata": {
+          "projectId": "proj_client_1790481219374_ed47fa",
+          "commercialAction": "DEPOSIT"
+        }
+      },
+      "processedAt": "2026-09-27T03:53:40.143Z"
+    },
+    {
+      "providerEventId": "evt_parallel_1790481270041_325accfb",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_par_1790481270041",
+        "client_reference_id": "proj_client_1790481219374_ed47fa",
+        "amount_total": 5000,
+        "currency": "usd",
+        "metadata": {
+          "projectId": "proj_client_1790481219374_ed47fa",
+          "commercialAction": "MILESTONE"
+        }
+      },
+      "processedAt": "2026-09-27T03:54:30.042Z"
+    },
+    {
+      "providerEventId": "evt_rev_1790481272810",
+      "provider": "mock",
+      "eventType": "payment_reversed",
+      "projectId": "proj_client_1790481219374_ed47fa",
+      "processedAt": "2026-09-27T03:54:33.113Z"
+    },
+    {
+      "providerEventId": "evt_pay_A_1790481279905",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_A_1790481279905",
+        "client_reference_id": "proj_iso_A_1790481279259",
+        "amount_total": 25000,
+        "currency": "usd",
+        "metadata": {
+          "projectId": "proj_iso_A_1790481279259"
+        }
+      },
+      "processedAt": "2026-09-27T03:54:39.906Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790493931123",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790493931124",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790493926824",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790493926824"
+        }
+      },
+      "processedAt": "2026-09-27T07:25:31.129Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790493994129",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790493994129",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790493992238",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790493992238"
+        }
+      },
+      "processedAt": "2026-09-27T07:26:34.133Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790494041583",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790494041583",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790494038729",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790494038729"
+        }
+      },
+      "processedAt": "2026-09-27T07:27:21.586Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790494079121",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790494079121",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790494076544",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790494076544"
+        }
+      },
+      "processedAt": "2026-09-27T07:27:59.125Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790494139929",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790494139929",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790494138269",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790494138269"
+        }
+      },
+      "processedAt": "2026-09-27T07:28:59.932Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790494205310",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790494205310",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790494202706",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790494202706"
+        }
+      },
+      "processedAt": "2026-09-27T07:30:05.312Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790494543540",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790494543540",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790494539912",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790494539912"
+        }
+      },
+      "processedAt": "2026-09-27T07:35:43.545Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790494750374",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790494750374",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790494748617",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790494748617"
+        }
+      },
+      "processedAt": "2026-09-27T07:39:10.375Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790494845734",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790494845734",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790494842058",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790494842058"
+        }
+      },
+      "processedAt": "2026-09-27T07:40:45.737Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790494975619",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790494975619",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790494973311",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790494973311"
+        }
+      },
+      "processedAt": "2026-09-27T07:42:55.621Z"
+    },
+    {
+      "providerEventId": "evt_final_1790495026119",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_final_1790495026119",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790494973311",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790494973311"
+        }
+      },
+      "processedAt": "2026-09-27T07:43:46.120Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790495100776",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790495100776",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790495099109",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790495099109"
+        }
+      },
+      "processedAt": "2026-09-27T07:45:00.781Z"
+    },
+    {
+      "providerEventId": "evt_final_1790495604527",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_final_1790495604527",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790495099109",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790495099109"
+        }
+      },
+      "processedAt": "2026-09-27T07:53:24.528Z"
+    },
+    {
+      "providerEventId": "evt_test_1790495743802_bde7244b",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_mock_1790495743801_a716ce1b",
+        "client_reference_id": "proj_client_1790495742924_a482b8",
+        "amount_total": 25000,
+        "currency": "usd",
+        "customer_email": "client@enterprise.com",
+        "metadata": {
+          "projectId": "proj_client_1790495742924_a482b8",
+          "commercialAction": "DEPOSIT"
+        }
+      },
+      "processedAt": "2026-09-27T07:55:43.805Z"
+    },
+    {
+      "providerEventId": "evt_parallel_1790495791760_aaa144bf",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_par_1790495791760",
+        "client_reference_id": "proj_client_1790495742924_a482b8",
+        "amount_total": 5000,
+        "currency": "usd",
+        "metadata": {
+          "projectId": "proj_client_1790495742924_a482b8",
+          "commercialAction": "MILESTONE"
+        }
+      },
+      "processedAt": "2026-09-27T07:56:31.760Z"
+    },
+    {
+      "providerEventId": "evt_rev_1790495794294",
+      "provider": "mock",
+      "eventType": "payment_reversed",
+      "projectId": "proj_client_1790495742924_a482b8",
+      "processedAt": "2026-09-27T07:56:34.563Z"
+    },
+    {
+      "providerEventId": "evt_pay_A_1790495800875",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_A_1790495800875",
+        "client_reference_id": "proj_iso_A_1790495800310",
+        "amount_total": 25000,
+        "currency": "usd",
+        "metadata": {
+          "projectId": "proj_iso_A_1790495800310"
+        }
+      },
+      "processedAt": "2026-09-27T07:56:40.876Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790496638060",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790496638060",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790496636577",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790496636577"
+        }
+      },
+      "processedAt": "2026-09-27T08:10:38.062Z"
+    },
+    {
+      "providerEventId": "evt_final_1790496663903",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_final_1790496663903",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790496636577",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790496636577"
+        }
+      },
+      "processedAt": "2026-09-27T08:11:03.904Z"
+    },
+    {
+      "providerEventId": "evt_test_1790507763429_a0c87739",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_mock_1790507763428_ceff35fa",
+        "client_reference_id": "proj_client_1790507761621_383e56",
+        "amount_total": 25000,
+        "currency": "usd",
+        "customer_email": "client@enterprise.com",
+        "metadata": {
+          "projectId": "proj_client_1790507761621_383e56",
+          "commercialAction": "DEPOSIT"
+        }
+      },
+      "processedAt": "2026-09-27T11:16:03.445Z"
+    },
+    {
+      "providerEventId": "evt_parallel_1790507816853_47e15f05",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_par_1790507816854",
+        "client_reference_id": "proj_client_1790507761621_383e56",
+        "amount_total": 5000,
+        "currency": "usd",
+        "metadata": {
+          "projectId": "proj_client_1790507761621_383e56",
+          "commercialAction": "MILESTONE"
+        }
+      },
+      "processedAt": "2026-09-27T11:16:56.856Z"
+    },
+    {
+      "providerEventId": "evt_rev_1790507820239",
+      "provider": "mock",
+      "eventType": "payment_reversed",
+      "projectId": "proj_client_1790507761621_383e56",
+      "processedAt": "2026-09-27T11:17:00.533Z"
+    },
+    {
+      "providerEventId": "evt_pay_A_1790507827724",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_A_1790507827724",
+        "client_reference_id": "proj_iso_A_1790507826896",
+        "amount_total": 25000,
+        "currency": "usd",
+        "metadata": {
+          "projectId": "proj_iso_A_1790507826896"
+        }
+      },
+      "processedAt": "2026-09-27T11:17:07.727Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790508008007",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790508008007",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790508005119",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790508005119"
+        }
+      },
+      "processedAt": "2026-09-27T11:20:08.019Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790508150310",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790508150310",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790508146273",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790508146273"
+        }
+      },
+      "processedAt": "2026-09-27T11:22:30.324Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790508521710",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790508521710",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790508517330",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790508517330"
+        }
+      },
+      "processedAt": "2026-09-27T11:28:41.724Z"
+    },
+    {
+      "providerEventId": "evt_final_1790508566545",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_final_1790508566545",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790508517330",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790508517330"
+        }
+      },
+      "processedAt": "2026-09-27T11:29:26.550Z"
+    },
+    {
+      "providerEventId": "evt_test_1790546503975_014a00ea",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_mock_1790546503975_b43f75e2",
+        "client_reference_id": "proj_client_1790546503144_29f247",
+        "amount_total": 25000,
+        "currency": "usd",
+        "customer_email": "client@enterprise.com",
+        "metadata": {
+          "projectId": "proj_client_1790546503144_29f247",
+          "commercialAction": "DEPOSIT"
+        }
+      },
+      "processedAt": "2026-09-27T22:01:43.979Z"
+    },
+    {
+      "providerEventId": "evt_parallel_1790546839378_e1baac13",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_par_1790546839379",
+        "client_reference_id": "proj_client_1790546503144_29f247",
+        "amount_total": 5000,
+        "currency": "usd",
+        "metadata": {
+          "projectId": "proj_client_1790546503144_29f247",
+          "commercialAction": "MILESTONE"
+        }
+      },
+      "processedAt": "2026-09-27T22:07:19.381Z"
+    },
+    {
+      "providerEventId": "evt_rev_1790546845275",
+      "provider": "mock",
+      "eventType": "payment_reversed",
+      "projectId": "proj_client_1790546503144_29f247",
+      "processedAt": "2026-09-27T22:07:25.922Z"
+    },
+    {
+      "providerEventId": "evt_pay_A_1790546857576",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_A_1790546857576",
+        "client_reference_id": "proj_iso_A_1790546856527",
+        "amount_total": 25000,
+        "currency": "usd",
+        "metadata": {
+          "projectId": "proj_iso_A_1790546856527"
+        }
+      },
+      "processedAt": "2026-09-27T22:07:37.578Z"
+    },
+    {
+      "providerEventId": "evt_deposit_1790547077796",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_deposit_1790547077796",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790547072851",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790547072851"
+        }
+      },
+      "processedAt": "2026-09-27T22:11:17.806Z"
+    },
+    {
+      "providerEventId": "evt_final_1790547121587",
+      "provider": "mock",
+      "eventType": "checkout.session.completed",
+      "payload": {
+        "id": "cs_test_final_1790547121588",
+        "amount_total": 25000,
+        "currency": "usd",
+        "payment_status": "paid",
+        "client_reference_id": "proj_webhook_billing_bridge_1790547072851",
+        "metadata": {
+          "projectId": "proj_webhook_billing_bridge_1790547072851"
+        }
+      },
+      "processedAt": "2026-09-27T22:12:01.589Z"
+    }
+  ]
+}

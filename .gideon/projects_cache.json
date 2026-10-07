@@ -1,0 +1,1058 @@
+{
+  "proj_b2b_automation_service": {
+    "id": "proj_b2b_automation_service",
+    "slug": "b2b-automation-service",
+    "name": "B2b Automation Service",
+    "category": "API_SERVICE",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/b2b-automation-service",
+    "repository": "bawagideon/agent-workspace",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "High-margin B2B workflow automation service with Stripe checkout and automated onboarding webhooks",
+    "targetCustomer": "B2B Agencies & Small Businesses",
+    "problemSolved": "Automates payment collection, onboarding, and webhook routing.",
+    "pricingCents": 85000,
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_b2b_automation_service",
+        "allowedStartCommand": "node src/index.js",
+        "allowedTestCommands": [
+          "node --test tests/*.spec.js",
+          "npm test"
+        ],
+        "workingDirectory": "projects/b2b-automation-service",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV",
+          "STRIPE_PUBLIC_KEY",
+          "PAYSTACK_PUBLIC_KEY"
+        ],
+        "allowedPorts": [
+          4100,
+          4199
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-09-25T03:33:14.688Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "Express",
+        "Stripe",
+        "Node Test Runner"
+      ],
+      "dependencies": {
+        "stripe": "^17.0.0"
+      },
+      "devDependencies": {}
+    },
+    "createdAt": "2026-09-25T03:33:14.688Z",
+    "updatedAt": "2026-09-25T03:33:14.688Z"
+  },
+  "proj_stripe_client_workflow": {
+    "id": "proj_stripe_client_workflow",
+    "slug": "stripe-client-workflow",
+    "name": "Stripe Client Workflow",
+    "category": "SAAS",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/stripe-client-workflow",
+    "repository": "bawagideon/agent-workspace",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "Automated client workflow and Stripe checkout integration",
+    "targetCustomer": "Digital Commerce Clients",
+    "problemSolved": "Automates payment collection, onboarding, and webhook routing.",
+    "pricingCents": 85000,
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_stripe_client_workflow",
+        "allowedStartCommand": "node --import tsx/esm src/index.ts",
+        "allowedTestCommands": [
+          "node --test tests/*.spec.js",
+          "npm test"
+        ],
+        "workingDirectory": "projects/stripe-client-workflow",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV",
+          "STRIPE_PUBLIC_KEY",
+          "PAYSTACK_PUBLIC_KEY"
+        ],
+        "allowedPorts": [
+          4100,
+          4199
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-09-25T03:33:15.898Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "Express",
+        "Stripe",
+        "Node Test Runner"
+      ],
+      "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "stripe": "^14.25.0"
+      },
+      "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.11.30",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.3"
+      }
+    },
+    "createdAt": "2026-09-25T03:33:15.898Z",
+    "updatedAt": "2026-09-25T03:33:15.901Z"
+  },
+  "proj_webhook_billing_bridge": {
+    "id": "proj_webhook_billing_bridge",
+    "slug": "webhook-billing-bridge",
+    "name": "Webhook Billing Bridge",
+    "category": "SAAS",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/webhook-billing-bridge",
+    "repository": "bawagideon/agent-workspace",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "Stripe-to-Discord/Slack Notification & Reconciliation Bridge",
+    "targetCustomer": "Digital Commerce Clients",
+    "problemSolved": "Automates payment collection, onboarding, and webhook routing.",
+    "pricingCents": 85000,
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_webhook_billing_bridge",
+        "allowedStartCommand": "node --import tsx/esm src/index.ts",
+        "allowedTestCommands": [
+          "npm test"
+        ],
+        "workingDirectory": "projects/webhook-billing-bridge",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV",
+          "STRIPE_PUBLIC_KEY",
+          "PAYSTACK_PUBLIC_KEY"
+        ],
+        "allowedPorts": [
+          4100,
+          4199
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-09-27T07:54:32.767Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "Express",
+        "Stripe",
+        "Node Test Runner"
+      ],
+      "dependencies": {},
+      "devDependencies": {}
+    },
+    "createdAt": "2026-09-27T07:54:32.767Z",
+    "updatedAt": "2026-09-27T07:54:32.770Z"
+  },
+  "proj_build_lab_log_analysis": {
+    "id": "proj_build_lab_log_analysis",
+    "slug": "build-lab-log-analysis",
+    "name": "Build Lab Log Analysis",
+    "category": "SAAS",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/build-lab-log-analysis",
+    "repository": "bawagideon/agent-workspace",
+    "currentVersion": "v0.1.0",
+    "revision": 1,
+    "businessObjective": "Automated service implementation for Build Lab Log Analysis",
+    "targetCustomer": "Digital Commerce Clients",
+    "problemSolved": "Automates payment collection, onboarding, and webhook routing.",
+    "pricingCents": 85000,
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_build_lab_log_analysis",
+        "allowedStartCommand": "node src/index.js",
+        "allowedTestCommands": [
+          "node --test tests/*.spec.js",
+          "npm test"
+        ],
+        "workingDirectory": "projects/build-lab-log-analysis",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV",
+          "STRIPE_PUBLIC_KEY",
+          "PAYSTACK_PUBLIC_KEY"
+        ],
+        "allowedPorts": [
+          4100,
+          4199
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-09-30T20:36:58.813Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "Express",
+        "Stripe",
+        "Node Test Runner"
+      ],
+      "dependencies": {},
+      "devDependencies": {}
+    },
+    "createdAt": "2026-09-30T20:36:58.813Z",
+    "updatedAt": "2026-09-30T20:36:58.816Z"
+  },
+  "proj_webhook_payload_debugger": {
+    "id": "proj_webhook_payload_debugger",
+    "slug": "webhook-payload-debugger",
+    "name": "Webhook Payload Debugger & Replay Studio",
+    "category": "DEV_TOOL",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/webhook-payload-debugger",
+    "repository": "bawagideon/agent-workspace",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "Zero-dependency diagnostic engine and interactive sandbox for debugging webhook signatures, body mutations, and clock drift",
+    "targetCustomer": "Backend Engineers & API Developers",
+    "problemSolved": "Diagnoses failed webhook signatures, raw body mutations, timestamp decay, and outputs copy-paste fixes across Node.js, Python, and Go.",
+    "pricingCents": 0,
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_webhook_payload_debugger",
+        "allowedStartCommand": "node src/server.js",
+        "allowedTestCommands": [
+          "node --test test/*.test.js",
+          "npm test"
+        ],
+        "workingDirectory": "projects/webhook-payload-debugger",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV"
+        ],
+        "allowedPorts": [
+          4103
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-10-02T13:50:00.000Z",
+        "approvedBy": "sentinel_qa"
+      },
+      "techStack": [
+        "Node.js",
+        "Crypto",
+        "Node Test Runner",
+        "HTML5 Canvas"
+      ],
+      "dependencies": {},
+      "devDependencies": {}
+    },
+    "createdAt": "2026-10-02T13:50:00.000Z",
+    "updatedAt": "2026-10-02T13:50:00.000Z"
+  },
+  "proj_ai_guardrails_engine": {
+    "id": "proj_ai_guardrails_engine",
+    "slug": "ai-guardrails-engine",
+    "name": "Ai Guardrails Engine",
+    "category": "SAAS",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/ai-guardrails-engine",
+    "repository": "bawagideon/agent-workspace",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "Sub-10ms JSON schema validation, PII redaction, and prompt injection defense filter.",
+    "targetCustomer": "Digital Commerce Clients",
+    "problemSolved": "Automates payment collection, onboarding, and webhook routing.",
+    "pricingCents": 85000,
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_ai_guardrails_engine",
+        "allowedStartCommand": "node src/index.js",
+        "allowedTestCommands": [
+          "node --test tests/*.spec.js",
+          "npm test"
+        ],
+        "workingDirectory": "projects/ai-guardrails-engine",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV",
+          "STRIPE_PUBLIC_KEY",
+          "PAYSTACK_PUBLIC_KEY"
+        ],
+        "allowedPorts": [
+          4100,
+          4199
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-10-02T20:19:53.077Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "Express",
+        "Stripe",
+        "Node Test Runner"
+      ],
+      "dependencies": {},
+      "devDependencies": {}
+    },
+    "createdAt": "2026-10-02T20:19:53.078Z",
+    "updatedAt": "2026-10-02T20:19:53.079Z"
+  },
+  "proj_redis_rate_limiter": {
+    "id": "proj_redis_rate_limiter",
+    "slug": "redis-rate-limiter",
+    "name": "Redis Rate Limiter",
+    "category": "SAAS",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/redis-rate-limiter",
+    "repository": "bawagideon/agent-workspace",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "Sub-millisecond API rate limiting middleware with Redis cluster support and Sentinel QA audit.",
+    "targetCustomer": "Digital Commerce Clients",
+    "problemSolved": "Automates payment collection, onboarding, and webhook routing.",
+    "pricingCents": 85000,
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_redis_rate_limiter",
+        "allowedStartCommand": "node src/index.js",
+        "allowedTestCommands": [
+          "node --test tests/*.spec.js",
+          "npm test"
+        ],
+        "workingDirectory": "projects/redis-rate-limiter",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV",
+          "STRIPE_PUBLIC_KEY",
+          "PAYSTACK_PUBLIC_KEY"
+        ],
+        "allowedPorts": [
+          4100,
+          4199
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-10-02T20:19:56.613Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "Express",
+        "Stripe",
+        "Node Test Runner"
+      ],
+      "dependencies": {},
+      "devDependencies": {}
+    },
+    "createdAt": "2026-10-02T20:19:56.613Z",
+    "updatedAt": "2026-10-02T20:19:56.619Z"
+  },
+  "proj_leadleak_detector": {
+    "id": "proj_leadleak_detector",
+    "slug": "leadleak-detector",
+    "name": "LeadLeak Detector & Pipeline Recovery",
+    "category": "REVENUE_DEFENSE",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/leadleak-detector",
+    "repository": "bawagideon/agent-workspace",
+    "sourceUrl": "https://github.com/bawagideon/agent-workspace/tree/main/projects/leadleak-detector",
+    "demoUrl": "http://localhost:3000/projects/proj_leadleak_detector",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "Eliminate after-hours inbound lead leakage and recover unattended pipeline with 1-click rescue automation.",
+    "targetCustomer": "Agencies, Medical & Cosmetic Clinics, High-Ticket Contractors",
+    "problemSolved": "Intercepts multi-channel inbound inquiries (forms, WhatsApp, calls) and enforces sub-5m response SLAs to stop lead abandonment.",
+    "pricingCents": 480000,
+    "pricingTiers": {
+      "starter": 2500,
+      "standard": 4800,
+      "advanced": 7500,
+      "retainerMonthly": 450
+    },
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "isFlagship": true,
+    "evidenceRef": "ev-qa-contract-1791285928367-leadleak-detector",
+    "verifiedTests": 11,
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_leadleak_detector",
+        "allowedStartCommand": "node src/index.js",
+        "allowedTestCommands": [
+          "npm test"
+        ],
+        "workingDirectory": "projects/leadleak-detector",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV"
+        ],
+        "allowedPorts": [
+          3001
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-10-06T11:25:28.366Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Node Test Runner"
+      ],
+      "dependencies": {},
+      "devDependencies": {}
+    },
+    "createdAt": "2026-10-04T16:45:48.980Z",
+    "updatedAt": "2026-10-06T11:25:28.366Z"
+  },
+  "proj_abandoned_booking_recovery": {
+    "id": "proj_abandoned_booking_recovery",
+    "slug": "abandoned-booking-recovery",
+    "name": "Abandoned Booking Recovery",
+    "category": "REVENUE_DEFENSE",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/abandoned-booking-recovery",
+    "repository": "bawagideon/agent-workspace",
+    "sourceUrl": "https://github.com/bawagideon/agent-workspace/tree/main/projects/abandoned-booking-recovery",
+    "demoUrl": "http://localhost:3000/projects/proj_abandoned_booking_recovery",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "Apply e-commerce cart abandonment mechanics to high-ticket service appointments.",
+    "targetCustomer": "MedSpas, Private Clinics, Salons, High-End Advisory Firms",
+    "problemSolved": "Detects incomplete appointment booking sessions and dispatches automated SMS recovery holding the slot for 30 minutes.",
+    "pricingCents": 520000,
+    "pricingTiers": {
+      "starter": 3000,
+      "standard": 5200,
+      "advanced": 7500,
+      "retainerMonthly": 400
+    },
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "isFlagship": false,
+    "evidenceRef": "ev-qa-contract-1791285928367-abandoned-booking-recovery",
+    "verifiedTests": 4,
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_abandoned_booking_recovery",
+        "allowedStartCommand": "node src/index.js",
+        "allowedTestCommands": [
+          "npm test"
+        ],
+        "workingDirectory": "projects/abandoned-booking-recovery",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV"
+        ],
+        "allowedPorts": [
+          3008
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-10-06T11:25:28.366Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Node Test Runner"
+      ],
+      "dependencies": {},
+      "devDependencies": {}
+    },
+    "createdAt": "2026-10-06T11:16:33.109Z",
+    "updatedAt": "2026-10-06T11:25:28.366Z"
+  },
+  "proj_booking_friction_detector": {
+    "id": "proj_booking_friction_detector",
+    "slug": "booking-friction-detector",
+    "name": "Booking Friction Detector",
+    "category": "CUSTOMER_EXPERIENCE",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/booking-friction-detector",
+    "repository": "bawagideon/agent-workspace",
+    "sourceUrl": "https://github.com/bawagideon/agent-workspace/tree/main/projects/booking-friction-detector",
+    "demoUrl": "http://localhost:3000/projects/proj_booking_friction_detector",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "Slash booking abandonment rates from 84% down to 25% by removing account creation and upfront medical questionnaire hurdles.",
+    "targetCustomer": "Dental Clinics, Aesthetic Practices, Salons, Consultancies",
+    "problemSolved": "Identifies click and form bloat in appointment scheduling flows and streamlines them into high-converting 2-step booking.",
+    "pricingCents": 450000,
+    "pricingTiers": {
+      "starter": 2500,
+      "standard": 4500,
+      "advanced": 6000,
+      "retainerMonthly": 300
+    },
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "isFlagship": false,
+    "evidenceRef": "ev-qa-contract-1791285928367-booking-friction-detector",
+    "verifiedTests": 4,
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_booking_friction_detector",
+        "allowedStartCommand": "node src/index.js",
+        "allowedTestCommands": [
+          "npm test"
+        ],
+        "workingDirectory": "projects/booking-friction-detector",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV"
+        ],
+        "allowedPorts": [
+          3007
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-10-06T11:25:28.366Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Node Test Runner"
+      ],
+      "dependencies": {},
+      "devDependencies": {}
+    },
+    "createdAt": "2026-10-06T11:16:35.915Z",
+    "updatedAt": "2026-10-06T11:25:28.366Z"
+  },
+  "proj_contact_form_intelligence": {
+    "id": "proj_contact_form_intelligence",
+    "slug": "contact-form-intelligence",
+    "name": "Contact Form Intelligence",
+    "category": "SALES_OPERATIONS",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/contact-form-intelligence",
+    "repository": "bawagideon/agent-workspace",
+    "sourceUrl": "https://github.com/bawagideon/agent-workspace/tree/main/projects/contact-form-intelligence",
+    "demoUrl": "http://localhost:3000/projects/proj_contact_form_intelligence",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "Fast-track five-figure buyers before they leave the page while routing low-budget inquiries to self-serve FAQs.",
+    "targetCustomer": "B2B SaaS, Enterprise Consultancies, High-Ticket Agencies",
+    "problemSolved": "Parses incoming contact submissions in real time, scoring Intent, Budget, and Urgency to immediately route VIP enterprise buyers to executive calendars.",
+    "pricingCents": 350000,
+    "pricingTiers": {
+      "starter": 2000,
+      "standard": 3500,
+      "advanced": 5000,
+      "retainerMonthly": 300
+    },
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "isFlagship": false,
+    "evidenceRef": "ev-qa-contract-1791285928367-contact-form-intelligence",
+    "verifiedTests": 4,
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_contact_form_intelligence",
+        "allowedStartCommand": "node src/index.js",
+        "allowedTestCommands": [
+          "npm test"
+        ],
+        "workingDirectory": "projects/contact-form-intelligence",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV"
+        ],
+        "allowedPorts": [
+          3009
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-10-06T11:25:28.366Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Node Test Runner"
+      ],
+      "dependencies": {},
+      "devDependencies": {}
+    },
+    "createdAt": "2026-10-06T11:16:37.677Z",
+    "updatedAt": "2026-10-06T11:25:28.366Z"
+  },
+  "proj_conversion_leak_scanner": {
+    "id": "proj_conversion_leak_scanner",
+    "slug": "conversion-leak-scanner",
+    "name": "Conversion Leak Scanner",
+    "category": "GROWTH_ENGINEERING",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/conversion-leak-scanner",
+    "repository": "bawagideon/agent-workspace",
+    "sourceUrl": "https://github.com/bawagideon/agent-workspace/tree/main/projects/conversion-leak-scanner",
+    "demoUrl": "http://localhost:3000/projects/proj_conversion_leak_scanner",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "Maximize lead capture from existing paid ad traffic by eliminating technical drop-off points.",
+    "targetCustomer": "eCommerce Brands, Direct-to-Consumer, High-Ticket Landing Pages",
+    "problemSolved": "Audits landing pages across 9 technical conversion pillars (mobile UX, page speed, form friction, trust signals) to reveal hidden revenue leaks.",
+    "pricingCents": 550000,
+    "pricingTiers": {
+      "starter": 3000,
+      "standard": 5500,
+      "advanced": 10000,
+      "retainerMonthly": 500
+    },
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "isFlagship": false,
+    "evidenceRef": "ev-qa-contract-1791285928367-conversion-leak-scanner",
+    "verifiedTests": 4,
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_conversion_leak_scanner",
+        "allowedStartCommand": "node src/index.js",
+        "allowedTestCommands": [
+          "npm test"
+        ],
+        "workingDirectory": "projects/conversion-leak-scanner",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV"
+        ],
+        "allowedPorts": [
+          3006
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-10-06T11:25:28.366Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Node Test Runner"
+      ],
+      "dependencies": {},
+      "devDependencies": {}
+    },
+    "createdAt": "2026-10-06T11:16:38.951Z",
+    "updatedAt": "2026-10-06T11:25:28.366Z"
+  },
+  "proj_lead_qualification_engine": {
+    "id": "proj_lead_qualification_engine",
+    "slug": "lead-qualification-engine",
+    "name": "Lead Qualification Engine",
+    "category": "SALES_OPERATIONS",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/lead-qualification-engine",
+    "repository": "bawagideon/agent-workspace",
+    "sourceUrl": "https://github.com/bawagideon/agent-workspace/tree/main/projects/lead-qualification-engine",
+    "demoUrl": "http://localhost:3000/projects/proj_lead_qualification_engine",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "Save 40+ hours per month of senior sales capacity while booking top-tier buyers in under 30 seconds.",
+    "targetCustomer": "High-Ticket B2B, Specialized Agencies, Executive Advisory",
+    "problemSolved": "Evaluates incoming leads across Intent, Budget, Urgency, and ICP Authority (0-100), shielding senior rep calendars from unqualified prospects.",
+    "pricingCents": 480000,
+    "pricingTiers": {
+      "starter": 2500,
+      "standard": 4800,
+      "advanced": 7500,
+      "retainerMonthly": 450
+    },
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "isFlagship": false,
+    "evidenceRef": "ev-qa-contract-1791285928367-lead-qualification-engine",
+    "verifiedTests": 7,
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_lead_qualification_engine",
+        "allowedStartCommand": "node src/index.js",
+        "allowedTestCommands": [
+          "npm test"
+        ],
+        "workingDirectory": "projects/lead-qualification-engine",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV"
+        ],
+        "allowedPorts": [
+          3010
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-10-06T11:25:28.366Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Node Test Runner"
+      ],
+      "dependencies": {},
+      "devDependencies": {}
+    },
+    "createdAt": "2026-10-06T11:16:41.168Z",
+    "updatedAt": "2026-10-06T11:25:28.366Z"
+  },
+  "proj_lead_response_timer": {
+    "id": "proj_lead_response_timer",
+    "slug": "lead-response-timer",
+    "name": "Lead Response Timer & SLA Radar",
+    "category": "SALES_OPERATIONS",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/lead-response-timer",
+    "repository": "bawagideon/agent-workspace",
+    "sourceUrl": "https://github.com/bawagideon/agent-workspace/tree/main/projects/lead-response-timer",
+    "demoUrl": "http://localhost:3000/projects/proj_lead_response_timer",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "Eliminate sales rep response latency blind spots and enforce accountability with live SLA metrics.",
+    "targetCustomer": "B2B Sales Teams, Real Estate Brokerages, Solar Contractors",
+    "problemSolved": "Audits exact minutes between inquiry timestamp and first human touch, exposing median latency on an executive radar.",
+    "pricingCents": 380000,
+    "pricingTiers": {
+      "starter": 2000,
+      "standard": 3800,
+      "advanced": 5000,
+      "retainerMonthly": 300
+    },
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "isFlagship": false,
+    "evidenceRef": "ev-qa-contract-1791285928367-lead-response-timer",
+    "verifiedTests": 5,
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_lead_response_timer",
+        "allowedStartCommand": "node src/index.js",
+        "allowedTestCommands": [
+          "npm test"
+        ],
+        "workingDirectory": "projects/lead-response-timer",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV"
+        ],
+        "allowedPorts": [
+          3003
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-10-06T11:25:28.366Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Node Test Runner"
+      ],
+      "dependencies": {},
+      "devDependencies": {}
+    },
+    "createdAt": "2026-10-06T11:16:42.163Z",
+    "updatedAt": "2026-10-06T11:25:28.366Z"
+  },
+  "proj_lost_lead_recovery_engine": {
+    "id": "proj_lost_lead_recovery_engine",
+    "slug": "lost-lead-recovery-engine",
+    "name": "Lost Lead Recovery Engine",
+    "category": "PIPELINE_REACTIVATION",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/lost-lead-recovery-engine",
+    "repository": "bawagideon/agent-workspace",
+    "sourceUrl": "https://github.com/bawagideon/agent-workspace/tree/main/projects/lost-lead-recovery-engine",
+    "demoUrl": "http://localhost:3000/projects/proj_lost_lead_recovery_engine",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "Monetize existing dormant CRM databases without increasing paid advertising spend.",
+    "targetCustomer": "B2B SaaS, Professional Services, Home Improvement Contractors",
+    "problemSolved": "Scans dormant CRM records for leads contacted once or quotes never closed, deploying personalized reactivation campaigns.",
+    "pricingCents": 520000,
+    "pricingTiers": {
+      "starter": 3000,
+      "standard": 5200,
+      "advanced": 8000,
+      "retainerMonthly": 400
+    },
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "isFlagship": false,
+    "evidenceRef": "ev-qa-contract-1791285928367-lost-lead-recovery-engine",
+    "verifiedTests": 4,
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_lost_lead_recovery_engine",
+        "allowedStartCommand": "node src/index.js",
+        "allowedTestCommands": [
+          "npm test"
+        ],
+        "workingDirectory": "projects/lost-lead-recovery-engine",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV"
+        ],
+        "allowedPorts": [
+          3004
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-10-06T11:25:28.366Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Node Test Runner"
+      ],
+      "dependencies": {},
+      "devDependencies": {}
+    },
+    "createdAt": "2026-10-06T11:16:44.572Z",
+    "updatedAt": "2026-10-06T11:25:28.366Z"
+  },
+  "proj_missed_call_recovery": {
+    "id": "proj_missed_call_recovery",
+    "slug": "missed-call-recovery",
+    "name": "Missed-Call Revenue Recovery",
+    "category": "REVENUE_DEFENSE",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/missed-call-recovery",
+    "repository": "bawagideon/agent-workspace",
+    "sourceUrl": "https://github.com/bawagideon/agent-workspace/tree/main/projects/missed-call-recovery",
+    "demoUrl": "http://localhost:3000/projects/proj_missed_call_recovery",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "Intercept dropped phone calls in real time and salvage prospective booking revenue with zero manual call logging.",
+    "targetCustomer": "Dental Clinics, Roofing/HVAC, MedSpas, Local Services",
+    "problemSolved": "Converts unanswered phone calls into instant text conversations with direct booking links before prospects call a competitor.",
+    "pricingCents": 450000,
+    "pricingTiers": {
+      "starter": 2500,
+      "standard": 4500,
+      "advanced": 6000,
+      "retainerMonthly": 350
+    },
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "isFlagship": false,
+    "evidenceRef": "ev-qa-contract-1791285928367-missed-call-recovery",
+    "verifiedTests": 6,
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_missed_call_recovery",
+        "allowedStartCommand": "node src/index.js",
+        "allowedTestCommands": [
+          "npm test"
+        ],
+        "workingDirectory": "projects/missed-call-recovery",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV"
+        ],
+        "allowedPorts": [
+          3002
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-10-06T11:25:28.366Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Node Test Runner"
+      ],
+      "dependencies": {},
+      "devDependencies": {}
+    },
+    "createdAt": "2026-10-06T11:16:45.604Z",
+    "updatedAt": "2026-10-06T11:25:28.366Z"
+  },
+  "proj_quote_ghost_detector": {
+    "id": "proj_quote_ghost_detector",
+    "slug": "quote-ghost-detector",
+    "name": "Quote Ghost Detector & Aging Radar",
+    "category": "SALES_OPERATIONS",
+    "status": "QA_VERIFIED",
+    "workspacePath": "projects/quote-ghost-detector",
+    "repository": "bawagideon/agent-workspace",
+    "sourceUrl": "https://github.com/bawagideon/agent-workspace/tree/main/projects/quote-ghost-detector",
+    "demoUrl": "http://localhost:3000/projects/proj_quote_ghost_detector",
+    "currentVersion": "v1.0.0",
+    "revision": 1,
+    "businessObjective": "Enforce structured proposal stewardship and stop pipeline slippage on high-ticket custom quotes.",
+    "targetCustomer": "Commercial Contractors, Custom Agencies, Equipment Distributors",
+    "problemSolved": "Monitors outstanding proposals and flags uncontacted quotes past 48 hours to prevent deal abandonment.",
+    "pricingCents": 450000,
+    "pricingTiers": {
+      "starter": 2500,
+      "standard": 4500,
+      "advanced": 6000,
+      "retainerMonthly": 300
+    },
+    "currency": "USD",
+    "buildCostCents": 1,
+    "totalTokensUsed": 12500,
+    "healthStatus": "HEALTHY",
+    "isFlagship": false,
+    "evidenceRef": "ev-qa-contract-1791285928367-quote-ghost-detector",
+    "verifiedTests": 3,
+    "metadata": {
+      "executionProfile": {
+        "projectId": "proj_quote_ghost_detector",
+        "allowedStartCommand": "node src/index.js",
+        "allowedTestCommands": [
+          "npm test"
+        ],
+        "workingDirectory": "projects/quote-ghost-detector",
+        "environmentPolicy": [
+          "PORT",
+          "NODE_ENV"
+        ],
+        "allowedPorts": [
+          3005
+        ],
+        "resourceLimits": {
+          "maxMemoryMb": 512,
+          "timeoutMs": 600000
+        },
+        "profileVersion": 1,
+        "approvedAt": "2026-10-06T11:25:28.366Z",
+        "approvedBy": "system_boot"
+      },
+      "techStack": [
+        "Node.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Node Test Runner"
+      ],
+      "dependencies": {},
+      "devDependencies": {}
+    },
+    "createdAt": "2026-10-06T11:16:49.069Z",
+    "updatedAt": "2026-10-06T11:25:28.366Z"
+  }
+}

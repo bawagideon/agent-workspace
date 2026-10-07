@@ -1,0 +1,20 @@
+[
+  {
+    "id": "evt-1790960496956-sm6k",
+    "type": "SENTINEL_NOTIFICATION_EMITTED",
+    "payload": {
+      "level": "DAILY_INTELLIGENCE",
+      "type": "FLYWEEL",
+      "title": "Sentinel Daily Intelligence Brief (2026-10-02)",
+      "message": "0 opportunities reviewed • 0 confirmed pains • 0 reusable capabilities identified.",
+      "observation": "System operating with 98% health score under Governed OS v5.2.",
+      "recommendation": "Inspect Opportunity #006 micro-prototype and review Gate 3 staged releases.",
+      "source": "Sentinel Daily Observer",
+      "actionUrl": "/loops",
+      "id": "notif-sentinel-1790960496952-xrm2",
+      "timestamp": "2026-10-02T17:01:36.952Z",
+      "read": false
+    },
+    "timestamp": "2026-10-02T17:01:36.956Z"
+  }
+]

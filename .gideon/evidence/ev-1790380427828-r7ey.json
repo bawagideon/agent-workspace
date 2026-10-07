@@ -1,0 +1,22 @@
+{
+  "id": "ev-1790380427828-r7ey",
+  "taskId": "task_001",
+  "agentId": "forge",
+  "sessionKey": "agent:forge:task_001",
+  "runId": "mock_run_1790380427828",
+  "model": "unknown",
+  "toolNames": [],
+  "toolArgs": {
+    "workspaceId": "ws_main",
+    "prompt": "Implement the invoice parser module according to spec.",
+    "projectId": "proj_b2b_service"
+  },
+  "toolResult": "Mock OpenClaw Execution Successful",
+  "exitCode": 0,
+  "testPassed": true,
+  "tokensUsed": 150,
+  "costCents": 0.1,
+  "costUsd": 0,
+  "timestamp": "2026-09-25T23:53:47.829Z",
+  "signature": "65d80a3c4965763dd72046b0b2c8d479aaafbca855c6d1dd9f994cac618ce27f"
+}

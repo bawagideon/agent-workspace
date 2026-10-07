@@ -1,0 +1,14 @@
+▶ Adversarial QA Audit
+  ✔ should reject negative or extremely high transaction volumes (boundary test) (2.9427ms)
+  ✔ should prevent SQL/NoSQL injection in automation payloads (0.3008ms)
+  ✔ should enforce strict rate limiting on high-margin API endpoints (0.2973ms)
+  ✔ should reject unauthorized privilege escalation attempts (0.2908ms)
+✔ Adversarial QA Audit (6.2402ms)
+ℹ tests 4
+ℹ suites 1
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 223.988

@@ -1,0 +1,1443 @@
+[
+  {
+    "id": "sess_66f2c3e995331fcd13caf4497b46bd39",
+    "sessionHash": "b8bc342c4bbf0881b29ffd006edbff516ba64caf44a7543f447e838135f3d761",
+    "shareId": "share_0ef1d82a6f6cf9385a381c9bdfc21470",
+    "projectId": "proj_portal_1790480392836_bc3011",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_83cd87d002511fc8f1abe76fe47fd330fe7faf21dda72398",
+    "expiresAt": "2026-10-04T03:39:55.565Z",
+    "createdAt": "2026-09-27T03:39:57.917Z"
+  },
+  {
+    "id": "sess_c48d1db177c6548ef1d441777da82d96",
+    "sessionHash": "db35603bf823999c4193060607ba4689e292e322ccaea32384594b8537f1cd75",
+    "shareId": "share_4677d84d3a62ef29da362528c1d2c2fb",
+    "projectId": "proj_portal_1790480392836_bc3011",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_549e532873f96b530f6f151114fa9e1cb3c7170b612738d9",
+    "expiresAt": "2026-10-04T03:40:04.675Z",
+    "createdAt": "2026-09-27T03:40:07.193Z"
+  },
+  {
+    "id": "sess_f203a43f2577aa0ffcd66096841d5557",
+    "sessionHash": "f2bd276f6cbfa351c559aad024617f483c229cb41982d7fdca6f912cae198e40",
+    "shareId": "share_27f0ca9d6128584aa0305ef8292fe341",
+    "projectId": "proj_appr_STAGING_1790480411125",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_a6e27b3c1b43d8c800bcb64a8ce729586942cdfe4f9220c3",
+    "expiresAt": "2026-10-04T03:40:11.744Z",
+    "createdAt": "2026-09-27T03:40:13.280Z"
+  },
+  {
+    "id": "sess_f70d740e3ecd9e978ea4f75eda6a0737",
+    "sessionHash": "1599cf01c0bb49154cb960798b11dfe9d55eeab63791fbb2c2ebc25861cb4436",
+    "shareId": "share_d9158451f7b40bb3226ec708b55292b2",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790480414812",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_248829d99926400cff958af2df5d33baaceac7c9c0251e79",
+    "expiresAt": "2026-10-04T03:40:15.417Z",
+    "createdAt": "2026-09-27T03:40:17.265Z"
+  },
+  {
+    "id": "sess_14e8c357de6c0a80bf0958e6f80f7850",
+    "sessionHash": "08340195da3ac8143dbd510ba95b73cd180d51d29a95233b8e7da4cafad80342",
+    "shareId": "share_80492ba5a1b96f0d161e9cce43c76e77",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790480418720",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_556917454f85cd924ef038c63b48443046fd4462d6e73365",
+    "expiresAt": "2026-10-04T03:40:19.291Z",
+    "createdAt": "2026-09-27T03:40:20.643Z"
+  },
+  {
+    "id": "sess_5307494515492371b006d8c0f415b70f",
+    "sessionHash": "0f6e730930dc1b44336021a1692139564d401cc61ff3c9de556095f94badfc75",
+    "shareId": "share_5dc6459f0fef886ebb735ee2ae793a27",
+    "projectId": "proj_appr_DEPLOYED_1790480422220",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_be600d0e9da032e341d3c747b67102a8bac6551ee1e0f4a1",
+    "expiresAt": "2026-10-04T03:40:22.829Z",
+    "createdAt": "2026-09-27T03:40:24.398Z"
+  },
+  {
+    "id": "sess_0663ac598f953208595dcb69be744b8c",
+    "sessionHash": "b659a4249a1dedeeeef205e3a3e14074a48b82a08eba514a7cc44fa704791e35",
+    "shareId": "share_7749d5a10aed83153b74c1348f36701c",
+    "projectId": "proj_A_1790480425894",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_221c9590f140dd92f2c9a67fd46210b1b45ef89b2408b07d",
+    "expiresAt": "2026-10-04T03:40:26.819Z",
+    "createdAt": "2026-09-27T03:40:28.360Z"
+  },
+  {
+    "id": "sess_750f30b73bb0154a8943ce0c987c2b51",
+    "sessionHash": "db3838a9aa8263ffc5622a3ef768c6cdc1cbe262fa12fac3345f8a8a86127e7d",
+    "shareId": "share_19dbc148b93f8bcc6bf5aa011f528eb8",
+    "projectId": "proj_portal_1790480482299_16cbeb",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_b8b75b9feeef16aebef8672275ef0c90dd9a1391e561d786",
+    "expiresAt": "2026-10-04T03:41:23.831Z",
+    "createdAt": "2026-09-27T03:41:25.797Z"
+  },
+  {
+    "id": "sess_4765ed3bf7df0ba4109283b554aad94b",
+    "sessionHash": "024147a9e02d938c9007c3bb89a14f8a66efd11b219b091823376bbdf8065c61",
+    "shareId": "share_d6c28e601909755f7c7eb1f8f8e1423f",
+    "projectId": "proj_portal_1790480482299_16cbeb",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_87737873336d12eb1fbaa2a8a01d81a167f7b0b3c833bcfc",
+    "expiresAt": "2026-10-04T03:41:34.136Z",
+    "createdAt": "2026-09-27T03:41:35.570Z"
+  },
+  {
+    "id": "sess_bb7d3c9776b29c23203b2a4b2389175e",
+    "sessionHash": "c9dc12929470dc9c2400336f4719068899a04fbe7942e2f989395cd210745c7b",
+    "shareId": "share_c7b4bd0e0374165b3aaec5b0bbd6cb69",
+    "projectId": "proj_appr_STAGING_1790480499315",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_f4406ccd6ebe32f9dbf739fd0d2a7fca1689a0088011d473",
+    "expiresAt": "2026-10-04T03:41:39.907Z",
+    "createdAt": "2026-09-27T03:41:41.421Z"
+  },
+  {
+    "id": "sess_1a25b747a4bf7dd01a45e931cdf96458",
+    "sessionHash": "e74f07c2d65a9f3fa8705a144d41cf9b159444707a92edac491e596e34cc0812",
+    "shareId": "share_c1098b145a07f55a97d811edbbb74377",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790480503790",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_0900b2360afbaf30eee601277793ec8e871ece03874de22c",
+    "expiresAt": "2026-10-04T03:41:44.397Z",
+    "createdAt": "2026-09-27T03:41:45.843Z"
+  },
+  {
+    "id": "sess_90cc59dbeb466073f59060b67bf03477",
+    "sessionHash": "fc21be485544b1da1bb2c39ab7c79e7cc4a7b5938c00d1f876ec1b208272384a",
+    "shareId": "share_efaf7cef51341b3a7df26721bca78948",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790480507641",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_6e5c388b429c5a75260757cfcc02a6cf30c5ead7506e6525",
+    "expiresAt": "2026-10-04T03:41:48.309Z",
+    "createdAt": "2026-09-27T03:41:49.742Z"
+  },
+  {
+    "id": "sess_eb0c1facde7b26705e78077e8bef1539",
+    "sessionHash": "0abd6dcfb012c3a053c509a69cbdf5eb02d0492f45984d125aa0dab62962ecff",
+    "shareId": "share_949ff78485494e06cabe7480682d9f6e",
+    "projectId": "proj_appr_DEPLOYED_1790480511279",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_5249c0b4ac9fec1cdeb5e7a439451ed73e676c799a29dc33",
+    "expiresAt": "2026-10-04T03:41:51.897Z",
+    "createdAt": "2026-09-27T03:41:53.746Z"
+  },
+  {
+    "id": "sess_864880dfc32831506cb6db5ec4f2cfa1",
+    "sessionHash": "38b8f6e8496b3936f3f01da27c21e28a98a93edd7a1854508666cc72f540f604",
+    "shareId": "share_b190acc893fe9eed72be50ad68723e20",
+    "projectId": "proj_A_1790480516169",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_528a7a83c22f80cff8ffe2e5c5b45a66ecd65704f2c73a2d",
+    "expiresAt": "2026-10-04T03:41:57.063Z",
+    "createdAt": "2026-09-27T03:41:59.568Z"
+  },
+  {
+    "id": "sess_5ca8ef2f25344554d5d7898ad23fa85b",
+    "sessionHash": "c4eaec702db4678b7af6e441502d7ed736b22da5fcf9d38f73b53b85ce8890f8",
+    "shareId": "share_c74ab77d1019ede01a15c4d1b4a13254",
+    "projectId": "proj_portal_1790480586490_ebd70b",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_9d0951f3d8d2ee84f6acafd3c1eef8b53703105cfd8cf123",
+    "expiresAt": "2026-10-04T03:43:07.509Z",
+    "createdAt": "2026-09-27T03:43:10.434Z"
+  },
+  {
+    "id": "sess_04e534c39e075b3e3a11dc06cd5d864a",
+    "sessionHash": "8e009656dca17461941cd9875113acbf660563e184ff54fc4fa7f13348ed5643",
+    "shareId": "share_72c1b8db8ead2da35ea1dfa272027228",
+    "projectId": "proj_portal_1790480586490_ebd70b",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_fe4b17cc67e21c597020120ba6783f07f56665f1458c95a7",
+    "expiresAt": "2026-10-04T03:43:17.725Z",
+    "createdAt": "2026-09-27T03:43:20.073Z"
+  },
+  {
+    "id": "sess_79554aa16292e9b16d4d7add4a344031",
+    "sessionHash": "06b94cb420f9a5ee2ed0a5f76e0367bcfbc87a090e90b3f62328fb16e75b3a1f",
+    "shareId": "share_5122bff36d76abd3fd695d69a9583030",
+    "projectId": "proj_appr_STAGING_1790480602909",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_4ad10cf1e625c50f3a429b65d4bc670a5d12d3708f5a51c4",
+    "expiresAt": "2026-10-04T03:43:23.519Z",
+    "createdAt": "2026-09-27T03:43:25.195Z"
+  },
+  {
+    "id": "sess_d994993b30560a946cca07ec2b9a9107",
+    "sessionHash": "7e4f7951c9498c089de28ad8194ff9e774ebbbf3f9d240bfb68c5ee849a7598d",
+    "shareId": "share_5cf2ef447ec51cf16201b18edfe6365d",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790480607011",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_da196a3ceb7544dc5cb28dd87bf95224c158e03125acf2dd",
+    "expiresAt": "2026-10-04T03:43:27.618Z",
+    "createdAt": "2026-09-27T03:43:29.069Z"
+  },
+  {
+    "id": "sess_8fbcc2a2e06f2697ec298efe4ff71113",
+    "sessionHash": "c4b772abb738b668443c1a6af40304ea3777098984ec66b857c19c0706c4fc8c",
+    "shareId": "share_aa8153ea9ad3e019228b94258f1389f2",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790480610743",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_83d892d61aeb394601e7ea1e4d8b378f64070d77895b4532",
+    "expiresAt": "2026-10-04T03:43:31.328Z",
+    "createdAt": "2026-09-27T03:43:32.892Z"
+  },
+  {
+    "id": "sess_c08ae5ed9085ec63024fe09dc7263367",
+    "sessionHash": "6361f0fa6b1be4f95a2f31d5021d5c1c9c3a950ae7aacebdd6d3b0a5ee5d5e4d",
+    "shareId": "share_32ca9b337456903eca0763899c196fdf",
+    "projectId": "proj_appr_DEPLOYED_1790480614435",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_3b3c0d35d01230087333fd4c5f2f5140dd2dfed15f4d0c2a",
+    "expiresAt": "2026-10-04T03:43:35.053Z",
+    "createdAt": "2026-09-27T03:43:36.722Z"
+  },
+  {
+    "id": "sess_797270e34f0a1305d0ffe37070ffb6ac",
+    "sessionHash": "73d5d8cd280ea49ac4b6e01e5df5b5a9102cbcf6fced6d6c81f67f19a17cc29c",
+    "shareId": "share_58efa6805852dba5bf2949220f9d3fd2",
+    "projectId": "proj_A_1790480618267",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_0f266d806a66e3cd75ff421906f5a49ff78000149c089202",
+    "expiresAt": "2026-10-04T03:43:39.314Z",
+    "createdAt": "2026-09-27T03:43:40.929Z"
+  },
+  {
+    "id": "sess_e4e0615c9dc5b22f4b3f012e4b09da08",
+    "sessionHash": "dc0374fca19a9f35c4e5b90ad763ed98aac884f234f921bf4c3c6ccbf10679fa",
+    "shareId": "share_2b5f4e7c4e34c32270c6b1ea1604b688",
+    "projectId": "proj_portal_1790480845891_af8a4f",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_b24f2e8b5ccf21d22f80b2faad55b7e5890183c054fecee5",
+    "expiresAt": "2026-10-04T03:47:27.913Z",
+    "createdAt": "2026-09-27T03:47:31.165Z"
+  },
+  {
+    "id": "sess_2e8004dd8c0fb8bf46ed6da961008190",
+    "sessionHash": "b79af70fce43d2620a214a7c7eda9e07dab81955e00255b2a797e839e16cd1f4",
+    "shareId": "share_fd1addc0ac8bb63f3e91724df26bb93f",
+    "projectId": "proj_portal_1790480845891_af8a4f",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_9e6b2c4d05c7cd0ee42361f6b31601ac96e2567e6239c496",
+    "expiresAt": "2026-10-04T03:47:37.533Z",
+    "createdAt": "2026-09-27T03:47:39.661Z"
+  },
+  {
+    "id": "sess_ee3ad4f7cd67c360403e97f137a7c585",
+    "sessionHash": "f658e84c983ad4053ffb5310e4707e8c4a3e052517c5351e9c34dd5e83aa9170",
+    "shareId": "share_2ca31516df37a307c47ec91bea8e8939",
+    "projectId": "proj_appr_STAGING_1790480862667",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_cde4a3face5b68913b210f30b3d54217a5536949248fbdb5",
+    "expiresAt": "2026-10-04T03:47:43.227Z",
+    "createdAt": "2026-09-27T03:47:44.705Z"
+  },
+  {
+    "id": "sess_b5b43c532c01b37f70f5b1ae5099a8fc",
+    "sessionHash": "7974f8f5629080acfbb92709605d589aa16291e1687a133a378d69df64628574",
+    "shareId": "share_49d48e567a73ad8f829ccd4ad2d66ce7",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790480866215",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_2f50d246d6d8daed37669f827cdd00e0765330e69f1289b2",
+    "expiresAt": "2026-10-04T03:47:46.900Z",
+    "createdAt": "2026-09-27T03:47:48.471Z"
+  },
+  {
+    "id": "sess_fba83f9cb8eafe7d63815b8bd8f5a169",
+    "sessionHash": "76a5601f53b7bbcedca277d42253c8841e6ca5fbb37559b11949e1d9a9fe8872",
+    "shareId": "share_37e84ae0be97419df52b20b001f291aa",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790480869890",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_588afa646e527098665eb7f1e89ada5b46763eb264586a61",
+    "expiresAt": "2026-10-04T03:47:50.538Z",
+    "createdAt": "2026-09-27T03:47:52.963Z"
+  },
+  {
+    "id": "sess_b75d242b1a42642dd55b3a63d6491f35",
+    "sessionHash": "7674f9d012d2f931553676213d97cab5bdd3249a2f8a8815f50061aeaa03fced",
+    "shareId": "share_2334f1de1ff4dd752d818b2cfbc1e90e",
+    "projectId": "proj_appr_DEPLOYED_1790480874740",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_578368116162acfbc04b33e9837ce807477f3e27a5bd38ec",
+    "expiresAt": "2026-10-04T03:47:55.309Z",
+    "createdAt": "2026-09-27T03:47:56.673Z"
+  },
+  {
+    "id": "sess_95daac0abf88f1ad33a3aff8f960cd0a",
+    "sessionHash": "02696c8b48c1e1ff4944c787dcc9a5002141f75423f58875ffc31213a9dacbb7",
+    "shareId": "share_47e4bb6a5f524db53a1b3764cfbe11be",
+    "projectId": "proj_A_1790480878215",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_585709d1fa4e77dcaf2621a6323559afe0ba410eda79ca83",
+    "expiresAt": "2026-10-04T03:47:59.447Z",
+    "createdAt": "2026-09-27T03:48:01.060Z"
+  },
+  {
+    "id": "sess_2ff442079fa035b5ab458ff9c7388e2f",
+    "sessionHash": "d738544e095e04726aee7d314bd87ab4d7140abd808bc222e1989ea3764e15a7",
+    "shareId": "share_a6bc19e56f83bdfd0e8760e018ff1e9d",
+    "projectId": "proj_portal_1790480845891_af8a4f",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_bd4ede57265b798dee66d5828b8c49b1b8e8f6faeacd3f67",
+    "expiresAt": "2026-10-04T03:48:09.534Z",
+    "createdAt": "2026-09-27T03:48:10.965Z",
+    "revokedAt": "2026-09-27T03:48:13.117Z"
+  },
+  {
+    "id": "sess_a5d022a827824cca07b7690f655ad4ed",
+    "sessionHash": "c584dbf6240c686222302cc29f7a44c4ed53ff5c5010056799b32cddb4f9aeeb",
+    "shareId": "share_5500188a65bb17d36306ccd22891e75c",
+    "projectId": "proj_portal_1790480930398_ca5e80",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_acf7903de7085c47b6860dd054370c13cbe181c978dbb735",
+    "expiresAt": "2026-10-04T03:48:52.197Z",
+    "createdAt": "2026-09-27T03:48:54.041Z"
+  },
+  {
+    "id": "sess_770a6d59444657c942677a977edfa2bb",
+    "sessionHash": "30ac41417c763ebea5c5fe6fb1eaa2d16849d11780eb3d2fc496b51caa0ebc64",
+    "shareId": "share_1b4ec13a530a452abe7633ad59b8ab72",
+    "projectId": "proj_portal_1790480930398_ca5e80",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_b044b69386183d6b81192faed96b7d46d682b7b6a33da502",
+    "expiresAt": "2026-10-04T03:49:01.082Z",
+    "createdAt": "2026-09-27T03:49:02.697Z"
+  },
+  {
+    "id": "sess_c5c32ab60ec1f77adb8ca42ed111794a",
+    "sessionHash": "1741cd5cba7a6a0148601d87a47ba543a05d1a97246211414feda37294fba36f",
+    "shareId": "share_8991de0142cad31c64f280e664c9eda6",
+    "projectId": "proj_appr_STAGING_1790480945615",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_71059ea3aca8f11581ab6d0af620660540c508a80844d8a8",
+    "expiresAt": "2026-10-04T03:49:06.227Z",
+    "createdAt": "2026-09-27T03:49:08.080Z"
+  },
+  {
+    "id": "sess_f0a987ee036739fa2f2036964210ea32",
+    "sessionHash": "df4b524bd163097440c7a8c8e747e3b1eb305e53c5bfd0eef2fe308366ffdaba",
+    "shareId": "share_7ff0b475a590fed6318098be443bc697",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790480949981",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_2035e77e7b76c9571f290716b0d9ea8ec25b8cefa6ee1a3e",
+    "expiresAt": "2026-10-04T03:49:10.737Z",
+    "createdAt": "2026-09-27T03:49:13.554Z"
+  },
+  {
+    "id": "sess_84954411cc458a2fc85c751e8b3aa3dd",
+    "sessionHash": "d41d8b71e34ad6d181d7b94c7636beba5fb0d12bd3aaa616754d9df3fa96c14c",
+    "shareId": "share_a4a59f91f4dc106b7823cffb69f6cf7a",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790480954942",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_a4337f8b0bb581621cabc11e886c9fc4557f3f7f9a730f41",
+    "expiresAt": "2026-10-04T03:49:15.523Z",
+    "createdAt": "2026-09-27T03:49:17.386Z"
+  },
+  {
+    "id": "sess_913c31485b40e6f3aeb044bb51ef6563",
+    "sessionHash": "fff0991e0b7a38f3deb5e646ef1c4c382c30aaa78ca45b4fc422ae3e1694860f",
+    "shareId": "share_910fada9219a374786e73c2e750b74a5",
+    "projectId": "proj_appr_DEPLOYED_1790480958939",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_51acbc986be5f3abbfa96742549f54750bd463c72f926c45",
+    "expiresAt": "2026-10-04T03:49:19.588Z",
+    "createdAt": "2026-09-27T03:49:21.128Z"
+  },
+  {
+    "id": "sess_45371c008d5a2991d363fd0b635d95d5",
+    "sessionHash": "1083f3921928ee74f38a94ac9f66b2169926eea88418d6c4c6651b068994a73b",
+    "shareId": "share_a4cc5247a5ecd7613e9b6a288a75620e",
+    "projectId": "proj_A_1790480962864",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_2c57fe689f4e1db49438f1049eb9433740c8cc8b8780f84d",
+    "expiresAt": "2026-10-04T03:49:24.464Z",
+    "createdAt": "2026-09-27T03:49:25.945Z"
+  },
+  {
+    "id": "sess_ed11f6ecc298567d46ebcb9420645056",
+    "sessionHash": "135020b4d40ba508155f24fd665a27def49761ab16de909601f83a8295eefac9",
+    "shareId": "share_f576ed15d57872d334e7d639f558f647",
+    "projectId": "proj_portal_1790480930398_ca5e80",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_17744e4301dfb5595531b350e6a4b5c447a1afb5c1f0faeb",
+    "expiresAt": "2026-10-04T03:49:32.135Z",
+    "createdAt": "2026-09-27T03:49:33.715Z",
+    "revokedAt": "2026-09-27T03:49:35.778Z"
+  },
+  {
+    "id": "sess_7809ed8d90135d393b78249f6d3a37ae",
+    "sessionHash": "c72c790e3019b028ff8649727e7a4cf1351eb9871c0df3b228c9ef24707de251",
+    "shareId": "share_14d8e60ef6f267de5c65af7483228943",
+    "projectId": "proj_portal_1790480930398_ca5e80",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_9a6f2405abd598093dfe7b4517622539a9077c0cd91b0b78",
+    "expiresAt": "2026-10-04T03:49:38.005Z",
+    "createdAt": "2026-09-27T03:49:39.470Z"
+  },
+  {
+    "id": "sess_102b1f488fb5edf120a376d45dcb609a",
+    "sessionHash": "42b6088d7a1304672977e5ea757cbb9dd4d5138c81f539493dafec889d0a8df2",
+    "shareId": "share_6eddc7df5d5f9fac958b810bc441a17c",
+    "projectId": "proj_portal_1790480930398_ca5e80",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_8ebd34ee3916ef470d852b0756cf00fa6ca78949787bd042",
+    "expiresAt": "2026-10-04T03:49:45.682Z",
+    "createdAt": "2026-09-27T03:49:48.173Z"
+  },
+  {
+    "id": "sess_273fb8e6ac8c479b9c0a8a9c6981a089",
+    "sessionHash": "70251ce834451e941ca1af38e53f490f1a7fd150dc16b9aae0fceaa28392e766",
+    "shareId": "share_ee400a8cf72e631f5e3562c3eadc1e61",
+    "projectId": "proj_portal_1790481021148_1b586c",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_3f954182bd6c048782c45dd7131c5bb2a15b2fa2ea4bdae3",
+    "expiresAt": "2026-10-04T03:50:22.716Z",
+    "createdAt": "2026-09-27T03:50:24.732Z"
+  },
+  {
+    "id": "sess_bd063e34ef2253752d546125a81c80cd",
+    "sessionHash": "559b28abe894815b730182532a74dd258dee5e13495031d7c365513cdc2152fa",
+    "shareId": "share_c075b13c20b7cbbecea08f659a626953",
+    "projectId": "proj_portal_1790481021148_1b586c",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_a10df078e7ab04e35ecc7b152cdaca83ff6341b1fe59ed4b",
+    "expiresAt": "2026-10-04T03:50:34.910Z",
+    "createdAt": "2026-09-27T03:50:36.342Z"
+  },
+  {
+    "id": "sess_6d498d42bf781109ad1dd0212b78dddc",
+    "sessionHash": "fdf04e2ad9e4ff5734bc10ff8ef96744c4533fb351c29d18369a4d2ebf4e1ca7",
+    "shareId": "share_0e925cc5b358dade26f74f00b51e7a1b",
+    "projectId": "proj_appr_STAGING_1790481039528",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_87ff1702b9d6cfa7af205ac95e6bf33ecf1102b5821d0bb9",
+    "expiresAt": "2026-10-04T03:50:40.137Z",
+    "createdAt": "2026-09-27T03:50:42.038Z"
+  },
+  {
+    "id": "sess_9f20db18afe1238dfeeccb6baa7b7632",
+    "sessionHash": "fd336c7a6ead9ee5430bffc3108d9b937ea908ddc4120c248bdf5b01825ec016",
+    "shareId": "share_70e4b6d631cda900035a6d1aa781a7e4",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790481044340",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_c5bfd2024071b39a51a676282d826ecbb1d6e56fde968b98",
+    "expiresAt": "2026-10-04T03:50:44.899Z",
+    "createdAt": "2026-09-27T03:50:46.355Z"
+  },
+  {
+    "id": "sess_df01ff57fcfa317caad55868351bfb42",
+    "sessionHash": "5e0a54ed70a1abf66b1176eeb531b8173406223a2653f7786fe58cfa120ce92d",
+    "shareId": "share_28381bc8ad950aed8fbab3bc7109771b",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790481047844",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_45c87cb09f3976f2d3ed79d60d7a801e9d8e8d2dac010b88",
+    "expiresAt": "2026-10-04T03:50:48.464Z",
+    "createdAt": "2026-09-27T03:50:49.964Z"
+  },
+  {
+    "id": "sess_56794fdd17b945d62d22a31096eec875",
+    "sessionHash": "6d0eb414a2d8c31b32f09a9591d7cffed9eec260e76e85a06ad8d60a2277a988",
+    "shareId": "share_99999d7037c835f369d8e5d9b9631457",
+    "projectId": "proj_appr_DEPLOYED_1790481052285",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_69343272196a5146afc6e55e724f542d25fad6f2bfde6fbc",
+    "expiresAt": "2026-10-04T03:50:52.932Z",
+    "createdAt": "2026-09-27T03:50:55.484Z"
+  },
+  {
+    "id": "sess_89e909db439b53740e8d0394d6fd139d",
+    "sessionHash": "75287d301365b8ff3bf62b78bb37f01228ee4ff7cd8a2315902d5550617ca57e",
+    "shareId": "share_2162a97a487a5e3d8e6766248f1eb5f2",
+    "projectId": "proj_A_1790481056891",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_75e7521542a1d47e19d6c032adcf9e2b784778b688b8cf7c",
+    "expiresAt": "2026-10-04T03:50:57.919Z",
+    "createdAt": "2026-09-27T03:50:59.305Z"
+  },
+  {
+    "id": "sess_d206bd68909ed30133dbc2893c43c529",
+    "sessionHash": "cdf35f8f04769fb4dfc294ab2242f29e7a2d1561ac4a63e4b1a873a2c8d86cba",
+    "shareId": "share_d8003beffae46302f779783a867b6904",
+    "projectId": "proj_portal_1790481021148_1b586c",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_314c02ab987d18467b0555a9021ffeaf3fbba967838a97f7",
+    "expiresAt": "2026-10-04T03:51:05.235Z",
+    "createdAt": "2026-09-27T03:51:07.190Z",
+    "revokedAt": "2026-09-27T03:51:10.421Z"
+  },
+  {
+    "id": "sess_75944cc4c825a366672710b52e3653cf",
+    "sessionHash": "635d1f8809051e5106b93032f7361acc85ce88d6f96cab8a57757a3e2904b00c",
+    "shareId": "share_6ded423bcca4c1812f8999d8ec95c4b4",
+    "projectId": "proj_portal_1790481021148_1b586c",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_d0d0eaa5360720663e24cb40a166bfd24f42c9a031bdba88",
+    "expiresAt": "2026-10-04T03:51:12.835Z",
+    "createdAt": "2026-09-27T03:51:14.352Z"
+  },
+  {
+    "id": "sess_d91be0258a2c93392f8084d2eba01718",
+    "sessionHash": "12bcc108cdff55a6276bb54a46fef70d981593aae8214c856a6fdb27c1c5f864",
+    "shareId": "share_d0b329651235e3e43fb6ed528039f2a3",
+    "projectId": "proj_portal_1790481021148_1b586c",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_01c4a8c0fd79a9f0a477fbda6960e2a26b7f250be9f25dcd",
+    "expiresAt": "2026-10-04T03:51:22.527Z",
+    "createdAt": "2026-09-27T03:51:24.640Z"
+  },
+  {
+    "id": "sess_f3b40bcaec2e2d572a48f025b8903bc4",
+    "sessionHash": "6ab12c9a2e8dfa363f89e468608711b5b664395c8bd96499550e27e7f6f769ee",
+    "shareId": "share_e583819b584044a0c0a2868faf512d3e",
+    "projectId": "proj_portal_1790481301070_519460",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_f6cba0a795be7d6cad621333948053c3f63e278f2af4da88",
+    "expiresAt": "2026-10-04T03:55:02.100Z",
+    "createdAt": "2026-09-27T03:55:03.909Z"
+  },
+  {
+    "id": "sess_2ecd1d511d37a00b1f7c93beddd77617",
+    "sessionHash": "51cc29dde106809f81ae821dd59cfec9c0c6af554c5edd33f340224837009498",
+    "shareId": "share_2c460c7dd7e9938b83a42896e083fbb1",
+    "projectId": "proj_portal_1790481301070_519460",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_de4d0e50baaee3fdcaffb6412e30878b92daaee4e41c42c8",
+    "expiresAt": "2026-10-04T03:55:10.582Z",
+    "createdAt": "2026-09-27T03:55:12.141Z"
+  },
+  {
+    "id": "sess_f766cb70575608924a40807b0928ea5d",
+    "sessionHash": "80b73897f96fb3f85f99c6973826715e408f84c6f171c0088dd61a15959300fd",
+    "shareId": "share_ebf33e3731c52fdb7628ab3b8b10031b",
+    "projectId": "proj_appr_STAGING_1790481316032",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_a70a3454e8ae770f2eb602306d5c76be50ec1dd3e0f6c617",
+    "expiresAt": "2026-10-04T03:55:16.644Z",
+    "createdAt": "2026-09-27T03:55:18.182Z"
+  },
+  {
+    "id": "sess_4a65dff00dd1a9a9e6839c976b4ad330",
+    "sessionHash": "e8d5f73b9d3c42346871a25b8d0adf1aff2388477f252bcbacc197849f531d77",
+    "shareId": "share_ce53cc14567b90dcfe52a0097e4cda2e",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790481319731",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_30c6ebcd134dba562e49a01d7b13de71333c6e2aceeec975",
+    "expiresAt": "2026-10-04T03:55:20.361Z",
+    "createdAt": "2026-09-27T03:55:21.885Z"
+  },
+  {
+    "id": "sess_2221128fec9b2c28eab2b681a1243e74",
+    "sessionHash": "e0c509440cbb51aa0d53111da64932f83b7f3a900db1bbe5fa8ca1fbe1236d52",
+    "shareId": "share_1826cdab72a1a8ed900201cfd6e54932",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790481323325",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_c512f0dc1b281854ee622995d0609f18af37a6b316ba0b2b",
+    "expiresAt": "2026-10-04T03:55:23.918Z",
+    "createdAt": "2026-09-27T03:55:25.489Z"
+  },
+  {
+    "id": "sess_a8758e1e6d71097624b264017cb1929a",
+    "sessionHash": "6c5be0c7be3fca5c70420a6410a2a270d12f15412b380d727609b50fa5c6e4b8",
+    "shareId": "share_6948bc50a6e4a189e31be2804a58d2b6",
+    "projectId": "proj_appr_DEPLOYED_1790481327090",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_6cad217b47db272ce2db88c4d1780358f04b76a9848ee1d2",
+    "expiresAt": "2026-10-04T03:55:27.740Z",
+    "createdAt": "2026-09-27T03:55:29.239Z"
+  },
+  {
+    "id": "sess_9d0f23ec94d40587c20b982b79493823",
+    "sessionHash": "bc4d115d04ed3b2e93490f3e74f65dee235e9717a048fd31a70aa08b6b7af349",
+    "shareId": "share_86ffdeea3c40b0e0d0e4dd1c825571d0",
+    "projectId": "proj_A_1790481330771",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_c9cf958b9b76d710609e27507f6148a8e42fc285c8adf041",
+    "expiresAt": "2026-10-04T03:55:31.810Z",
+    "createdAt": "2026-09-27T03:55:33.435Z"
+  },
+  {
+    "id": "sess_e8854cf040a6a960d803a1260291592e",
+    "sessionHash": "947a4eefbf18e01b57503c862bf5cc1dbd539acc58b3e8e53c7fd9c59e7f0b0b",
+    "shareId": "share_c48f79e6ffaf96e468bb5148569a5a7e",
+    "projectId": "proj_portal_1790481301070_519460",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_784ab1cba6eb11b3d0fbe9096c93803c7ad8940d1f47ddc2",
+    "expiresAt": "2026-10-04T03:55:39.375Z",
+    "createdAt": "2026-09-27T03:55:40.916Z",
+    "revokedAt": "2026-09-27T03:55:43.066Z"
+  },
+  {
+    "id": "sess_05379936cad4b21cd44c979dab48a7ad",
+    "sessionHash": "f3d2c68bd9525a99a64f9aadd6fe56ec3b1634aaa13e22102db7d1460c88c52a",
+    "shareId": "share_2ef2fa8692fc7e979e42f0c8484d0be1",
+    "projectId": "proj_portal_1790481301070_519460",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_41d58bf2da7b3c98e5f0bc82a8e0a12c8f6e0f51cb850669",
+    "expiresAt": "2026-10-04T03:55:44.296Z",
+    "createdAt": "2026-09-27T03:55:45.827Z"
+  },
+  {
+    "id": "sess_b8bf14ef06e2c0670b61f84a39be61ae",
+    "sessionHash": "b3ed4ef6ee1da51c223e3b84d64f93ee43ea84aaa9183d62d95fdb5a2c568327",
+    "shareId": "share_bec84b7a93b11eb5e9bb60ff2a2d0566",
+    "projectId": "proj_portal_1790481301070_519460",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_5c64fdc0995f331fdd2c85a736e02bfbd0e1d1fc3a846945",
+    "expiresAt": "2026-10-04T03:55:52.199Z",
+    "createdAt": "2026-09-27T03:55:53.756Z"
+  },
+  {
+    "id": "sess_5c879a0132d3e8cbf4acf1cedd821eb2",
+    "sessionHash": "b031239df68ef234a9aa1d0a215c3e3f93f0a7aba6c8de538a0bf0b9c9c6aa1f",
+    "shareId": "share_d4839c09d135c85428cc71c4802f6e47",
+    "projectId": "proj_webhook_billing_bridge_1790494842058",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "csrfToken": "csrf_3e5f6eb2a50bfdb045e463691b2b63f1f775fef51906e179",
+    "expiresAt": "2026-10-04T07:40:44.023Z",
+    "createdAt": "2026-09-27T07:41:26.995Z"
+  },
+  {
+    "id": "sess_1e3e5d63fcf117d447e922606ceb143b",
+    "sessionHash": "5e8413a353ba8f3d4fcbd03fa05f071d106c31677566e40104446ba57f498428",
+    "shareId": "share_b5815921f73c192db3c94820e03537f2",
+    "projectId": "proj_webhook_billing_bridge_1790494973311",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "csrfToken": "csrf_401726e652ecc9a4858a8d0a49fe32988cf04b26a8031f4a",
+    "expiresAt": "2026-10-04T07:42:54.697Z",
+    "createdAt": "2026-09-27T07:43:32.693Z"
+  },
+  {
+    "id": "sess_dfe56c483e36bd38c14855dd8fa2c9e5",
+    "sessionHash": "f1889b16633519b0fb62e4d0f34ae81828c83c77ee60fd3c33d6c761701edd21",
+    "shareId": "share_20a2f9c673b66841c1b83d5b0d4f6aa7",
+    "projectId": "proj_webhook_billing_bridge_1790495099109",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "csrfToken": "csrf_dc3909e8b1251481199e33e52da875dd5153612473e5893b",
+    "expiresAt": "2026-10-04T07:45:00.124Z",
+    "createdAt": "2026-09-27T07:53:14.338Z"
+  },
+  {
+    "id": "sess_84eeacd8ad6ed02ca0629eb10efa6b1e",
+    "sessionHash": "f0fddbddd30022510b088471857b931789c4f4b5d08bd3c531f8b65671c26d59",
+    "shareId": "share_80c66e8c9c8c78ab8f41a8eab6273ef1",
+    "projectId": "proj_portal_1790495820579_99006f",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_21746910a6d8035702bd0c7b971830d59f4eeec70bb32ea9",
+    "expiresAt": "2026-10-04T07:57:01.974Z",
+    "createdAt": "2026-09-27T07:57:03.993Z"
+  },
+  {
+    "id": "sess_91b2e0fdd46e5df99711d35907514495",
+    "sessionHash": "2763ec9041f6bd659ffbc0927d50844a5c18160faadce36bb21cc3022bc8dbbc",
+    "shareId": "share_1d0e639dec2ceca332223046c7c3c81c",
+    "projectId": "proj_portal_1790495820579_99006f",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_dce7680b9aab245bf73cd142eea4b859476c9ca545c2537f",
+    "expiresAt": "2026-10-04T07:57:10.641Z",
+    "createdAt": "2026-09-27T07:57:12.115Z"
+  },
+  {
+    "id": "sess_a5e5285a010b00cb31bc8453a2f13c5a",
+    "sessionHash": "f069526c39957d4e9ac9e0d81de4e9f83b445e58bf14b50d70e4cdff2e63ad24",
+    "shareId": "share_3c74406eab226f50c08f90762eb8ea7f",
+    "projectId": "proj_appr_STAGING_1790495834823",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_3104fe318cd409ddd4a59068830d32a03ae549ea671c2592",
+    "expiresAt": "2026-10-04T07:57:15.429Z",
+    "createdAt": "2026-09-27T07:57:16.875Z"
+  },
+  {
+    "id": "sess_86e10e2e9651a787a7df666fc07e9aa3",
+    "sessionHash": "b539c426801576649e5bab5be299f91c44910afa3f0656ffca6206c70505d701",
+    "shareId": "share_31920b1a46dd7e06bec74270f6c4e1e9",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790495838302",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_079430e44eb2759ea91b5bced9d6161b8efbb4cc7ad8a912",
+    "expiresAt": "2026-10-04T07:57:18.879Z",
+    "createdAt": "2026-09-27T07:57:20.280Z"
+  },
+  {
+    "id": "sess_84e476bc9d6b83f24ddac7e335796421",
+    "sessionHash": "35429d39e928a94064c92643f0e44240871168853f1efe4c2ab18e4dec1b863c",
+    "shareId": "share_10f3868be6eca40c546bab618e250689",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790495841949",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_663e495f289f8e9bf9565a77b420c85c8d97887e0afa63e6",
+    "expiresAt": "2026-10-04T07:57:22.530Z",
+    "createdAt": "2026-09-27T07:57:23.967Z"
+  },
+  {
+    "id": "sess_f63b7210a6c705250652e6a590e2ac12",
+    "sessionHash": "8c2fbfc7cebb32348cf1e12a2a2bd17dd90b1ccb9c1c70131ea9a52dea4ceb9f",
+    "shareId": "share_c99120dfbffe459226278a0c3dc381f4",
+    "projectId": "proj_appr_DEPLOYED_1790495845397",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_918209dcfa7c98a8a840489b54a71ba6d215335fae6006b2",
+    "expiresAt": "2026-10-04T07:57:25.972Z",
+    "createdAt": "2026-09-27T07:57:27.307Z"
+  },
+  {
+    "id": "sess_c3e66065309c26245005f4b6b8c2aedd",
+    "sessionHash": "cca3682e608c2a68138b5d3fa43e48ec94921496f0ae5dc35b9159055b549125",
+    "shareId": "share_5396ef770403dddc2ca0f1f968cd8ef6",
+    "projectId": "proj_A_1790495849014",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_5f820610d312701ae1d4ff813617a277253b7c94a8cbba9e",
+    "expiresAt": "2026-10-04T07:57:30.131Z",
+    "createdAt": "2026-09-27T07:57:31.875Z"
+  },
+  {
+    "id": "sess_d6ca740655bb11b146e5a9fa85f3a3a3",
+    "sessionHash": "fe867f06aa2bbd2975e12dd359fdfadce3db53a10b04980d517ac121fc502216",
+    "shareId": "share_9d94e60d0d10f53eb373fe7837ee6667",
+    "projectId": "proj_portal_1790496561535_5bb8df",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_bd901680c09f65e7d0cbb6d435da20531ec2071b25bd7219",
+    "expiresAt": "2026-10-04T08:09:23.511Z",
+    "createdAt": "2026-09-27T08:09:25.911Z"
+  },
+  {
+    "id": "sess_dfeb85b4360a9e192d6ec31e7d9e0d32",
+    "sessionHash": "127dd39b0c6b96df506808150c54d7e2285c1802ea41eddb7349b7f049c4e9be",
+    "shareId": "share_2aa7085cc095e1998d6782f5a8dfe5ea",
+    "projectId": "proj_portal_1790496561535_5bb8df",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_2d811aadf2b624a8560d5befca7139b616602ef3c7b36d4d",
+    "expiresAt": "2026-10-04T08:09:32.061Z",
+    "createdAt": "2026-09-27T08:09:33.597Z"
+  },
+  {
+    "id": "sess_a000c89012f8e7682d7e5047d04a3959",
+    "sessionHash": "b071c55cd9edfba1333ea8b1dd5a5815569049b98e7d4522a065d17aad4f36af",
+    "shareId": "share_ddffc0c14454d4785ac0cc4439e49acc",
+    "projectId": "proj_appr_STAGING_1790496576417",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_f64343af2489d1841eb6108b7ab8583c53c7af265de4eed5",
+    "expiresAt": "2026-10-04T08:09:37.257Z",
+    "createdAt": "2026-09-27T08:09:38.682Z"
+  },
+  {
+    "id": "sess_0d3c5b0dfe0ee9acfe61be46c377fea9",
+    "sessionHash": "c7187134aa5af03d483f589e7d75eb16e9e13c35088b39fce63d3ec49b8b45e9",
+    "shareId": "share_6abf164b7cf687e055e7c58cfbda0127",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790496580265",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_7317aa4f313bc2f0e08899560f7720a6610a917331b12566",
+    "expiresAt": "2026-10-04T08:09:40.844Z",
+    "createdAt": "2026-09-27T08:09:42.327Z"
+  },
+  {
+    "id": "sess_aab8de5c21dbf841ffb14369c17807fb",
+    "sessionHash": "2fab5d94b4559dc6dd618fff19f4f6b8a118bea6330f8a9227a20c06f2f4d0c4",
+    "shareId": "share_501a9c737d4f49e610f13cdf2628eebf",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790496583748",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_2673633bd12cbfc95c2b35862666ac429c5f6928e8862dcf",
+    "expiresAt": "2026-10-04T08:09:44.587Z",
+    "createdAt": "2026-09-27T08:09:46.024Z"
+  },
+  {
+    "id": "sess_45e96ea20e49c88cbed131f34b0fefad",
+    "sessionHash": "db9d2bf93dfac0b174d4ffb82bbcb7d81347d3d88f5a7a16578836befb4ef23a",
+    "shareId": "share_aa103bf66886ab14c5deb34c97f5075c",
+    "projectId": "proj_appr_DEPLOYED_1790496587654",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_e619afc3162fb6f04eb4865bee308f72bf2cff1bb3832b3e",
+    "expiresAt": "2026-10-04T08:09:48.239Z",
+    "createdAt": "2026-09-27T08:09:49.566Z"
+  },
+  {
+    "id": "sess_6120d61314fac409de084deff1c144e6",
+    "sessionHash": "2266b4b7b23f0fb2e325e935a51d063390e9aa95cf7b736a320aaa3cbecf20d3",
+    "shareId": "share_af8ef8f7ba0d6acdee8f8745156f67cd",
+    "projectId": "proj_A_1790496591085",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_18d2728a64bed3fa07b172c658972c1de71a970d1d49565c",
+    "expiresAt": "2026-10-04T08:09:52.070Z",
+    "createdAt": "2026-09-27T08:09:53.504Z"
+  },
+  {
+    "id": "sess_84a8d91389d748ea83bee0b9c62d94d1",
+    "sessionHash": "027178bde60b60cce98d70e15880401ad64c210988921f4b12e84a86a88e7978",
+    "shareId": "share_fdc40652d69226ddef4d17806cecaff3",
+    "projectId": "proj_portal_1790496561535_5bb8df",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_4ee121be2b7a720afd0a0885517831c3ddc95196d9b52016",
+    "expiresAt": "2026-10-04T08:09:59.732Z",
+    "createdAt": "2026-09-27T08:10:01.158Z",
+    "revokedAt": "2026-09-27T08:10:03.478Z"
+  },
+  {
+    "id": "sess_b5432503fdff1315fa6f5b4ef41c7192",
+    "sessionHash": "b3d8e0f344a102772b5bd3f26c2c8f728773231711180e734ac6291e97916514",
+    "shareId": "share_d4d06bdb766e18b00ba3cfc273f10125",
+    "projectId": "proj_portal_1790496561535_5bb8df",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_1f61915332125a7d03338b49e46a62a7f07ddc50bd601a8e",
+    "expiresAt": "2026-10-04T08:10:05.033Z",
+    "createdAt": "2026-09-27T08:10:07.894Z"
+  },
+  {
+    "id": "sess_9828d23187fd2c119988c58d429b590e",
+    "sessionHash": "149676a31c6028a986db4700971c5744e95181539b85af7a328ceb0dffed5e2d",
+    "shareId": "share_ba714d2ff62ebc1bd34b3fc4daa956fa",
+    "projectId": "proj_portal_1790496561535_5bb8df",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_a46e67092645a02c219d952c16e6114a7f44c1f54fa61476",
+    "expiresAt": "2026-10-04T08:10:18.430Z",
+    "createdAt": "2026-09-27T08:10:19.852Z"
+  },
+  {
+    "id": "sess_e786087f7d313b1a116a952182a0eb5d",
+    "sessionHash": "d86ae74770d95742755694c3c7eb9b35568d60f50c0624424c0b5382c0bff541",
+    "shareId": "share_de54b45ad185e3ee21cc19e29e811752",
+    "projectId": "proj_webhook_billing_bridge_1790496636577",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "csrfToken": "csrf_7451c1e9b54514a91c38c9986d6229f18e5c060cae5dd94e",
+    "expiresAt": "2026-10-04T08:10:37.488Z",
+    "createdAt": "2026-09-27T08:10:54.830Z"
+  },
+  {
+    "id": "sess_17ee315cf917456ba4fb909cad328c9c",
+    "sessionHash": "7cc600369723bd7e6848782bc547ddcf82498efb17c318b7bbb0f7543aa56784",
+    "shareId": "share_acdc53553078983df24c23bb8c12b198",
+    "projectId": "proj_portal_1790507890911_cc4a58",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_b01bf782e72a0955bac8c0ba96f4a6ac64ba1872c838277d",
+    "expiresAt": "2026-10-04T11:18:12.915Z",
+    "createdAt": "2026-09-27T11:18:15.572Z"
+  },
+  {
+    "id": "sess_2f360861161230e3de32ef5d6ea87d25",
+    "sessionHash": "2558674f7d4683d0525753d5cf1c3791feeb89e9224429bb412710bca26b24fb",
+    "shareId": "share_b4ab174d9b98613436b31525794ae44a",
+    "projectId": "proj_portal_1790507890911_cc4a58",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_5f01d34783222e9ea6bc6146dc44a2bb5380f028cd676cd2",
+    "expiresAt": "2026-10-04T11:18:23.019Z",
+    "createdAt": "2026-09-27T11:18:24.820Z"
+  },
+  {
+    "id": "sess_6117f7d80809eacd468e64915162a25a",
+    "sessionHash": "32e698dc7947c12b7aee2089a3f970762ee2ec907cd0a02a2df9ecffefb263c7",
+    "shareId": "share_ad74ffe48ea68e541ef3200dbaed09ba",
+    "projectId": "proj_appr_STAGING_1790507908310",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_79cddaacb4d278fdcd7956ce1c439f7bf3ed73c763b45313",
+    "expiresAt": "2026-10-04T11:18:29.110Z",
+    "createdAt": "2026-09-27T11:18:30.992Z"
+  },
+  {
+    "id": "sess_b4fd66c2fbf928a1f310f53e8d4eafd4",
+    "sessionHash": "1e063b547d4763be58f70241991ccb6c987a258494ccf68c214c236fc02427d7",
+    "shareId": "share_4c0cd29a0cb01fcf774b581e30b3b91b",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790507913102",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_61250db4e6b688520eb6553105b696a50ce7daea57949075",
+    "expiresAt": "2026-10-04T11:18:33.971Z",
+    "createdAt": "2026-09-27T11:18:35.799Z"
+  },
+  {
+    "id": "sess_0d1c12c320766a514b44dcf0eb6c2548",
+    "sessionHash": "20cd2e949763085d7eaf4252c46b72d5cc451ba71b8caae0a6710603cd00afd8",
+    "shareId": "share_3a8c6c4e9a8b0a2a21b9148c4d5bfba6",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790507918262",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_2508bef413c2a7df5aa8bec0fa198bdfc9ac91a49d80539c",
+    "expiresAt": "2026-10-04T11:18:39.538Z",
+    "createdAt": "2026-09-27T11:18:41.292Z"
+  },
+  {
+    "id": "sess_91f50d50c171b8cec1980a0cad833bb5",
+    "sessionHash": "95a54222504e2009e034324a8906d751c7fbba9c94b19dc6971ff5e35fda8768",
+    "shareId": "share_15a568af90484b34cc4343e215b56db8",
+    "projectId": "proj_appr_DEPLOYED_1790507923060",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_f80136e6625de718b4c5bd6b1cd46b5124395346a21dfc08",
+    "expiresAt": "2026-10-04T11:18:43.835Z",
+    "createdAt": "2026-09-27T11:18:45.619Z"
+  },
+  {
+    "id": "sess_ca0d3ab080b30009ebf4bed2270a62eb",
+    "sessionHash": "3306e10f461b3ca05d6174f81cbcd1edbd40b5a6877a58270bdb8efb57ba0e97",
+    "shareId": "share_6bc01d02703cc78cfc132eea9ab43387",
+    "projectId": "proj_A_1790507927302",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_f2beeb2f7681739569d99b1fd69b0ec8d81401a1ab80463f",
+    "expiresAt": "2026-10-04T11:18:48.573Z",
+    "createdAt": "2026-09-27T11:18:50.249Z"
+  },
+  {
+    "id": "sess_8fd8a226fb40c4ceb7ea406f517fc453",
+    "sessionHash": "461eb2f2086afb38874c49d8e19e232df67a4459e4063d425ec2b85363d50168",
+    "shareId": "share_8d10d19b1d1087db032e3bca5208366e",
+    "projectId": "proj_portal_1790507890911_cc4a58",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_ae58bc2377fda53d5748cf6cec0ef4229311a8907922fe8b",
+    "expiresAt": "2026-10-04T11:18:58.207Z",
+    "createdAt": "2026-09-27T11:18:59.822Z",
+    "revokedAt": "2026-09-27T11:19:02.153Z"
+  },
+  {
+    "id": "sess_c7baa3475dfe30b291e2866e00fb792e",
+    "sessionHash": "4cfdd13da326a9c7f6892357f3a6e44c1314445cfe3bca21f3c25839556814dd",
+    "shareId": "share_fe255b79a481329eb91ea0bbf54680f4",
+    "projectId": "proj_portal_1790507890911_cc4a58",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_23ca602001eae25f81606846b5d8907c0ead52d3655fb375",
+    "expiresAt": "2026-10-04T11:19:03.548Z",
+    "createdAt": "2026-09-27T11:19:05.330Z"
+  },
+  {
+    "id": "sess_af331dec9b8890fca8c4340a70f17437",
+    "sessionHash": "5d27f65de896a52da7ccccd1d52380c6bba3c8ca1815988a12aae994adfb362b",
+    "shareId": "share_01c8e1c0324051b56650021661201ce7",
+    "projectId": "proj_portal_1790507890911_cc4a58",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_8ab1d4d1a32fb6b747c33b144c3b5a7334267d0ee7d85215",
+    "expiresAt": "2026-10-04T11:19:12.972Z",
+    "createdAt": "2026-09-27T11:19:14.658Z"
+  },
+  {
+    "id": "sess_57b5f614148a537176c30ef30be9ffc3",
+    "sessionHash": "daca0d46ce7319a645adda3a2d691a74d5b1ebc5e376abfb00053244f6f6e11f",
+    "shareId": "share_4be7ad1763068ef5ede0c01bd3d80ec6",
+    "projectId": "proj_webhook_billing_bridge_1790508517330",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "csrfToken": "csrf_6a62409d56e429ee4d13cd0ea54653eaefa012353728da8e",
+    "expiresAt": "2026-10-04T11:28:40.698Z",
+    "createdAt": "2026-09-27T11:29:11.165Z"
+  },
+  {
+    "id": "sess_7afebb1715daedbf4b28270b8d0b4cae",
+    "sessionHash": "24550d90382e2ab6d8de82a8ea88366a5c0972821f9251d61ea7c9b229a3aed1",
+    "shareId": "share_0b6165ea0c0655d6829fa8c64d7cc58a",
+    "projectId": "proj_portal_1790546939999_ad625f",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_02c580b5acdb35190e32936f54900080e8561c7644db8caf",
+    "expiresAt": "2026-10-04T22:09:02.740Z",
+    "createdAt": "2026-09-27T22:09:05.513Z"
+  },
+  {
+    "id": "sess_d6e0935bb9e4eca453fcc5d663e0afe7",
+    "sessionHash": "efda91b9305f041a033eaa3ee70317f55df1a42dd40f85d600a1f463b8a5a6bf",
+    "shareId": "share_284d2838c391e2dd045664c7f2a9cc0f",
+    "projectId": "proj_portal_1790546939999_ad625f",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_8fc6bff97c63825f9f87c15b8c8cb03f1ef7537046fb8bce",
+    "expiresAt": "2026-10-04T22:09:14.822Z",
+    "createdAt": "2026-09-27T22:09:16.538Z"
+  },
+  {
+    "id": "sess_a50a5a076188da17b1fd7095e9516e09",
+    "sessionHash": "fdd3416df8b55836e3ef687810295e40cac4dba237de37ead004967726f3f251",
+    "shareId": "share_174339c52f7d55636d1fa7d354043049",
+    "projectId": "proj_appr_STAGING_1790546959954",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_46ca13d78ddbcb550221ee2a2ba6d2b96e3df0311fd0be71",
+    "expiresAt": "2026-10-04T22:09:20.903Z",
+    "createdAt": "2026-09-27T22:09:22.579Z"
+  },
+  {
+    "id": "sess_1c78ac3fa7ff76a6572f11692a55f4f6",
+    "sessionHash": "e0bcf4f77e0f29114f17bc3860d70e69e9afa91966105679a3bb4287b2a25dc6",
+    "shareId": "share_3e11e9ed8e3a5f5bc03195e657c58398",
+    "projectId": "proj_appr_CLIENT_REVIEW_1790546964227",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_7fe539b1e13ac41d9e9130851ed31f642ed0068ee962d0a0",
+    "expiresAt": "2026-10-04T22:09:25.383Z",
+    "createdAt": "2026-09-27T22:09:27.324Z"
+  },
+  {
+    "id": "sess_6c5039fa3b343017b8388f4e6a9f2f37",
+    "sessionHash": "8b019be7fc1f6ebfeee3548afcd3b2c4b77fcd75f4b4b15cc0b93df1ea4b09e4",
+    "shareId": "share_553a8372b2fe6527a00a2848e4bba298",
+    "projectId": "proj_appr_CLIENT_ACCEPTED_1790546968949",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_6b862f10797034e3e73d9b8e9c0f5355094e9a2c64591637",
+    "expiresAt": "2026-10-04T22:09:29.849Z",
+    "createdAt": "2026-09-27T22:09:32.396Z"
+  },
+  {
+    "id": "sess_23b7036320d8f81220c6869ef6337c13",
+    "sessionHash": "7db1d0a1b5601a9922ef1044f7e6f20b2737bf9eef29059bf79a01478c7b434f",
+    "shareId": "share_c55a97223e629145e1df40c351d9dd2d",
+    "projectId": "proj_appr_DEPLOYED_1790546974493",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_52d37d58edcdc1e16fc1b06e62ca893e394b25621530af7e",
+    "expiresAt": "2026-10-04T22:09:35.213Z",
+    "createdAt": "2026-09-27T22:09:36.909Z"
+  },
+  {
+    "id": "sess_a957a1d41034003544f4bafa175422e9",
+    "sessionHash": "d7a6cd2172589295037f13b378a968072342821b656665e1c56a3f9627d369d8",
+    "shareId": "share_af1619a1532bb9a0743f7e0550fb6947",
+    "projectId": "proj_A_1790546981130",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_644d53bc088d112eaa09f01b585747cdea45ff3177862508",
+    "expiresAt": "2026-10-04T22:09:42.338Z",
+    "createdAt": "2026-09-27T22:09:44.513Z"
+  },
+  {
+    "id": "sess_7e2776d095d40e5402b41ec7e397a08a",
+    "sessionHash": "485dc34018650272c01d6b4fa7feb9ec5aa2bafc7374fa4d1554a167ef9fe0b3",
+    "shareId": "share_ad0435ce0cb1d21cf28aec6777a46090",
+    "projectId": "proj_portal_1790546939999_ad625f",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_c24eb54e1c395922ea823c45ced7ddd3427540890d8e7981",
+    "expiresAt": "2026-10-04T22:09:54.986Z",
+    "createdAt": "2026-09-27T22:09:57.446Z",
+    "revokedAt": "2026-09-27T22:10:00.498Z"
+  },
+  {
+    "id": "sess_17558313881737ee93a688f8d93aef55",
+    "sessionHash": "2946f217e93d520c2c5695f9f46161dbdc28fa4a5ec01e39417028f62c405611",
+    "shareId": "share_0c25be4f8384be90fe43ec88a63ae428",
+    "projectId": "proj_portal_1790546939999_ad625f",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_e4f7489ca091dc216a80006c92fee5e3976c0b62cacf78e0",
+    "expiresAt": "2026-10-04T22:10:02.200Z",
+    "createdAt": "2026-09-27T22:10:05.095Z"
+  },
+  {
+    "id": "sess_eb62c6dbcf61b76d26d1b6c2bbcc9461",
+    "sessionHash": "7f103ba664c02b3c6a659f2ee3b3c2f5f707873216621171b9590cc0fe6d855a",
+    "shareId": "share_7f5e512fc27aabfd9ac08f65177332ac",
+    "projectId": "proj_portal_1790546939999_ad625f",
+    "permissions": [
+      "preview:read",
+      "feedback:write",
+      "milestone:accept"
+    ],
+    "csrfToken": "csrf_73d541c5dfc87e7e57489d9f5216a8be755175eb2b22225f",
+    "expiresAt": "2026-10-04T22:10:14.442Z",
+    "createdAt": "2026-09-27T22:10:17.233Z"
+  },
+  {
+    "id": "sess_944ad688fb9d3926ed3cb8ab3593f2e1",
+    "sessionHash": "c8ec8949f14ed3e032571c178ea5aa60bcebf340dc1825ef79f75bbbf1c08501",
+    "shareId": "share_dffce3812e096984914ca1ebcc924374",
+    "projectId": "proj_webhook_billing_bridge_1790547072851",
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_PREVIEW",
+      "SUBMIT_FEEDBACK",
+      "APPROVE_MILESTONES"
+    ],
+    "csrfToken": "csrf_59aaf1de33001a80033cab2cd3c0d6ef8ddf31952071a4ff",
+    "expiresAt": "2026-10-04T22:11:16.282Z",
+    "createdAt": "2026-09-27T22:11:45.674Z"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "id": "ev-v5-remote-control-1789152637178",
+  "missionId": "mission-1789152637143",
+  "taskId": "task-v5-0-5-rol-verification",
+  "agentId": "atlas",
+  "sessionKey": "agent:main:rol-master-audit",
+  "model": "google/gemini-3.5-flash",
+  "toolNames": [
+    "command_engine",
+    "personal_context",
+    "channel_gateway",
+    "kill_switch",
+    "openclaw_bridge"
+  ],
+  "toolResult": {
+    "passedProofs": 20,
+    "totalProofs": 20,
+    "status": "VERIFIED",
+    "groups": {
+      "controlOperations": "7/7 PASSED",
+      "authorityGovernance": "5/5 PASSED",
+      "durabilityParity": "4/4 PASSED",
+      "securityBoundaries": "4/4 PASSED"
+    }
+  },
+  "exitCode": 0,
+  "testPassed": true,
+  "sentinelScore": 100,
+  "tokensUsed": 42000,
+  "costCents": 1.85,
+  "costUsd": 0.0185,
+  "timestamp": "2026-09-11T18:50:37.178Z",
+  "signature": "f341d15d893f0ec366e2a4f4689355b5d8e010f6da4c56ff1c9a10b0fab6210d"
+}

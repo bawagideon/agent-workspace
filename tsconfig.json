@@ -22,6 +22,8 @@
       "@gideon/runtime": ["packages/runtime/src/index.ts"],
       "@gideon/agents": ["packages/agents/src/index.ts"],
       "@gideon/memory": ["packages/memory/src/index.ts"],
+      "@gideon/billing": ["packages/billing/src/index.ts"],
+      "@gideon/portal": ["packages/portal/src/index.ts"],
       "@/*": ["apps/hq/src/*"]
     }
   },

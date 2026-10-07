@@ -1,0 +1,11 @@
+{
+  "name": "ai-guardrails-engine",
+  "version": "1.0.0",
+  "description": "AI Output QA Gateway: Deterministic safety gateway for production AI applications that validates incoming prompts, sanitizes sensitive output, and prevents malformed model responses from reaching downstream systems.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "author": "Gideon Autonomous Workforce",
+  "license": "MIT"
+}

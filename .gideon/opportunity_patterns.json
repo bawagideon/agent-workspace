@@ -1,0 +1,87 @@
+[
+  {
+    "id": "pat-001",
+    "title": "Multi-Branch Healthcare Routing & Appointment Leakage",
+    "sharedBottleneck": "Patients calling siloed branch phone numbers; lack of real-time multi-location availability matrix.",
+    "signalType": "BUSINESS_GROWTH",
+    "matchingOpportunityIds": [
+      "opp-038",
+      "opp-040",
+      "opp-042",
+      "opp-043"
+    ],
+    "recommendedCapability": {
+      "id": "cap_multi_branch_booking_matrix",
+      "name": "Multi-Branch Slot Routing & Availability Matrix",
+      "category": "COMMERCE_AND_PAYMENTS",
+      "reason": "4 verified dental practices in Lagos share the exact same multi-location routing bottleneck."
+    },
+    "reusePotentialCount": 4,
+    "status": "IDENTIFIED",
+    "detectedAt": "2026-10-02T20:14:58.836Z"
+  },
+  {
+    "id": "pat-002",
+    "title": "Manual Trade Scoping & Unstructured Photo Intake",
+    "sharedBottleneck": "High-ticket contractors (cabinet painting, masonry, landscaping) collecting quote photos via unorganized mobile SMS.",
+    "signalType": "MANUAL_PROCESS",
+    "matchingOpportunityIds": [
+      "opp-001",
+      "opp-007",
+      "opp-009",
+      "opp-013",
+      "opp-028"
+    ],
+    "recommendedCapability": {
+      "id": "cap_trade_scope_photo_calculator",
+      "name": "Interactive Scope Estimator & File Upload Funnel",
+      "category": "WORKFLOW_AUTOMATION",
+      "reason": "5 contractor opportunities in Austin, Seattle, Boston, and Toronto share manual quote photo friction."
+    },
+    "reusePotentialCount": 5,
+    "status": "IDENTIFIED",
+    "detectedAt": "2026-10-02T20:14:58.836Z"
+  },
+  {
+    "id": "pat-003",
+    "title": "Artisanal & Luxury Digital Configurator Gap",
+    "sharedBottleneck": "High-ticket custom products (jewelry, sectional sofas, bespoke cutlery) forced into flat 2D photography without live dimension/swatch preview.",
+    "signalType": "BAD_CONVERSION",
+    "matchingOpportunityIds": [
+      "opp-004",
+      "opp-008",
+      "opp-011",
+      "opp-021"
+    ],
+    "recommendedCapability": {
+      "id": "cap_svg_product_configurator",
+      "name": "Real-Time SVG Product Configurator & Tear Sheet Generator",
+      "category": "CORE_ENGINEERING",
+      "reason": "4 luxury product brands share customer conversion drop due to lack of interactive preview."
+    },
+    "reusePotentialCount": 4,
+    "status": "IDENTIFIED",
+    "detectedAt": "2026-10-02T20:14:58.836Z"
+  },
+  {
+    "id": "pat-004",
+    "title": "Public Contact Form Endpoint Fragility",
+    "sharedBottleneck": "Public websites displaying unhandled form submission errors or legacy non-responsive HTML tables.",
+    "signalType": "BAD_CONVERSION",
+    "matchingOpportunityIds": [
+      "opp-002",
+      "opp-006",
+      "opp-025",
+      "opp-039"
+    ],
+    "recommendedCapability": {
+      "id": "cap_resilient_intake_gateway",
+      "name": "Resilient Fallback Intake Gateway with Offline SMS/Webhook Redundancy",
+      "category": "CORE_ENGINEERING",
+      "reason": "Confirmed broken forms (e.g. Blossom Med) and legacy frames (Building Smiles) require zero-fail fallback gateways."
+    },
+    "reusePotentialCount": 4,
+    "status": "IDENTIFIED",
+    "detectedAt": "2026-10-02T20:14:58.836Z"
+  }
+]

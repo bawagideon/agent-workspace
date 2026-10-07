@@ -1,0 +1,25 @@
+{
+  "id": "ev-m002-approve-1789110021250",
+  "missionId": "mission-real-002-1789109977275",
+  "taskId": "task-forge-feature-002",
+  "stepId": "mission-real-002-1789109977275-step-qa-approve",
+  "agentId": "sentinel",
+  "sessionKey": "agent:sentinel:qa-approve",
+  "model": "gemini-3.5-flash",
+  "toolNames": [
+    "terminal_run_command"
+  ],
+  "toolArgs": {
+    "command": "npm test",
+    "workspaceId": "ws-sample-app"
+  },
+  "toolResult": "QA passed with clean verification.",
+  "exitCode": 0,
+  "testPassed": true,
+  "sentinelScore": 100,
+  "tokensUsed": 1450,
+  "costCents": 0.145,
+  "costUsd": 0.00145,
+  "timestamp": "2026-09-11T07:00:21.250Z",
+  "signature": "c7bad4a2852bfea3a728087de951247580da53c8d93a92e7bcea035a10c864c0"
+}

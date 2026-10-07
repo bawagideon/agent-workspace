@@ -1,0 +1,25 @@
+{
+  "id": "ev-m002-reject-1789119098554",
+  "missionId": "mission-real-002-1789119054357",
+  "taskId": "task-forge-feature-002",
+  "stepId": "mission-real-002-1789119054357-step-qa-reject",
+  "agentId": "sentinel",
+  "sessionKey": "agent:sentinel:qa-reject",
+  "model": "gemini-3.5-flash",
+  "toolNames": [
+    "terminal_run_command"
+  ],
+  "toolArgs": {
+    "command": "npm test",
+    "workspaceId": "ws-sample-app"
+  },
+  "toolResult": "Tests failed. Rework required.",
+  "exitCode": 1,
+  "testPassed": false,
+  "sentinelScore": 25,
+  "tokensUsed": 1450,
+  "costCents": 0.145,
+  "costUsd": 0.00145,
+  "timestamp": "2026-09-11T09:31:38.554Z",
+  "signature": "414ba5a47b6056cb6ed84b139ba7137809e0396440e55a0fda3ab76f14606f7e"
+}

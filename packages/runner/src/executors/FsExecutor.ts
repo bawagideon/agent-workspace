@@ -44,7 +44,13 @@ export class FsExecutor {
     const walk = async (currentDir: string) => {
       const entries = await fs.promises.readdir(currentDir, { withFileTypes: true });
       for (const entry of entries) {
-        if (entry.name === 'node_modules' || entry.name === '.git') continue;
+        if (
+          entry.name === 'node_modules' || 
+          entry.name === '.git' || 
+          entry.name === '.next' || 
+          entry.name === 'dist' ||
+          entry.name === '.gideon'
+        ) continue;
 
         const fullPath = path.join(currentDir, entry.name);
         const relativePath = path.relative(root, fullPath).replace(/\\/g, '/');
@@ -78,10 +84,12 @@ export class FsExecutor {
     const regex = new RegExp(query, 'i');
 
     for (const file of textFiles) {
+      // Never attempt to scan secret files (.env, keys, credentials)
+      if (SecretProtection.isSecretFile(file.path)) continue;
       if (filePattern && !new RegExp(filePattern).test(file.path)) continue;
 
-      const safePath = this.sandbox.validatePath(workspaceId, file.path);
       try {
+        const safePath = this.sandbox.validatePath(workspaceId, file.path);
         const content = await fs.promises.readFile(safePath, 'utf8');
         const lines = content.split('\n');
 
@@ -95,7 +103,7 @@ export class FsExecutor {
           }
         });
       } catch {
-        // Skip binary or unreadable files
+        // Skip inaccessible, binary or unreadable files
       }
     }
 

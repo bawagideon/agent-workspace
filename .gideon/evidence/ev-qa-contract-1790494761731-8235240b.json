@@ -1,0 +1,41 @@
+{
+  "evaluationId": "eval-proj_webhook_billing_bridge_1790494748617-1790494761731",
+  "projectId": "proj_webhook_billing_bridge_1790494748617",
+  "overallStatus": "PASS",
+  "pillarResults": {
+    "functional": {
+      "passed": true,
+      "details": [
+        "Unit & integration tests executed cleanly (exit code 0).",
+        "Verified 11 passing test assertions."
+      ],
+      "testCount": 11
+    },
+    "security": {
+      "passed": true,
+      "details": [
+        "Cryptographic HMAC-SHA256 signature verification verified in src/signature.ts.",
+        "Internal /metrics endpoint is strictly protected by authentication header.",
+        "Zero secrets or credentials found in project codebase."
+      ],
+      "secretsFound": 0
+    },
+    "reliability": {
+      "passed": true,
+      "details": [
+        "Idempotency deduplication mechanism present and verified."
+      ],
+      "idempotencyVerified": true
+    },
+    "delivery": {
+      "passed": true,
+      "details": [
+        "Valid package.json with scripts: start, test."
+      ],
+      "buildVerified": true
+    }
+  },
+  "evidenceId": "ev-qa-contract-1790494761731-8235240b",
+  "evaluatedAt": "2026-09-27T07:39:24.828Z",
+  "hmacSignature": "abba9cf089ddab7fbb3d02a9e7e2ecfd87c92b8cc09bdef388c5022c705b83ef"
+}

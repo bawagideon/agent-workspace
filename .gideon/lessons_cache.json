@@ -1,0 +1,30 @@
+{
+  "source": "supabase",
+  "isAuthoritative": false,
+  "sourceRevision": 4,
+  "generatedAt": "2026-09-29T16:17:51.168Z",
+  "lessons": [
+    {
+      "id": "les_1790698671161_1915cc",
+      "key": "RULE_GENERATED_ARTIFACT_PRESERVATION",
+      "category": "ARCHITECTURE",
+      "statement": "Never patch generated artifacts directly when a generator or source template exists. Identify the authoritative source, modify it, regenerate artifacts, and verify both source and generated output.",
+      "rationale": "Directly modifying derived SVG/HTML projections causes immediate drift from the authoritative generator (StoryPackGenerator.ts), breaks automated regeneration loops, and fails cryptographic verification contracts.",
+      "source": {
+        "agentId": "forge",
+        "observedAt": "2026-09-29T16:17:51.159Z"
+      },
+      "verificationStatus": "VERIFIED",
+      "confidence": 0.98,
+      "revision": 4,
+      "evidenceIds": [
+        "ev-qa-contract-1790547094069-41f1e2d3"
+      ],
+      "distinctProjectIds": [
+        "webhook-billing-bridge"
+      ],
+      "verifiedBy": "sentinel",
+      "verifiedAt": "2026-09-29T16:17:51.167Z"
+    }
+  ]
+}

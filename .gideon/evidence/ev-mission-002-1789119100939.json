@@ -1,0 +1,31 @@
+{
+  "id": "ev-mission-002-1789119100939",
+  "missionId": "mission-real-002-1789119054357",
+  "taskId": "task-forge-feature-002",
+  "stepId": "mission-real-002-1789119054357-master-summary",
+  "agentId": "atlas",
+  "sessionKey": "agent:main:forge-m002-1789119054469",
+  "runId": "2a3c5f61-b5fc-49e0-99dd-d6258a131170",
+  "model": "gemini-3.5-flash",
+  "toolNames": [
+    "openclaw_agent_dispatch",
+    "fs_write_file",
+    "terminal_run_command"
+  ],
+  "toolArgs": {
+    "defectDiff": "- export const isHealthy = true;\n+ export const isHealthy = false;",
+    "cleanDiff": "- export const isHealthy = false;\n+ export const isHealthy = true; // Remediated",
+    "rejectionEvidenceId": "ev-m002-reject-1789119098554",
+    "approvalEvidenceId": "ev-m002-approve-1789119100937",
+    "ledgerTransactionId": "tx-m002-1789119100938"
+  },
+  "toolResult": "Mission #002 Completed Successfully: Forge defect rejected by Sentinel (Score 25), remediation approved by Sentinel (Score 100).",
+  "exitCode": 0,
+  "testPassed": true,
+  "sentinelScore": 100,
+  "tokensUsed": 34975,
+  "costCents": 0.283822,
+  "costUsd": 0.0028382200000000002,
+  "timestamp": "2026-09-11T09:31:40.939Z",
+  "signature": "c240ef7f4a7bc44d68a2377aa4f29c1540a7b93cb56741aaeb8f9274bd4949fc"
+}

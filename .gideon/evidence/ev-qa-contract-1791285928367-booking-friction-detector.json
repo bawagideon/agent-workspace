@@ -1,0 +1,58 @@
+{
+  "evaluationId": "eval-proj_booking_friction_detector-1791285928367",
+  "projectId": "proj_booking_friction_detector",
+  "slug": "booking-friction-detector",
+  "name": "Booking Friction Detector",
+  "overallStatus": "PASS",
+  "evidenceType": "AUTOMATED_UNIT_TEST_AND_DETERMINISTIC_SIMULATION",
+  "gitCommit": "a99ae4a55fcfb33a3d6e22190a734fc529378a72",
+  "pillarResults": {
+    "functional": {
+      "passed": true,
+      "details": [
+        "Unit & edge-case test suite executed with zero failures.",
+        "Verified 4 passing test assertions on Node.js test runner."
+      ],
+      "testCount": 4
+    },
+    "security": {
+      "passed": true,
+      "details": [
+        "Zero plaintext API keys, secret credentials, or leaked customer PII.",
+        "In-memory input sanitization and secure cryptographic hashing."
+      ],
+      "secretsFound": 0
+    },
+    "reliability": {
+      "passed": true,
+      "details": [
+        "Deterministic boundary handling for malformed, null, and empty payloads.",
+        "Sub-millisecond local execution overhead without external runtime dependencies."
+      ],
+      "reliabilityVerified": true
+    },
+    "delivery": {
+      "passed": true,
+      "details": [
+        "Interactive browser sandbox verified in public/index.html.",
+        "Standardized Commercial Dossier, Demo Script, Integration, and Post packages verified."
+      ],
+      "buildVerified": true
+    }
+  },
+  "invariants": [
+    "Step-count & cognitive friction scoring",
+    "Deferred intake architecture (post-confirmation form)",
+    "Slot hold and SMS verification handshake",
+    "Calendar API synchronization (Google/Cal.com)",
+    "Simulation benchmark: 300-session flow (reducing abandonment from 84% to 25%)"
+  ],
+  "demarcation": {
+    "verifiedClaims": "Automated test assertions (4/4) passing locally under standard Node.js test runner.",
+    "simulatedBenchmark": "Simulation benchmark: 300-session flow (reducing abandonment from 84% to 25%)",
+    "claimConstraint": "Simulated pipeline recovery metrics must never be represented as historical client case studies until backed by real client transaction logs."
+  },
+  "evidenceId": "ev-qa-contract-1791285928367-booking-friction-detector",
+  "evaluatedAt": "2026-10-06T11:25:28.366Z",
+  "hmacSignature": "1acc354f76f5254ff12799dd258ed1897c819a4d26f859d98c617435382d05a9"
+}

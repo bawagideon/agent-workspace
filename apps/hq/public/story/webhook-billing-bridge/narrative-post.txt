@@ -1,0 +1,54 @@
+Your webhook probably works.
+Until Stripe retries the exact same payment 20 times in 3 seconds.
+
+When engineers build payment webhook handlers, the initial implementation almost always looks like this:
+1. Receive POST /webhook
+2. Parse body
+3. Update database
+4. Return 200 OK
+
+On localhost, it passes every test.
+
+In production, distributed networks don't behave like localhost.
+Network drops happen. Upstream gateways drop connections before reading the 200 OK.
+So Stripe's automated backoff engine fires retries.
+Or worse: parallel worker threads receive concurrent deliveries of the exact same event at the exact same millisecond.
+
+If your handler relies on "if (!exists) insert()", database race conditions allow concurrent deliveries to pass read checks simultaneously. Our bridge enforces atomic idempotency locks, guaranteeing 0 duplicate downstream deliveries under concurrent replay assaults.
+
+To solve this properly, I built the Webhook Billing Bridge around 5 zero-compromise invariants:
+
+1. Constant-Time Signature Validation
+We use crypto.timingSafeEqual over raw byte buffers rather than ordinary string comparison for signature verification to reduce timing side-channel exposure.
+
+2. Anti-Replay Timestamp Decay
+Every event header is validated against an enforced 300-second TTL window (|now - t| <= 300s). Replay attacks from captured packets get rejected before touching business logic.
+
+3. Atomic Idempotency Locks
+Instead of optimistic database checks, incoming events must acquire an atomic in-memory lock on the idempotency key.
+In our stress test firing 20 concurrent identical requests at the exact same millisecond:
+• Exactly 1 was processed and committed.
+• 19 were intercepted and deduplicated.
+• 0.00% duplicate downstream deliveries.
+
+4. Downstream Uncertainty Quarantine
+Downstream billing APIs fail and timeout. Naively retrying duplicates payment charges.
+Our bridge transitions uncertain timeouts into a QUARANTINED state, returning 503 so upstream uses backoff while preventing duplicate processing.
+
+5. Interactive Assault Simulator
+I didn't want this to just be a theoretical architecture post. I built an interactive sandbox verifier right into the repo where you can tamper with signatures, simulate expired timestamps, and trigger a 20-thread concurrency assault in your browser.
+
+The implementation is written in TypeScript and verified with 100% automated tests (11/11 passing tests, 0 secrets detected, sealed under Sentinel QA contract ev-qa-contract-1790547094069-41f1e2d3).
+
+Reliable systems aren't built by hoping edge cases don't happen.
+They're built by assuming every edge case is happening right now.
+
+Full source code, architecture diagrams, and the interactive simulator:
+👉 https://github.com/bawagideon/webhook-billing-bridge
+
+Interactive Simulator: https://github.com/bawagideon/webhook-billing-bridge/blob/main/public/index.html
+Live 3D Portfolio: https://gideonbawa-website.netlify.app/#work
+
+How are you handling idempotency and delivery uncertainty in your webhook pipelines? Drop your thoughts below.
+
+#DistributedSystems #SoftwareEngineering #TypeScript #Webhooks #SystemDesign #BackendEngineering

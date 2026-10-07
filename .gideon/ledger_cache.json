@@ -1,0 +1,1596 @@
+{
+  "isAuthoritative": false,
+  "source": "supabase",
+  "cachedAt": "2026-09-27T22:12:06.763Z",
+  "records": [
+    {
+      "id": "tx_rel_1790547126747_37f24e5b",
+      "projectId": "proj_webhook_billing_bridge_1790547072851",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 115,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790547086560_9327ce30",
+      "metadata": {
+        "reservationId": "res_1790547086560_9327ce30",
+        "excessHold": 115
+      },
+      "createdAt": "2026-09-27T22:12:05.490Z"
+    },
+    {
+      "id": "tx_spend_1790547125490_24fe3f35",
+      "projectId": "proj_webhook_billing_bridge_1790547072851",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 35,
+      "tokenCount": 0,
+      "unitCostCents": 35,
+      "status": "COMMITTED",
+      "description": "Settled compute tokens and runner time",
+      "metadata": {
+        "reservationId": "res_1790547086560_9327ce30",
+        "actualCostCents": 35
+      },
+      "createdAt": "2026-09-27T22:12:05.490Z"
+    },
+    {
+      "id": "tx_rev_1790547122745_449d31f6",
+      "projectId": "proj_webhook_billing_bridge_1790547072851",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_final_1790547121587",
+        "checkoutSessionId": "cs_test_final_1790547121588"
+      },
+      "createdAt": "2026-09-27T22:12:02.745Z"
+    },
+    {
+      "id": "tx_rev_1790547079440_587c3a6a",
+      "projectId": "proj_webhook_billing_bridge_1790547072851",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790547077796",
+        "checkoutSessionId": "cs_test_deposit_1790547077796"
+      },
+      "createdAt": "2026-09-27T22:11:19.440Z"
+    },
+    {
+      "id": "tx_rec_3_1790546873929",
+      "projectId": "proj_recon_1790546866506",
+      "transactionType": "REFUND",
+      "currency": "USD",
+      "amountCents": 5000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T22:07:53.929Z"
+    },
+    {
+      "id": "tx_rec_2_1790546873590",
+      "projectId": "proj_recon_1790546866506",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 20000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T22:07:53.590Z"
+    },
+    {
+      "id": "tx_rel_1790546871314_c78420d1",
+      "projectId": "proj_recon_1790546866506",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 400,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790546869403_0c10ad1e",
+      "metadata": {
+        "reservationId": "res_1790546869403_0c10ad1e",
+        "excessHold": 400
+      },
+      "createdAt": "2026-09-27T22:07:50.733Z"
+    },
+    {
+      "id": "tx_spend_1790546870733_b2f0f13c",
+      "projectId": "proj_recon_1790546866506",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 600,
+      "tokenCount": 5000,
+      "unitCostCents": 600,
+      "agentId": "forge",
+      "status": "COMMITTED",
+      "description": "Settled spend for Reconciliation Task 1",
+      "metadata": {
+        "reservationId": "res_1790546869403_0c10ad1e",
+        "actualCostCents": 600
+      },
+      "createdAt": "2026-09-27T22:07:50.733Z"
+    },
+    {
+      "id": "tx_rec_1_1790546866999",
+      "projectId": "proj_recon_1790546866506",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 50000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T22:07:46.999Z"
+    },
+    {
+      "id": "tx_rev_1790546858642_9404c841",
+      "projectId": "proj_iso_A_1790546856527",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_pay_A_1790546857576",
+        "checkoutSessionId": "cs_A_1790546857576"
+      },
+      "createdAt": "2026-09-27T22:07:38.643Z"
+    },
+    {
+      "id": "tx_rev_1790546847741_300deeac",
+      "projectId": "proj_client_1790546503144_29f247",
+      "transactionType": "PAYMENT_REVERSED",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "PAYMENT_REVERSED: Disputed transaction",
+      "metadata": {
+        "providerEventId": "evt_rev_1790546845275",
+        "reason": "Disputed transaction"
+      },
+      "createdAt": "2026-09-27T22:07:27.742Z"
+    },
+    {
+      "id": "tx_rev_1790546841640_a47e43a5",
+      "projectId": "proj_client_1790546503144_29f247",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 5000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for MILESTONE",
+      "metadata": {
+        "providerEventId": "evt_parallel_1790546839378_e1baac13",
+        "checkoutSessionId": "cs_par_1790546839379"
+      },
+      "createdAt": "2026-09-27T22:07:21.640Z"
+    },
+    {
+      "id": "tx_rev_cont_1790546522058",
+      "projectId": "proj_contention_1790546521623",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 50000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T22:02:02.058Z"
+    },
+    {
+      "id": "tx_rel_1790546513873_a528011d",
+      "projectId": "proj_client_1790546503144_29f247",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 60,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790546512398_31bae027",
+      "metadata": {
+        "reservationId": "res_1790546512398_31bae027",
+        "excessHold": 60
+      },
+      "createdAt": "2026-09-27T22:01:53.495Z"
+    },
+    {
+      "id": "tx_spend_1790546513495_0f5a400c",
+      "projectId": "proj_client_1790546503144_29f247",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 40,
+      "tokenCount": 1500,
+      "unitCostCents": 40,
+      "agentId": "forge",
+      "taskId": "task-1",
+      "status": "COMMITTED",
+      "description": "Settled spend for Forge Turn 1",
+      "metadata": {
+        "reservationId": "res_1790546512398_31bae027",
+        "actualCostCents": 40
+      },
+      "createdAt": "2026-09-27T22:01:53.495Z"
+    },
+    {
+      "id": "tx_rev_1790546505424_f81297ab",
+      "projectId": "proj_client_1790546503144_29f247",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for DEPOSIT",
+      "metadata": {
+        "providerEventId": "evt_test_1790546503975_014a00ea",
+        "checkoutSessionId": "cs_mock_1790546503975_b43f75e2",
+        "customerEmail": "client@enterprise.com"
+      },
+      "createdAt": "2026-09-27T22:01:45.425Z"
+    },
+    {
+      "id": "tx_rel_1790508571347_37d55006",
+      "projectId": "proj_webhook_billing_bridge_1790508517330",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 115,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790508528460_27b8e66c",
+      "metadata": {
+        "reservationId": "res_1790508528460_27b8e66c",
+        "excessHold": 115
+      },
+      "createdAt": "2026-09-27T11:29:31.032Z"
+    },
+    {
+      "id": "tx_spend_1790508571032_a22780a5",
+      "projectId": "proj_webhook_billing_bridge_1790508517330",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 35,
+      "tokenCount": 0,
+      "unitCostCents": 35,
+      "status": "COMMITTED",
+      "description": "Settled compute tokens and runner time",
+      "metadata": {
+        "reservationId": "res_1790508528460_27b8e66c",
+        "actualCostCents": 35
+      },
+      "createdAt": "2026-09-27T11:29:31.032Z"
+    },
+    {
+      "id": "tx_rev_1790508567803_c102e9d6",
+      "projectId": "proj_webhook_billing_bridge_1790508517330",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_final_1790508566545",
+        "checkoutSessionId": "cs_test_final_1790508566545"
+      },
+      "createdAt": "2026-09-27T11:29:27.803Z"
+    },
+    {
+      "id": "tx_rev_1790508522820_7c5c1128",
+      "projectId": "proj_webhook_billing_bridge_1790508517330",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790508521710",
+        "checkoutSessionId": "cs_test_deposit_1790508521710"
+      },
+      "createdAt": "2026-09-27T11:28:42.821Z"
+    },
+    {
+      "id": "tx_rev_1790508151803_f7684e1a",
+      "projectId": "proj_webhook_billing_bridge_1790508146273",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790508150310",
+        "checkoutSessionId": "cs_test_deposit_1790508150310"
+      },
+      "createdAt": "2026-09-27T11:22:31.803Z"
+    },
+    {
+      "id": "tx_rev_1790508008985_8d1a2a8a",
+      "projectId": "proj_webhook_billing_bridge_1790508005119",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790508008007",
+        "checkoutSessionId": "cs_test_deposit_1790508008007"
+      },
+      "createdAt": "2026-09-27T11:20:08.986Z"
+    },
+    {
+      "id": "tx_rec_3_1790507837262",
+      "projectId": "proj_recon_1790507831928",
+      "transactionType": "REFUND",
+      "currency": "USD",
+      "amountCents": 5000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T11:17:17.262Z"
+    },
+    {
+      "id": "tx_rec_2_1790507836959",
+      "projectId": "proj_recon_1790507831928",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 20000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T11:17:16.959Z"
+    },
+    {
+      "id": "tx_rel_1790507835139_bdf13f94",
+      "projectId": "proj_recon_1790507831928",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 400,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790507833758_406b9828",
+      "metadata": {
+        "reservationId": "res_1790507833758_406b9828",
+        "excessHold": 400
+      },
+      "createdAt": "2026-09-27T11:17:14.827Z"
+    },
+    {
+      "id": "tx_spend_1790507834827_899b6875",
+      "projectId": "proj_recon_1790507831928",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 600,
+      "tokenCount": 5000,
+      "unitCostCents": 600,
+      "agentId": "forge",
+      "status": "COMMITTED",
+      "description": "Settled spend for Reconciliation Task 1",
+      "metadata": {
+        "reservationId": "res_1790507833758_406b9828",
+        "actualCostCents": 600
+      },
+      "createdAt": "2026-09-27T11:17:14.827Z"
+    },
+    {
+      "id": "tx_rec_1_1790507832333",
+      "projectId": "proj_recon_1790507831928",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 50000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T11:17:12.334Z"
+    },
+    {
+      "id": "tx_rev_1790507828591_00ad8661",
+      "projectId": "proj_iso_A_1790507826896",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_pay_A_1790507827724",
+        "checkoutSessionId": "cs_A_1790507827724"
+      },
+      "createdAt": "2026-09-27T11:17:08.591Z"
+    },
+    {
+      "id": "tx_rev_1790507821133_4e06abe4",
+      "projectId": "proj_client_1790507761621_383e56",
+      "transactionType": "PAYMENT_REVERSED",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "PAYMENT_REVERSED: Disputed transaction",
+      "metadata": {
+        "providerEventId": "evt_rev_1790507820239",
+        "reason": "Disputed transaction"
+      },
+      "createdAt": "2026-09-27T11:17:01.133Z"
+    },
+    {
+      "id": "tx_rev_1790507817733_8e1c7668",
+      "projectId": "proj_client_1790507761621_383e56",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 5000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for MILESTONE",
+      "metadata": {
+        "providerEventId": "evt_parallel_1790507816853_47e15f05",
+        "checkoutSessionId": "cs_par_1790507816854"
+      },
+      "createdAt": "2026-09-27T11:16:57.733Z"
+    },
+    {
+      "id": "tx_rev_cont_1790507779231",
+      "projectId": "proj_contention_1790507778812",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 50000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T11:16:19.231Z"
+    },
+    {
+      "id": "tx_rel_1790507772435_1adfea34",
+      "projectId": "proj_client_1790507761621_383e56",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 60,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790507770716_b29ac8d5",
+      "metadata": {
+        "reservationId": "res_1790507770716_b29ac8d5",
+        "excessHold": 60
+      },
+      "createdAt": "2026-09-27T11:16:11.845Z"
+    },
+    {
+      "id": "tx_spend_1790507771845_8aba635d",
+      "projectId": "proj_client_1790507761621_383e56",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 40,
+      "tokenCount": 1500,
+      "unitCostCents": 40,
+      "agentId": "forge",
+      "taskId": "task-1",
+      "status": "COMMITTED",
+      "description": "Settled spend for Forge Turn 1",
+      "metadata": {
+        "reservationId": "res_1790507770716_b29ac8d5",
+        "actualCostCents": 40
+      },
+      "createdAt": "2026-09-27T11:16:11.845Z"
+    },
+    {
+      "id": "tx_rev_1790507764733_ae7d0861",
+      "projectId": "proj_client_1790507761621_383e56",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for DEPOSIT",
+      "metadata": {
+        "providerEventId": "evt_test_1790507763429_a0c87739",
+        "checkoutSessionId": "cs_mock_1790507763428_ceff35fa",
+        "customerEmail": "client@enterprise.com"
+      },
+      "createdAt": "2026-09-27T11:16:04.734Z"
+    },
+    {
+      "id": "tx_rel_1790496667057_dc60ef3b",
+      "projectId": "proj_webhook_billing_bridge_1790496636577",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 115,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790496642996_24d987fb",
+      "metadata": {
+        "reservationId": "res_1790496642996_24d987fb",
+        "excessHold": 115
+      },
+      "createdAt": "2026-09-27T08:11:06.766Z"
+    },
+    {
+      "id": "tx_spend_1790496666766_3916ca19",
+      "projectId": "proj_webhook_billing_bridge_1790496636577",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 35,
+      "tokenCount": 0,
+      "unitCostCents": 35,
+      "status": "COMMITTED",
+      "description": "Settled compute tokens and runner time",
+      "metadata": {
+        "reservationId": "res_1790496642996_24d987fb",
+        "actualCostCents": 35
+      },
+      "createdAt": "2026-09-27T08:11:06.766Z"
+    },
+    {
+      "id": "tx_rev_1790496664724_3577f3cf",
+      "projectId": "proj_webhook_billing_bridge_1790496636577",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_final_1790496663903",
+        "checkoutSessionId": "cs_test_final_1790496663903"
+      },
+      "createdAt": "2026-09-27T08:11:04.724Z"
+    },
+    {
+      "id": "tx_rev_1790496638919_8f724f64",
+      "projectId": "proj_webhook_billing_bridge_1790496636577",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790496638060",
+        "checkoutSessionId": "cs_test_deposit_1790496638060"
+      },
+      "createdAt": "2026-09-27T08:10:38.919Z"
+    },
+    {
+      "id": "tx_rec_3_1790495809598",
+      "projectId": "proj_recon_1790495805059",
+      "transactionType": "REFUND",
+      "currency": "USD",
+      "amountCents": 5000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T07:56:49.598Z"
+    },
+    {
+      "id": "tx_rec_2_1790495809335",
+      "projectId": "proj_recon_1790495805059",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 20000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T07:56:49.335Z"
+    },
+    {
+      "id": "tx_rel_1790495807865_a8df4db8",
+      "projectId": "proj_recon_1790495805059",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 400,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790495806732_a18d2fbe",
+      "metadata": {
+        "reservationId": "res_1790495806732_a18d2fbe",
+        "excessHold": 400
+      },
+      "createdAt": "2026-09-27T07:56:47.598Z"
+    },
+    {
+      "id": "tx_spend_1790495807598_d780b187",
+      "projectId": "proj_recon_1790495805059",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 600,
+      "tokenCount": 5000,
+      "unitCostCents": 600,
+      "agentId": "forge",
+      "status": "COMMITTED",
+      "description": "Settled spend for Reconciliation Task 1",
+      "metadata": {
+        "reservationId": "res_1790495806732_a18d2fbe",
+        "actualCostCents": 600
+      },
+      "createdAt": "2026-09-27T07:56:47.598Z"
+    },
+    {
+      "id": "tx_rec_1_1790495805365",
+      "projectId": "proj_recon_1790495805059",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 50000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T07:56:45.365Z"
+    },
+    {
+      "id": "tx_rev_1790495801844_c0de54e9",
+      "projectId": "proj_iso_A_1790495800310",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_pay_A_1790495800875",
+        "checkoutSessionId": "cs_A_1790495800875"
+      },
+      "createdAt": "2026-09-27T07:56:41.844Z"
+    },
+    {
+      "id": "tx_rev_1790495795186_98f13734",
+      "projectId": "proj_client_1790495742924_a482b8",
+      "transactionType": "PAYMENT_REVERSED",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "PAYMENT_REVERSED: Disputed transaction",
+      "metadata": {
+        "providerEventId": "evt_rev_1790495794294",
+        "reason": "Disputed transaction"
+      },
+      "createdAt": "2026-09-27T07:56:35.187Z"
+    },
+    {
+      "id": "tx_rev_1790495792583_191f794f",
+      "projectId": "proj_client_1790495742924_a482b8",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 5000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for MILESTONE",
+      "metadata": {
+        "providerEventId": "evt_parallel_1790495791760_aaa144bf",
+        "checkoutSessionId": "cs_par_1790495791760"
+      },
+      "createdAt": "2026-09-27T07:56:32.584Z"
+    },
+    {
+      "id": "tx_rev_cont_1790495757192",
+      "projectId": "proj_contention_1790495756919",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 50000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T07:55:57.192Z"
+    },
+    {
+      "id": "tx_rel_1790495751593_07973c75",
+      "projectId": "proj_client_1790495742924_a482b8",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 60,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790495750367_e3b83f64",
+      "metadata": {
+        "reservationId": "res_1790495750367_e3b83f64",
+        "excessHold": 60
+      },
+      "createdAt": "2026-09-27T07:55:51.308Z"
+    },
+    {
+      "id": "tx_spend_1790495751308_0321ae1a",
+      "projectId": "proj_client_1790495742924_a482b8",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 40,
+      "tokenCount": 1500,
+      "unitCostCents": 40,
+      "agentId": "forge",
+      "taskId": "task-1",
+      "status": "COMMITTED",
+      "description": "Settled spend for Forge Turn 1",
+      "metadata": {
+        "reservationId": "res_1790495750367_e3b83f64",
+        "actualCostCents": 40
+      },
+      "createdAt": "2026-09-27T07:55:51.308Z"
+    },
+    {
+      "id": "tx_rev_1790495745101_0ade4c24",
+      "projectId": "proj_client_1790495742924_a482b8",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for DEPOSIT",
+      "metadata": {
+        "providerEventId": "evt_test_1790495743802_bde7244b",
+        "checkoutSessionId": "cs_mock_1790495743801_a716ce1b",
+        "customerEmail": "client@enterprise.com"
+      },
+      "createdAt": "2026-09-27T07:55:45.101Z"
+    },
+    {
+      "id": "tx_rel_1790495608761_6919a913",
+      "projectId": "proj_webhook_billing_bridge_1790495099109",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 115,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790495106935_7050cab7",
+      "metadata": {
+        "reservationId": "res_1790495106935_7050cab7",
+        "excessHold": 115
+      },
+      "createdAt": "2026-09-27T07:53:28.394Z"
+    },
+    {
+      "id": "tx_spend_1790495608394_4ae3f4cc",
+      "projectId": "proj_webhook_billing_bridge_1790495099109",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 35,
+      "tokenCount": 0,
+      "unitCostCents": 35,
+      "status": "COMMITTED",
+      "description": "Settled compute tokens and runner time",
+      "metadata": {
+        "reservationId": "res_1790495106935_7050cab7",
+        "actualCostCents": 35
+      },
+      "createdAt": "2026-09-27T07:53:28.394Z"
+    },
+    {
+      "id": "tx_rev_1790495605405_3ace3763",
+      "projectId": "proj_webhook_billing_bridge_1790495099109",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_final_1790495604527",
+        "checkoutSessionId": "cs_test_final_1790495604527"
+      },
+      "createdAt": "2026-09-27T07:53:25.405Z"
+    },
+    {
+      "id": "tx_rev_1790495101673_71ffb22c",
+      "projectId": "proj_webhook_billing_bridge_1790495099109",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790495100776",
+        "checkoutSessionId": "cs_test_deposit_1790495100776"
+      },
+      "createdAt": "2026-09-27T07:45:01.674Z"
+    },
+    {
+      "id": "tx_rev_1790495028189_5425ae63",
+      "projectId": "proj_webhook_billing_bridge_1790494973311",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_final_1790495026119",
+        "checkoutSessionId": "cs_test_final_1790495026119"
+      },
+      "createdAt": "2026-09-27T07:43:48.189Z"
+    },
+    {
+      "id": "tx_rev_1790494976759_eaa9182e",
+      "projectId": "proj_webhook_billing_bridge_1790494973311",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790494975619",
+        "checkoutSessionId": "cs_test_deposit_1790494975619"
+      },
+      "createdAt": "2026-09-27T07:42:56.759Z"
+    },
+    {
+      "id": "tx_rev_1790494846824_cc48bda2",
+      "projectId": "proj_webhook_billing_bridge_1790494842058",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790494845734",
+        "checkoutSessionId": "cs_test_deposit_1790494845734"
+      },
+      "createdAt": "2026-09-27T07:40:46.824Z"
+    },
+    {
+      "id": "tx_rev_1790494751510_2eb33222",
+      "projectId": "proj_webhook_billing_bridge_1790494748617",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790494750374",
+        "checkoutSessionId": "cs_test_deposit_1790494750374"
+      },
+      "createdAt": "2026-09-27T07:39:11.510Z"
+    },
+    {
+      "id": "tx_rev_1790494544482_2afa9da1",
+      "projectId": "proj_webhook_billing_bridge_1790494539912",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790494543540",
+        "checkoutSessionId": "cs_test_deposit_1790494543540"
+      },
+      "createdAt": "2026-09-27T07:35:44.482Z"
+    },
+    {
+      "id": "tx_rev_1790494207286_f54dbebc",
+      "projectId": "proj_webhook_billing_bridge_1790494202706",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790494205310",
+        "checkoutSessionId": "cs_test_deposit_1790494205310"
+      },
+      "createdAt": "2026-09-27T07:30:07.286Z"
+    },
+    {
+      "id": "tx_rev_1790494141044_1d8ed730",
+      "projectId": "proj_webhook_billing_bridge_1790494138269",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790494139929",
+        "checkoutSessionId": "cs_test_deposit_1790494139929"
+      },
+      "createdAt": "2026-09-27T07:29:01.044Z"
+    },
+    {
+      "id": "tx_rev_1790494080081_63464b41",
+      "projectId": "proj_webhook_billing_bridge_1790494076544",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790494079121",
+        "checkoutSessionId": "cs_test_deposit_1790494079121"
+      },
+      "createdAt": "2026-09-27T07:28:00.081Z"
+    },
+    {
+      "id": "tx_rev_1790494042668_92f20b7d",
+      "projectId": "proj_webhook_billing_bridge_1790494038729",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790494041583",
+        "checkoutSessionId": "cs_test_deposit_1790494041583"
+      },
+      "createdAt": "2026-09-27T07:27:22.668Z"
+    },
+    {
+      "id": "tx_rev_1790493995401_9b34723b",
+      "projectId": "proj_webhook_billing_bridge_1790493992238",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790493994129",
+        "checkoutSessionId": "cs_test_deposit_1790493994129"
+      },
+      "createdAt": "2026-09-27T07:26:35.401Z"
+    },
+    {
+      "id": "tx_rev_1790493932675_494cc7ba",
+      "projectId": "proj_webhook_billing_bridge_1790493926824",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_deposit_1790493931123",
+        "checkoutSessionId": "cs_test_deposit_1790493931124"
+      },
+      "createdAt": "2026-09-27T07:25:32.675Z"
+    },
+    {
+      "id": "tx_rec_3_1790481289083",
+      "projectId": "proj_recon_1790481284282",
+      "transactionType": "REFUND",
+      "currency": "USD",
+      "amountCents": 5000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T03:54:49.083Z"
+    },
+    {
+      "id": "tx_rec_2_1790481288816",
+      "projectId": "proj_recon_1790481284282",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 20000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T03:54:48.816Z"
+    },
+    {
+      "id": "tx_rel_1790481287359_cfb43302",
+      "projectId": "proj_recon_1790481284282",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 400,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790481286129_5bdd8a47",
+      "metadata": {
+        "reservationId": "res_1790481286129_5bdd8a47",
+        "excessHold": 400
+      },
+      "createdAt": "2026-09-27T03:54:47.070Z"
+    },
+    {
+      "id": "tx_spend_1790481287070_17157261",
+      "projectId": "proj_recon_1790481284282",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 600,
+      "tokenCount": 5000,
+      "unitCostCents": 600,
+      "agentId": "forge",
+      "status": "COMMITTED",
+      "description": "Settled spend for Reconciliation Task 1",
+      "metadata": {
+        "reservationId": "res_1790481286129_5bdd8a47",
+        "actualCostCents": 600
+      },
+      "createdAt": "2026-09-27T03:54:47.070Z"
+    },
+    {
+      "id": "tx_rec_1_1790481284598",
+      "projectId": "proj_recon_1790481284282",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 50000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T03:54:44.598Z"
+    },
+    {
+      "id": "tx_rev_1790481280999_52402f32",
+      "projectId": "proj_iso_A_1790481279259",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_pay_A_1790481279905",
+        "checkoutSessionId": "cs_A_1790481279905"
+      },
+      "createdAt": "2026-09-27T03:54:40.999Z"
+    },
+    {
+      "id": "tx_rev_1790481273738_ce90c73c",
+      "projectId": "proj_client_1790481219374_ed47fa",
+      "transactionType": "PAYMENT_REVERSED",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "PAYMENT_REVERSED: Disputed transaction",
+      "metadata": {
+        "providerEventId": "evt_rev_1790481272810",
+        "reason": "Disputed transaction"
+      },
+      "createdAt": "2026-09-27T03:54:33.738Z"
+    },
+    {
+      "id": "tx_rev_1790481270964_cbab1846",
+      "projectId": "proj_client_1790481219374_ed47fa",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 5000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for MILESTONE",
+      "metadata": {
+        "providerEventId": "evt_parallel_1790481270041_325accfb",
+        "checkoutSessionId": "cs_par_1790481270041"
+      },
+      "createdAt": "2026-09-27T03:54:30.964Z"
+    },
+    {
+      "id": "tx_rev_cont_1790481234350",
+      "projectId": "proj_contention_1790481234043",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 50000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-27T03:53:54.350Z"
+    },
+    {
+      "id": "tx_rel_1790481228407_98309050",
+      "projectId": "proj_client_1790481219374_ed47fa",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 60,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790481227048_93edd7fb",
+      "metadata": {
+        "reservationId": "res_1790481227048_93edd7fb",
+        "excessHold": 60
+      },
+      "createdAt": "2026-09-27T03:53:48.108Z"
+    },
+    {
+      "id": "tx_spend_1790481228108_a1df51f4",
+      "projectId": "proj_client_1790481219374_ed47fa",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 40,
+      "tokenCount": 1500,
+      "unitCostCents": 40,
+      "agentId": "forge",
+      "taskId": "task-1",
+      "status": "COMMITTED",
+      "description": "Settled spend for Forge Turn 1",
+      "metadata": {
+        "reservationId": "res_1790481227048_93edd7fb",
+        "actualCostCents": 40
+      },
+      "createdAt": "2026-09-27T03:53:48.108Z"
+    },
+    {
+      "id": "tx_rev_1790481221216_55fc4b4e",
+      "projectId": "proj_client_1790481219374_ed47fa",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for DEPOSIT",
+      "metadata": {
+        "providerEventId": "evt_test_1790481220139_625b3bb4",
+        "checkoutSessionId": "cs_mock_1790481220139_5fa6b40b",
+        "customerEmail": "client@enterprise.com"
+      },
+      "createdAt": "2026-09-27T03:53:41.216Z"
+    },
+    {
+      "id": "tx_rec_3_1790452329629",
+      "projectId": "proj_recon_1790452320813",
+      "transactionType": "REFUND",
+      "currency": "USD",
+      "amountCents": 5000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-26T19:52:09.629Z"
+    },
+    {
+      "id": "tx_rec_2_1790452329250",
+      "projectId": "proj_recon_1790452320813",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 20000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-26T19:52:09.250Z"
+    },
+    {
+      "id": "tx_rel_1790452326060_8a04cbde",
+      "projectId": "proj_recon_1790452320813",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 400,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790452323534_4ebc19f4",
+      "metadata": {
+        "reservationId": "res_1790452323534_4ebc19f4",
+        "excessHold": 400
+      },
+      "createdAt": "2026-09-26T19:52:05.573Z"
+    },
+    {
+      "id": "tx_spend_1790452325573_af172dea",
+      "projectId": "proj_recon_1790452320813",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 600,
+      "tokenCount": 5000,
+      "unitCostCents": 600,
+      "agentId": "forge",
+      "status": "COMMITTED",
+      "description": "Settled spend for Reconciliation Task 1",
+      "metadata": {
+        "reservationId": "res_1790452323534_4ebc19f4",
+        "actualCostCents": 600
+      },
+      "createdAt": "2026-09-26T19:52:05.573Z"
+    },
+    {
+      "id": "tx_rec_1_1790452321174",
+      "projectId": "proj_recon_1790452320813",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 50000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-26T19:52:01.174Z"
+    },
+    {
+      "id": "tx_rev_1790452316097_10eaabca",
+      "projectId": "proj_iso_A_1790452313976",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_pay_A_1790452314912",
+        "checkoutSessionId": "cs_A_1790452314912"
+      },
+      "createdAt": "2026-09-26T19:51:56.098Z"
+    },
+    {
+      "id": "tx_rev_1790452306126_d4f91d60",
+      "projectId": "proj_client_1790452224398_a0ffc3",
+      "transactionType": "PAYMENT_REVERSED",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "PAYMENT_REVERSED: Disputed transaction",
+      "metadata": {
+        "providerEventId": "evt_rev_1790452304892",
+        "reason": "Disputed transaction"
+      },
+      "createdAt": "2026-09-26T19:51:46.126Z"
+    },
+    {
+      "id": "tx_rev_1790452301267_74b0daaf",
+      "projectId": "proj_client_1790452224398_a0ffc3",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 5000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for MILESTONE",
+      "metadata": {
+        "providerEventId": "evt_parallel_1790452300095_fbab7c38",
+        "checkoutSessionId": "cs_par_1790452300095"
+      },
+      "createdAt": "2026-09-26T19:51:41.268Z"
+    },
+    {
+      "id": "tx_rev_cont_1790452247884",
+      "projectId": "proj_contention_1790452247497",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 50000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-26T19:50:47.885Z"
+    },
+    {
+      "id": "tx_rel_1790452238324_a2ab711e",
+      "projectId": "proj_client_1790452224398_a0ffc3",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 60,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790452236209_4817cedc",
+      "metadata": {
+        "reservationId": "res_1790452236209_4817cedc",
+        "excessHold": 60
+      },
+      "createdAt": "2026-09-26T19:50:37.700Z"
+    },
+    {
+      "id": "tx_spend_1790452237700_56f66a9e",
+      "projectId": "proj_client_1790452224398_a0ffc3",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 40,
+      "tokenCount": 1500,
+      "unitCostCents": 40,
+      "agentId": "forge",
+      "taskId": "task-1",
+      "status": "COMMITTED",
+      "description": "Settled spend for Forge Turn 1",
+      "metadata": {
+        "reservationId": "res_1790452236209_4817cedc",
+        "actualCostCents": 40
+      },
+      "createdAt": "2026-09-26T19:50:37.700Z"
+    },
+    {
+      "id": "tx_rev_1790452226838_3d036ddc",
+      "projectId": "proj_client_1790452224398_a0ffc3",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for DEPOSIT",
+      "metadata": {
+        "providerEventId": "evt_test_1790452225597_152d91ea",
+        "checkoutSessionId": "cs_mock_1790452225597_6a81219d",
+        "customerEmail": "client@enterprise.com"
+      },
+      "createdAt": "2026-09-26T19:50:26.838Z"
+    },
+    {
+      "id": "tx_rec_3_1790452163123",
+      "projectId": "proj_recon_1790452155955",
+      "transactionType": "REFUND",
+      "currency": "USD",
+      "amountCents": 5000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-26T19:49:23.123Z"
+    },
+    {
+      "id": "tx_rec_2_1790452162700",
+      "projectId": "proj_recon_1790452155955",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 20000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-26T19:49:22.700Z"
+    },
+    {
+      "id": "tx_rel_1790452160455_226b9c2d",
+      "projectId": "proj_recon_1790452155955",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 400,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790452158355_9a91ff37",
+      "metadata": {
+        "reservationId": "res_1790452158355_9a91ff37",
+        "excessHold": 400
+      },
+      "createdAt": "2026-09-26T19:49:20.088Z"
+    },
+    {
+      "id": "tx_spend_1790452160088_39f988ae",
+      "projectId": "proj_recon_1790452155955",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 600,
+      "tokenCount": 5000,
+      "unitCostCents": 600,
+      "agentId": "forge",
+      "status": "COMMITTED",
+      "description": "Settled spend for Reconciliation Task 1",
+      "metadata": {
+        "reservationId": "res_1790452158355_9a91ff37",
+        "actualCostCents": 600
+      },
+      "createdAt": "2026-09-26T19:49:20.088Z"
+    },
+    {
+      "id": "tx_rec_1_1790452156387",
+      "projectId": "proj_recon_1790452155955",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 50000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-26T19:49:16.387Z"
+    },
+    {
+      "id": "tx_rev_1790452150952_71179d67",
+      "projectId": "proj_iso_A_1790452148450",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for deposit",
+      "metadata": {
+        "providerEventId": "evt_pay_A_1790452149299",
+        "checkoutSessionId": "cs_A_1790452149300"
+      },
+      "createdAt": "2026-09-26T19:49:10.952Z"
+    },
+    {
+      "id": "tx_rev_1790452138827_392453d6",
+      "projectId": "proj_client_1790452052550_4d34c7",
+      "transactionType": "PAYMENT_REVERSED",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "PAYMENT_REVERSED: Disputed transaction",
+      "metadata": {
+        "providerEventId": "evt_rev_1790452137554",
+        "reason": "Disputed transaction"
+      },
+      "createdAt": "2026-09-26T19:48:58.827Z"
+    },
+    {
+      "id": "tx_rev_1790452134310_db543d32",
+      "projectId": "proj_client_1790452052550_4d34c7",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 5000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for MILESTONE",
+      "metadata": {
+        "providerEventId": "evt_parallel_1790452132934_61f6ef6b",
+        "checkoutSessionId": "cs_par_1790452132934"
+      },
+      "createdAt": "2026-09-26T19:48:54.310Z"
+    },
+    {
+      "id": "tx_rev_cont_1790452076784",
+      "projectId": "proj_contention_1790452076351",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 50000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-26T19:47:56.784Z"
+    },
+    {
+      "id": "tx_rel_1790452067738_0b371c5e",
+      "projectId": "proj_client_1790452052550_4d34c7",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 60,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790452065078_0516e175",
+      "metadata": {
+        "reservationId": "res_1790452065078_0516e175",
+        "excessHold": 60
+      },
+      "createdAt": "2026-09-26T19:47:47.356Z"
+    },
+    {
+      "id": "tx_spend_1790452067356_55b74a7c",
+      "projectId": "proj_client_1790452052550_4d34c7",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 40,
+      "tokenCount": 1500,
+      "unitCostCents": 40,
+      "agentId": "forge",
+      "taskId": "task-1",
+      "status": "COMMITTED",
+      "description": "Settled spend for Forge Turn 1",
+      "metadata": {
+        "reservationId": "res_1790452065078_0516e175",
+        "actualCostCents": 40
+      },
+      "createdAt": "2026-09-26T19:47:47.356Z"
+    },
+    {
+      "id": "tx_rev_1790452055447_e41fc148",
+      "projectId": "proj_client_1790452052550_4d34c7",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for DEPOSIT",
+      "metadata": {
+        "providerEventId": "evt_test_1790452053636_a8d7fb8b",
+        "checkoutSessionId": "cs_mock_1790452053635_fac5882f",
+        "customerEmail": "client@enterprise.com"
+      },
+      "createdAt": "2026-09-26T19:47:35.447Z"
+    },
+    {
+      "id": "tx_rev_1790452016530_6ac8f495",
+      "projectId": "proj_client_1790451924384_0f22fa",
+      "transactionType": "PAYMENT_REVERSED",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "PAYMENT_REVERSED: Disputed transaction",
+      "metadata": {
+        "providerEventId": "evt_rev_1790452015325",
+        "reason": "Disputed transaction"
+      },
+      "createdAt": "2026-09-26T19:46:56.530Z"
+    },
+    {
+      "id": "tx_rev_1790452012636_5f964f25",
+      "projectId": "proj_client_1790451924384_0f22fa",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 5000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for MILESTONE",
+      "metadata": {
+        "providerEventId": "evt_parallel_1790452011219_b6719ffb",
+        "checkoutSessionId": "cs_par_1790452011219"
+      },
+      "createdAt": "2026-09-26T19:46:52.636Z"
+    },
+    {
+      "id": "tx_rev_cont_1790451951820",
+      "projectId": "proj_contention_1790451950737",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 50000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-26T19:45:51.820Z"
+    },
+    {
+      "id": "tx_rel_1790451940610_d314a60d",
+      "projectId": "proj_client_1790451924384_0f22fa",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 60,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790451938457_5818d1c7",
+      "metadata": {
+        "reservationId": "res_1790451938457_5818d1c7",
+        "excessHold": 60
+      },
+      "createdAt": "2026-09-26T19:45:40.087Z"
+    },
+    {
+      "id": "tx_spend_1790451940087_cc0969c3",
+      "projectId": "proj_client_1790451924384_0f22fa",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 40,
+      "tokenCount": 1500,
+      "unitCostCents": 40,
+      "agentId": "forge",
+      "taskId": "task-1",
+      "status": "COMMITTED",
+      "description": "Settled spend for Forge Turn 1",
+      "metadata": {
+        "reservationId": "res_1790451938457_5818d1c7",
+        "actualCostCents": 40
+      },
+      "createdAt": "2026-09-26T19:45:40.087Z"
+    },
+    {
+      "id": "tx_rev_1790451927936_59ebf7c0",
+      "projectId": "proj_client_1790451924384_0f22fa",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for DEPOSIT",
+      "metadata": {
+        "providerEventId": "evt_test_1790451925584_c413f4ae",
+        "checkoutSessionId": "cs_mock_1790451925583_87f2b493",
+        "customerEmail": "client@enterprise.com"
+      },
+      "createdAt": "2026-09-26T19:45:27.937Z"
+    },
+    {
+      "id": "tx_rev_1790451878394_652609c5",
+      "projectId": "proj_client_1790451786649_ee8dff",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 5000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for MILESTONE",
+      "metadata": {
+        "providerEventId": "evt_parallel_1790451875922_765aaf17",
+        "checkoutSessionId": "cs_par_1790451875922"
+      },
+      "createdAt": "2026-09-26T19:44:38.395Z"
+    },
+    {
+      "id": "tx_rev_1790451877385_68cf0df9",
+      "projectId": "proj_client_1790451786649_ee8dff",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 5000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for MILESTONE",
+      "metadata": {
+        "providerEventId": "evt_parallel_1790451875922_765aaf17",
+        "checkoutSessionId": "cs_par_1790451875922"
+      },
+      "createdAt": "2026-09-26T19:44:37.385Z"
+    },
+    {
+      "id": "tx_rev_cont_1790451814069",
+      "projectId": "proj_contention_1790451813652",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 50000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-26T19:43:34.069Z"
+    },
+    {
+      "id": "tx_rel_1790451804985_35a00826",
+      "projectId": "proj_client_1790451786649_ee8dff",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 60,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790451803259_3a12e304",
+      "metadata": {
+        "reservationId": "res_1790451803259_3a12e304",
+        "excessHold": 60
+      },
+      "createdAt": "2026-09-26T19:43:24.588Z"
+    },
+    {
+      "id": "tx_spend_1790451804588_a70e5951",
+      "projectId": "proj_client_1790451786649_ee8dff",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 40,
+      "tokenCount": 1500,
+      "unitCostCents": 40,
+      "agentId": "forge",
+      "taskId": "task-1",
+      "status": "COMMITTED",
+      "description": "Settled spend for Forge Turn 1",
+      "metadata": {
+        "reservationId": "res_1790451803259_3a12e304",
+        "actualCostCents": 40
+      },
+      "createdAt": "2026-09-26T19:43:24.588Z"
+    },
+    {
+      "id": "tx_rev_1790451793068_53eb4452",
+      "projectId": "proj_client_1790451786649_ee8dff",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for DEPOSIT",
+      "metadata": {
+        "providerEventId": "evt_test_1790451791198_e531c8f4",
+        "checkoutSessionId": "cs_mock_1790451791197_77323c3f",
+        "customerEmail": "client@enterprise.com"
+      },
+      "createdAt": "2026-09-26T19:43:13.068Z"
+    },
+    {
+      "id": "tx_rev_cont_1790451735635",
+      "projectId": "proj_contention_1790451735240",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 50000,
+      "status": "COMMITTED",
+      "createdAt": "2026-09-26T19:42:15.635Z"
+    },
+    {
+      "id": "tx_rel_1790451723140_f58f2c3a",
+      "projectId": "proj_client_1790451705828_4e7a16",
+      "transactionType": "RESERVATION_RELEASE",
+      "currency": "USD",
+      "amountCents": 60,
+      "status": "COMMITTED",
+      "description": "Released excess hold from reservation res_1790451721122_0ed891cb",
+      "metadata": {
+        "reservationId": "res_1790451721122_0ed891cb",
+        "excessHold": 60
+      },
+      "createdAt": "2026-09-26T19:42:02.757Z"
+    },
+    {
+      "id": "tx_spend_1790451722757_7fa006f4",
+      "projectId": "proj_client_1790451705828_4e7a16",
+      "transactionType": "TOKEN_COST",
+      "currency": "USD",
+      "amountCents": 40,
+      "tokenCount": 1500,
+      "unitCostCents": 40,
+      "agentId": "forge",
+      "taskId": "task-1",
+      "status": "COMMITTED",
+      "description": "Settled spend for Forge Turn 1",
+      "metadata": {
+        "reservationId": "res_1790451721122_0ed891cb",
+        "actualCostCents": 40
+      },
+      "createdAt": "2026-09-26T19:42:02.757Z"
+    },
+    {
+      "id": "tx_rev_1790451709434_63fe07fd",
+      "projectId": "proj_client_1790451705828_4e7a16",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for DEPOSIT",
+      "metadata": {
+        "providerEventId": "evt_test_1790451707226_851fec2b",
+        "checkoutSessionId": "cs_mock_1790451707225_910dbec6",
+        "customerEmail": "client@enterprise.com"
+      },
+      "createdAt": "2026-09-26T19:41:49.434Z"
+    },
+    {
+      "id": "tx_rev_1790451609079_e67e102d",
+      "projectId": "proj_client_1790451604948_71559b",
+      "transactionType": "REVENUE",
+      "currency": "USD",
+      "amountCents": 25000,
+      "status": "COMMITTED",
+      "description": "Stripe Checkout payment received for DEPOSIT",
+      "metadata": {
+        "providerEventId": "evt_test_1790451607014_b42a3d2c",
+        "checkoutSessionId": "cs_mock_1790451607014_1ea56512",
+        "customerEmail": "client@enterprise.com"
+      },
+      "createdAt": "2026-09-26T19:40:09.079Z"
+    }
+  ]
+}

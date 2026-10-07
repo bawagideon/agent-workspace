@@ -10,6 +10,11 @@ export interface ProcessResult {
   durationMs: number;
 }
 
+export interface StructuredCommand {
+  executable: string;
+  args: string[];
+}
+
 export class ProcessExecutor {
   constructor(private sandbox: WorkspaceSandbox) {}
 
@@ -20,25 +25,36 @@ export class ProcessExecutor {
   ): Promise<ProcessResult> {
     const cwd = this.sandbox.getWorkspaceRoot(workspaceId);
 
-    // 1. Verify policy
+    // 1. Verify policy against CommandPolicy allowlist
     const policyResult = CommandPolicy.evaluateCommand(command);
     if (!policyResult.isAllowed) {
       throw new Error(`Command blocked by security policy: ${policyResult.reason}`);
     }
+
+    // 2. Parse command into structured binary + arguments (shell: false)
+    const structured = this.parseCommand(command);
 
     const startTime = Date.now();
     let stdout = '';
     let stderr = '';
 
     return new Promise((resolve, reject) => {
-      const isWindows = process.platform === 'win32';
-      const shell = isWindows ? 'powershell.exe' : '/bin/bash';
-      const args = isWindows ? ['-NoProfile', '-NonInteractive', '-Command', command] : ['-c', command];
+      // Execute directly without shell interpretation to eliminate shell injection
+      // Note: On Windows, Node.js enforces shell: true for .cmd and .bat batch files (CVE-2024-27980)
+      const isBatchFile = process.platform === 'win32' && 
+        (structured.executable.toLowerCase().endsWith('.cmd') || structured.executable.toLowerCase().endsWith('.bat'));
 
-      const child: ChildProcess = spawn(shell, args, {
-        cwd,
-        env: { ...process.env, CI: 'true', NODE_ENV: 'test' }
-      });
+      const child: ChildProcess = isBatchFile
+        ? spawn([structured.executable, ...structured.args].join(' '), {
+            cwd,
+            shell: true,
+            env: { ...process.env, CI: 'true', NODE_ENV: 'test' }
+          })
+        : spawn(structured.executable, structured.args, {
+            cwd,
+            shell: false,
+            env: { ...process.env, CI: 'true', NODE_ENV: 'test' }
+          });
 
       if (child.pid) {
         KillSwitch.trackProcess(child.pid, child);
@@ -86,5 +102,50 @@ export class ProcessExecutor {
         reject(err);
       });
     });
+  }
+
+  private parseCommand(command: string): StructuredCommand {
+    // Standard command parser splitting on whitespace while respecting quotes
+    const parts: string[] = [];
+    let current = '';
+    let inQuotes = false;
+    let quoteChar = '';
+
+    for (let i = 0; i < command.length; i++) {
+      const char = command[i];
+      if ((char === '"' || char === "'") && !inQuotes) {
+        inQuotes = true;
+        quoteChar = char;
+      } else if (char === quoteChar && inQuotes) {
+        inQuotes = false;
+        quoteChar = '';
+      } else if (char === ' ' && !inQuotes) {
+        if (current.length > 0) {
+          parts.push(current);
+          current = '';
+        }
+      } else {
+        current += char;
+      }
+    }
+    if (current.length > 0) {
+      parts.push(current);
+    }
+
+    if (parts.length === 0) {
+      throw new Error('Invalid empty command.');
+    }
+
+    let executable = parts[0];
+    const args = parts.slice(1);
+
+    // On Windows, resolve npm, npx, node executables correctly if extension is missing
+    if (process.platform === 'win32' && !executable.endsWith('.cmd') && !executable.endsWith('.exe')) {
+      if (executable === 'npm' || executable === 'npx' || executable === 'pnpm' || executable === 'tsc') {
+        executable = `${executable}.cmd`;
+      }
+    }
+
+    return { executable, args };
   }
 }

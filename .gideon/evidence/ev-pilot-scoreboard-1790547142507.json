@@ -1,0 +1,48 @@
+{
+  "record": {
+    "id": "sb-proj_webhook_billing_bridge_1790547072851-1790547142506",
+    "mode": "REHEARSAL",
+    "projectId": "proj_webhook_billing_bridge_1790547072851",
+    "opportunityId": "opp_acme_bridge_1790547072851",
+    "cashReceivedRealCents": 0,
+    "syntheticCashReceivedCents": 50000,
+    "grossRevenueCents": 50000,
+    "processingFeesCents": 1510,
+    "externalInfraCents": 100,
+    "computeSpendCents": 35,
+    "netContributionCents": 48355,
+    "contributionMarginPercent": 96.7,
+    "humanAuthorityGateEvents": 2,
+    "unexpectedManualInterventions": 0,
+    "humanTouchRatio": 0.1,
+    "autonomyCoveragePercent": 100,
+    "humanInterventionMinutes": 4,
+    "leadToProposalMs": 0,
+    "depositToStagingMs": 5238,
+    "clientAcceptanceMs": 4876,
+    "deployMs": 5885,
+    "revisionCount": 1,
+    "defectCount": 0,
+    "rollbackCount": 0,
+    "postDeployVerified": true,
+    "evidenceComplete": true,
+    "sealedAt": "2026-09-27T22:12:22.506Z",
+    "hmacSignature": "a2b85bbe2b8f68cd8cdc21c3bc6d3f4e2b9aaa8fe93cf089df27377a8a4e0be6"
+  },
+  "interventions": [
+    {
+      "type": "AUTHORIZED_HUMAN_GATE",
+      "step": 3,
+      "description": "Gate A: Commercial Proposal Authorization signed by Operator",
+      "durationMinutes": 2,
+      "timestamp": "2026-09-27T22:11:12.871Z"
+    },
+    {
+      "type": "AUTHORIZED_HUMAN_GATE",
+      "step": 16,
+      "description": "Gate B: Production Release Authorization signed by Release Captain",
+      "durationMinutes": 2,
+      "timestamp": "2026-09-27T22:12:11.499Z"
+    }
+  ]
+}

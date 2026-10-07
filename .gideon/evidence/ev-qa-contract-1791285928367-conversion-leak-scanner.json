@@ -1,0 +1,58 @@
+{
+  "evaluationId": "eval-proj_conversion_leak_scanner-1791285928367",
+  "projectId": "proj_conversion_leak_scanner",
+  "slug": "conversion-leak-scanner",
+  "name": "Conversion Leak Scanner",
+  "overallStatus": "PASS",
+  "evidenceType": "AUTOMATED_UNIT_TEST_AND_DETERMINISTIC_SIMULATION",
+  "gitCommit": "a99ae4a55fcfb33a3d6e22190a734fc529378a72",
+  "pillarResults": {
+    "functional": {
+      "passed": true,
+      "details": [
+        "Unit & edge-case test suite executed with zero failures.",
+        "Verified 4 passing test assertions on Node.js test runner."
+      ],
+      "testCount": 4
+    },
+    "security": {
+      "passed": true,
+      "details": [
+        "Zero plaintext API keys, secret credentials, or leaked customer PII.",
+        "In-memory input sanitization and secure cryptographic hashing."
+      ],
+      "secretsFound": 0
+    },
+    "reliability": {
+      "passed": true,
+      "details": [
+        "Deterministic boundary handling for malformed, null, and empty payloads.",
+        "Sub-millisecond local execution overhead without external runtime dependencies."
+      ],
+      "reliabilityVerified": true
+    },
+    "delivery": {
+      "passed": true,
+      "details": [
+        "Interactive browser sandbox verified in public/index.html.",
+        "Standardized Commercial Dossier, Demo Script, Integration, and Post packages verified."
+      ],
+      "buildVerified": true
+    }
+  },
+  "invariants": [
+    "9-pillar conversion score heuristic (0-100)",
+    "Mobile tap-target and viewport integrity check",
+    "Core Web Vitals & payload latency analysis",
+    "Form input field count friction penalty",
+    "Simulation benchmark: Audit diagnostic model ($18,400 projected recoverable monthly revenue)"
+  ],
+  "demarcation": {
+    "verifiedClaims": "Automated test assertions (4/4) passing locally under standard Node.js test runner.",
+    "simulatedBenchmark": "Simulation benchmark: Audit diagnostic model ($18,400 projected recoverable monthly revenue)",
+    "claimConstraint": "Simulated pipeline recovery metrics must never be represented as historical client case studies until backed by real client transaction logs."
+  },
+  "evidenceId": "ev-qa-contract-1791285928367-conversion-leak-scanner",
+  "evaluatedAt": "2026-10-06T11:25:28.366Z",
+  "hmacSignature": "c31bc47bbba712a4e315dfc96e983e1b54fc7d30a82979377ae018559c9bf1cf"
+}

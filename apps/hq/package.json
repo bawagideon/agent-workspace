@@ -16,6 +16,8 @@
     "@gideon/agents": "*",
     "@gideon/runtime": "*",
     "@gideon/memory": "*",
+    "@gideon/billing": "*",
+    "@gideon/portal": "*",
     "@supabase/supabase-js": "^2.49.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.475.0",

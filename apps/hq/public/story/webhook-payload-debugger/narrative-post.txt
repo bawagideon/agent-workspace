@@ -1,0 +1,62 @@
+You just deployed your Stripe webhook handler.
+On localhost: 200 OK.
+In production: 400 Bad Request. Signature Verification Failed.
+
+Every backend engineer has lost hours to this exact bug.
+
+Here is why webhook signatures fail in production, and the 5 zero-compromise invariants needed to solve it:
+
+1. The "Body Mutation" Trap
+Most developers use Express or Fastify with:
+app.use(express.json());
+
+When Express parses JSON, it parses the body into an in-memory JavaScript object.
+When your webhook library computes the HMAC, it stringifies that object back to text.
+Except:
+• JSON key order might shift.
+• Trailing decimals are truncated (50.00 becomes 50).
+• Unicode characters and escaped slashes are transformed.
+The result? The raw bytes you verify no longer match what Stripe signed at origin.
+Fix: Webhook endpoints MUST preserve the raw Buffer before any body-parser touches it.
+
+2. Timestamp Decay & NTP Clock Skew
+Stripe signatures arrive formatted like:
+t=1700000000,v1=abcdef12345...
+
+Stripe enforces a strict 300-second TTL window (|now - t| <= 300s) to prevent packet-capture replay attacks.
+If your cloud server's clock drifts by 5 minutes, or an upstream gateway retries an event after backoff, the timestamp is expired and rejected before hitting your database.
+
+3. Whitespace & Trailing Newlines
+Nginx, Cloudflare, AWS API Gateway, and reverse proxies often normalize HTTP payloads by stripping or adding trailing newlines (\n or \r\n).
+In cryptographic hashing, changing ONE whitespace byte completely changes the SHA-256 digest.
+
+4. Timing Side-Channel Attacks
+If your verification uses:
+if (signature === expectedSignature)
+
+You're introducing a timing vulnerability. Normal string comparison exits on the first mismatched byte, allowing attackers to measure response times and reconstruct valid signatures.
+Fix: Always use crypto.timingSafeEqual over raw Buffer instances.
+
+5. I Built a Free Developer Tool to Diagnose This in Seconds
+I didn't just want to write a theory post.
+I built the Webhook Payload Debugger & Replay Studio.
+
+You paste your failing payload, header, and secret:
+• It inspects raw bytes and whitespace drift.
+• It tests timestamp validity and clock decay.
+• It recalculates HMAC-SHA256 with constant-time equality.
+• It gives you exact, copy-paste fixed middleware code for Node.js (Express/Fastify), Python (FastAPI), Go, and cURL.
+
+100% open-source, zero dependencies, verified with 8/8 automated tests under Sentinel QA contracts.
+
+👉 Full Source Code & Interactive Sandbox:
+https://github.com/bawagideon/webhook-payload-debugger
+
+👉 Live 3D Architecture Portfolio:
+https://gideonbawa-website.netlify.app/#work
+
+Swipe through the 8 slides above for the visual architecture breakdown.
+
+How are you handling raw byte preservation in your webhook ingestion pipeline? Let's discuss in the comments below!
+
+#BackendEngineering #Webhooks #SoftwareEngineering #TypeScript #Stripe #SystemDesign #DistributedSystems #DevOps

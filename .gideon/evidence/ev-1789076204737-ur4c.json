@@ -1,0 +1,24 @@
+{
+  "id": "ev-1789076204737-ur4c",
+  "missionId": "mission-real-001-1789076189119",
+  "taskId": "task-forge-audit-001",
+  "stepId": "mission-real-001-1789076189119-step-1",
+  "agentId": "forge",
+  "sessionKey": "agent:main:forge-mission-1789076189119",
+  "runId": "e9b654ef-a629-4a59-927a-f9268768478e",
+  "model": "gemini-3.5-flash",
+  "toolNames": [
+    "read"
+  ],
+  "toolArgs": {
+    "targetFixturePath": "C:\\Users\\DELL\\agent-workspace\\fixtures\\sample-repos\\sample-app\\package.json"
+  },
+  "toolResult": "Based on the inspection of the `package.json` file at `C:\\Users\\DELL\\agent-workspace\\fixtures\\sample-repos\\sample-app\\package.json`, here is the structured summary of the project details:\n\n### Project Overview\n* **Project Name:** `sample-target-app`\n* **Version:** `1.0.0`\n* **Private:** `true`\n\n### Defined Scripts (Testing)\n* **`test`**: Runs the command `node tests/index.test.js`",
+  "exitCode": 0,
+  "testPassed": true,
+  "tokensUsed": 64765,
+  "costCents": 2.3054,
+  "costUsd": 0.023054,
+  "timestamp": "2026-09-10T21:36:44.737Z",
+  "signature": "296abf02f124c7c10caa0c55c65a24bd239b9b77879d099777b5c0c4ae0b349d"
+}

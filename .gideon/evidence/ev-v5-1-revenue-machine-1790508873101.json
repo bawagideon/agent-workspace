@@ -1,0 +1,77 @@
+{
+  "version": "5.1.0",
+  "suite": "V5.1_REVENUE_OPERATING_SYSTEM_DECISION_LOOP",
+  "timestamp": "2026-09-27T11:34:33.100Z",
+  "milestones": {
+    "dualIntake": {
+      "passed": true,
+      "machineOpp": "opp-scout-1790508873084-ad4e67",
+      "humanOpp": "opp-human-1790508873085-7b07eb"
+    },
+    "patternMining": {
+      "passed": true,
+      "clusteredCount": 3,
+      "vehicle": "MICRO_SAAS"
+    },
+    "deterministicScoring": {
+      "passed": true,
+      "machineEV": 51875,
+      "humanEV": 113875
+    },
+    "investigationContract": {
+      "passed": true,
+      "maxBudget": 350,
+      "zeroOutbound": true
+    },
+    "multiAgentInvestigation": {
+      "passed": true,
+      "evidenceCount": 3,
+      "prototype": "C:\\Users\\DELL\\agent-workspace\\fixtures\\sandboxes\\investigations\\opp-human-1790508873085-7b07eb\\feasibility-proof.ts"
+    },
+    "atlasSynthesis": {
+      "passed": true,
+      "confidenceElevation": "40% -> 72%"
+    },
+    "stateGuard": {
+      "passed": true,
+      "codeGuarded": true
+    },
+    "bayesianExperiment": {
+      "passed": true,
+      "experimentId": "exp-1790508873089-786295",
+      "posteriorConfidence": 0.8586
+    },
+    "opportunityMemory": {
+      "passed": true,
+      "whyNotResolved": true
+    },
+    "monitorReopen": {
+      "passed": true,
+      "reopenedOppId": "opp-monitor-1790508873095"
+    },
+    "missionConversion": {
+      "passed": true,
+      "vehicle": "API_SERVICE",
+      "budget": 200
+    },
+    "sentinelExecution": {
+      "passed": true,
+      "sentinelScore": 96,
+      "threshold": 90
+    },
+    "economicRationality": {
+      "passed": true,
+      "netRevenuePerHumanHourCents": 31160
+    },
+    "humanOutboundGate": {
+      "passed": true,
+      "requiresApproval": true,
+      "status": "ALWAYS_ASK"
+    }
+  },
+  "hmacSignature": "0905e1f7d2c252f97274e7dbf881cfb0cd4e82bdb16df6d25b56707bd0112a16",
+  "verificationStatus": "SEALED_AND_VERIFIED",
+  "passedProofs": 14,
+  "totalProofs": 14,
+  "executionDurationMs": 20
+}

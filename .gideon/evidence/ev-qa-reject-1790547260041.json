@@ -1,0 +1,19 @@
+{
+  "id": "ev-qa-reject-1790547260041",
+  "taskId": "task-qa-1790547254265",
+  "agentId": "sentinel",
+  "sessionKey": "agent:sentinel:qa-reject",
+  "model": "gemini-qa-eval",
+  "toolNames": [
+    "terminal_run_command"
+  ],
+  "toolResult": "Tests failed. Rework required.",
+  "exitCode": 1,
+  "testPassed": false,
+  "sentinelScore": 25,
+  "tokensUsed": 1250,
+  "costCents": 0.12,
+  "costUsd": 0.0012,
+  "timestamp": "2026-09-27T22:14:20.041Z",
+  "signature": "92d52e7303a89548e48034affeef78caf8f0d40cfd106bdcfc29f58d1632e624"
+}

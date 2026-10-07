@@ -1,6 +1,6 @@
 {
   "name": "gideon-ai-hq-monorepo",
-  "version": "3.0.0",
+  "version": "5.0.0",
   "private": true,
   "description": "Gideon AI HQ — Personal AI Workforce Operating System",
   "workspaces": [
@@ -10,7 +10,43 @@
   "scripts": {
     "dev": "npm run dev --workspace=apps/hq",
     "runner:dev": "npm run dev --workspace=packages/runner",
-    "build": "npm run build --workspaces --if-present",
+    "start:runner": "npm run dev --workspace=packages/runner",
+    "runner": "npm run dev --workspace=packages/runner",
+    "verify": "npx tsx scripts/test-phase4-production-e2e.ts && npx tsx scripts/test-negative-failure-modes.ts && npx tsx scripts/test-v3-2-reality-round2.ts && npx tsx scripts/test-openclaw-bridge.ts && npx tsx scripts/test-workforce-factory.ts && npx tsx scripts/test-mission-engine.ts",
+    "verify:v5": "npx tsx scripts/test-openclaw-bridge.ts && npx tsx scripts/test-workforce-factory.ts && npx tsx scripts/test-sentinel-adversarial.ts && npx tsx scripts/test-v5-real-mission-001.ts && npx tsx scripts/test-v5-real-mission-002.ts",
+    "verify:v5.1": "npx tsx scripts/test-v5-1-revenue-machine.ts",
+    "test:phase1": "npx tsx scripts/test-phase1-project-os-invariants.ts",
+    "test:context": "npm run test:context:step1 && npm run test:context:step2 && npm run test:context:step3 && npm run test:context:step4 && npm run test:context:step5 && npm run test:context:step6",
+    "test:context:step1": "npx tsx scripts/test-phase2-step1-contracts.ts",
+    "test:context:step2": "npx tsx scripts/test-phase2-step2-pack-builder.ts",
+    "test:context:step3": "npx tsx scripts/test-phase2-step3-security-pipeline.ts",
+    "test:context:step4": "npx tsx scripts/test-phase2-step4-lesson-store.ts",
+    "test:context:step5": "npx tsx scripts/test-phase2-step5-context-api-ui.ts",
+    "test:context:step6": "npx tsx scripts/test-phase2-step6-dispatcher-binding.ts",
+    "test:lab": "npx tsx scripts/test-phase3-build-lab.ts",
+    "test:commerce": "npx tsx scripts/test-phase4-commerce-billing.ts",
+    "test:portal": "npx tsx scripts/test-phase5-client-portal.ts",
+    "test:pilot": "npx tsx scripts/test-phase6-revenue-pilot.ts",
+    "test:comms": "npx tsx scripts/test-phase6-5-communications.ts",
+    "test:showcase": "npx tsx scripts/test-engineering-showcase-loop.ts",
+    "test:workspace": "npx tsx scripts/test-gideon-workspace-and-intelligence.ts",
+    "test:workspace-e2e": "npx tsx scripts/test-workspace-e2e.ts",
+    "test:loops": "npx tsx scripts/test-loop-missions-e2e.ts",
+    "test:opportunities": "npx tsx scripts/test-opportunity-intelligence-pipeline.ts",
+    "verify:rol": "npx tsx scripts/test-v5-remote-control.ts",
+    "test:remote": "npx tsx scripts/test-v5-remote-control.ts",
+    "test:mission-001": "npx tsx scripts/test-v5-real-mission-001.ts",
+    "test:mission-002": "npx tsx scripts/test-v5-real-mission-002.ts",
+    "test:sentinel": "npx tsx scripts/test-sentinel-adversarial.ts",
+    "test:bridge": "npx tsx scripts/test-openclaw-bridge.ts",
+    "test:workforce": "npx tsx scripts/test-workforce-factory.ts",
+    "test:missions": "npx tsx scripts/test-mission-engine.ts",
+    "test:reality2": "npx tsx scripts/test-v3-2-reality-round2.ts",
+    "test:negative": "npx tsx scripts/test-negative-failure-modes.ts",
+    "test:production": "npx tsx scripts/test-phase4-production-e2e.ts",
+    "test:supabase": "npx tsx scripts/test-supabase-connection.ts",
+    "test:model": "npx tsx scripts/test-gemini-provider.ts",
+    "build": "npm run build --workspace=apps/hq",
     "test": "npm run test --workspaces --if-present",
     "lint": "npm run lint --workspaces --if-present"
   },
@@ -21,5 +57,10 @@
     "gideon-hq"
   ],
   "author": "Gideon",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@stripe/stripe-js": "^9.17.0",
+    "dotenv": "^18.0.3",
+    "stripe": "^22.6.2"
+  }
 }

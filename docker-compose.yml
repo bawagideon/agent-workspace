@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  # 1. Official OpenClaw Execution Runtime Gateway
+  openclaw:
+    image: ghcr.io/openclaw/openclaw:2026.9.3
+    container_name: openclaw-gateway
+    restart: unless-stopped
+    environment:
+      - OPENCLAW_AUTH_TOKEN=${OPENCLAW_AUTH_TOKEN}
+      - PORT=18789
+    volumes:
+      - openclaw-config:/home/node/.openclaw
+      - openclaw-workspace:/home/node/.openclaw/workspace
+    networks:
+      - gideon-network
+    # Port 18789 is intentionally NOT exposed to the host for security.
+    # It communicates with gideon-runner strictly over the internal Docker network.
+
+  # 2. Gideon Headless Runner Daemon
+  gideon-runner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gideon-runner-daemon
+    restart: unless-stopped
+    depends_on:
+      - openclaw
+    environment:
+      - MACHINE_ID=${MACHINE_ID:-GIDMACHINE_ORACLE_A1}
+      - WORKSPACE_ROOT=/workspace
+      - OPENCLAW_GATEWAY_URL=ws://openclaw:18789
+      - OPENCLAW_GATEWAY_TOKEN=${OPENCLAW_AUTH_TOKEN}
+      - NEXT_PUBLIC_SUPABASE_URL=${NEXT_PUBLIC_SUPABASE_URL}
+      - NEXT_PUBLIC_SUPABASE_ANON_KEY=${NEXT_PUBLIC_SUPABASE_ANON_KEY}
+      - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+      - HMAC_PLAN_SECRET=${HMAC_PLAN_SECRET}
+      - GIDEON_HMAC_SECRET=${GIDEON_HMAC_SECRET}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_ADMIN_CHAT_ID=${TELEGRAM_ADMIN_CHAT_ID}
+      - TELEGRAM_ALLOWED_USERS=${TELEGRAM_ALLOWED_USERS}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GEMINI_MODEL=${GEMINI_MODEL:-gemini-2.0-flash}
+      - CI=true
+    volumes:
+      - gideon-evidence:/app/.gideon/evidence
+      - gideon-workspace:/workspace
+    networks:
+      - gideon-network
+
+networks:
+  gideon-network:
+    driver: bridge
+
+volumes:
+  openclaw-config:
+  openclaw-workspace:
+  gideon-evidence:
+  gideon-workspace:

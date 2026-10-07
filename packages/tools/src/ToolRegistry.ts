@@ -7,7 +7,9 @@ import {
   GitStatusTool,
   GitDiffTool,
   GitCommitTool,
-  TerminalRunCommandTool
+  TerminalRunCommandTool,
+  OpenClawToolInvokeTool,
+  OpenClawAgentDispatchTool
 } from './schemas/tools';
 
 export class ToolRegistry {
@@ -22,6 +24,8 @@ export class ToolRegistry {
     this.register(GitDiffTool);
     this.register(GitCommitTool);
     this.register(TerminalRunCommandTool);
+    this.register(OpenClawToolInvokeTool);
+    this.register(OpenClawAgentDispatchTool);
   }
 
   public static register(tool: ToolDefinition): void {

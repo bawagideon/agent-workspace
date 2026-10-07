@@ -1,0 +1,58 @@
+{
+  "evaluationId": "eval-proj_missed_call_recovery-1791285928367",
+  "projectId": "proj_missed_call_recovery",
+  "slug": "missed-call-recovery",
+  "name": "Missed-Call Revenue Recovery",
+  "overallStatus": "PASS",
+  "evidenceType": "AUTOMATED_UNIT_TEST_AND_DETERMINISTIC_SIMULATION",
+  "gitCommit": "a99ae4a55fcfb33a3d6e22190a734fc529378a72",
+  "pillarResults": {
+    "functional": {
+      "passed": true,
+      "details": [
+        "Unit & edge-case test suite executed with zero failures.",
+        "Verified 6 passing test assertions on Node.js test runner."
+      ],
+      "testCount": 6
+    },
+    "security": {
+      "passed": true,
+      "details": [
+        "Zero plaintext API keys, secret credentials, or leaked customer PII.",
+        "In-memory input sanitization and secure cryptographic hashing."
+      ],
+      "secretsFound": 0
+    },
+    "reliability": {
+      "passed": true,
+      "details": [
+        "Deterministic boundary handling for malformed, null, and empty payloads.",
+        "Sub-millisecond local execution overhead without external runtime dependencies."
+      ],
+      "reliabilityVerified": true
+    },
+    "delivery": {
+      "passed": true,
+      "details": [
+        "Interactive browser sandbox verified in public/index.html.",
+        "Standardized Commercial Dossier, Demo Script, Integration, and Post packages verified."
+      ],
+      "buildVerified": true
+    }
+  },
+  "invariants": [
+    "Twilio voice status callback interception",
+    "Automated 90-second conversational SMS dispatch",
+    "Pre-populated scheduling link routing",
+    "Anti-spam suppression window",
+    "Simulation benchmark: 50-call scenario ($8,000 recoverable pipeline)"
+  ],
+  "demarcation": {
+    "verifiedClaims": "Automated test assertions (6/6) passing locally under standard Node.js test runner.",
+    "simulatedBenchmark": "Simulation benchmark: 50-call scenario ($8,000 recoverable pipeline)",
+    "claimConstraint": "Simulated pipeline recovery metrics must never be represented as historical client case studies until backed by real client transaction logs."
+  },
+  "evidenceId": "ev-qa-contract-1791285928367-missed-call-recovery",
+  "evaluatedAt": "2026-10-06T11:25:28.366Z",
+  "hmacSignature": "f4ad1345eb32c63074b67b3149c94506ed19530d5841db2d2277719aa7b7b1a2"
+}

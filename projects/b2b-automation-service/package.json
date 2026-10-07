@@ -1,0 +1,16 @@
+{
+  "name": "b2b-automation-service",
+  "version": "1.0.0",
+  "description": "High-margin B2B workflow automation service with Stripe checkout and automated onboarding webhooks",
+  "main": "src/controllers/checkoutController.js",
+  "scripts": {
+    "start": "node src/controllers/checkoutController.js",
+    "test": "node --test tests/*.spec.js"
+  },
+  "dependencies": {
+    "stripe": "^17.0.0"
+  },
+  "devDependencies": {},
+  "author": "Gideon Autonomous Workforce (Forge & Sentinel)",
+  "license": "MIT"
+}
