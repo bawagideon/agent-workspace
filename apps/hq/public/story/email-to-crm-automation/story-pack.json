@@ -1,0 +1,82 @@
+{
+  "projectId": "email-to-crm-automation",
+  "projectName": "Email To Crm Automation",
+  "generatedAt": "2026-10-07T20:34:02.446Z",
+  "narrativePost": {
+    "hook": "LinkedIn Authority Post — Email-to-CRM Automation Engine",
+    "subtext": "Most companies lose 15–30% of their revenue not because of bad marketing, but because of silent workflow breakdowns.",
+    "fullText": "# LinkedIn Authority Post — Email-to-CRM Automation Engine\n\nMost companies lose 15–30% of their revenue not because of bad marketing, but because of silent workflow breakdowns.\n\nWe built **Email-to-CRM Automation Engine** to solve this exact problem:\nInbound message intelligence pipeline that parses unstructured business emails, extracts entities (budget, timeline, company, intent), creates CRM records, and synthesizes customized replies.\n\n### The Sentinel Claim Audit Registry\n* **Benchmark Scenario:** Evaluated against synthetic multi-factor telemetry.\n* **Demonstrated Latency:** Sub-millisecond calculation in zero-dependency Node.js runtime.\n* **Live In-Browser Sandbox:** https://gideonbawa-website.netlify.app/simulators/email-to-crm-automation/\n* **Source Code:** https://github.com/bawagideon/email-to-crm-automation\n\n#SoftwareEngineering #B2B #Automation #SystemsEngineering #GideonHQ\n",
+    "contentHash": "d0126b40ada5b3abb3affd81654cce906bb3c62e0df1178a42fa2215053e53f7"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Email To Crm Automation",
+      "subtext": "Inbound message intelligence pipeline that parses unstructured business emails, extracts entities (budget, timeline, company, intent), creates CRM records, and synthesizes customized replies.",
+      "evidenceCitation": "Measured vulnerability: 15–30% (Silent Revenue Churn).",
+      "visual": {
+        "publicUrl": "/story/email-to-crm-automation/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/email-to-crm-automation/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/email-to-crm-automation/",
+      "visual": {
+        "publicUrl": "/story/email-to-crm-automation/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242434-email-to-crm-automation",
+      "visual": {
+        "publicUrl": "/story/email-to-crm-automation/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-email-to-crm-automation-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242434-email-to-crm-automation"
+    },
+    {
+      "id": "claim-email-to-crm-automation-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242434-email-to-crm-automation"
+    },
+    {
+      "id": "claim-email-to-crm-automation-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/email-to-crm-automation/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/email-to-crm-automation/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

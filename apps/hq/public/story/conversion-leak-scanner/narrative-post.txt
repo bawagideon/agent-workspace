@@ -1,0 +1,17 @@
+Most companies think their website is "working fine" because it looks good on their MacBook.
+Then we run a headless conversion audit and find:
+1. Primary CTA is below the fold on mobile viewports.
+2. Tap targets are 28px (causing misclicks on iPhone touchscreens).
+3. The contact form asks for 9 fields (including fax and address for a simple inquiry).
+4. Mobile page load takes 4.8 seconds (Google: 53% of mobile visitors bounce after 3s).
+5. The submit button is throwing an unhandled 500 error on the backend.
+
+🛠️ I built the Conversion Leak Scanner:
+• Audits any public website across 9 core conversion pillars.
+• Generates a quantified Conversion Health Score (0-100).
+• Pinpoints every specific leak with severity and estimated revenue penalty.
+• Feeds directly into an actionable engineering fix plan.
+
+Before you increase your ad budget, fix the holes in the bucket.
+
+👉 Full open-source code & interactive simulator: https://github.com/bawagideon/conversion-leak-scanner

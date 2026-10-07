@@ -1,0 +1,14 @@
+# LinkedIn Technical Marketing Post: AI Support Sentiment & Escalation Engine
+
+Sentiment velocity monitor for support chatbots that intercepts angry customers and VIP accounts, gracefully handing off to human support before brand reputation suffers.
+
+### The Problem
+Most companies lose thousands in hidden operational waste every single month.
+
+### The Engineered Fix
+We engineered a zero-dependency system to solve this.
+
+👉 Try the live interactive simulator here:
+https://gideonbawa-website.netlify.app/simulators/ai-support-escalation-engine/
+
+#SoftwareEngineering #Automation #SystemsArchitecture #BuildInPublic

@@ -1,0 +1,14 @@
+# LinkedIn Technical Marketing Post: Sales Pipeline Velocity & Leak Analyzer
+
+Stage conversion velocity engine that pinpoints exactly where high-value sales deals drop off, exposing the sales stages costing the company the most pipeline.
+
+### The Problem
+Most companies lose thousands in hidden operational waste every single month.
+
+### The Engineered Fix
+We engineered a zero-dependency system to solve this.
+
+👉 Try the live interactive simulator here:
+https://gideonbawa-website.netlify.app/simulators/sales-pipeline-leak-analyzer/
+
+#SoftwareEngineering #Automation #SystemsArchitecture #BuildInPublic

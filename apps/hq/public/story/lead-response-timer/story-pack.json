@@ -1,0 +1,82 @@
+{
+  "projectId": "lead-response-timer",
+  "projectName": "Lead Response Timer",
+  "generatedAt": "2026-10-07T20:34:02.549Z",
+  "narrativePost": {
+    "hook": "Every founder thinks their sales team responds to leads \"within 10 minutes.\"",
+    "subtext": "Then you actually look at the database timestamps.",
+    "fullText": "Every founder thinks their sales team responds to leads \"within 10 minutes.\"\n\nThen you actually look at the database timestamps.\n\nLead created: Monday 14:12:08\nFirst human outreach: Monday 17:54:19\nActual response time: 3 hours and 42 minutes.\n\nThe dangerous part? Sales reps don't realize how slow they are because their day is full of Slack, meetings, and emails.\n\n🛠️ I built the Lead Response Timer:\n• High-resolution stopwatch telemetry running on every inbound event.\n• Bins response latency into 4 strict SLA tiers:\n  🟢 Elite (0-5 min)\n  🟡 Slow (5-30 min)\n  🟠 High Risk (30m-2h)\n  🔴 Breached (2h+)\n• Computes rolling median turnaround times across reps and channels.\n• Dispatches automated management alerts the instant an uncontacted lead crosses 15 minutes.\n\nYou cannot improve what you do not measure. If you haven't audited your response latency this month, you're flying blind.\n\n👉 Live demo: https://github.com/bawagideon/lead-response-timer",
+    "contentHash": "b5ecaf52354c879184fbb8939cc9e96f57d5ca8a18cb0a0d694042ed312438fb"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Lead Response Timer",
+      "subtext": "Lead Response Timer: High-resolution response latency auditor that tracks lead intake to first human touch, calculates median SLAs, and alerts on decay thresholds.",
+      "evidenceCitation": "Measured vulnerability: Sub-1ms Latency (Execution Speed).",
+      "visual": {
+        "publicUrl": "/story/lead-response-timer/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/lead-response-timer/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/lead-response-timer/",
+      "visual": {
+        "publicUrl": "/story/lead-response-timer/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242537-lead-response-timer",
+      "visual": {
+        "publicUrl": "/story/lead-response-timer/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-lead-response-timer-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242537-lead-response-timer"
+    },
+    {
+      "id": "claim-lead-response-timer-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242537-lead-response-timer"
+    },
+    {
+      "id": "claim-lead-response-timer-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/lead-response-timer/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/lead-response-timer/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

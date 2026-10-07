@@ -1,0 +1,82 @@
+{
+  "projectId": "contact-form-intelligence",
+  "projectName": "Contact Form Intelligence",
+  "generatedAt": "2026-10-07T20:34:02.312Z",
+  "narrativePost": {
+    "hook": "Why are enterprise contact forms still just 3 dumb input boxes?",
+    "subtext": "Name: _________",
+    "fullText": "Why are enterprise contact forms still just 3 dumb input boxes?\n\nName: _________\nEmail: _________\nMessage: _________\n\nA VP of Technology submits:\n\"Need an enterprise automation system for 200 staff. Budget $50,000. Urgent timeline.\"\n\nAnd it sits in the same inbox as:\n\"Hey bro do you offer free guest posts?\"\n\n🛠️ I built Contact Form Intelligence:\n• Parses raw inquiry messages using deterministic intent extraction in <2ms.\n• Classifies service category, urgency indicators, and budget tier in real time.\n• Validates corporate domain emails vs throwaway free webmail.\n• Intelligently routes high-tier prospects:\n  - Enterprise Tier → Bypasses SDR queue, instantly displays Founder VIP calendar link.\n  - Urgent Matter → Pings on-call dispatcher via SMS immediately.\n  - Low-budget tire-kicker → Automated polite FAQ response.\n\nTreat high-value buyers with the velocity they deserve.\n\n👉 Full open-source code & interactive simulator: https://github.com/bawagideon/contact-form-intelligence",
+    "contentHash": "23ae0dc2b9645a00f087dc65114f264b63ebdf8f0c15e9f0fb8caba924895833"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Contact Form Intelligence",
+      "subtext": "Contact Form Intelligence: Replaces dumb static forms with conversational intent extraction, budget classification, and priority routing.",
+      "evidenceCitation": "Measured vulnerability: Sub-1ms Latency (Execution Speed).",
+      "visual": {
+        "publicUrl": "/story/contact-form-intelligence/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/contact-form-intelligence/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/contact-form-intelligence/",
+      "visual": {
+        "publicUrl": "/story/contact-form-intelligence/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242305-contact-form-intelligence",
+      "visual": {
+        "publicUrl": "/story/contact-form-intelligence/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-contact-form-intelligence-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242305-contact-form-intelligence"
+    },
+    {
+      "id": "claim-contact-form-intelligence-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242305-contact-form-intelligence"
+    },
+    {
+      "id": "claim-contact-form-intelligence-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/contact-form-intelligence/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/contact-form-intelligence/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

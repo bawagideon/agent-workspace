@@ -1,0 +1,82 @@
+{
+  "projectId": "build-lab-log-analysis",
+  "projectName": "Build Lab Log Analysis",
+  "generatedAt": "2026-10-07T20:34:02.183Z",
+  "narrativePost": {
+    "hook": "Most companies lose revenue to silent workflow failures.",
+    "subtext": "Here is how we engineered an automated system to eliminate it.",
+    "fullText": "",
+    "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Build Lab Log Analysis",
+      "subtext": "Autonomous high-reliability commercial system for Build Lab Log Analysis.",
+      "evidenceCitation": "Measured vulnerability: Sub-1ms Latency (Execution Speed).",
+      "visual": {
+        "publicUrl": "/story/build-lab-log-analysis/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/build-lab-log-analysis/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/build-lab-log-analysis/",
+      "visual": {
+        "publicUrl": "/story/build-lab-log-analysis/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242175-build-lab-log-analysis",
+      "visual": {
+        "publicUrl": "/story/build-lab-log-analysis/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-build-lab-log-analysis-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242175-build-lab-log-analysis"
+    },
+    {
+      "id": "claim-build-lab-log-analysis-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242175-build-lab-log-analysis"
+    },
+    {
+      "id": "claim-build-lab-log-analysis-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/build-lab-log-analysis/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/build-lab-log-analysis/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

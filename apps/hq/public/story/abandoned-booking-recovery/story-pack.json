@@ -1,0 +1,82 @@
+{
+  "projectId": "abandoned-booking-recovery",
+  "projectName": "Abandoned Booking Recovery",
+  "generatedAt": "2026-10-07T20:34:02.015Z",
+  "narrativePost": {
+    "hook": "E-commerce brands spend millions recovering abandoned carts.",
+    "subtext": "Why are service businesses completely ignoring abandoned bookings?",
+    "fullText": "E-commerce brands spend millions recovering abandoned carts.\nWhy are service businesses completely ignoring abandoned bookings?\n\nA prospective patient clicks your booking link, chooses \"Thursday at 2 PM\", types their name and phone number... and their child cries or a Slack notification pops up.\n\nThey close the tab.\nThe clinic never knows they existed.\n\n🛠️ I built Abandoned Booking Recovery:\n• Tracks real-time session inputs with zero friction.\n• Detects when a session goes inactive for >10 minutes with partial contact data.\n• Holds the prospective time slot on the calendar for 30 minutes.\n• Dispatches an automated conversational text:\n  \"Hi Michael, we noticed you were booking your Dental Cleaning for Thursday at 2 PM! We're holding your preferred slot for the next 30 minutes. Tap here to confirm in 1 click: [Link]\"\n\nScenario: In our 100-booking benchmark simulation, this workflow reclaims 25% of bounced bookings with zero manual labor.\n\n👉 Full open-source code & interactive simulator: https://github.com/bawagideon/abandoned-booking-recovery",
+    "contentHash": "cfa802e8382561ed5820643af2a92eff92278000f26fb8e2d560aee013464419"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Abandoned Booking Recovery",
+      "subtext": "Abandoned Booking Recovery: Intercepts partial booking sessions, captures pre-fill contact details on bounce, and triggers conversational recovery workflows.",
+      "evidenceCitation": "Measured vulnerability: Sub-1ms Latency (Execution Speed).",
+      "visual": {
+        "publicUrl": "/story/abandoned-booking-recovery/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/abandoned-booking-recovery/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/abandoned-booking-recovery/",
+      "visual": {
+        "publicUrl": "/story/abandoned-booking-recovery/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242002-abandoned-booking-recovery",
+      "visual": {
+        "publicUrl": "/story/abandoned-booking-recovery/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-abandoned-booking-recovery-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242002-abandoned-booking-recovery"
+    },
+    {
+      "id": "claim-abandoned-booking-recovery-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242002-abandoned-booking-recovery"
+    },
+    {
+      "id": "claim-abandoned-booking-recovery-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/abandoned-booking-recovery/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/abandoned-booking-recovery/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

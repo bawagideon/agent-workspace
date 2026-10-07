@@ -1,0 +1,82 @@
+{
+  "projectId": "ai-cost-leak-detector",
+  "projectName": "Ai Cost Leak Detector",
+  "generatedAt": "2026-10-07T20:34:02.053Z",
+  "narrativePost": {
+    "hook": "LinkedIn Technical Marketing Post: AI Cost Leak & Token Usage Observatory",
+    "subtext": "Real-time LLM cost accounting middleware that tracks token usage per customer and feature, flagging anomalous recursive cost spikes before a",
+    "fullText": "# LinkedIn Technical Marketing Post: AI Cost Leak & Token Usage Observatory\n\nReal-time LLM cost accounting middleware that tracks token usage per customer and feature, flagging anomalous recursive cost spikes before an $8,000 OpenAI invoice arrives.\n\n### The Problem\nMost companies lose thousands in hidden operational waste every single month.\n\n### The Engineered Fix\nWe engineered a zero-dependency system to solve this.\n\n👉 Try the live interactive simulator here:\nhttps://gideonbawa-website.netlify.app/simulators/ai-cost-leak-detector/\n\n#SoftwareEngineering #Automation #SystemsArchitecture #BuildInPublic\n",
+    "contentHash": "7790defaa4f4dfd03d3d6b55081959d13311017531f484f8ea03c0b398b6f8eb"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Ai Cost Leak Detector",
+      "subtext": "Real-time LLM cost accounting middleware that tracks token usage per customer and feature, flagging anomalous recursive cost spikes before an $8,000 OpenAI invoice arrives.",
+      "evidenceCitation": "Measured vulnerability: Sub-1ms Latency (Execution Speed).",
+      "visual": {
+        "publicUrl": "/story/ai-cost-leak-detector/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/ai-cost-leak-detector/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/ai-cost-leak-detector/",
+      "visual": {
+        "publicUrl": "/story/ai-cost-leak-detector/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242045-ai-cost-leak-detector",
+      "visual": {
+        "publicUrl": "/story/ai-cost-leak-detector/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ai-cost-leak-detector-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242045-ai-cost-leak-detector"
+    },
+    {
+      "id": "claim-ai-cost-leak-detector-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242045-ai-cost-leak-detector"
+    },
+    {
+      "id": "claim-ai-cost-leak-detector-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/ai-cost-leak-detector/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/ai-cost-leak-detector/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

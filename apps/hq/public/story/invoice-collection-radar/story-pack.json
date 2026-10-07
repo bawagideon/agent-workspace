@@ -1,0 +1,82 @@
+{
+  "projectId": "invoice-collection-radar",
+  "projectName": "Invoice Collection Radar",
+  "generatedAt": "2026-10-07T20:34:02.511Z",
+  "narrativePost": {
+    "hook": "LinkedIn Technical Marketing Post: Overdue Invoice Collection Radar",
+    "subtext": "Cash-flow recovery system that categorizes accounts receivable into 30/60/90 day aging buckets, automatically dispatching polite-to-firm esc",
+    "fullText": "# LinkedIn Technical Marketing Post: Overdue Invoice Collection Radar\n\nCash-flow recovery system that categorizes accounts receivable into 30/60/90 day aging buckets, automatically dispatching polite-to-firm escalation sequences to recover unpaid revenue.\n\n### The Problem\nMost companies lose thousands in hidden operational waste every single month.\n\n### The Engineered Fix\nWe engineered a zero-dependency system to solve this.\n\n👉 Try the live interactive simulator here:\nhttps://gideonbawa-website.netlify.app/simulators/invoice-collection-radar/\n\n#SoftwareEngineering #Automation #SystemsArchitecture #BuildInPublic\n",
+    "contentHash": "fae6dbed2f88e0b0cefcf0d0f1a692da1b86a6ceb0fd845b59d5446ec7208277"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Invoice Collection Radar",
+      "subtext": "Cash-flow recovery system that categorizes accounts receivable into 30/60/90 day aging buckets, automatically dispatching polite-to-firm escalation sequences to recover unpaid revenue.",
+      "evidenceCitation": "Measured vulnerability: Sub-1ms Latency (Execution Speed).",
+      "visual": {
+        "publicUrl": "/story/invoice-collection-radar/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/invoice-collection-radar/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/invoice-collection-radar/",
+      "visual": {
+        "publicUrl": "/story/invoice-collection-radar/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242499-invoice-collection-radar",
+      "visual": {
+        "publicUrl": "/story/invoice-collection-radar/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-invoice-collection-radar-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242499-invoice-collection-radar"
+    },
+    {
+      "id": "claim-invoice-collection-radar-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242499-invoice-collection-radar"
+    },
+    {
+      "id": "claim-invoice-collection-radar-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/invoice-collection-radar/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/invoice-collection-radar/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

@@ -1,0 +1,14 @@
+# LinkedIn Authority Post — Spreadsheet Chaos Cleaner & Deduplicator
+
+Most companies lose 15–30% of their revenue not because of bad marketing, but because of silent workflow breakdowns.
+
+We built **Spreadsheet Chaos Cleaner & Deduplicator** to solve this exact problem:
+Automated CRM data sanitization pipeline that ingests corrupted CSV/XLSX spreadsheets, normalizes international phone numbers to E.164, fixes email typos, and eliminates duplicate contacts.
+
+### The Sentinel Claim Audit Registry
+* **Benchmark Scenario:** Evaluated against synthetic multi-factor telemetry.
+* **Demonstrated Latency:** Sub-millisecond calculation in zero-dependency Node.js runtime.
+* **Live In-Browser Sandbox:** https://gideonbawa-website.netlify.app/simulators/spreadsheet-chaos-cleaner/
+* **Source Code:** https://github.com/bawagideon/spreadsheet-chaos-cleaner
+
+#SoftwareEngineering #B2B #Automation #SystemsEngineering #GideonHQ

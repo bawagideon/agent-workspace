@@ -1,0 +1,82 @@
+{
+  "projectId": "conversion-leak-scanner",
+  "projectName": "Conversion Leak Scanner",
+  "generatedAt": "2026-10-07T20:34:02.326Z",
+  "narrativePost": {
+    "hook": "Most companies think their website is \"working fine\" because it looks good on their MacBook.",
+    "subtext": "Then we run a headless conversion audit and find:",
+    "fullText": "Most companies think their website is \"working fine\" because it looks good on their MacBook.\nThen we run a headless conversion audit and find:\n1. Primary CTA is below the fold on mobile viewports.\n2. Tap targets are 28px (causing misclicks on iPhone touchscreens).\n3. The contact form asks for 9 fields (including fax and address for a simple inquiry).\n4. Mobile page load takes 4.8 seconds (Google: 53% of mobile visitors bounce after 3s).\n5. The submit button is throwing an unhandled 500 error on the backend.\n\n🛠️ I built the Conversion Leak Scanner:\n• Audits any public website across 9 core conversion pillars.\n• Generates a quantified Conversion Health Score (0-100).\n• Pinpoints every specific leak with severity and estimated revenue penalty.\n• Feeds directly into an actionable engineering fix plan.\n\nBefore you increase your ad budget, fix the holes in the bucket.\n\n👉 Full open-source code & interactive simulator: https://github.com/bawagideon/conversion-leak-scanner",
+    "contentHash": "c508a11488f0d4bb984f18d9effd5803a81c1296e793d7421881559cfb2df72a"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Conversion Leak Scanner",
+      "subtext": "Website Conversion Leak Scanner: Audits landing pages across 9 conversion pillars (CTAs, mobile friction, forms, trust signals, speed) and pinpoints exact revenue drop-offs.",
+      "evidenceCitation": "Measured vulnerability: Sub-1ms Latency (Execution Speed).",
+      "visual": {
+        "publicUrl": "/story/conversion-leak-scanner/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/conversion-leak-scanner/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/conversion-leak-scanner/",
+      "visual": {
+        "publicUrl": "/story/conversion-leak-scanner/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242318-conversion-leak-scanner",
+      "visual": {
+        "publicUrl": "/story/conversion-leak-scanner/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-conversion-leak-scanner-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242318-conversion-leak-scanner"
+    },
+    {
+      "id": "claim-conversion-leak-scanner-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242318-conversion-leak-scanner"
+    },
+    {
+      "id": "claim-conversion-leak-scanner-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/conversion-leak-scanner/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/conversion-leak-scanner/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

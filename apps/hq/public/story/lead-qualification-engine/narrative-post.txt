@@ -1,0 +1,30 @@
+An enterprise buyer with a $20,000 budget lands on a company's website.
+They fill out the contact form:
+"We need to implement this before the quarter ends. Need a demo ASAP."
+
+Their reward?
+"Thanks for reaching out! A representative will get back to you within 2-3 business days."
+
+Meanwhile, an intern asking for free homework advice books a 30-minute discovery call directly on the founder's public calendar for tomorrow at 10 AM.
+
+This is why sales teams complain that "inbound leads are bad."
+The leads aren't bad. The routing is broken.
+
+🎯 I built the Lead Qualification Engine:
+A multi-variable qualification system that evaluates incoming inquiries in real time across 4 commercial pillars:
+1. Intent Clarity (Quote request vs info request)
+2. Budget Fit (Approved budget vs $0/free)
+3. Urgency (This week vs no rush)
+4. ICP Authority (Decision maker vs non-buyer)
+
+How it operates:
+⚡ Tier A (80+ score): Instantly unlocks direct VIP calendar booking with the Founder / Senior AE.
+🟢 Tier B (60-79 score): Routed to junior SDR team for scheduled discovery.
+🟡 Tier C (40-59 score): Sent an automated 3-minute product walkthrough.
+🔴 Tier D (<40 score): Sent a polite pricing baseline and FAQ, protecting rep calendars from tire-kickers.
+
+Result: Top buyers book meetings in under 30 seconds. Sales reps spend 100% of their time talking to qualified pipeline.
+
+👉 Full open-source code & interactive sandbox: https://github.com/bawagideon/lead-qualification-engine
+
+Does your website give the same booking link to a $50k buyer and a tire-kicker?

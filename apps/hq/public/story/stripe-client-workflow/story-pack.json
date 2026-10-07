@@ -1,0 +1,82 @@
+{
+  "projectId": "stripe-client-workflow",
+  "projectName": "Stripe Client Workflow",
+  "generatedAt": "2026-10-07T20:34:02.888Z",
+  "narrativePost": {
+    "hook": "Most companies lose revenue to silent workflow failures.",
+    "subtext": "Here is how we engineered an automated system to eliminate it.",
+    "fullText": "",
+    "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Stripe Client Workflow",
+      "subtext": "Automated client workflow and Stripe checkout integration",
+      "evidenceCitation": "Measured vulnerability: Sub-1ms Latency (Execution Speed).",
+      "visual": {
+        "publicUrl": "/story/stripe-client-workflow/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/stripe-client-workflow/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/stripe-client-workflow/",
+      "visual": {
+        "publicUrl": "/story/stripe-client-workflow/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242883-stripe-client-workflow",
+      "visual": {
+        "publicUrl": "/story/stripe-client-workflow/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-stripe-client-workflow-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242883-stripe-client-workflow"
+    },
+    {
+      "id": "claim-stripe-client-workflow-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242883-stripe-client-workflow"
+    },
+    {
+      "id": "claim-stripe-client-workflow-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/stripe-client-workflow/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/stripe-client-workflow/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

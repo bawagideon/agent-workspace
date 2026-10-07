@@ -1,0 +1,82 @@
+{
+  "projectId": "cancellation-rescue-engine",
+  "projectName": "Cancellation Rescue Engine",
+  "generatedAt": "2026-10-07T20:34:02.228Z",
+  "narrativePost": {
+    "hook": "LinkedIn Authority Post — Cancellation Rescue Engine",
+    "subtext": "Most companies lose 15–30% of their revenue not because of bad marketing, but because of silent workflow breakdowns.",
+    "fullText": "# LinkedIn Authority Post — Cancellation Rescue Engine\n\nMost companies lose 15–30% of their revenue not because of bad marketing, but because of silent workflow breakdowns.\n\nWe built **Cancellation Rescue Engine** to solve this exact problem:\nAutonomous churn intervention system that diagnoses exit motives in real time and automatically deploys targeted rescue offers (billing freezes, tiered discounts, sponsor escalation).\n\n### The Sentinel Claim Audit Registry\n* **Benchmark Scenario:** Evaluated against synthetic multi-factor telemetry.\n* **Demonstrated Latency:** Sub-millisecond calculation in zero-dependency Node.js runtime.\n* **Live In-Browser Sandbox:** https://gideonbawa-website.netlify.app/simulators/cancellation-rescue-engine/\n* **Source Code:** https://github.com/bawagideon/cancellation-rescue-engine\n\n#SoftwareEngineering #B2B #Automation #SystemsEngineering #GideonHQ\n",
+    "contentHash": "9c5b528e80b21e9ed4e0592a979e150d638cf6a5f9f817a06a93ec9026b3b683"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Cancellation Rescue Engine",
+      "subtext": "Autonomous churn intervention system that diagnoses exit motives in real time and automatically deploys targeted rescue offers (billing freezes, tiered discounts, sponsor escalation).",
+      "evidenceCitation": "Measured vulnerability: 15–30% (Silent Revenue Churn).",
+      "visual": {
+        "publicUrl": "/story/cancellation-rescue-engine/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/cancellation-rescue-engine/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/cancellation-rescue-engine/",
+      "visual": {
+        "publicUrl": "/story/cancellation-rescue-engine/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242218-cancellation-rescue-engine",
+      "visual": {
+        "publicUrl": "/story/cancellation-rescue-engine/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-cancellation-rescue-engine-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242218-cancellation-rescue-engine"
+    },
+    {
+      "id": "claim-cancellation-rescue-engine-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242218-cancellation-rescue-engine"
+    },
+    {
+      "id": "claim-cancellation-rescue-engine-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/cancellation-rescue-engine/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/cancellation-rescue-engine/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

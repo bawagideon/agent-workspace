@@ -1,0 +1,82 @@
+{
+  "projectId": "quote-ghost-detector",
+  "projectName": "Quote Ghost Detector",
+  "generatedAt": "2026-10-07T20:34:02.723Z",
+  "narrativePost": {
+    "hook": "A service business sends 200 custom quotes worth $184,000.",
+    "subtext": "120 of them never receive a single follow-up.",
+    "fullText": "A service business sends 200 custom quotes worth $184,000.\n120 of them never receive a single follow-up.\n\nWhy? Because founders and sales reps are busy building current projects or chasing fresh leads.\n\nProspects don't ghost because they hate your offer. They ghost because:\n1. They got busy with work.\n2. They had one question about page 3 of the contract and forgot to ask.\n3. Nobody followed up to guide them to the finish line.\n\n🛠️ I built the Quote Ghost Detector:\n• Listens to proposal and invoice webhooks (PandaDoc, DocuSign, Stripe).\n• Enforces an immutable 48-hour follow-up SLA.\n• Dashboard surfaces: \"$184,000 Quoted / $73,000 Currently Unattended Past 48h\" in our benchmark scenario.\n• 1-Click Follow-Up Dispatcher generates personalized check-ins addressing common contract friction points.\n\nFollowing up is not aggressive. It is professional stewardship.\n\n👉 Full open-source code & interactive simulator: https://github.com/bawagideon/quote-ghost-detector",
+    "contentHash": "7460486359945ffcd7f527f956f6ad5182488bfcaefc803351d8a785b1a01cd9"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Quote Ghost Detector",
+      "subtext": "Quote Ghost Detector: Monitors active proposal and quote pipelines, enforces 48-hour follow-up SLAs, and quantifies unattended revenue at risk.",
+      "evidenceCitation": "Measured vulnerability: $73,000 (Unattended Quotes).",
+      "visual": {
+        "publicUrl": "/story/quote-ghost-detector/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/quote-ghost-detector/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/quote-ghost-detector/",
+      "visual": {
+        "publicUrl": "/story/quote-ghost-detector/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242713-quote-ghost-detector",
+      "visual": {
+        "publicUrl": "/story/quote-ghost-detector/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-quote-ghost-detector-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242713-quote-ghost-detector"
+    },
+    {
+      "id": "claim-quote-ghost-detector-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242713-quote-ghost-detector"
+    },
+    {
+      "id": "claim-quote-ghost-detector-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/quote-ghost-detector/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/quote-ghost-detector/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

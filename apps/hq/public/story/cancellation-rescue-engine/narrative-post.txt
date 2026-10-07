@@ -1,0 +1,14 @@
+# LinkedIn Authority Post — Cancellation Rescue Engine
+
+Most companies lose 15–30% of their revenue not because of bad marketing, but because of silent workflow breakdowns.
+
+We built **Cancellation Rescue Engine** to solve this exact problem:
+Autonomous churn intervention system that diagnoses exit motives in real time and automatically deploys targeted rescue offers (billing freezes, tiered discounts, sponsor escalation).
+
+### The Sentinel Claim Audit Registry
+* **Benchmark Scenario:** Evaluated against synthetic multi-factor telemetry.
+* **Demonstrated Latency:** Sub-millisecond calculation in zero-dependency Node.js runtime.
+* **Live In-Browser Sandbox:** https://gideonbawa-website.netlify.app/simulators/cancellation-rescue-engine/
+* **Source Code:** https://github.com/bawagideon/cancellation-rescue-engine
+
+#SoftwareEngineering #B2B #Automation #SystemsEngineering #GideonHQ

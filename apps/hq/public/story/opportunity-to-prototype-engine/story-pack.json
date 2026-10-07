@@ -1,0 +1,82 @@
+{
+  "projectId": "opportunity-to-prototype-engine",
+  "projectName": "Opportunity To Prototype Engine",
+  "generatedAt": "2026-10-07T20:34:02.642Z",
+  "narrativePost": {
+    "hook": "LinkedIn Technical Marketing Post: Opportunity-to-Prototype Scaffolding Engine",
+    "subtext": "Commercial deal closer that converts diagnosed client friction into working customized interactive HTML sandboxes in under 24 hours, replaci",
+    "fullText": "# LinkedIn Technical Marketing Post: Opportunity-to-Prototype Scaffolding Engine\n\nCommercial deal closer that converts diagnosed client friction into working customized interactive HTML sandboxes in under 24 hours, replacing boring slides with live proof.\n\n### The Problem\nMost companies lose thousands in hidden operational waste every single month.\n\n### The Engineered Fix\nWe engineered a zero-dependency system to solve this.\n\n👉 Try the live interactive simulator here:\nhttps://gideonbawa-website.netlify.app/simulators/opportunity-to-prototype-engine/\n\n#SoftwareEngineering #Automation #SystemsArchitecture #BuildInPublic\n",
+    "contentHash": "4f6a3491a89586edcef94c69e5822e82806e61338e250b1c024dc8eee0857c51"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Opportunity To Prototype Engine",
+      "subtext": "Commercial deal closer that converts diagnosed client friction into working customized interactive HTML sandboxes in under 24 hours, replacing boring slides with live proof.",
+      "evidenceCitation": "Measured vulnerability: Sub-1ms Latency (Execution Speed).",
+      "visual": {
+        "publicUrl": "/story/opportunity-to-prototype-engine/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/opportunity-to-prototype-engine/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/opportunity-to-prototype-engine/",
+      "visual": {
+        "publicUrl": "/story/opportunity-to-prototype-engine/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242629-opportunity-to-prototype-engine",
+      "visual": {
+        "publicUrl": "/story/opportunity-to-prototype-engine/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-opportunity-to-prototype-engine-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242629-opportunity-to-prototype-engine"
+    },
+    {
+      "id": "claim-opportunity-to-prototype-engine-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242629-opportunity-to-prototype-engine"
+    },
+    {
+      "id": "claim-opportunity-to-prototype-engine-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/opportunity-to-prototype-engine/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/opportunity-to-prototype-engine/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

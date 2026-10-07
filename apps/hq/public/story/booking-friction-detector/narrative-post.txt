@@ -1,0 +1,24 @@
+I audited a dental clinic's online booking flow. Here was the user experience:
+1. Click "Book Appointment"
+2. Redirect to third-party portal
+3. Create an account with password and email verification
+4. Fill out 14-field medical history form
+5. Choose provider
+6. Pick date
+7. Pick time
+8. "Someone will call you tomorrow to confirm your time"
+
+Abandonment rate: 84%.
+
+Patients don't want a 14-step onboarding questionnaire just to reserve a cleaning. They want to pick a slot and enter their phone number.
+
+🛠️ I built the Booking Friction Detector:
+• Analyzes multi-step appointment flows and measures click/field bloat.
+• Compares complex legacy flows against our streamlined 2-step architecture:
+  Step 1: Select Service & Open Slot (Instant live calendar).
+  Step 2: Name & Phone Number + Instant 1-Click SMS confirmation.
+  (Defer long intake questionnaires to the post-confirmation screen).
+
+In our benchmark simulation, abandonment collapsed from 84% down to 25%.
+
+👉 Full open-source code & interactive simulator: https://github.com/bawagideon/booking-friction-detector

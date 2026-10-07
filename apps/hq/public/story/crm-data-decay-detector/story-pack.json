@@ -1,0 +1,82 @@
+{
+  "projectId": "crm-data-decay-detector",
+  "projectName": "Crm Data Decay Detector",
+  "generatedAt": "2026-10-07T20:34:02.337Z",
+  "narrativePost": {
+    "hook": "LinkedIn Technical Marketing Post: CRM Data Decay & Contact Hygiene Engine",
+    "subtext": "Deterministic contact hygiene scanner that validates corporate email domains, detects defunct company websites, and flags invalid phone numb",
+    "fullText": "# LinkedIn Technical Marketing Post: CRM Data Decay & Contact Hygiene Engine\n\nDeterministic contact hygiene scanner that validates corporate email domains, detects defunct company websites, and flags invalid phone numbers before sales reps waste hours.\n\n### The Problem\nMost companies lose thousands in hidden operational waste every single month.\n\n### The Engineered Fix\nWe engineered a zero-dependency system to solve this.\n\n👉 Try the live interactive simulator here:\nhttps://gideonbawa-website.netlify.app/simulators/crm-data-decay-detector/\n\n#SoftwareEngineering #Automation #SystemsArchitecture #BuildInPublic\n",
+    "contentHash": "589c2ac0d707d10234dd010fe224465beac8d7b0300584662eb550cff6a892cf"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Crm Data Decay Detector",
+      "subtext": "Deterministic contact hygiene scanner that validates corporate email domains, detects defunct company websites, and flags invalid phone numbers before sales reps waste hours.",
+      "evidenceCitation": "Measured vulnerability: Sub-1ms Latency (Execution Speed).",
+      "visual": {
+        "publicUrl": "/story/crm-data-decay-detector/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/crm-data-decay-detector/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/crm-data-decay-detector/",
+      "visual": {
+        "publicUrl": "/story/crm-data-decay-detector/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242330-crm-data-decay-detector",
+      "visual": {
+        "publicUrl": "/story/crm-data-decay-detector/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-crm-data-decay-detector-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242330-crm-data-decay-detector"
+    },
+    {
+      "id": "claim-crm-data-decay-detector-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242330-crm-data-decay-detector"
+    },
+    {
+      "id": "claim-crm-data-decay-detector-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/crm-data-decay-detector/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/crm-data-decay-detector/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

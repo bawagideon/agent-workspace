@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="nebula1" cx="30%" cy="25%" r="65%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#0F172A" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="alertGlow" cx="70%" cy="65%" r="55%">
+      <stop offset="0%" stop-color="#F43F5E" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="#030712"/>
+  <rect width="1080" height="1080" fill="url(#nebula1)"/>
+  <rect width="1080" height="1080" fill="url(#alertGlow)"/>
+
+  <!-- Border & Grid Lines -->
+  <rect x="40" y="40" width="1000" height="1000" rx="24" stroke="rgba(255,255,255,0.12)" stroke-width="2" fill="none"/>
+  <line x1="40" y1="140" x2="1040" y2="140" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <line x1="40" y1="940" x2="1040" y2="940" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+
+  <!-- Header HUD -->
+  <rect x="70" y="72" width="220" height="40" rx="20" fill="rgba(16,185,129,0.12)" stroke="rgba(16,185,129,0.35)" stroke-width="1.5"/>
+  <circle cx="92" cy="92" r="5" fill="#10B981"/>
+  <text x="110" y="97" font-family="monospace" font-size="14" font-weight="bold" fill="#34D399" letter-spacing="1.5">GIDEON ARSENAL</text>
+  <text x="980" y="97" font-family="monospace" font-size="14" font-weight="bold" fill="#94A3B8" text-anchor="end">SLIDE 01 / 04</text>
+
+  <!-- Central Problem Tension -->
+  <text x="100" y="240" font-family="monospace" font-size="16" font-weight="bold" fill="#F43F5E" letter-spacing="2">THE REVENUE LEAK // FRICTION VECTOR</text>
+  <text x="100" y="320" font-family="system-ui, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">Renewal Risk Radar</text>
+  
+  <rect x="100" y="370" width="880" height="300" rx="20" fill="rgba(15,23,42,0.75)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+  
+  <text x="140" y="430" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#F8FAFC">The Expensive Problem:</text>
+  <foreignObject x="140" y="455" width="800" height="190">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, sans-serif; font-size: 20px; line-height: 1.5; color: #CBD5E1;">
+      Contract expiration intelligence system that flags annual deals ending in 30/60/90 days cross-referenced with unresolved support tickets and NPS drop-offs.
+    </div>
+  </foreignObject>
+
+  <!-- Metric Callout Card -->
+  <rect x="100" y="700" width="420" height="180" rx="18" fill="rgba(244,63,94,0.08)" stroke="rgba(244,63,94,0.3)" stroke-width="1.5"/>
+  <text x="130" y="745" font-family="monospace" font-size="14" font-weight="bold" fill="#FDA4AF" letter-spacing="1">MEASURED VULNERABILITY</text>
+  <text x="130" y="815" font-family="monospace" font-size="48" font-weight="900" fill="#FFFFFF">15–30%</text>
+  <text x="130" y="855" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#94A3B8">Silent Revenue Churn</text>
+
+  <rect x="560" y="700" width="420" height="180" rx="18" fill="rgba(14,165,233,0.08)" stroke="rgba(14,165,233,0.3)" stroke-width="1.5"/>
+  <text x="590" y="745" font-family="monospace" font-size="14" font-weight="bold" fill="#7DD3FC" letter-spacing="1">SYSTEM REMEDY</text>
+  <text x="590" y="815" font-family="monospace" font-size="44" font-weight="900" fill="#38BDF8">AUTOMATED</text>
+  <text x="590" y="855" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#94A3B8">Zero-Dependency Deterministic Engine</text>
+
+  <!-- Footer Citation -->
+  <text x="100" y="985" font-family="monospace" font-size="14" fill="#64748B">Sealed in QA Contract: ev-qa-contract-1791405242755-renewal-risk-radar</text>
+  <text x="980" y="985" font-family="monospace" font-size="14" fill="#10B981" font-weight="bold" text-anchor="end">100% Deterministic Proof</text>
+</svg>

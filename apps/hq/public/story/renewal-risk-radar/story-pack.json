@@ -1,0 +1,82 @@
+{
+  "projectId": "renewal-risk-radar",
+  "projectName": "Renewal Risk Radar",
+  "generatedAt": "2026-10-07T20:34:02.765Z",
+  "narrativePost": {
+    "hook": "LinkedIn Authority Post — Renewal Risk Radar",
+    "subtext": "Most companies lose 15–30% of their revenue not because of bad marketing, but because of silent workflow breakdowns.",
+    "fullText": "# LinkedIn Authority Post — Renewal Risk Radar\n\nMost companies lose 15–30% of their revenue not because of bad marketing, but because of silent workflow breakdowns.\n\nWe built **Renewal Risk Radar** to solve this exact problem:\nContract expiration intelligence system that flags annual deals ending in 30/60/90 days cross-referenced with unresolved support tickets and NPS drop-offs.\n\n### The Sentinel Claim Audit Registry\n* **Benchmark Scenario:** Evaluated against synthetic multi-factor telemetry.\n* **Demonstrated Latency:** Sub-millisecond calculation in zero-dependency Node.js runtime.\n* **Live In-Browser Sandbox:** https://gideonbawa-website.netlify.app/simulators/renewal-risk-radar/\n* **Source Code:** https://github.com/bawagideon/renewal-risk-radar\n\n#SoftwareEngineering #B2B #Automation #SystemsEngineering #GideonHQ\n",
+    "contentHash": "72be4b77091a56c692ec24be7d8d0ad429bbbe5d0e9d94931ae7786afec38121"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Renewal Risk Radar",
+      "subtext": "Contract expiration intelligence system that flags annual deals ending in 30/60/90 days cross-referenced with unresolved support tickets and NPS drop-offs.",
+      "evidenceCitation": "Measured vulnerability: 15–30% (Silent Revenue Churn).",
+      "visual": {
+        "publicUrl": "/story/renewal-risk-radar/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/renewal-risk-radar/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/renewal-risk-radar/",
+      "visual": {
+        "publicUrl": "/story/renewal-risk-radar/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242755-renewal-risk-radar",
+      "visual": {
+        "publicUrl": "/story/renewal-risk-radar/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-renewal-risk-radar-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242755-renewal-risk-radar"
+    },
+    {
+      "id": "claim-renewal-risk-radar-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242755-renewal-risk-radar"
+    },
+    {
+      "id": "claim-renewal-risk-radar-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/renewal-risk-radar/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/renewal-risk-radar/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

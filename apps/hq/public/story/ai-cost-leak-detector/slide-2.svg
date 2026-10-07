@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="nebula2" cx="50%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="#030712"/>
+  <rect width="1080" height="1080" fill="url(#nebula2)"/>
+
+  <rect x="40" y="40" width="1000" height="1000" rx="24" stroke="rgba(255,255,255,0.12)" stroke-width="2" fill="none"/>
+  <line x1="40" y1="140" x2="1040" y2="140" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <line x1="40" y1="940" x2="1040" y2="940" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+
+  <rect x="70" y="72" width="220" height="40" rx="20" fill="rgba(14,165,233,0.12)" stroke="rgba(14,165,233,0.35)" stroke-width="1.5"/>
+  <circle cx="92" cy="92" r="5" fill="#38BDF8"/>
+  <text x="110" y="97" font-family="monospace" font-size="14" font-weight="bold" fill="#38BDF8" letter-spacing="1.5">ENGINE ARCHITECTURE</text>
+  <text x="980" y="97" font-family="monospace" font-size="14" font-weight="bold" fill="#94A3B8" text-anchor="end">SLIDE 02 / 04</text>
+
+  <text x="100" y="240" font-family="monospace" font-size="16" font-weight="bold" fill="#38BDF8" letter-spacing="2">ZERO EXTERNAL DEPENDENCIES</text>
+  <text x="100" y="320" font-family="system-ui, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">Component Flow Topology</text>
+
+  <!-- 3 Topology Cards -->
+  <rect x="100" y="380" width="260" height="340" rx="16" fill="rgba(15,23,42,0.8)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+  <text x="130" y="430" font-family="monospace" font-size="14" font-weight="bold" fill="#94A3B8">01. INGESTION</text>
+  <text x="130" y="480" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">Raw Event Stream</text>
+  <text x="130" y="520" font-family="system-ui, sans-serif" font-size="16" fill="#94A3B8">High-throughput ingestion capturing multi-channel payloads without data loss.</text>
+
+  <rect x="410" y="380" width="260" height="340" rx="16" fill="rgba(14,165,233,0.1)" stroke="rgba(14,165,233,0.4)" stroke-width="1.5"/>
+  <text x="440" y="430" font-family="monospace" font-size="14" font-weight="bold" fill="#38BDF8">02. ENGINE GATE</text>
+  <text x="440" y="480" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#38BDF8">Invariants Logic</text>
+  <text x="440" y="520" font-family="system-ui, sans-serif" font-size="16" fill="#94A3B8">Deterministic scoring, microsecond timestamping, and canonical normalization.</text>
+
+  <rect x="720" y="380" width="260" height="340" rx="16" fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.4)" stroke-width="1.5"/>
+  <text x="750" y="430" font-family="monospace" font-size="14" font-weight="bold" fill="#34D399">03. DISPATCH</text>
+  <text x="750" y="480" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#34D399">Instant Rescue</text>
+  <text x="750" y="520" font-family="system-ui, sans-serif" font-size="16" fill="#94A3B8">Direct webhook/SMS/alert dispatch triggering automated revenue recovery.</text>
+
+  <!-- Technical Benchmarks Strip -->
+  <rect x="100" y="760" width="880" height="130" rx="16" fill="rgba(0,0,0,0.5)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <text x="140" y="810" font-family="monospace" font-size="14" font-weight="bold" fill="#64748B">LATENCY BENCHMARK</text>
+  <text x="140" y="855" font-family="monospace" font-size="28" font-weight="bold" fill="#10B981">&lt;1ms Execution</text>
+
+  <text x="440" y="810" font-family="monospace" font-size="14" font-weight="bold" fill="#64748B">DEPENDENCY OVERHEAD</text>
+  <text x="440" y="855" font-family="monospace" font-size="28" font-weight="bold" fill="#38BDF8">0 NPM Packages</text>
+
+  <text x="740" y="810" font-family="monospace" font-size="14" font-weight="bold" fill="#64748B">TEST SUITE STATUS</text>
+  <text x="740" y="855" font-family="monospace" font-size="28" font-weight="bold" fill="#F59E0B">100% Green</text>
+
+  <text x="100" y="985" font-family="monospace" font-size="14" fill="#64748B">Repository: github.com/bawagideon/ai-cost-leak-detector</text>
+  <text x="980" y="985" font-family="monospace" font-size="14" fill="#38BDF8" font-weight="bold" text-anchor="end">Production Ready</text>
+</svg>

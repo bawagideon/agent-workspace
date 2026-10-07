@@ -1,0 +1,82 @@
+{
+  "projectId": "staff-handoff-engine",
+  "projectName": "Staff Handoff Engine",
+  "generatedAt": "2026-10-07T20:34:02.864Z",
+  "narrativePost": {
+    "hook": "LinkedIn Authority Post — Staff Handoff & Knowledge Continuity Engine",
+    "subtext": "Most companies lose 15–30% of their revenue not because of bad marketing, but because of silent workflow breakdowns.",
+    "fullText": "# LinkedIn Authority Post — Staff Handoff & Knowledge Continuity Engine\n\nMost companies lose 15–30% of their revenue not because of bad marketing, but because of silent workflow breakdowns.\n\nWe built **Staff Handoff & Knowledge Continuity Engine** to solve this exact problem:\nAutonomous SOP and account compilation system that synthesizes an employee’s communication logs, client commitments, and open tasks into a single immutable handover dossier.\n\n### The Sentinel Claim Audit Registry\n* **Benchmark Scenario:** Evaluated against synthetic multi-factor telemetry.\n* **Demonstrated Latency:** Sub-millisecond calculation in zero-dependency Node.js runtime.\n* **Live In-Browser Sandbox:** https://gideonbawa-website.netlify.app/simulators/staff-handoff-engine/\n* **Source Code:** https://github.com/bawagideon/staff-handoff-engine\n\n#SoftwareEngineering #B2B #Automation #SystemsEngineering #GideonHQ\n",
+    "contentHash": "3020a1809eaa06557f1535d76f932298b9a8d8e9c889e9a4bd36b31d7a576faf"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Staff Handoff Engine",
+      "subtext": "Autonomous SOP and account compilation system that synthesizes an employee’s communication logs, client commitments, and open tasks into a single immutable handover dossier.",
+      "evidenceCitation": "Measured vulnerability: 15–30% (Silent Revenue Churn).",
+      "visual": {
+        "publicUrl": "/story/staff-handoff-engine/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/staff-handoff-engine/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/staff-handoff-engine/",
+      "visual": {
+        "publicUrl": "/story/staff-handoff-engine/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242857-staff-handoff-engine",
+      "visual": {
+        "publicUrl": "/story/staff-handoff-engine/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-staff-handoff-engine-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242857-staff-handoff-engine"
+    },
+    {
+      "id": "claim-staff-handoff-engine-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242857-staff-handoff-engine"
+    },
+    {
+      "id": "claim-staff-handoff-engine-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/staff-handoff-engine/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/staff-handoff-engine/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

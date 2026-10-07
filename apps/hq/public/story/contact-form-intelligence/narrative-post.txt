@@ -1,0 +1,24 @@
+Why are enterprise contact forms still just 3 dumb input boxes?
+
+Name: _________
+Email: _________
+Message: _________
+
+A VP of Technology submits:
+"Need an enterprise automation system for 200 staff. Budget $50,000. Urgent timeline."
+
+And it sits in the same inbox as:
+"Hey bro do you offer free guest posts?"
+
+🛠️ I built Contact Form Intelligence:
+• Parses raw inquiry messages using deterministic intent extraction in <2ms.
+• Classifies service category, urgency indicators, and budget tier in real time.
+• Validates corporate domain emails vs throwaway free webmail.
+• Intelligently routes high-tier prospects:
+  - Enterprise Tier → Bypasses SDR queue, instantly displays Founder VIP calendar link.
+  - Urgent Matter → Pings on-call dispatcher via SMS immediately.
+  - Low-budget tire-kicker → Automated polite FAQ response.
+
+Treat high-value buyers with the velocity they deserve.
+
+👉 Full open-source code & interactive simulator: https://github.com/bawagideon/contact-form-intelligence

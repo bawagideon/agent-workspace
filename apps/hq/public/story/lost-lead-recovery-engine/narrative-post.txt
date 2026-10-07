@@ -1,0 +1,22 @@
+Most companies think they have a "lead generation problem."
+Then we look into their CRM.
+There are 4,200 leads sitting there:
+- 1,800 received a single email and were never contacted again.
+- 600 requested a quote 9 months ago and went silent.
+- 400 were "interested, call back in Q3."
+
+Nobody called back.
+
+Instead of spending $10,000 on new ads next month, you can monetize the pipeline you already bought.
+
+🛠️ I built the Lost Lead Recovery Engine:
+1. Audits dormant CRM records past 30, 60, and 90 days.
+2. Identifies unreplied single-touch prospects and stalled proposals.
+3. Deploys structured, non-aggressive reactivation sequences tailored to past interactions.
+4. Auto-suppresses anyone who unsubscribed or opted out.
+
+Scenario: In our 200-lead reactivation benchmark, the engine surfaced $15,000 in recoverable pipeline from leads that were previously written off as dead.
+
+Stop buying new leads until you close the loop on the ones you already have.
+
+👉 Full open-source code & interactive simulator: https://github.com/bawagideon/lost-lead-recovery-engine

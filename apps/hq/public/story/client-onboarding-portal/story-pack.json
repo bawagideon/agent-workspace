@@ -1,0 +1,82 @@
+{
+  "projectId": "client-onboarding-portal",
+  "projectName": "Client Onboarding Portal",
+  "generatedAt": "2026-10-07T20:34:02.301Z",
+  "narrativePost": {
+    "hook": "LinkedIn Technical Marketing Post: Client Onboarding & Asset Vault",
+    "subtext": "Autonomous client kickoff portal that eliminates 10 days of back-and-forth emails by collecting brand assets, API credentials, and kickoff m",
+    "fullText": "# LinkedIn Technical Marketing Post: Client Onboarding & Asset Vault\n\nAutonomous client kickoff portal that eliminates 10 days of back-and-forth emails by collecting brand assets, API credentials, and kickoff milestones in one secure vault.\n\n### The Problem\nMost companies lose thousands in hidden operational waste every single month.\n\n### The Engineered Fix\nWe engineered a zero-dependency system to solve this.\n\n👉 Try the live interactive simulator here:\nhttps://gideonbawa-website.netlify.app/simulators/client-onboarding-portal/\n\n#SoftwareEngineering #Automation #SystemsArchitecture #BuildInPublic\n",
+    "contentHash": "086d77dfee2396208d279092b1daa26c8dc13c905092f79f66b9f36cc2ea4125"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Client Onboarding Portal",
+      "subtext": "Autonomous client kickoff portal that eliminates 10 days of back-and-forth emails by collecting brand assets, API credentials, and kickoff milestones in one secure vault.",
+      "evidenceCitation": "Measured vulnerability: Sub-1ms Latency (Execution Speed).",
+      "visual": {
+        "publicUrl": "/story/client-onboarding-portal/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/client-onboarding-portal/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/client-onboarding-portal/",
+      "visual": {
+        "publicUrl": "/story/client-onboarding-portal/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242293-client-onboarding-portal",
+      "visual": {
+        "publicUrl": "/story/client-onboarding-portal/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-client-onboarding-portal-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242293-client-onboarding-portal"
+    },
+    {
+      "id": "claim-client-onboarding-portal-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242293-client-onboarding-portal"
+    },
+    {
+      "id": "claim-client-onboarding-portal-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/client-onboarding-portal/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/client-onboarding-portal/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

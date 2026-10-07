@@ -1,0 +1,82 @@
+{
+  "projectId": "churn-early-warning",
+  "projectName": "Churn Early Warning",
+  "generatedAt": "2026-10-07T20:34:02.273Z",
+  "narrativePost": {
+    "hook": "LinkedIn Authority Post — Churn Early Warning System",
+    "subtext": "Most companies lose 15–30% of their revenue not because of bad marketing, but because of silent workflow breakdowns.",
+    "fullText": "# LinkedIn Authority Post — Churn Early Warning System\n\nMost companies lose 15–30% of their revenue not because of bad marketing, but because of silent workflow breakdowns.\n\nWe built **Churn Early Warning System** to solve this exact problem:\nB2B usage-velocity telemetry engine that monitors sliding-window engagement, detects silent 30-day drop-offs, and alerts customer success before accounts cancel.\n\n### The Sentinel Claim Audit Registry\n* **Benchmark Scenario:** Evaluated against synthetic multi-factor telemetry.\n* **Demonstrated Latency:** Sub-millisecond calculation in zero-dependency Node.js runtime.\n* **Live In-Browser Sandbox:** https://gideonbawa-website.netlify.app/simulators/churn-early-warning/\n* **Source Code:** https://github.com/bawagideon/churn-early-warning\n\n#SoftwareEngineering #B2B #Automation #SystemsEngineering #GideonHQ\n",
+    "contentHash": "8c326a4850b3573f88b5466ab51881779bf663aac4ced0e86db57a633f54ee36"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Churn Early Warning",
+      "subtext": "B2B usage-velocity telemetry engine that monitors sliding-window engagement, detects silent 30-day drop-offs, and alerts customer success before accounts cancel.",
+      "evidenceCitation": "Measured vulnerability: 15–30% (Silent Revenue Churn).",
+      "visual": {
+        "publicUrl": "/story/churn-early-warning/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/churn-early-warning/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/churn-early-warning/",
+      "visual": {
+        "publicUrl": "/story/churn-early-warning/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242258-churn-early-warning",
+      "visual": {
+        "publicUrl": "/story/churn-early-warning/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-churn-early-warning-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242258-churn-early-warning"
+    },
+    {
+      "id": "claim-churn-early-warning-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242258-churn-early-warning"
+    },
+    {
+      "id": "claim-churn-early-warning-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/churn-early-warning/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/churn-early-warning/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

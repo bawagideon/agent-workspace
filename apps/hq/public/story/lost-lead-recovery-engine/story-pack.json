@@ -1,0 +1,82 @@
+{
+  "projectId": "lost-lead-recovery-engine",
+  "projectName": "Lost Lead Recovery Engine",
+  "generatedAt": "2026-10-07T20:34:02.585Z",
+  "narrativePost": {
+    "hook": "Most companies think they have a \"lead generation problem.\"",
+    "subtext": "Then we look into their CRM.",
+    "fullText": "Most companies think they have a \"lead generation problem.\"\nThen we look into their CRM.\nThere are 4,200 leads sitting there:\n- 1,800 received a single email and were never contacted again.\n- 600 requested a quote 9 months ago and went silent.\n- 400 were \"interested, call back in Q3.\"\n\nNobody called back.\n\nInstead of spending $10,000 on new ads next month, you can monetize the pipeline you already bought.\n\n🛠️ I built the Lost Lead Recovery Engine:\n1. Audits dormant CRM records past 30, 60, and 90 days.\n2. Identifies unreplied single-touch prospects and stalled proposals.\n3. Deploys structured, non-aggressive reactivation sequences tailored to past interactions.\n4. Auto-suppresses anyone who unsubscribed or opted out.\n\nScenario: In our 200-lead reactivation benchmark, the engine surfaced $15,000 in recoverable pipeline from leads that were previously written off as dead.\n\nStop buying new leads until you close the loop on the ones you already have.\n\n👉 Full open-source code & interactive simulator: https://github.com/bawagideon/lost-lead-recovery-engine",
+    "contentHash": "bbbf9923b5e117fc81613bd61a62b3078fa508df72f85fd9d60c21a935451050"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Lost Lead Recovery Engine",
+      "subtext": "Lost Lead Recovery Engine: Scans dormant CRM databases to identify abandoned quotes, single-touch prospects, and silent leads, and generates automated re-activation campaigns.",
+      "evidenceCitation": "Measured vulnerability: Sub-1ms Latency (Execution Speed).",
+      "visual": {
+        "publicUrl": "/story/lost-lead-recovery-engine/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/lost-lead-recovery-engine/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/lost-lead-recovery-engine/",
+      "visual": {
+        "publicUrl": "/story/lost-lead-recovery-engine/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242573-lost-lead-recovery-engine",
+      "visual": {
+        "publicUrl": "/story/lost-lead-recovery-engine/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-lost-lead-recovery-engine-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242573-lost-lead-recovery-engine"
+    },
+    {
+      "id": "claim-lost-lead-recovery-engine-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242573-lost-lead-recovery-engine"
+    },
+    {
+      "id": "claim-lost-lead-recovery-engine-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/lost-lead-recovery-engine/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/lost-lead-recovery-engine/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

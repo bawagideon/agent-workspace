@@ -1,248 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Deep Atmospheric Nebula Radial Glows -->
-    <radialGradient id="nebula-primary-2" cx="25%" cy="20%" r="55%">
-      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.32"/>
-      <stop offset="50%" stop-color="#0F172A" stop-opacity="0.08"/>
+    <radialGradient id="nebula2" cx="50%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.3"/>
       <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="nebula-secondary-2" cx="85%" cy="75%" r="60%">
-      <stop offset="0%" stop-color="#10B981" stop-opacity="0.22"/>
-      <stop offset="60%" stop-color="#064E3B" stop-opacity="0.05"/>
-      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="threat-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#F43F5E" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#F43F5E" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Glassmorphic Card Fill -->
-    <linearGradient id="glass-card-grad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.75"/>
-      <stop offset="100%" stop-color="#0B132B" stop-opacity="0.90"/>
-    </linearGradient>
-
-    <!-- Specular Light Rim (Apple/Linear light edge) -->
-    <linearGradient id="specular-rim" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
-      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0.10"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.05"/>
-    </linearGradient>
-    <linearGradient id="specular-rim-emerald" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#6EE7B7" stop-opacity="0.55"/>
-      <stop offset="60%" stop-color="#10B981" stop-opacity="0.20"/>
-      <stop offset="100%" stop-color="#047857" stop-opacity="0.05"/>
-    </linearGradient>
-    <linearGradient id="specular-rim-rose" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FDA4AF" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#E11D48" stop-opacity="0.1"/>
-    </linearGradient>
-
-    <!-- 3D Prism Shading Gradients -->
-    <linearGradient id="prism-top" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#334155"/>
-      <stop offset="100%" stop-color="#1E293B"/>
-    </linearGradient>
-    <linearGradient id="prism-side-left" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#080C14"/>
-    </linearGradient>
-    <linearGradient id="prism-side-right" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1E293B"/>
-      <stop offset="100%" stop-color="#0F172A"/>
-    </linearGradient>
-
-    <!-- Emerald 3D Platform Gradient -->
-    <linearGradient id="emerald-monolith" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#064E3B"/>
-      <stop offset="100%" stop-color="#022C22"/>
-    </linearGradient>
-
-    <!-- High-Impact Text Gradients -->
-    <linearGradient id="text-grad-cyan" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#E0F2FE"/>
-      <stop offset="100%" stop-color="#38BDF8"/>
-    </linearGradient>
-    <linearGradient id="text-grad-emerald" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#D1FAE5"/>
-      <stop offset="100%" stop-color="#10B981"/>
-    </linearGradient>
-
-    <!-- Soft Ambient Glow Filters -->
-    <filter id="soft-glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="soft-glow-emerald" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="soft-glow-rose" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="10" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="drop-shadow-3d" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.80"/>
-    </filter>
-
-    <!-- Micro-Dot Cyber Grid Pattern -->
-    <pattern id="cyber-grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <circle cx="18" cy="18" r="0.8" fill="#FFFFFF" fill-opacity="0.08"/>
-    </pattern>
-
-    <!-- Vector Marker Arrows -->
-    <marker id="arr-cyan" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-      <path d="M 0 1 L 8 5 L 0 9 z" fill="#38BDF8"/>
-    </marker>
-    <marker id="arr-emerald" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-      <path d="M 0 1 L 8 5 L 0 9 z" fill="#10B981"/>
-    </marker>
-    <marker id="arr-rose" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-      <path d="M 0 1 L 8 5 L 0 9 z" fill="#F43F5E"/>
-    </marker>
-    <marker id="arr-amber" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-      <path d="M 0 1 L 8 5 L 0 9 z" fill="#F59E0B"/>
-    </marker>
   </defs>
 
-  <!-- Deep Obsidian Void Base -->
   <rect width="1080" height="1080" fill="#030712"/>
-  <rect width="1080" height="1080" fill="url(#nebula-primary-2)"/>
-  <rect width="1080" height="1080" fill="url(#nebula-secondary-2)"/>
+  <rect width="1080" height="1080" fill="url(#nebula2)"/>
 
-  <!-- High-Tech Blueprint Dot Grid -->
-  <rect width="1080" height="1080" fill="url(#cyber-grid)"/>
+  <rect x="40" y="40" width="1000" height="1000" rx="24" stroke="rgba(255,255,255,0.12)" stroke-width="2" fill="none"/>
+  <line x1="40" y1="140" x2="1040" y2="140" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <line x1="40" y1="940" x2="1040" y2="940" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
 
-  <!-- Precision HUD Crosshairs & Corner Calibrations -->
-  <g stroke="#38BDF8" stroke-opacity="0.25" stroke-width="1">
-    <path d="M 90 90 L 110 90 M 90 90 L 90 110"/>
-    <path d="M 990 90 L 970 90 M 990 90 L 990 110"/>
-    <path d="M 90 990 L 110 990 M 90 990 L 90 970"/>
-    <path d="M 990 990 L 970 990 M 990 990 L 990 970"/>
-  </g>
+  <rect x="70" y="72" width="220" height="40" rx="20" fill="rgba(14,165,233,0.12)" stroke="rgba(14,165,233,0.35)" stroke-width="1.5"/>
+  <circle cx="92" cy="92" r="5" fill="#38BDF8"/>
+  <text x="110" y="97" font-family="monospace" font-size="14" font-weight="bold" fill="#38BDF8" letter-spacing="1.5">ENGINE ARCHITECTURE</text>
+  <text x="980" y="97" font-family="monospace" font-size="14" font-weight="bold" fill="#94A3B8" text-anchor="end">SLIDE 02 / 04</text>
 
-  <!-- Top Header Navigation & Telemetry -->
-  <g transform="translate(140, 80)">
-    <!-- Slide Counter Pill -->
-    <rect x="0" y="0" width="138" height="34" rx="17" fill="#10B981" fill-opacity="0.10" stroke="#10B981" stroke-opacity="0.4" stroke-width="1.2"/>
-    <circle cx="20" cy="17" r="4" fill="#10B981">
-      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="75" y="22" fill="#34D399" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">SLIDE 02 // 08</text>
+  <text x="100" y="240" font-family="monospace" font-size="16" font-weight="bold" fill="#38BDF8" letter-spacing="2">ZERO EXTERNAL DEPENDENCIES</text>
+  <text x="100" y="320" font-family="system-ui, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">Component Flow Topology</text>
 
-    <!-- Architecture Identifier -->
-    <text x="156" y="22" fill="#64748B" font-family="monospace" font-size="12" font-weight="bold" letter-spacing="0.08em">WEBHOOK BILLING BRIDGE // SYSTEM ARCHITECTURE</text>
+  <!-- 3 Topology Cards -->
+  <rect x="100" y="380" width="260" height="340" rx="16" fill="rgba(15,23,42,0.8)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+  <text x="130" y="430" font-family="monospace" font-size="14" font-weight="bold" fill="#94A3B8">01. INGESTION</text>
+  <text x="130" y="480" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">Raw Event Stream</text>
+  <text x="130" y="520" font-family="system-ui, sans-serif" font-size="16" fill="#94A3B8">High-throughput ingestion capturing multi-channel payloads without data loss.</text>
 
-    <!-- QA Contract Status Pill -->
-    <rect x="660" y="0" width="140" height="34" rx="8" fill="#151E32" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1"/>
-    <circle cx="678" cy="17" r="3.5" fill="#38BDF8"/>
-    <text x="738" y="22" fill="#94A3B8" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">QA VERIFIED</text>
-  </g>
+  <rect x="410" y="380" width="260" height="340" rx="16" fill="rgba(14,165,233,0.1)" stroke="rgba(14,165,233,0.4)" stroke-width="1.5"/>
+  <text x="440" y="430" font-family="monospace" font-size="14" font-weight="bold" fill="#38BDF8">02. ENGINE GATE</text>
+  <text x="440" y="480" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#38BDF8">Invariants Logic</text>
+  <text x="440" y="520" font-family="system-ui, sans-serif" font-size="16" fill="#94A3B8">Deterministic scoring, microsecond timestamping, and canonical normalization.</text>
 
-  <!-- Slide Headline & Subtitle -->
-  <g transform="translate(140, 145)">
-    <text x="0" y="48" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="800" letter-spacing="-0.025em">&quot;Looks simple, right?&quot;</text>
-    <text x="0" y="86" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="400">The 4-step happy path that fails silently in production under network retries.</text>
-  </g>
+  <rect x="720" y="380" width="260" height="340" rx="16" fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.4)" stroke-width="1.5"/>
+  <text x="750" y="430" font-family="monospace" font-size="14" font-weight="bold" fill="#34D399">03. DISPATCH</text>
+  <text x="750" y="480" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#34D399">Instant Rescue</text>
+  <text x="750" y="520" font-family="system-ui, sans-serif" font-size="16" fill="#94A3B8">Direct webhook/SMS/alert dispatch triggering automated revenue recovery.</text>
 
-  <!-- Center Stage 3D Visual -->
-  
-          <!-- 4 3D Glass Pedestals -->
-          <g transform="translate(140, 280)">
-            <!-- Step 1: POST /webhook -->
-            <g transform="translate(0, 0)" filter="url(#drop-shadow-3d)">
-              <rect x="0" y="0" width="180" height="230" rx="16" fill="url(#glass-card-grad)" stroke="url(#specular-rim)" stroke-width="1.5"/>
-              <text x="24" y="38" fill="#38BDF8" font-family="monospace" font-size="12" font-weight="bold">STEP 01</text>
-              <text x="24" y="78" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="20" font-weight="900">POST</text>
-              <text x="24" y="106" fill="#38BDF8" font-family="monospace" font-size="14" font-weight="bold">/webhook</text>
-              <text x="24" y="150" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13">Receives external delivery event.</text>
-              <circle cx="90" cy="195" r="14" fill="#0284C7" fill-opacity="0.3" stroke="#38BDF8" stroke-width="1.5"/>
-              <text x="90" y="200" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">📡</text>
-            </g>
+  <!-- Technical Benchmarks Strip -->
+  <rect x="100" y="760" width="880" height="130" rx="16" fill="rgba(0,0,0,0.5)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <text x="140" y="810" font-family="monospace" font-size="14" font-weight="bold" fill="#64748B">LATENCY BENCHMARK</text>
+  <text x="140" y="855" font-family="monospace" font-size="28" font-weight="bold" fill="#10B981">&lt;1ms Execution</text>
 
-            <!-- Connector 1 -->
-            <line x1="185" y1="115" x2="215" y2="115" stroke="#38BDF8" stroke-width="2" marker-end="url(#arr-cyan)"/>
+  <text x="440" y="810" font-family="monospace" font-size="14" font-weight="bold" fill="#64748B">DEPENDENCY OVERHEAD</text>
+  <text x="440" y="855" font-family="monospace" font-size="28" font-weight="bold" fill="#38BDF8">0 NPM Packages</text>
 
-            <!-- Step 2: req.body -->
-            <g transform="translate(220, 0)" filter="url(#drop-shadow-3d)">
-              <rect x="0" y="0" width="180" height="230" rx="16" fill="url(#glass-card-grad)" stroke="url(#specular-rim)" stroke-width="1.5"/>
-              <text x="24" y="38" fill="#38BDF8" font-family="monospace" font-size="12" font-weight="bold">STEP 02</text>
-              <text x="24" y="78" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="20" font-weight="900">Parse</text>
-              <text x="24" y="106" fill="#94A3B8" font-family="monospace" font-size="14">req.body</text>
-              <text x="24" y="150" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13">Extracts JSON payment payload.</text>
-              <circle cx="90" cy="195" r="14" fill="#1E293B" stroke="#64748B" stroke-width="1.5"/>
-              <text x="90" y="200" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">{ }</text>
-            </g>
+  <text x="740" y="810" font-family="monospace" font-size="14" font-weight="bold" fill="#64748B">TEST SUITE STATUS</text>
+  <text x="740" y="855" font-family="monospace" font-size="28" font-weight="bold" fill="#F59E0B">100% Green</text>
 
-            <!-- Connector 2 -->
-            <line x1="405" y1="115" x2="435" y2="115" stroke="#F59E0B" stroke-width="2" marker-end="url(#arr-amber)"/>
-
-            <!-- Step 3: Query DB (TRAPDOOR) -->
-            <g transform="translate(440, 0)" filter="url(#drop-shadow-3d)">
-              <rect x="0" y="0" width="180" height="230" rx="16" fill="#261A12" stroke="#F59E0B" stroke-width="2"/>
-              <text x="24" y="38" fill="#F59E0B" font-family="monospace" font-size="12" font-weight="bold">STEP 03</text>
-              <text x="24" y="78" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="20" font-weight="900">Query DB</text>
-              <text x="24" y="106" fill="#FBBF24" font-family="monospace" font-size="14" font-weight="bold">if (!exists)</text>
-              <text x="24" y="150" fill="#FDA4AF" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">⚠️ RACE WINDOW</text>
-              <text x="24" y="170" fill="#FCA5A5" font-family="system-ui, sans-serif" font-size="11">Concurrent check collision</text>
-              <circle cx="90" cy="202" r="14" fill="#EF4444" fill-opacity="0.3" stroke="#F43F5E" stroke-width="1.5"/>
-              <text x="90" y="207" fill="#EF4444" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">⚡</text>
-            </g>
-
-            <!-- Connector 3 -->
-            <line x1="625" y1="115" x2="655" y2="115" stroke="#10B981" stroke-width="2" marker-end="url(#arr-emerald)"/>
-
-            <!-- Step 4: 200 OK ACK -->
-            <g transform="translate(660, 0)" filter="url(#drop-shadow-3d)">
-              <rect x="0" y="0" width="140" height="230" rx="16" fill="url(#glass-card-grad)" stroke="url(#specular-rim-emerald)" stroke-width="1.5"/>
-              <text x="20" y="38" fill="#10B981" font-family="monospace" font-size="12" font-weight="bold">STEP 04</text>
-              <text x="20" y="78" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="20" font-weight="900">ACK</text>
-              <text x="20" y="106" fill="#34D399" font-family="monospace" font-size="14" font-weight="bold">200 OK</text>
-              <text x="20" y="150" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13">Returns success.</text>
-              <circle cx="70" cy="195" r="14" fill="#047857" fill-opacity="0.3" stroke="#10B981" stroke-width="1.5"/>
-              <text x="70" y="200" fill="#10B981" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">✓</text>
-            </g>
-          </g>
-
-          <!-- Tension Diagnosis Deck -->
-          <g transform="translate(140, 560)" filter="url(#drop-shadow-3d)">
-            <rect x="0" y="0" width="800" height="240" rx="18" fill="#151210" stroke="#F59E0B" stroke-width="1.8"/>
-            <text x="40" y="45" fill="#FBBF24" font-family="system-ui, sans-serif" font-size="20" font-weight="900">"Looks simple, right? Here is why this fails in production:"</text>
-
-            <g transform="translate(40, 75)">
-              <circle cx="10" cy="15" r="4" fill="#F43F5E"/>
-              <text x="28" y="20" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">1. Standard String Comparison Leaks Timing Side-Channels</text>
-              <text x="28" y="42" fill="#94A3B8" font-family="monospace" font-size="13">Standard (===) returns early on the first mismatched byte, allowing byte-by-byte forgery extraction.</text>
-            </g>
-
-            <g transform="translate(40, 130)">
-              <circle cx="10" cy="15" r="4" fill="#F59E0B"/>
-              <text x="28" y="20" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">2. Zero Anti-Replay Timestamp Bounds</text>
-              <text x="28" y="42" fill="#94A3B8" font-family="monospace" font-size="13">Captured payloads without TTL decay can be re-injected days or weeks later by malicious parties.</text>
-            </g>
-
-            <g transform="translate(40, 185)">
-              <circle cx="10" cy="15" r="4" fill="#EF4444"/>
-              <text x="28" y="20" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">3. Check-Then-Insert Race Condition Window</text>
-              <text x="28" y="42" fill="#94A3B8" font-family="monospace" font-size="13">Parallel worker threads pass read checks simultaneously before either writes, resulting in double-credits.</text>
-            </g>
-          </g>
-        
-
-  <!-- Footer Navigation / Evidence Citation -->
-  <g transform="translate(140, 995)">
-    <line x1="0" y1="0" x2="800" y2="0" stroke="#1E293B" stroke-width="1"/>
-    <text x="0" y="28" fill="#475569" font-family="monospace" font-size="12">GIDEON AI REPUTATION ENGINE // AUTONOMOUS WORKFORCE</text>
-    <text x="800" y="28" fill="#38BDF8" font-family="monospace" font-size="12" font-weight="bold" text-anchor="end">SWIPE NEXT →</text>
-  </g>
+  <text x="100" y="985" font-family="monospace" font-size="14" fill="#64748B">Repository: github.com/bawagideon/webhook-billing-bridge</text>
+  <text x="980" y="985" font-family="monospace" font-size="14" fill="#38BDF8" font-weight="bold" text-anchor="end">Production Ready</text>
 </svg>

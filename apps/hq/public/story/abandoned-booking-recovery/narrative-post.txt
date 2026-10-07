@@ -1,0 +1,18 @@
+E-commerce brands spend millions recovering abandoned carts.
+Why are service businesses completely ignoring abandoned bookings?
+
+A prospective patient clicks your booking link, chooses "Thursday at 2 PM", types their name and phone number... and their child cries or a Slack notification pops up.
+
+They close the tab.
+The clinic never knows they existed.
+
+🛠️ I built Abandoned Booking Recovery:
+• Tracks real-time session inputs with zero friction.
+• Detects when a session goes inactive for >10 minutes with partial contact data.
+• Holds the prospective time slot on the calendar for 30 minutes.
+• Dispatches an automated conversational text:
+  "Hi Michael, we noticed you were booking your Dental Cleaning for Thursday at 2 PM! We're holding your preferred slot for the next 30 minutes. Tap here to confirm in 1 click: [Link]"
+
+Scenario: In our 100-booking benchmark simulation, this workflow reclaims 25% of bounced bookings with zero manual labor.
+
+👉 Full open-source code & interactive simulator: https://github.com/bawagideon/abandoned-booking-recovery

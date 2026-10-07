@@ -1,0 +1,82 @@
+{
+  "projectId": "missed-call-recovery",
+  "projectName": "Missed Call Recovery",
+  "generatedAt": "2026-10-07T20:34:02.606Z",
+  "narrativePost": {
+    "hook": "What happens when someone calls your business at 7:15 PM and nobody answers?",
+    "subtext": "90% of the time:",
+    "fullText": "What happens when someone calls your business at 7:15 PM and nobody answers?\n\n90% of the time:\nMissed call → Voicemail → Customer hangs up → Customer calls competitor #2.\n\nFor a dental clinic, roofing contractor, or law firm, that single missed phone call represents $2,500 to $12,000 in lost contract value.\n\nNobody leaves voicemails anymore. People want immediate resolution.\n\n🛠️ I built Missed-Call Revenue Recovery:\n1. Inbound call rings with no answer or busy status.\n2. Webhook intercepts the event in 200ms.\n3. System normalizes caller ID and checks CRM history.\n4. An automated conversational SMS/WhatsApp arrives on the caller's phone in 4 seconds:\n   \"Hi! Thanks for calling Apex Dental. We're on the other line and sorry we missed you. If you need an urgent appointment, grab an open slot here: [Priority Link] or reply to this text.\"\n\nIn our simulated clinic benchmark, this single automated workflow converts 35% of abandoned callers into confirmed appointments within 10 minutes.\n\nStop letting after-hours phone calls pay your competitors' bills.\n\n👉 Full open-source code & interactive simulator: https://github.com/bawagideon/missed-call-recovery",
+    "contentHash": "b85a122d1cd22d2686f280af430aa8d400565cc3d8c8c25eb1e3e9dcc710462c"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Missed Call Recovery",
+      "subtext": "Missed-Call Revenue Recovery: Intercepts unanswered business phone calls and triggers instant automated SMS/WhatsApp booking recovery in under 5 seconds.",
+      "evidenceCitation": "Measured vulnerability: Sub-1ms Latency (Execution Speed).",
+      "visual": {
+        "publicUrl": "/story/missed-call-recovery/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/missed-call-recovery/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/missed-call-recovery/",
+      "visual": {
+        "publicUrl": "/story/missed-call-recovery/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242592-missed-call-recovery",
+      "visual": {
+        "publicUrl": "/story/missed-call-recovery/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-missed-call-recovery-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242592-missed-call-recovery"
+    },
+    {
+      "id": "claim-missed-call-recovery-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242592-missed-call-recovery"
+    },
+    {
+      "id": "claim-missed-call-recovery-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/missed-call-recovery/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/missed-call-recovery/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

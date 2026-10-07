@@ -1,0 +1,82 @@
+{
+  "projectId": "ai-agent-budget-guard",
+  "projectName": "Ai Agent Budget Guard",
+  "generatedAt": "2026-10-07T20:34:02.041Z",
+  "narrativePost": {
+    "hook": "LinkedIn Technical Marketing Post: AI Agent Budget Guard & Loop Breaker",
+    "subtext": "Sliding-window circuit breaker for autonomous AI agents that halts runaway recursive loops and hard-caps execution costs at a strict dollar ",
+    "fullText": "# LinkedIn Technical Marketing Post: AI Agent Budget Guard & Loop Breaker\n\nSliding-window circuit breaker for autonomous AI agents that halts runaway recursive loops and hard-caps execution costs at a strict dollar limit.\n\n### The Problem\nMost companies lose thousands in hidden operational waste every single month.\n\n### The Engineered Fix\nWe engineered a zero-dependency system to solve this.\n\n👉 Try the live interactive simulator here:\nhttps://gideonbawa-website.netlify.app/simulators/ai-agent-budget-guard/\n\n#SoftwareEngineering #Automation #SystemsArchitecture #BuildInPublic\n",
+    "contentHash": "17a13c81d1bfe3e9011f3d5e0df3075e827d2e39f5f3eac26caf596045dcb99e"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Ai Agent Budget Guard",
+      "subtext": "Sliding-window circuit breaker for autonomous AI agents that halts runaway recursive loops and hard-caps execution costs at a strict dollar limit.",
+      "evidenceCitation": "Measured vulnerability: Sub-1ms Latency (Execution Speed).",
+      "visual": {
+        "publicUrl": "/story/ai-agent-budget-guard/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/ai-agent-budget-guard/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/ai-agent-budget-guard/",
+      "visual": {
+        "publicUrl": "/story/ai-agent-budget-guard/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242033-ai-agent-budget-guard",
+      "visual": {
+        "publicUrl": "/story/ai-agent-budget-guard/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ai-agent-budget-guard-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242033-ai-agent-budget-guard"
+    },
+    {
+      "id": "claim-ai-agent-budget-guard-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242033-ai-agent-budget-guard"
+    },
+    {
+      "id": "claim-ai-agent-budget-guard-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/ai-agent-budget-guard/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/ai-agent-budget-guard/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}

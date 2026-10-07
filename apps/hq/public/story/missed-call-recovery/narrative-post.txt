@@ -1,0 +1,21 @@
+What happens when someone calls your business at 7:15 PM and nobody answers?
+
+90% of the time:
+Missed call → Voicemail → Customer hangs up → Customer calls competitor #2.
+
+For a dental clinic, roofing contractor, or law firm, that single missed phone call represents $2,500 to $12,000 in lost contract value.
+
+Nobody leaves voicemails anymore. People want immediate resolution.
+
+🛠️ I built Missed-Call Revenue Recovery:
+1. Inbound call rings with no answer or busy status.
+2. Webhook intercepts the event in 200ms.
+3. System normalizes caller ID and checks CRM history.
+4. An automated conversational SMS/WhatsApp arrives on the caller's phone in 4 seconds:
+   "Hi! Thanks for calling Apex Dental. We're on the other line and sorry we missed you. If you need an urgent appointment, grab an open slot here: [Priority Link] or reply to this text."
+
+In our simulated clinic benchmark, this single automated workflow converts 35% of abandoned callers into confirmed appointments within 10 minutes.
+
+Stop letting after-hours phone calls pay your competitors' bills.
+
+👉 Full open-source code & interactive simulator: https://github.com/bawagideon/missed-call-recovery

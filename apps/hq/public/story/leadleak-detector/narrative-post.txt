@@ -1,0 +1,27 @@
+A company spends $15,000/mo on Meta ads, SEO, and landing pages.
+
+Then a customer submits an urgent quote request at 2:00 PM on Monday.
+Nobody answers.
+
+The sales team checks the inbox Tuesday morning:
+"Hey! Sorry for the delay, did you still need help?"
+
+The customer already gave their $5,000 deposit to a competitor 18 hours ago.
+
+Harvard Business Review tracked 2,241 companies: reps who contact inbound leads within 5 minutes are 21x more likely to qualify them than those who wait 30 minutes.
+
+After 2 hours? The lead is dead.
+
+Yet when we audit businesses, their median first-response time is 3 hours and 42 minutes.
+
+🛠️ I built the LeadLeak Detector & Recovery Engine:
+• Intercepts Web Forms, WhatsApp, Instagram DMs, Email, and Calls into one stream.
+• Normalizes phone numbers to canonical E.164 and deduplicates identity in <1ms.
+• Real-time SLA Radar: Elite (<5m 🟢), Slow (5-30m 🟡), Breached (>2h 🔴).
+• 1-Click Recovery: Dispatches instant personalized SMS/WhatsApp rescue sequences.
+
+In our benchmark simulation across 100 leads: 28 leads ($42,000 in pipeline) were sitting unattended. 1-Click Recovery reclaimed an estimated $10,500 in lost margin.
+
+👉 Full open-source code & interactive simulator: https://github.com/bawagideon/leadleak-detector
+
+What is your team's actual response time to a form submitted after 6 PM?

@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gideon AI // Ai Hallucination Audit Layer — 14s Motion Video Reel</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #030712;
+      color: #F8FAFC;
+      font-family: system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .ambient-glow {
+      position: fixed;
+      width: 800px;
+      height: 800px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(14, 165, 233, 0.15) 0%, rgba(16, 185, 129, 0.08) 50%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+      animation: pulseGlow 8s ease-in-out infinite alternate;
+    }
+
+    @keyframes pulseGlow {
+      0% { transform: scale(0.9) translate(-50px, -50px); opacity: 0.7; }
+      100% { transform: scale(1.1) translate(50px, 50px); opacity: 1; }
+    }
+
+    .reel-wrapper {
+      position: relative;
+      z-index: 10;
+      width: 92vw;
+      max-width: 600px;
+      aspect-ratio: 1 / 1;
+      max-height: 85vh;
+      background: #060B17;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 24px;
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.9), 0 0 50px rgba(16, 185, 129, 0.15);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Canvas Stage */
+    #reelCanvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+      background: #030712;
+    }
+
+    /* HUD Header Overlay */
+    .hud-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 14px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(180deg, rgba(3, 7, 18, 0.95) 0%, transparent 100%);
+      z-index: 30;
+      font-family: monospace;
+      font-size: 12px;
+      pointer-events: none;
+    }
+
+    .hud-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      padding: 4px 12px;
+      border-radius: 9999px;
+      color: #34D399;
+      font-weight: bold;
+    }
+
+    .hud-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #10B981;
+      box-shadow: 0 0 10px #10B981;
+      animation: blink 1.2s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    /* Scrubber Progress Bar */
+    .progress-track {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: rgba(255, 255, 255, 0.1);
+      z-index: 30;
+    }
+
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #F43F5E, #38BDF8, #10B981, #F59E0B);
+      box-shadow: 0 0 14px #10B981;
+    }
+
+    /* Controls Bar */
+    .controls {
+      margin-top: 18px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      z-index: 10;
+      font-family: monospace;
+      font-size: 13px;
+    }
+
+    .btn {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: #F8FAFC;
+      padding: 9px 18px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn:hover {
+      background: rgba(255, 255, 255, 0.16);
+      border-color: #38BDF8;
+      color: #38BDF8;
+    }
+
+    .btn-record {
+      background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+      color: #030712;
+      border: none;
+      font-weight: 800;
+      box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+    }
+
+    .btn-record:hover {
+      background: #34D399;
+      color: #030712;
+    }
+
+    .btn-record:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .recording-indicator {
+      display: none;
+      color: #EF4444;
+      font-weight: bold;
+      animation: blink 0.8s infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="ambient-glow"></div>
+
+  <div class="reel-wrapper" id="reelWrapper">
+    <div class="hud-bar">
+      <div class="hud-badge">
+        <span class="hud-dot"></span>
+        <span>14s MOTION REEL</span>
+      </div>
+      <div id="hudTimer" style="color: #94A3B8; font-weight: bold;">00:00 / 00:14</div>
+    </div>
+
+    <canvas id="reelCanvas" width="1080" height="1080"></canvas>
+
+    <div class="progress-track">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button class="btn" id="btnTogglePlay">⏸ PAUSE REEL</button>
+    <button class="btn" id="btnRestart">↺ RESTART</button>
+    <button class="btn" id="btnSound">🔊 SOUND FX: OFF</button>
+    <button class="btn btn-record" id="btnExportVideo">🎬 DOWNLOAD 14s REEL (.webm)</button>
+    <span class="recording-indicator" id="recBadge">● RECORDING (DO NOT CLOSE)...</span>
+  </div>
+
+  <script>
+    const config = {
+      title: "Ai Hallucination Audit Layer",
+      slug: "ai-hallucination-audit-layer",
+      description: "Evidence verification engine that compares AI-generated statements against verified knowledgebase documents, highlighting unsupported claims and grounding answers.",
+      hook: "LinkedIn Technical Marketing Post: AI Hallucination & Grounding Audit Layer",
+      metricHighlight: "Sub-1ms Latency",
+      metricLabel: "Execution Speed",
+      screenshotUrl: "/story/ai-hallucination-audit-layer/screenshot.png",
+      durationMs: 14000
+    };
+
+    const canvas = document.getElementById('reelCanvas');
+    const ctx = canvas.getContext('2d');
+    const bar = document.getElementById('progressBar');
+    const timer = document.getElementById('hudTimer');
+    const btnPlay = document.getElementById('btnTogglePlay');
+    const btnRestart = document.getElementById('btnRestart');
+    const btnSound = document.getElementById('btnSound');
+    const btnExport = document.getElementById('btnExportVideo');
+    const recBadge = document.getElementById('recBadge');
+
+    let isPlaying = true;
+    let isSoundOn = false;
+    let startTime = performance.now();
+    let pausedAt = 0;
+    let simImg = new Image();
+    simImg.crossOrigin = 'anonymous';
+    simImg.src = config.screenshotUrl;
+
+    // Web Audio Synthesizer for High-Tech Ambient Beeps
+    let audioCtx = null;
+    function playBeep(freq = 440, type = 'sine', duration = 0.1) {
+      if (!isSoundOn) return;
+      try {
+        if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = type;
+        osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+        gain.gain.setValueAtTime(0.08, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + duration);
+      } catch (e) {}
+    }
+
+    let lastSceneIndex = -1;
+
+    function render(currentTime) {
+      if (!isPlaying) {
+        requestAnimationFrame(render);
+        return;
+      }
+
+      const elapsed = (currentTime - startTime) % config.durationMs;
+      const progress = elapsed / config.durationMs;
+      bar.style.width = (progress * 100) + '%';
+      
+      const sec = Math.floor(elapsed / 1000);
+      timer.innerText = '00:' + (sec < 10 ? '0' + sec : sec) + ' / 00:14';
+
+      // Determine 4 Scenes (~3.5 seconds each)
+      // Scene 0: 0s - 3.5s (The Tension & Problem)
+      // Scene 1: 3.5s - 7.0s (The Engine Architecture)
+      // Scene 2: 7.0s - 10.5s (Live Simulator HUD Telemetry)
+      // Scene 3: 10.5s - 14.0s (Verified Scorecard & Proof)
+      const sceneIndex = Math.min(3, Math.floor(elapsed / 3500));
+      const sceneElapsed = elapsed % 3500;
+      const sceneProgress = sceneElapsed / 3500;
+
+      if (sceneIndex !== lastSceneIndex) {
+        lastSceneIndex = sceneIndex;
+        playBeep(sceneIndex === 0 ? 300 : sceneIndex === 1 ? 520 : sceneIndex === 2 ? 680 : 880, 'sine', 0.2);
+      }
+
+      // Clear Canvas
+      ctx.fillStyle = '#030712';
+      ctx.fillRect(0, 0, 1080, 1080);
+
+      // Draw Atmospheric Cyber Grid
+      ctx.strokeStyle = 'rgba(255, 255, 255, 0.04)';
+      ctx.lineWidth = 1;
+      for (let x = 60; x < 1080; x += 60) {
+        ctx.beginPath();
+        ctx.moveTo(x, 0);
+        ctx.lineTo(x, 1080);
+        ctx.stroke();
+      }
+      for (let y = 60; y < 1080; y += 60) {
+        ctx.beginPath();
+        ctx.moveTo(0, y);
+        ctx.lineTo(1080, y);
+        ctx.stroke();
+      }
+
+      // Render Active Scene
+      if (sceneIndex === 0) {
+        drawSceneTension(sceneProgress);
+      } else if (sceneIndex === 1) {
+        drawSceneEngine(sceneProgress);
+      } else if (sceneIndex === 2) {
+        drawSceneSimulator(sceneProgress);
+      } else {
+        drawSceneScorecard(sceneProgress);
+      }
+
+      requestAnimationFrame(render);
+    }
+
+    // SCENE 1: THE TENSION & PROBLEM (0 - 3.5s)
+    function drawSceneTension(p) {
+      // Alert pulse glow
+      const pulse = Math.sin(p * Math.PI * 4) * 0.15 + 0.25;
+      const grad = ctx.createRadialGradient(540, 540, 50, 540, 540, 500);
+      grad.addColorStop(0, 'rgba(244, 63, 94, ' + pulse + ')');
+      grad.addColorStop(1, 'rgba(3, 7, 18, 0)');
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, 1080, 1080);
+
+      // Category Pill
+      ctx.fillStyle = 'rgba(244, 63, 94, 0.15)';
+      ctx.strokeStyle = 'rgba(244, 63, 94, 0.4)';
+      ctx.lineWidth = 2;
+      roundRect(ctx, 100, 140, 320, 50, 25, true, true);
+      ctx.fillStyle = '#FDA4AF';
+      ctx.font = 'bold 20px monospace';
+      ctx.fillText('CRITICAL REVENUE LEAK', 130, 172);
+
+      // Project Title
+      ctx.fillStyle = '#FFFFFF';
+      ctx.font = '800 56px system-ui, sans-serif';
+      ctx.fillText(config.title, 100, 260);
+
+      // Problem Box
+      ctx.fillStyle = 'rgba(15, 23, 42, 0.85)';
+      ctx.strokeStyle = 'rgba(255, 255, 255, 0.12)';
+      roundRect(ctx, 100, 320, 880, 280, 24, true, true);
+
+      ctx.fillStyle = '#F8FAFC';
+      ctx.font = '700 32px system-ui, sans-serif';
+      ctx.fillText('The Expensive Friction Point:', 150, 390);
+
+      ctx.fillStyle = '#94A3B8';
+      ctx.font = '500 24px system-ui, sans-serif';
+      wrapText(ctx, config.description, 150, 445, 780, 36);
+
+      // Large Vulnerability Card
+      const cardY = 640 + (1 - Math.min(1, p * 1.5)) * 40;
+      ctx.fillStyle = 'rgba(244, 63, 94, 0.12)';
+      ctx.strokeStyle = 'rgba(244, 63, 94, 0.4)';
+      roundRect(ctx, 100, cardY, 880, 260, 24, true, true);
+
+      ctx.fillStyle = '#FDA4AF';
+      ctx.font = 'bold 22px monospace';
+      ctx.fillText('DETECTED VULNERABILITY', 150, cardY + 60);
+
+      ctx.fillStyle = '#FFFFFF';
+      ctx.font = '900 84px monospace';
+      ctx.fillText(config.metricHighlight, 150, cardY + 160);
+
+      ctx.fillStyle = '#CBD5E1';
+      ctx.font = '600 26px system-ui, sans-serif';
+      ctx.fillText(config.metricLabel, 150, cardY + 215);
+    }
+
+    // SCENE 2: ENGINE ARCHITECTURE (3.5 - 7.0s)
+    function drawSceneEngine(p) {
+      const grad = ctx.createRadialGradient(540, 540, 50, 540, 540, 500);
+      grad.addColorStop(0, 'rgba(14, 165, 233, 0.25)');
+      grad.addColorStop(1, 'rgba(3, 7, 18, 0)');
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, 1080, 1080);
+
+      ctx.fillStyle = 'rgba(14, 165, 233, 0.15)';
+      ctx.strokeStyle = 'rgba(14, 165, 233, 0.4)';
+      roundRect(ctx, 100, 140, 360, 50, 25, true, true);
+      ctx.fillStyle = '#38BDF8';
+      ctx.font = 'bold 20px monospace';
+      ctx.fillText('ENGINE ARCHITECTURE', 130, 172);
+
+      ctx.fillStyle = '#FFFFFF';
+      ctx.font = '800 56px system-ui, sans-serif';
+      ctx.fillText('Zero-Dependency Defense', 100, 260);
+
+      // 3 Invariant Steps
+      const steps = [
+        { num: '01', title: 'Stream Ingestion', desc: 'Real-time multi-channel event listener' },
+        { num: '02', title: 'Invariant Gate', desc: 'Sub-1ms deterministic rule evaluation' },
+        { num: '03', title: '1-Click Rescue', desc: 'Immediate automated revenue salvage' }
+      ];
+
+      steps.forEach((s, idx) => {
+        const y = 320 + idx * 160;
+        const active = p >= (idx * 0.25);
+        ctx.fillStyle = active ? 'rgba(14, 165, 233, 0.12)' : 'rgba(15, 23, 42, 0.6)';
+        ctx.strokeStyle = active ? 'rgba(56, 189, 248, 0.5)' : 'rgba(255, 255, 255, 0.08)';
+        roundRect(ctx, 100, y, 880, 130, 20, true, true);
+
+        ctx.fillStyle = active ? '#38BDF8' : '#64748B';
+        ctx.font = '900 36px monospace';
+        ctx.fillText(s.num, 140, y + 75);
+
+        ctx.fillStyle = '#FFFFFF';
+        ctx.font = '700 28px system-ui, sans-serif';
+        ctx.fillText(s.title, 230, y + 55);
+
+        ctx.fillStyle = '#94A3B8';
+        ctx.font = '500 20px system-ui, sans-serif';
+        ctx.fillText(s.desc, 230, y + 95);
+      });
+
+      // Benchmark Strip
+      ctx.fillStyle = 'rgba(16, 185, 129, 0.1)';
+      ctx.strokeStyle = 'rgba(16, 185, 129, 0.4)';
+      roundRect(ctx, 100, 820, 880, 120, 20, true, true);
+
+      ctx.fillStyle = '#34D399';
+      ctx.font = 'bold 24px monospace';
+      ctx.fillText('⚡ BENCHMARK: SUB-1MS DETERMINISM // 0 EXTERNAL DEPENDENCIES', 140, 890);
+    }
+
+    // SCENE 3: LIVE SIMULATOR TELEMETRY (7.0 - 10.5s)
+    function drawSceneSimulator(p) {
+      const grad = ctx.createRadialGradient(540, 540, 50, 540, 540, 500);
+      grad.addColorStop(0, 'rgba(16, 185, 129, 0.25)');
+      grad.addColorStop(1, 'rgba(3, 7, 18, 0)');
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, 1080, 1080);
+
+      ctx.fillStyle = 'rgba(16, 185, 129, 0.15)';
+      ctx.strokeStyle = 'rgba(16, 185, 129, 0.4)';
+      roundRect(ctx, 100, 140, 360, 50, 25, true, true);
+      ctx.fillStyle = '#34D399';
+      ctx.font = 'bold 20px monospace';
+      ctx.fillText('INTERACTIVE SANDBOX', 130, 172);
+
+      ctx.fillStyle = '#FFFFFF';
+      ctx.font = '800 56px system-ui, sans-serif';
+      ctx.fillText('Live Simulator HUD', 100, 260);
+
+      // Simulator Stage
+      const stageX = 100;
+      const stageY = 320;
+      const stageW = 880;
+      const stageH = 580;
+
+      ctx.save();
+      roundRect(ctx, stageX, stageY, stageW, stageH, 24, false, false);
+      ctx.clip();
+
+      if (simImg.complete && simImg.naturalWidth > 0) {
+        ctx.drawImage(simImg, stageX, stageY, stageW, stageH);
+      } else {
+        ctx.fillStyle = '#0F172A';
+        ctx.fillRect(stageX, stageY, stageW, stageH);
+        ctx.fillStyle = '#94A3B8';
+        ctx.font = '24px monospace';
+        ctx.fillText('Loading simulator visual...', stageX + 250, stageY + 280);
+      }
+
+      // Laser Scanner Sweep Line
+      const laserY = stageY + (p * stageH);
+      const lGrad = ctx.createLinearGradient(stageX, laserY, stageX + stageW, laserY);
+      lGrad.addColorStop(0, 'rgba(16, 185, 129, 0)');
+      lGrad.addColorStop(0.5, 'rgba(52, 211, 153, 0.85)');
+      lGrad.addColorStop(1, 'rgba(16, 185, 129, 0)');
+      ctx.fillStyle = lGrad;
+      ctx.fillRect(stageX, laserY - 3, stageW, 6);
+
+      ctx.restore();
+
+      // Border over simulator
+      ctx.strokeStyle = 'rgba(16, 185, 129, 0.4)';
+      ctx.lineWidth = 3;
+      roundRect(ctx, stageX, stageY, stageW, stageH, 24, false, true);
+
+      // Telemetry Stamp Badge
+      ctx.fillStyle = 'rgba(3, 7, 18, 0.85)';
+      ctx.strokeStyle = 'rgba(52, 211, 153, 0.6)';
+      roundRect(ctx, stageX + 30, stageY + stageH - 90, 480, 60, 14, true, true);
+      ctx.fillStyle = '#34D399';
+      ctx.font = 'bold 20px monospace';
+      ctx.fillText('● LIVE ASSAULT TEST: PASSING', stageX + 60, stageY + stageH - 52);
+    }
+
+    // SCENE 4: VERIFIED SCORECARD & CALL TO ACTION (10.5 - 14.0s)
+    function drawSceneScorecard(p) {
+      const grad = ctx.createRadialGradient(540, 540, 50, 540, 540, 500);
+      grad.addColorStop(0, 'rgba(245, 158, 11, 0.2)');
+      grad.addColorStop(1, 'rgba(3, 7, 18, 0)');
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, 1080, 1080);
+
+      ctx.fillStyle = 'rgba(245, 158, 11, 0.15)';
+      ctx.strokeStyle = 'rgba(245, 158, 11, 0.4)';
+      roundRect(ctx, 100, 140, 360, 50, 25, true, true);
+      ctx.fillStyle = '#FBBF24';
+      ctx.font = 'bold 20px monospace';
+      ctx.fillText('VERIFIED SYSTEM SCORE', 130, 172);
+
+      ctx.fillStyle = '#FFFFFF';
+      ctx.font = '800 56px system-ui, sans-serif';
+      ctx.fillText('Tested • Sealed • Ready', 100, 260);
+
+      // Scorecard Grid
+      ctx.fillStyle = 'rgba(15, 23, 42, 0.85)';
+      ctx.strokeStyle = 'rgba(255, 255, 255, 0.12)';
+      roundRect(ctx, 100, 320, 880, 360, 24, true, true);
+
+      const items = [
+        { label: 'Automated Test Suite', val: '100% PASS' },
+        { label: 'Deterministic Normalization', val: 'VERIFIED' },
+        { label: 'External Dependencies', val: '0 (CLEAN)' },
+        { label: 'Open Source Proof', val: 'GITHUB' }
+      ];
+
+      items.forEach((item, idx) => {
+        const ix = 150 + (idx % 2) * 420;
+        const iy = 380 + Math.floor(idx / 2) * 140;
+        ctx.fillStyle = '#94A3B8';
+        ctx.font = 'bold 18px monospace';
+        ctx.fillText(item.label, ix, iy);
+        ctx.fillStyle = '#34D399';
+        ctx.font = '800 36px monospace';
+        ctx.fillText(item.val, ix, iy + 50);
+      });
+
+      // Call to action banner
+      ctx.fillStyle = 'linear-gradient(135deg, #10B981, #059669)';
+      ctx.fillStyle = 'rgba(16, 185, 129, 0.15)';
+      ctx.strokeStyle = 'rgba(16, 185, 129, 0.6)';
+      roundRect(ctx, 100, 720, 880, 180, 24, true, true);
+
+      ctx.fillStyle = '#34D399';
+      ctx.font = 'bold 24px monospace';
+      ctx.fillText('TRY THE LIVE SANDBOX & VIEW SOURCE:', 150, 780);
+
+      ctx.fillStyle = '#FFFFFF';
+      ctx.font = '700 32px system-ui, sans-serif';
+      ctx.fillText('github.com/bawagideon/' + config.slug, 150, 835);
+
+      ctx.fillStyle = '#94A3B8';
+      ctx.font = '500 20px system-ui, sans-serif';
+      ctx.fillText('Built by Gideon Bawa • High-Reliability Systems Practice', 150, 875);
+    }
+
+    // Helper: Rounded Rectangle
+    function roundRect(ctx, x, y, width, height, radius, fill, stroke) {
+      ctx.beginPath();
+      ctx.moveTo(x + radius, y);
+      ctx.lineTo(x + width - radius, y);
+      ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+      ctx.lineTo(x + width, y + height - radius);
+      ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+      ctx.lineTo(x + radius, y + height);
+      ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+      ctx.lineTo(x, y + radius);
+      ctx.quadraticCurveTo(x, y, x + radius, y);
+      ctx.closePath();
+      if (fill) ctx.fill();
+      if (stroke) ctx.stroke();
+    }
+
+    // Helper: Text Wrapping
+    function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
+      const words = text.split(' ');
+      let line = '';
+      let curY = y;
+      for (let n = 0; n < words.length; n++) {
+        const testLine = line + words[n] + ' ';
+        const metrics = ctx.measureText(testLine);
+        if (metrics.width > maxWidth && n > 0) {
+          ctx.fillText(line, x, curY);
+          line = words[n] + ' ';
+          curY += lineHeight;
+          if (curY > y + lineHeight * 4) break;
+        } else {
+          line = testLine;
+        }
+      }
+      ctx.fillText(line, x, curY);
+    }
+
+    // Controls Handling
+    btnPlay.addEventListener('click', () => {
+      isPlaying = !isPlaying;
+      if (isPlaying) {
+        startTime = performance.now() - pausedAt;
+        btnPlay.innerText = '⏸ PAUSE REEL';
+      } else {
+        pausedAt = (performance.now() - startTime) % config.durationMs;
+        btnPlay.innerText = '▶ PLAY REEL';
+      }
+    });
+
+    btnRestart.addEventListener('click', () => {
+      startTime = performance.now();
+      pausedAt = 0;
+      isPlaying = true;
+      btnPlay.innerText = '⏸ PAUSE REEL';
+    });
+
+    btnSound.addEventListener('click', () => {
+      isSoundOn = !isSoundOn;
+      btnSound.innerText = isSoundOn ? '🔊 SOUND FX: ON' : '🔈 SOUND FX: OFF';
+      if (isSoundOn) playBeep(520, 'sine', 0.15);
+    });
+
+    // 1-CLICK IN-BROWSER WEBM VIDEO EXPORTER
+    btnExport.addEventListener('click', async () => {
+      if (!window.MediaRecorder) {
+        alert('MediaRecorder API is not supported in this browser.');
+        return;
+      }
+
+      btnExport.disabled = true;
+      recBadge.style.display = 'inline-block';
+      btnExport.innerText = '⏳ RECORDING (14s)...';
+
+      // Reset to beginning
+      startTime = performance.now();
+      pausedAt = 0;
+      isPlaying = true;
+
+      const stream = canvas.captureStream(60);
+      const recorder = new MediaRecorder(stream, {
+        mimeType: MediaRecorder.isTypeSupported('video/webm;codecs=vp9')
+          ? 'video/webm;codecs=vp9'
+          : 'video/webm',
+        videoBitsPerSecond: 8000000 // Crisp 8Mbps
+      });
+
+      const chunks = [];
+      recorder.ondataavailable = (e) => {
+        if (e.data.size > 0) chunks.push(e.data);
+      };
+
+      recorder.onstop = () => {
+        const blob = new Blob(chunks, { type: 'video/webm' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = config.slug + '-14s-motion-reel.webm';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+
+        btnExport.disabled = false;
+        recBadge.style.display = 'none';
+        btnExport.innerText = '🎬 DOWNLOAD 14s REEL (.webm)';
+      };
+
+      recorder.start();
+
+      // Record exactly 14 seconds
+      setTimeout(() => {
+        recorder.stop();
+      }, config.durationMs + 200);
+    });
+
+    // Start loop
+    requestAnimationFrame(render);
+  </script>
+</body>
+</html>

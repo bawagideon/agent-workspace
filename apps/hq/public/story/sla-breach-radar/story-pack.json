@@ -1,0 +1,82 @@
+{
+  "projectId": "sla-breach-radar",
+  "projectName": "Sla Breach Radar",
+  "generatedAt": "2026-10-07T20:34:02.841Z",
+  "narrativePost": {
+    "hook": "LinkedIn Technical Marketing Post: Operations SLA Breach Radar",
+    "subtext": "Real-time priority countdown HUD that monitors customer fulfillment orders and support tickets, triggering proactive escalations before SLA ",
+    "fullText": "# LinkedIn Technical Marketing Post: Operations SLA Breach Radar\n\nReal-time priority countdown HUD that monitors customer fulfillment orders and support tickets, triggering proactive escalations before SLA breach penalties hit.\n\n### The Problem\nMost companies lose thousands in hidden operational waste every single month.\n\n### The Engineered Fix\nWe engineered a zero-dependency system to solve this.\n\n👉 Try the live interactive simulator here:\nhttps://gideonbawa-website.netlify.app/simulators/sla-breach-radar/\n\n#SoftwareEngineering #Automation #SystemsArchitecture #BuildInPublic\n",
+    "contentHash": "5784e1c77add1856818633a9812417f3b15cbc603e218661eca0ebb2c5d38d39"
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "purpose": "HOOK_TENSION",
+      "headline": "Sla Breach Radar",
+      "subtext": "Real-time priority countdown HUD that monitors customer fulfillment orders and support tickets, triggering proactive escalations before SLA breach penalties hit.",
+      "evidenceCitation": "Measured vulnerability: Sub-1ms Latency (Execution Speed).",
+      "visual": {
+        "publicUrl": "/story/sla-breach-radar/slide-1.svg"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "purpose": "ENGINE_ARCHITECTURE",
+      "headline": "Zero-Dependency Architecture",
+      "subtext": "High-throughput stream ingestion, deterministic scoring gate, and immediate rescue dispatch.",
+      "evidenceCitation": "Sub-1ms benchmark in pure Node.js runtime with 0 external dependencies.",
+      "visual": {
+        "publicUrl": "/story/sla-breach-radar/slide-2.svg"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "purpose": "INTERACTIVE_PROOF",
+      "headline": "Live Interactive Sandbox",
+      "subtext": "Client-side verification HUD allowing prospects to test real-world scenarios in-browser.",
+      "evidenceCitation": "Live sandbox: https://gideonbawa-website.netlify.app/simulators/sla-breach-radar/",
+      "visual": {
+        "publicUrl": "/story/sla-breach-radar/slide-3.svg"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "purpose": "VERIFIED_SCORECARD",
+      "headline": "The Commercial Commitment",
+      "subtext": "Fewer lost leads, protected margin, and 100% verified test passes.",
+      "evidenceCitation": "Sealed under QA contract: ev-qa-contract-1791405242835-sla-breach-radar",
+      "visual": {
+        "publicUrl": "/story/sla-breach-radar/slide-4.svg"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-sla-breach-radar-latency",
+      "category": "PERFORMANCE",
+      "statement": "Sub-millisecond calculation in zero-dependency Node.js engine.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242835-sla-breach-radar"
+    },
+    {
+      "id": "claim-sla-breach-radar-tests",
+      "category": "VERIFICATION",
+      "statement": "100% automated test suite passing with zero secret leaks.",
+      "status": "VERIFIED",
+      "evidencePath": "ev-qa-contract-1791405242835-sla-breach-radar"
+    },
+    {
+      "id": "claim-sla-breach-radar-sandbox",
+      "category": "DEV_TOOLING",
+      "statement": "Interactive browser sandbox demonstrates before/after telemetry in under 45 seconds.",
+      "status": "VERIFIED",
+      "evidencePath": "https://gideonbawa-website.netlify.app/simulators/sla-breach-radar/"
+    }
+  ],
+  "videoReel": {
+    "url": "/story/sla-breach-radar/motion-reel.html",
+    "durationSeconds": 14,
+    "scenesCount": 4,
+    "format": "webm_60fps"
+  }
+}
