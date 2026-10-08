@@ -1,0 +1,68 @@
+{
+  "slug": "tej-salon-and-spa",
+  "business_name": "TEJ Salon and Spa",
+  "tagline": "Premium Hair Artistry & Luxury Wellness Sanctuary",
+  "location": "19 Adeleke St, Off Allen Avenue, Ikeja, Lagos",
+  "phone": "+2349063718357",
+  "whatsapp_number": "2349063718357",
+  "email": "tejsalonandspaa@gmail.com",
+  "currency_symbol": "₦",
+  "rating": "4.6",
+  "review_count": 258,
+  "operating_hours": "Mon - Sat: 9:00 AM - 8:00 PM | Sun: 12:00 PM - 7:00 PM",
+  "accent_color": "#D4AF37",
+  "services": [
+    {
+      "category": "Hair & Styling",
+      "name": "Luxury Silk Press & Deep Moisture Treatment",
+      "price": "25,000",
+      "duration": "90 mins",
+      "description": "Intensive hydration therapy followed by precision heat press for flawless shine and movement."
+    },
+    {
+      "category": "Hair & Styling",
+      "name": "Knotless Box Braids (Custom Length)",
+      "price": "35,000",
+      "duration": "180 mins",
+      "description": "Tension-free, protective knotless braiding crafted for long-lasting comfort and scalp health."
+    },
+    {
+      "category": "Spa & Relaxation",
+      "name": "Full Body Deep Tissue Aromatherapy",
+      "price": "32,000",
+      "duration": "60 mins",
+      "description": "Targeted pressure massage relieving deep muscular tension using botanical essential oils."
+    },
+    {
+      "category": "Spa & Relaxation",
+      "name": "Exfoliating Herbal Body Scrub & Polish",
+      "price": "28,000",
+      "duration": "50 mins",
+      "description": "Full-body cellular polish leaving skin radiant, velvety soft, and revitalized."
+    },
+    {
+      "category": "Nails & Esthetics",
+      "name": "Executive Spa Manicure & Pedicure",
+      "price": "18,000",
+      "duration": "70 mins",
+      "description": "Complete nail detailing, callus smoothing, cuticle repair, and long-wear gel finish."
+    }
+  ],
+  "reviews": [
+    {
+      "author": "Chidinma O.",
+      "rating": 5,
+      "text": "The best spa experience on the Mainland! Their massage therapists are incredibly skilled and the Allen Avenue location is so serene."
+    },
+    {
+      "author": "Tolulope A.",
+      "rating": 5,
+      "text": "My knotless braids were neat, painless, and lasted over 6 weeks. The staff are so welcoming and professional."
+    },
+    {
+      "author": "Emeka N.",
+      "rating": 5,
+      "text": "Got the executive pedicure and shoulder massage after a hectic work week. Truly rejuvenated. 10/10 service."
+    }
+  ]
+}

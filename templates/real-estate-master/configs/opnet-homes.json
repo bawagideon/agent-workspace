@@ -1,0 +1,37 @@
+{
+  "slug": "opnet-homes-lekki",
+  "agency_name": "Opnet Homes and Properties LTD",
+  "tagline": "Architectural Elegance & Luxury Residential Developments",
+  "location": "Suite FF17 Providence Mall, Lekki Phase 1, Lagos",
+  "phone": "+2347037269925",
+  "whatsapp_number": "2347037269925",
+  "email": "info@opnethomes.com",
+  "rating": "4.8",
+  "review_count": 49,
+  "corridor": "Lekki Phase 1, Ikate & Chevron Corridor",
+  "accent_color": "#C6A87D",
+  "featured_properties": [
+    {
+      "ref": "OPN-01",
+      "title": "Ultra-Luxury 5-Bedroom Detached Villa with Pool",
+      "location": "Lekki Phase 1, Lagos",
+      "price_ngn": 350000000,
+      "beds": 5,
+      "baths": 6,
+      "title_doc": "Governor's Consent",
+      "image_url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+      "highlights": ["Olympic Lap Pool", "Custom Marble Kitchen", "Private Elevator Ready", "Rooftop Terrace"]
+    },
+    {
+      "ref": "OPN-02",
+      "title": "Contemporary 4-Bedroom Terrace Duplex",
+      "location": "Ikate Elegushi, Lekki, Lagos",
+      "price_ngn": 185000000,
+      "beds": 4,
+      "baths": 5,
+      "title_doc": "Governor's Consent",
+      "image_url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80",
+      "highlights": ["Fully Serviced Estate", "24/7 Security & Power", "Children's Playground", "Stamped Concrete Driveway"]
+    }
+  ]
+}

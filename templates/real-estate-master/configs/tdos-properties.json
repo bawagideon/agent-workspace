@@ -1,0 +1,48 @@
+{
+  "slug": "tdos-properties-ikeja",
+  "agency_name": "T'DOS Properties",
+  "tagline": "Mainland & Island Prime Commercial & Luxury Residential Mandates",
+  "location": "57 Opebi Road, Salvation Bus Stop, Ikeja, Lagos",
+  "phone": "+2348022292982",
+  "whatsapp_number": "2348022292982",
+  "email": "tdosproperties@gmail.com",
+  "rating": "4.8",
+  "review_count": 17,
+  "corridor": "Ikeja GRA, Opebi & Lekki Corridor",
+  "accent_color": "#C6A87D",
+  "featured_properties": [
+    {
+      "ref": "TDOS-01",
+      "title": "5-Bedroom Detached Luxury Duplex + BQ",
+      "location": "Off Allen Avenue / Ikeja GRA, Lagos",
+      "price_ngn": 280000000,
+      "beds": 5,
+      "baths": 6,
+      "title_doc": "Governor's Consent",
+      "image_url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+      "highlights": ["Fitted Italian Kitchen", "Swimming Pool", "24/7 Monitored Power", "Ample 6-Car Parking"]
+    },
+    {
+      "ref": "TDOS-02",
+      "title": "Prime Commercial Office Complex (3 Floors)",
+      "location": "Opebi Commercial Arterial Road, Ikeja",
+      "price_ngn": 450000000,
+      "beds": 0,
+      "baths": 8,
+      "title_doc": "Certificate of Occupancy (C of O)",
+      "image_url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+      "highlights": ["1,200 sqm Usable Space", "High Road Frontage", "Generator House", "Dedicated Security Gate"]
+    },
+    {
+      "ref": "TDOS-03",
+      "title": "Contemporary 4-Bedroom Semi-Detached Villa",
+      "location": "Lekki Phase 1, Lagos",
+      "price_ngn": 220000000,
+      "beds": 4,
+      "baths": 5,
+      "title_doc": "Governor's Consent",
+      "image_url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80",
+      "highlights": ["Smart Home Automation", "Private Cinema Room", "Fitted Wardrobes", "Gated Security Estate"]
+    }
+  ]
+}

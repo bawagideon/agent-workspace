@@ -1,0 +1,51 @@
+{
+  "niche": "beauty_and_wellness",
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "hair",
+      "name": "Hair Styling & Care",
+      "icon": "scissors",
+      "sample_services": [
+        { "name": "Silk Press & Deep Conditioning", "duration": "90 mins", "default_price": 25000 },
+        { "name": "Knotless Braids (Mid-Back)", "duration": "180 mins", "default_price": 35000 },
+        { "name": "Luxury Wig Installation & Styling", "duration": "120 mins", "default_price": 30000 }
+      ]
+    },
+    {
+      "id": "spa",
+      "name": "Spa & Massage Therapy",
+      "icon": "sparkles",
+      "sample_services": [
+        { "name": "Deep Tissue Swedish Massage", "duration": "60 mins", "default_price": 30000 },
+        { "name": "Moroccan Hammam Body Polish", "duration": "90 mins", "default_price": 50000 },
+        { "name": "Aromatherapy Hot Stone Ritual", "duration": "75 mins", "default_price": 40000 }
+      ]
+    },
+    {
+      "id": "skincare",
+      "name": "Facials & Esthetics",
+      "icon": "shield-check",
+      "sample_services": [
+        { "name": "Hydra-Glow Deep Cleansing Facial", "duration": "60 mins", "default_price": 35000 },
+        { "name": "Clinical Anti-Acne Treatment Peel", "duration": "45 mins", "default_price": 45000 },
+        { "name": "Brightening Dermaplaning Therapy", "duration": "60 mins", "default_price": 40000 }
+      ]
+    },
+    {
+      "id": "grooming",
+      "name": "Nails & VIP Grooming",
+      "icon": "heart",
+      "sample_services": [
+        { "name": "Signature Gel Manicure & Pedicure", "duration": "75 mins", "default_price": 20000 },
+        { "name": "Acrylic Full Set with Nail Art", "duration": "90 mins", "default_price": 28000 },
+        { "name": "Executive Beard Groom & Hot Towel Cut", "duration": "45 mins", "default_price": 12000 }
+      ]
+    }
+  ],
+  "booking_flow": {
+    "channel": "whatsapp",
+    "required_fields": ["client_name", "phone", "service", "preferred_date", "preferred_time"],
+    "message_format": "Hello {business_name}! I would like to book an appointment for {service} on {date} at {time}. My name is {client_name} ({phone}). Please confirm availability."
+  }
+}

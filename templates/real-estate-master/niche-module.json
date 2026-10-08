@@ -1,0 +1,27 @@
+{
+  "niche": "real_estate_and_shortlet",
+  "version": "1.0.0",
+  "property_types": [
+    { "id": "luxury_duplex", "label": "Fully Detached Duplex" },
+    { "id": "terrace", "label": "Contemporary Terrace" },
+    { "id": "penthouse", "label": "Waterfront Penthouse" },
+    { "id": "serviced_shortlet", "label": "Boutique Serviced Shortlet" },
+    { "id": "commercial_land", "label": "Commercial Development Land" }
+  ],
+  "title_types": [
+    "Governor's Consent",
+    "Certificate of Occupancy (C of O)",
+    "Gazette",
+    "Deed of Assignment & Registered Survey"
+  ],
+  "supported_currencies": [
+    { "code": "NGN", "symbol": "₦", "rate_multiplier": 1 },
+    { "code": "USD", "symbol": "$", "rate_multiplier": 0.00065 },
+    { "code": "GBP", "symbol": "£", "rate_multiplier": 0.00051 }
+  ],
+  "inspection_flow": {
+    "channel": "whatsapp",
+    "required_fields": ["buyer_name", "phone", "property_title", "inspection_date", "investor_location"],
+    "message_format": "Hello {agency_name}! I am interested in scheduling a private inspection for '{property_title}' (Ref: {listing_ref}). My name is {buyer_name} ({phone}, currently in {location}). Please share inspection arrangements."
+  }
+}
